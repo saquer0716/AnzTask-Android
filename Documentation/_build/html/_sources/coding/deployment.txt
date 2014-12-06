@@ -1,25 +1,31 @@
-==========
-Deployment
-==========
+====================
+Build and Deployment
+====================
 
 .. rubric:: How we deploy apps for our clients and to the iTunes store.
 
-.. warning:: This page assumes you've already imported the **BlackLabelSolutions.developerprofile** from ``resources/distribution/BlackLabelSolutions.developerprofile``.
 
-Current state of deployment
-===========================
+Build and Release
+=================
 
-Despite the size of some of our clients (e.g. Officeworks), they typically don't have the technical resources to take an `ipa` file we've produced and re-sign it with their Enterprise provisioning profile. 
+.. warning:: 
+ - AnzTask Android project is developed in Android Studio V0.8.8. It should be building and running without any error in the same version of Android Studio.
+ - Since more than 80% devices are running on Jelly Beans and above, AnzTask Android project is build in minimum version of 16 and targets version is 19, i.e. Kitkat. Please make sure you have the right Android SDK version installed. For more information about Android versions statistics, refer to: 
+https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net
+ - AnzTask also only targets normal screen devices with at least ldpi resolution because this group of devices takes more than 70% of all Android devices.
+ - The build tool should be at least 20.0.0
 
-As a result, we are normally given the certificates and provisioning profiles required to build and sign an `ipa` ready for installing onto a client's device.
+The released APK file in Binary folder can be released directly to customer because it’s signed with released key and obscured with proguard. 
 
-As far as the NomadPOS application goes, it's a standard build for iTunes.
-
-Historical Deployment Resources
-===============================
-
-If the resources in the `BlackLabelSolutions.developerprofile` do not provide you with the certificates or provisioning profiles required for deploying an application, look in the ``resources/distribution`` directory which is where all the certificates and provisioning profiles have been kept for historical purposes. **Note** that as these files are for historical purposes, many provisionsing profiles may be expired and ceritifcates may now be invalid. 
+The released key is saved in Binary folder with the release APK file. its credential is like follows:
+Key store password: anzanz
+key alias: ANZ
+key password: anzanz
 
 
+Deployment
+==========
 
-.. note:: We want to setup a CI server running OSX server that will act as a build and CI server for both Android and iOS applications. 
+APK file can be deployed to Android devices through SD card installation and USB silent installation.
+
+To install APK file from USB, make sure the device is in debug mode and Android SDK is installed in host machine. Then type `adb install -r app-release.apk` in command line to install the app. You might need to navigate to the Android SDK’s platform-tools folder to get access to adb command (or set up envirionment variable for adb command path).

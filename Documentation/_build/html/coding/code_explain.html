@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Code Explain &mdash; Black Label Solutions iOS 1.0 documentation</title>
+  <title>Code Explain &mdash; ANZ Task Android 1.0 documentation</title>
   
 
   
@@ -28,9 +28,9 @@
   
 
   
-    <link rel="top" title="Black Label Solutions iOS 1.0 documentation" href="../index.html"/>
+    <link rel="top" title="ANZ Task Android 1.0 documentation" href="../index.html"/>
         <link rel="up" title="Coding" href="index.html"/>
-        <link rel="next" title="Deployment" href="deployment.html"/>
+        <link rel="next" title="Third Party Libraries" href="third_party_libs.html"/>
         <link rel="prev" title="Coding Conventions" href="coding_conventions.html"/> 
 
   
@@ -45,7 +45,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
-        <a href="../index.html" class="fa fa-home"> Black Label Solutions iOS</a>
+        <a href="../index.html" class="fa fa-home"> ANZ Task Android</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -69,7 +69,8 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Coding</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="coding_conventions.html">Coding Conventions</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="">Code Explain</a></li>
-<li class="toctree-l2"><a class="reference internal" href="deployment.html">Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="third_party_libs.html">Third Party Libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deployment.html">Build and Deployment</a></li>
 <li class="toctree-l2"><a class="reference internal" href="api_docs.html">API docs</a></li>
 </ul>
 </li>
@@ -108,7 +109,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Black Label Solutions iOS</a>
+        <a href="../index.html">ANZ Task Android</a>
       </nav>
 
 
@@ -136,58 +137,75 @@
 <h1>Code Explain<a class="headerlink" href="#code-explain" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="anzvolley-module">
 <h2>AnzVolley Module<a class="headerlink" href="#anzvolley-module" title="Permalink to this headline">¶</a></h2>
+<p>A good networking library should have following features:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Network requests must be asynchronous and happen outside UI thread.</li>
+<li>Network response is always brought back in main thread.</li>
+<li>Network cache in local storage.</li>
+<li>Simple response method: onSuccess, onError. onSuccess comes with generic arguments for different API request.</li>
+<li>Support response of JSON and binary file.</li>
+<li>Support multiple threading, customizable thread pool. FIFO queue or based on request priority.</li>
+<li>Support cancelling of current running or pending network request.</li>
+<li>Network request is able to keep running when app exits if necessary.</li>
+<li>Support OAuth2.0, manages(exchange, request and refresh) token internally.</li>
+</ul>
+</div></blockquote>
+<p>There is also another concern about image downloading, even thought it’s not required by ANZ task, but still worth of discussing.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Cache images in memory.</li>
+<li>Save thumbnails in storage.</li>
+<li>Only load images for items shown on screen.</li>
+</ul>
+</div></blockquote>
+<p>Google Volley almost comes with all above features. However, to make full use of its JSON capability and add good scalability for our earthquake occurrence RESTful API, we need AnzVolley module.</p>
 <p>AnzVolley is a wrapper class on top of Google Volley and uses GSON to enhance the capability of RESTful web service.</p>
+<p>Use AnzVolley is quite simple, just create a predesign request and add it to request queue. So there are two players here to do the job: Request and AnzVolley.</p>
+<p>AnzVolley itself is a singleton class because we want to access this resource from anywhere in the project and all request share the same request queue, there is no need to have multiple instance of AnzVolley class.</p>
+<p>Request is generated through <cite>AnzVolleyRestfulRequestFactory</cite> class’s factory method. Because every RESTful API request (RequestEarthquake, RequestWeather, etc.) inherits from the same <cite>RequestObject</cite> class, it’s just so easy to use one single factory method to generate all different kinds of products (requests).</p>
+<p>After request instance is produced, adding it to request queue would start http request right away. However, we still have a problem: how to mapping the response to the right request? The answer is generic class.</p>
+<p>Without generic class, we have to define new factory method for new RESTful API request because the response class is different. With generic class, we can specify the type of response as <cite>T</cite> and cast the response JSON string like this:
+T parsedGSON = mGson.fromJson(jsonString, mType);
+and then return the parsedGSON through interface call back which accept T type as argument as well.</p>
+<p>With generic class and factory design pattern, scalability couldn’t be much better. If we need to add another RESTful API to current AnzVolley module, just do following steps:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Create the new request class which conforms to request parameter.</li>
+<li>Create the new corresponding response class which conforms to the JSON response format.</li>
+<li>Go to AnzVolleyRestfulRequestFactory class and give the new API an ID and define it’s URL.</li>
+<li>Still in AnzVolleyRestfulRequestFactory class, add another <cite>switch case</cite> code block for new API and that’s it.</li>
+</ul>
+</div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Earthquake occurrence could return with huge amount of data, so memory usage and fragmentation loading might need to be considered in the real implementation.</p>
+<p class="last">New API request and response’s member variables should have exact the same name as in JSON’s key name. Although this is not mandatory but good practice. Please refer GSON’s website for more information.</p>
 </div>
 </div>
 <div class="section" id="circle-flip-button">
 <h2>Circle Flip Button<a class="headerlink" href="#circle-flip-button" title="Permalink to this headline">¶</a></h2>
+<p>Circle Flip Button is a mimic of Android Gmail’s mail delete button. The principle behind it is using ObjectAnimator to do a <cite>flipY</cite> animation. However, flip the view 180 degrees would also cause the text to be flipped. The best solution is splitting the 180 degrees flip animation into two parts: from 0 degree to 90 degrees animation and then from -90 degrees to 0 degree animation. This trick gives a fake impression that the view flips 180 degrees in one direction but actually it flip 90 degrees in one direction and then 90 degrees in another direction, but still keeps the text in correct orientation.</p>
 </div>
 <div class="section" id="log">
 <h2>Log<a class="headerlink" href="#log" title="Permalink to this headline">¶</a></h2>
+<p>There are two custom log class (AnzLog and AnzVolleyLog) in this project, both of which are just simple and thin wrapper on top of JAVA Log class. The extra capability these custom log class is a boolean flag to turn on or turn off logs for different builds. Normally we use logs in debug stage and disable logs when release. But this is relatively tedious to do in Eclipse because flag needs to be manually cleared for release. Now, Thanks to Android Studio’s build mechanism, this can be easily achieved by checking <cite>BuildConfig.DEBUG</cite> to turn on or off logs output.</p>
 </div>
 <div class="section" id="design-pattern">
 <h2>Design Pattern<a class="headerlink" href="#design-pattern" title="Permalink to this headline">¶</a></h2>
-<p>Developers tend to use third party networking library for RESTful and other web service implementation. There is no need to make wheel unless particular requirements must be met.</p>
-<dl class="docutils">
-<dt>Popular third party RESTful libraries include:</dt>
-<dd><ul class="first last simple">
-<li>Google Volley</li>
-<li>RESTDroid</li>
-<li>RoboSpice</li>
+<p>In this ANZ task project, three design pattern is used:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Simple factory design pattern.</li>
+<li>Singleton design pattern.</li>
+<li>Composition design pattern.</li>
 </ul>
-</dd>
-<dt>Google Volley is highly recommended here because of it’s powerful capability and advantages:</dt>
-<dd><ul class="first last simple">
-<li>Open source</li>
-<li>Easy API</li>
-<li>Also support image lazy loading</li>
-<li>Http cache</li>
-</ul>
-</dd>
-</dl>
-<div class="admonition important">
-<p class="first admonition-title">Important</p>
-<p class="last">Even though we only have just on RESTful API here, but we still need to thing about how to make our work easier if in the future the API is updated or more API need to be supported. Use generic class and polymorphism should do the trick.</p>
+</div></blockquote>
+<p>All of them are implemented in AnzVolley module.</p>
 </div>
-</div>
-<div class="section" id="module-structure">
-<h2>Module Structure<a class="headerlink" href="#module-structure" title="Permalink to this headline">¶</a></h2>
-<p>In terms of code resistibility, isolated function should be put into modules for local library distribution or remote distribution through Maven. Networking part should be considered to be maintained a separated project or module.</p>
-</div>
-<div class="section" id="id1">
-<h2>Design Pattern<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>Design pattern could greatly increase code reusability and scalability。From the feature of networking requirement of this task, the networking module could use singleton, composition and factory design pattern.</p>
-</div>
-<div class="section" id="cross-platform">
-<h2>Cross Platform<a class="headerlink" href="#cross-platform" title="Permalink to this headline">¶</a></h2>
-<p>It’s definitely easier to just use one HTML5 file with Javascript and CSS to do the job. Javascript bridge should be used to do WebView and native communication. Since this task in done in native Android and native iOS, there would be no cross platform support.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">With native c code we can still share code cross platform. The networking module can be developed in pure c code based on open source <cite>curl</cite> library. However this requires more work especially in cross platform building tool, so it’s off the table at the moment.</p>
-</div>
+<div class="section" id="build-script">
+<h2>Build Script<a class="headerlink" href="#build-script" title="Permalink to this headline">¶</a></h2>
+<p>Android Studio’s build script file is <cite>build.gradle</cite>. Each module comes with one such file and there a <cite>build.gradle</cite> file in project root folder, too. The build process is similar to ADT but Gradle can also package module into AAR (Android Archive) file and upload to local Maven repository or remote Maven repository. Since AnzVolley module has no resources, it’s better to distribute it in JAR format so Android project in Eclipse can still use it.</p>
+<p>Please navigate to project source folder for more information.</p>
 </div>
 </div>
 
@@ -197,7 +215,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="deployment.html" class="btn btn-neutral float-right" title="Deployment"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="third_party_libs.html" class="btn btn-neutral float-right" title="Third Party Libraries"/>Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="coding_conventions.html" class="btn btn-neutral" title="Coding Conventions"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -209,7 +227,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2014, Black Label Solutions Pty Ltd.
+        &copy; Copyright 2014, Australia and New Zealand Banking Group Limited .
     </p>
   </div>
 

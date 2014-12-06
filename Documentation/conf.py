@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Black Label Solutions iOS'
-copyright = u'2014, Black Label Solutions Pty Ltd'
+project = u'ANZ Task Android'
+copyright = u'2014, Australia and New Zealand Banking Group Limited '
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

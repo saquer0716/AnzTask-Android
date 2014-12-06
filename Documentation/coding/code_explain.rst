@@ -2,7 +2,6 @@
 Code Explain
 ============
 
-
 AnzVolley Module
 ================
 
@@ -42,36 +41,52 @@ Use AnzVolley is quite simple, just create a predesign request and add it to req
 
 AnzVolley itself is a singleton class because we want to access this resource from anywhere in the project and all request share the same request queue, there is no need to have multiple instance of AnzVolley class.
 
-Request is generated through `AnzVolleyRestfulRequestFactory` class’s factory method. Because every RESTful API request (RequestEarthquake, RequestWeather, etc.) inherits from the same `RequestObject` class, it’s just so easy to use just one factory method to generate all different kinds of products (request). 
+Request is generated through `AnzVolleyRestfulRequestFactory` class’s factory method. Because every RESTful API request (RequestEarthquake, RequestWeather, etc.) inherits from the same `RequestObject` class, it’s just so easy to use one single factory method to generate all different kinds of products (requests). 
 
-After request instance is produced, adding it to request queue would start http request right away. Now we have a problem, how to mapping the response to the right request? The answer is generic class.
+After request instance is produced, adding it to request queue would start http request right away. However, we still have a problem: how to mapping the response to the right request? The answer is generic class.
 
 Without generic class, we have to define new factory method for new RESTful API request because the response class is different. With generic class, we can specify the type of response as `T` and cast the response JSON string like this:
 T parsedGSON = mGson.fromJson(jsonString, mType);
-and then return the parsedGSON through interface call back.
+and then return the parsedGSON through interface call back which accept T type as argument as well.
 
 With generic class and factory design pattern, scalability couldn’t be much better. If we need to add another RESTful API to current AnzVolley module, just do following steps:
 
  - Create the new request class which conforms to request parameter.
  - Create the new corresponding response class which conforms to the JSON response format. 
  - Go to AnzVolleyRestfulRequestFactory class and give the new API an ID and define it’s URL.
- - Still AnzVolleyRestfulRequestFactory class, add another case code block for new API and that’s it.
+ - Still in AnzVolleyRestfulRequestFactory class, add another `switch case` code block for new API and that’s it.
 
 .. note:: New API request and response’s member variables should have exact the same name as in JSON’s key name. Although this is not mandatory but good practice. Please refer GSON’s website for more information.
 
 Circle Flip Button
 ==================
 
-Circle Flip Button is a mimic of Android Gmail’s mail delete button. The principle behind it is using ObjectAnimator to do a `flipY` animation. However, flip the view 180 degrees would also cause the text to be flipped. The best solution is splitting the 180 degrees flip animation into two parts: from 0 degree to 90 degrees animation and then from -90 degrees to 0 degree animation. This trick gives a fake impression that the view flips 180 degrees in one direction but actually it flip 90 degrees in one direction and then 90 degrees in another direction, but still keep the text in correct side.
+Circle Flip Button is a mimic of Android Gmail’s mail delete button. The principle behind it is using ObjectAnimator to do a `flipY` animation. However, flip the view 180 degrees would also cause the text to be flipped. The best solution is splitting the 180 degrees flip animation into two parts: from 0 degree to 90 degrees animation and then from -90 degrees to 0 degree animation. This trick gives a fake impression that the view flips 180 degrees in one direction but actually it flip 90 degrees in one direction and then 90 degrees in another direction, but still keeps the text in correct orientation.
 
 Log
 ===
 
-There are two custom log class (AnzLog and AnzVolleyLog) in this project, both of which are just a simple and thin wrapper on top of JAVA Log class. The extra capability these custom log class is a boolean flag to turn on or turn off logs for different builds. Normally we use logs in debug stage and disable logs when release. But this is relatively tedious to do in Eclipse because flag needs to be manually cleared for release. Now, Thanks to Android Studio’s build mechanism, this can be easily achieved by checking `BuildConfig.DEBUG` to turn on or off logs output.
+There are two custom log class (AnzLog and AnzVolleyLog) in this project, both of which are just simple and thin wrapper on top of JAVA Log class. The extra capability these custom log class is a boolean flag to turn on or turn off logs for different builds. Normally we use logs in debug stage and disable logs when release. But this is relatively tedious to do in Eclipse because flag needs to be manually cleared for release. Now, Thanks to Android Studio’s build mechanism, this can be easily achieved by checking `BuildConfig.DEBUG` to turn on or off logs output.
 
 Design Pattern
 ==============
 
+In this ANZ task project, three design pattern is used:
+
+ - Simple factory design pattern.
+
+ - Singleton design pattern.
+
+ - Composition design pattern.
+
+All of them are implemented in AnzVolley module.
+
 Build Script
 ============
+
+Android Studio’s build script file is `build.gradle`. Each module comes with one such file and there a `build.gradle` file in project root folder, too. The build process is similar to ADT but Gradle can also package module into AAR (Android Archive) file and upload to local Maven repository or remote Maven repository. Since AnzVolley module has no resources, it’s better to distribute it in JAR format so Android project in Eclipse can still use it.
+
+Please navigate to project source folder for more information.  
+
+
 

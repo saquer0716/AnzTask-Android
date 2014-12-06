@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Deployment &mdash; Black Label Solutions iOS 1.0 documentation</title>
+  <title>Build and Deployment &mdash; ANZ Task Android 1.0 documentation</title>
   
 
   
@@ -28,10 +28,10 @@
   
 
   
-    <link rel="top" title="Black Label Solutions iOS 1.0 documentation" href="../index.html"/>
+    <link rel="top" title="ANZ Task Android 1.0 documentation" href="../index.html"/>
         <link rel="up" title="Coding" href="index.html"/>
-        <link rel="next" title="L10n and i18n" href="l10n_i18n.html"/>
-        <link rel="prev" title="Building , Running and App Configuration" href="building_running_configuring.html"/> 
+        <link rel="next" title="API docs" href="api_docs.html"/>
+        <link rel="prev" title="Third Party Libraries" href="third_party_libs.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -45,7 +45,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
-        <a href="../index.html" class="fa fa-home"> Black Label Solutions iOS</a>
+        <a href="../index.html" class="fa fa-home"> ANZ Task Android</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -60,29 +60,18 @@
         
             <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Getting Started</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../intro/getting_setup.html">Getting Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../intro/the_team.html">The Team</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../intro/agile_development_process.html">Agile Development process</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../intro/ios_codebase_overview.html">iOS Codebase Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../intro/api_docs.html">API docs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/package_content.html">What’s in package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/task_requirement.html">Task Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/problem_analize.html">Problem Analize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/project_feature.html">App Feature</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Coding</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="coding_conventions.html">Coding Conventions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="identified_issues.html">Identified Codebase Issues</a></li>
-<li class="toctree-l2"><a class="reference internal" href="third_party_libraries.html">Third Party Libraries</a></li>
-<li class="toctree-l2"><a class="reference internal" href="building_running_configuring.html">Building , Running and App Configuration</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Deployment</a></li>
-<li class="toctree-l2"><a class="reference internal" href="l10n_i18n.html">L10n and i18n</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../features/index.html">Features</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../features/product_image_loading.html">Product Image Loading</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../projects/index.html">Projects</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../projects/index.html#client-projects">Client Projects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../projects/index.html#consumer-projects">Consumer projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="code_explain.html">Code Explain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="third_party_libs.html">Third Party Libraries</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Build and Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api_docs.html">API docs</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../testing/index.html">Testing</a><ul>
@@ -120,7 +109,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Black Label Solutions iOS</a>
+        <a href="../index.html">ANZ Task Android</a>
       </nav>
 
 
@@ -133,7 +122,7 @@
       
           <li><a href="index.html">Coding</a> &raquo;</li>
       
-    <li>Deployment</li>
+    <li>Build and Deployment</li>
       <li class="wy-breadcrumbs-aside">
         
           <a href="../_sources/coding/deployment.txt" rel="nofollow"> View page source</a>
@@ -144,26 +133,36 @@
 </div>
           <div role="main">
             
-  <div class="section" id="deployment">
-<h1>Deployment<a class="headerlink" href="#deployment" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="build-and-deployment">
+<h1>Build and Deployment<a class="headerlink" href="#build-and-deployment" title="Permalink to this headline">¶</a></h1>
 <p class="rubric">How we deploy apps for our clients and to the iTunes store.</p>
+<div class="section" id="build-and-release">
+<h2>Build and Release<a class="headerlink" href="#build-and-release" title="Permalink to this headline">¶</a></h2>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">This page assumes you&#8217;ve already imported the <strong>BlackLabelSolutions.developerprofile</strong> from <code class="docutils literal"><span class="pre">resources/distribution/BlackLabelSolutions.developerprofile</span></code>.</p>
+<ul class="last simple">
+<li>AnzTask Android project is developed in Android Studio V0.8.8. It should be building and running without any error in the same version of Android Studio.</li>
+<li>Since more than 80% devices are running on Jelly Beans and above, AnzTask Android project is build in minimum version of 16 and targets version is 19, i.e. Kitkat. Please make sure you have the right Android SDK version installed. For more information about Android versions statistics, refer to:</li>
+</ul>
 </div>
-<div class="section" id="current-state-of-deployment">
-<h2>Current state of deployment<a class="headerlink" href="#current-state-of-deployment" title="Permalink to this headline">¶</a></h2>
-<p>Despite the size of some of our clients (e.g. Officeworks), they typically don&#8217;t have the technical resources to take an <cite>ipa</cite> file we&#8217;ve produced and re-sign it with their Enterprise provisioning profile.</p>
-<p>As a result, we are normally given the certificates and provisioning profiles required to build and sign an <cite>ipa</cite> ready for installing onto a client&#8217;s device.</p>
-<p>As far as the NomadPOS application goes, it&#8217;s a standard build for iTunes.</p>
+<dl class="docutils">
+<dt><a class="reference external" href="https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net">https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net</a></dt>
+<dd><ul class="first last simple">
+<li>AnzTask also only targets normal screen devices with at least ldpi resolution because this group of devices takes more than 70% of all Android devices.</li>
+<li>The build tool should be at least 20.0.0</li>
+</ul>
+</dd>
+</dl>
+<p>The released APK file in Binary folder can be released directly to customer because it’s signed with released key and obscured with proguard.</p>
+<p>The released key is saved in Binary folder with the release APK file. its credential is like follows:
+Key store password: anzanz
+key alias: ANZ
+key password: anzanz</p>
 </div>
-<div class="section" id="historical-deployment-resources">
-<h2>Historical Deployment Resources<a class="headerlink" href="#historical-deployment-resources" title="Permalink to this headline">¶</a></h2>
-<p>If the resources in the <cite>BlackLabelSolutions.developerprofile</cite> do not provide you with the certificates or provisioning profiles required for deploying an application, look in the <code class="docutils literal"><span class="pre">resources/distribution</span></code> directory which is where all the certificates and provisioning profiles have been kept for historical purposes. <strong>Note</strong> that as these files are for historical purposes, many provisionsing profiles may be expired and ceritifcates may now be invalid.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">We want to setup a CI server running OSX server that will act as a build and CI server for both Android and iOS applications.</p>
-</div>
+<div class="section" id="deployment">
+<h2>Deployment<a class="headerlink" href="#deployment" title="Permalink to this headline">¶</a></h2>
+<p>APK file can be deployed to Android devices through SD card installation and USB silent installation.</p>
+<p>To install APK file from USB, make sure the device is in debug mode and Android SDK is installed in host machine. Then type <cite>adb install -r app-release.apk</cite> in command line to install the app. You might need to navigate to the Android SDK’s platform-tools folder to get access to adb command (or set up envirionment variable for adb command path).</p>
 </div>
 </div>
 
@@ -173,10 +172,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="l10n_i18n.html" class="btn btn-neutral float-right" title="L10n and i18n"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="api_docs.html" class="btn btn-neutral float-right" title="API docs"/>Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="building_running_configuring.html" class="btn btn-neutral" title="Building , Running and App Configuration"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="third_party_libs.html" class="btn btn-neutral" title="Third Party Libraries"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -185,7 +184,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2014, Black Label Solutions Pty Ltd.
+        &copy; Copyright 2014, Australia and New Zealand Banking Group Limited .
     </p>
   </div>
 

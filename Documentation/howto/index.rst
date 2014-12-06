@@ -6,5 +6,3 @@ How-to guides
 
 .. toctree::
 	:maxdepth: 1
-
-	vpn_mach_osx

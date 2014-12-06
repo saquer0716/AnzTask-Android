@@ -11,4 +11,3 @@ Getting Started
 	task_requirement
 	problem_analize
 	project_feature
-	api_docs

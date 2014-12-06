@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/officeworksPOSIOSAppDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/officeworksPOSIOSAppDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>officeworksPOSIOSAppDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/officeworksPOSIOSAppDelegate/setHighRiskButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>officeworksPOSIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *highRiskButton</Declaration>
+			
+			
+			<Anchor>//api/name/highRiskButton</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/officeworksPOSIOSAppDelegate/highRiskButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>officeworksPOSIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *highRiskButton</Declaration>
+			
+			
+			<Anchor>//api/name/highRiskButton</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/officeworksPOSIOSAppDelegate/highRiskButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>officeworksPOSIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *highRiskButton</Declaration>
+			
+			
+			<Anchor>//api/name/highRiskButton</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/officeworksPOSIOSAppDelegate/doHighRiskProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>officeworksPOSIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doHighRiskProduct:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doHighRiskProduct:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/officeworksPOSIOSAppDelegate/setProductDetailViewController:State:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>officeworksPOSIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)setProductDetailViewController:(BLIOSProductDetailViewController *)aController State:(bool)aState</Declaration>
+			
+			
+			<Anchor>//api/name/setProductDetailViewController:State:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

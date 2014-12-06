@@ -4,7 +4,7 @@ Task Requirement
 
 Original task requirement document was sent by ANZ HR
 
-.. include:: /_static/docx/ANZ-Mobile-WebFrontEnd-AppDevPracticalTest1.4
+Download the :download:`ANZ_Mobile-WebFront End-AppDevPracticalTest1.4.pdf guide</_static/docx/ANZ_Mobile-WebFront End-AppDevPracticalTest1.4.pdf>`.
 
 Problem Definition
 =====================

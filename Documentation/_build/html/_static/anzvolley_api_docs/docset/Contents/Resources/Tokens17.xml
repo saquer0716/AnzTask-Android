@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ritchiesDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ritchiesDataRequest</TokenIdentifier>
+			<Abstract type="html">ritchiesDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving ritchies store data.</Abstract>
+			<DeclaredIn>ritchiesDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ritchiesDataRequest/doGetStores</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ritchiesDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)doGetStores</Declaration>
+			
+			
+			<Anchor>//api/name/doGetStores</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ritchiesDataRequest/doGetStoresInNewThread</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ritchiesDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)doGetStoresInNewThread</Declaration>
+			
+			
+			<Anchor>//api/name/doGetStoresInNewThread</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

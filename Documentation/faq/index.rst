@@ -1,28 +1,11 @@
 FAQ
 ===
 
-How do I create a new iOS project for a new client?
+How do I add new API support into AnzVolley module?
 ---------------------------------------------------
 
-.. note:: This document has not been updated since 2012 and it needs to be revised.
-
-Download the :download:`Creating-iOS-nomadPOS-app.docx guide</_static/docx/Creating-iOS-nomadPOS-app.docx>`.
-
-
-Do I need a payment device to test?
------------------------------------
-
-How do we send builds to QA?
-----------------------------
-
-How do we build, sign and send builds to clients?
--------------------------------------------------
-
-How do we build, sign and send the NomadPOS app to the iTunes store?
---------------------------------------------------------------------
-
-What are some of the largest issues right now
----------------------------------------------
-
-What are some of the projects lined up to tackle these issues
--------------------------------------------------------------
+.. note:: 
+ - Create the new request class which conforms to request parameter.
+ - Create the new corresponding response class which conforms to the JSON response format. 
+ - Go to AnzVolleyRestfulRequestFactory class and give the new API an ID and define it’s URL.
+ - Still in AnzVolleyRestfulRequestFactory class, add another `switch case` code block for new API and that’s it.

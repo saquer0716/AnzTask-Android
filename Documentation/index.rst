@@ -4,7 +4,7 @@
 Welcome to the ANZ Mobile Task Android documentation!
 =======================================================
 
-It is created in Sphinx and instructions for building this documentation are contained in the README.rst file in the root of the iOS git repository.
+It is created in Sphinx and instructions for building this documentation are contained in the README.rst file in the root of the Android git repository.
 
 Getting started
 ===============
@@ -22,8 +22,7 @@ Other resources
 ===============
 
  * Try the :doc:`FAQ <faq/index>` -- it's got answers to many common questions.
- * Looking for specific information? Try the :ref:`genindex`, :ref:`modindex`
- * The :ref:`glossary` is yoru place for any unfamiliar terms.
+ * The :ref:`glossary` is your place for any unfamiliar terms.
  * Use the search functionality if you're after something specific
 
 
