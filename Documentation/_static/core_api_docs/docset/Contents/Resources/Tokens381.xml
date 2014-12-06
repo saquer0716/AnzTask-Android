@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLVerifoneBinding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLVerifoneBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLVerifoneBinding.h</DeclaredIn>
+            
+			
+			<NodeRef refid="381"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

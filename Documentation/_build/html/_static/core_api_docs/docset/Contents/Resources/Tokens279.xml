@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSTransactionSummaryView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSTransactionSummaryView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the user interface relating to a transaction summary.</Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="279"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setTransactionDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTransactionDelegate&gt; transactionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDelegate</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/transactionDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTransactionDelegate&gt; transactionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDelegate</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTransactionSummaryView/transactionDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTransactionDelegate&gt; transactionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDelegate</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/total</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)total</Declaration>
+			
+			
+			<Anchor>//api/name/total</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setTotal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTotal:(NSDecimalNumber *)aTotal</Declaration>
+			
+			
+			<Anchor>//api/name/setTotal:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setItemCount:andProductCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)setItemCount:(NSInteger)aItemCount andProductCount:(NSInteger)aProductCount</Declaration>
+			
+			
+			<Anchor>//api/name/setItemCount:andProductCount:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/reset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/onPay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)onPay:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPay:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setPaid:partially:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)setPaid:(bool)value partially:(bool)aPartially</Declaration>
+			
+			
+			<Anchor>//api/name/setPaid:partially:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setVoided:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)setVoided:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setVoided:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setSuspended:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSuspended:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSuspended:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setRefund:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)setRefund:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setRefund:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/setCaptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCaptions:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/setCaptions:</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionSummaryView/refund</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionSummaryView.h</DeclaredIn>
+			
+			<Declaration>- (bool)refund</Declaration>
+			
+			
+			<Anchor>//api/name/refund</Anchor>
+            <NodeRef refid="279"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

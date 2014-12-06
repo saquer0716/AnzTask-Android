@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSAlertView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSAlertView</TokenIdentifier>
+			<Abstract type="html">BLIOSAlertView displays an alert message with a customisable input field.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/setTextFieldDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with text field.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSTextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/textFieldDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with text field.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSTextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSAlertView/textFieldDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with text field.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSTextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/setChanging:</TokenIdentifier>
+			<Abstract type="html">The flag that (when set to true) prevents a recursive &apos;text did change&apos; event from firing when formatting the input. If false, then the &apos;text did change&apos; event is triggered as normal.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool changing</Declaration>
+			
+			
+			<Anchor>//api/name/changing</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/changing</TokenIdentifier>
+			<Abstract type="html">The flag that (when set to true) prevents a recursive &apos;text did change&apos; event from firing when formatting the input. If false, then the &apos;text did change&apos; event is triggered as normal.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool changing</Declaration>
+			
+			
+			<Anchor>//api/name/changing</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSAlertView/changing</TokenIdentifier>
+			<Abstract type="html">The flag that (when set to true) prevents a recursive &apos;text did change&apos; event from firing when formatting the input. If false, then the &apos;text did change&apos; event is triggered as normal.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool changing</Declaration>
+			
+			
+			<Anchor>//api/name/changing</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSAlertView/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/setObject:</TokenIdentifier>
+			<Abstract type="html">The object to associated with the alertView. This field can be used to provide additional data when processing the response when dismissing the alertView.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/object</TokenIdentifier>
+			<Abstract type="html">The object to associated with the alertView. This field can be used to provide additional data when processing the response when dismissing the alertView.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSAlertView/object</TokenIdentifier>
+			<Abstract type="html">The object to associated with the alertView. This field can be used to provide additional data when processing the response when dismissing the alertView.</Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/setLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSAlertView/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/initWithTitle:message:delegate:cancelButtonTitle:okButtonTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle okButtonTitle:(NSString *)okayButtonTitle</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:message:delegate:cancelButtonTitle:okButtonTitle:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/initWithTitle:message:delegate:cancelButtonTitle:okButtonTitle:language:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title message:(NSString *)message delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle okButtonTitle:(NSString *)okayButtonTitle language:(NSString *)aLanguage</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:message:delegate:cancelButtonTitle:okButtonTitle:language:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/initWithTitle:message:placeHolder:delegate:cancelButtonTitle:okButtonTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title message:(NSString *)message placeHolder:(NSString *)placeHolder delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle okButtonTitle:(NSString *)okayButtonTitle</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:message:placeHolder:delegate:cancelButtonTitle:okButtonTitle:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/initWithTitle:message:placeHolder:delegate:cancelButtonTitle:okButtonTitle:otherButtonTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title message:(NSString *)message placeHolder:(NSString *)placeHolder delegate:(id)delegate cancelButtonTitle:(NSString *)cancelButtonTitle okButtonTitle:(NSString *)okayButtonTitle otherButtonTitle:(NSString *)otherButtonTitle</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:message:placeHolder:delegate:cancelButtonTitle:okButtonTitle:otherButtonTitle:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/enteredText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)enteredText</Declaration>
+			
+			
+			<Anchor>//api/name/enteredText</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/textDidChange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (void)textDidChange:(NSNotification *)aNotification</Declaration>
+			
+			
+			<Anchor>//api/name/textDidChange:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/setKeyboardType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (void)setKeyboardType:(UIKeyboardType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/setKeyboardType:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/resetTextFieldWithMessage:placeHolder:andDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (void)resetTextFieldWithMessage:(NSString *)message placeHolder:(NSString *)placeHolder andDelegate:(id)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/resetTextFieldWithMessage:placeHolder:andDelegate:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertView/showWithIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>- (void)showWithIdentifier:(NSInteger)aIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/showWithIdentifier:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSAlertView/showDevelopmentAlert:withTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>+ (void)showDevelopmentAlert:(NSString *)aMessage withTitle:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/showDevelopmentAlert:withTitle:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSAlertView/showOkAlert:message:language:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertView.h</DeclaredIn>
+			
+			<Declaration>+ (void)showOkAlert:(NSString *)aTitle message:(NSString *)aMessage language:(NSString *)aLanguage</Declaration>
+			
+			
+			<Anchor>//api/name/showOkAlert:message:language:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

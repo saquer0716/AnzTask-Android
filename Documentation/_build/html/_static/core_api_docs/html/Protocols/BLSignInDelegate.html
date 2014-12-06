@@ -1,0 +1,613 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLSignInDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLSignInDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/onConnection:fail:withDescription:andCode:">&nbsp;&nbsp;&nbsp;&nbsp;- onConnection:fail:withDescription:andCode:</option>
+	
+	<option value="//api/name/onDeviceBoundForOperator:withPassword:forBasket:">&nbsp;&nbsp;&nbsp;&nbsp;- onDeviceBoundForOperator:withPassword:forBasket:</option>
+	
+	<option value="//api/name/onIdLabelPlaceholder:">&nbsp;&nbsp;&nbsp;&nbsp;- onIdLabelPlaceholder:</option>
+	
+	<option value="//api/name/onIdLabelText:">&nbsp;&nbsp;&nbsp;&nbsp;- onIdLabelText:</option>
+	
+	<option value="//api/name/onInvalidBinding:toTerminal:">&nbsp;&nbsp;&nbsp;&nbsp;- onInvalidBinding:toTerminal:</option>
+	
+	<option value="//api/name/onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:</option>
+	
+	<option value="//api/name/onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:</option>
+	
+	<option value="//api/name/onServiceSignedOutAutomatically:failedForOperator:message:forSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onServiceSignedOutAutomatically:failedForOperator:message:forSession:</option>
+	
+	<option value="//api/name/onServiceSignedOutAutomatically:forOperator:forSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onServiceSignedOutAutomatically:forOperator:forSession:</option>
+	
+	<option value="//api/name/onSignedIn:withOperator:forSession:withMessage:object:">&nbsp;&nbsp;&nbsp;&nbsp;- onSignedIn:withOperator:forSession:withMessage:object:</option>
+	
+	<option value="//api/name/onSignedInFail:withPassword:andErrorMessage:object:">&nbsp;&nbsp;&nbsp;&nbsp;- onSignedInFail:withPassword:andErrorMessage:object:</option>
+	
+	<option value="//api/name/onSignedOut:forSession:automatically:">&nbsp;&nbsp;&nbsp;&nbsp;- onSignedOut:forSession:automatically:</option>
+	
+	<option value="//api/name/onTransactionsLoadedForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionsLoadedForObject:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onConnection:fail:withDescription:andCode:">onConnection:fail:withDescription:andCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onDeviceBoundForOperator:withPassword:forBasket:">onDeviceBoundForOperator:withPassword:forBasket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onIdLabelPlaceholder:">onIdLabelPlaceholder:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onIdLabelText:">onIdLabelText:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onInvalidBinding:toTerminal:">onInvalidBinding:toTerminal:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:">onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:">onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onServiceSignedOutAutomatically:failedForOperator:message:forSession:">onServiceSignedOutAutomatically:failedForOperator:message:forSession:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onServiceSignedOutAutomatically:forOperator:forSession:">onServiceSignedOutAutomatically:forOperator:forSession:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSignedIn:withOperator:forSession:withMessage:object:">onSignedIn:withOperator:forSession:withMessage:object:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSignedInFail:withPassword:andErrorMessage:object:">onSignedInFail:withPassword:andErrorMessage:object:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSignedOut:forSession:automatically:">onSignedOut:forSession:automatically:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionsLoadedForObject:">onTransactionsLoadedForObject:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLSignInDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLSignInDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLSigninProtocol.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSignedIn:withOperator:forSession:withMessage:object:">&ndash;&nbsp;onSignedIn:withOperator:forSession:withMessage:object:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSignedOut:forSession:automatically:">&ndash;&nbsp;onSignedOut:forSession:automatically:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onServiceSignedOutAutomatically:forOperator:forSession:">&ndash;&nbsp;onServiceSignedOutAutomatically:forOperator:forSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onServiceSignedOutAutomatically:failedForOperator:message:forSession:">&ndash;&nbsp;onServiceSignedOutAutomatically:failedForOperator:message:forSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSignedInFail:withPassword:andErrorMessage:object:">&ndash;&nbsp;onSignedInFail:withPassword:andErrorMessage:object:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onConnection:fail:withDescription:andCode:">&ndash;&nbsp;onConnection:fail:withDescription:andCode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:">&ndash;&nbsp;onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:">&ndash;&nbsp;onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onInvalidBinding:toTerminal:">&ndash;&nbsp;onInvalidBinding:toTerminal:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onDeviceBoundForOperator:withPassword:forBasket:">&ndash;&nbsp;onDeviceBoundForOperator:withPassword:forBasket:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onIdLabelText:">&ndash;&nbsp;onIdLabelText:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onIdLabelPlaceholder:">&ndash;&nbsp;onIdLabelPlaceholder:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionsLoadedForObject:">&ndash;&nbsp;onTransactionsLoadedForObject:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/onConnection:fail:withDescription:andCode:" title="onConnection:fail:withDescription:andCode:"></a>
+	<h3 class="subsubtitle method-title">onConnection:fail:withDescription:andCode:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated when the connection to the shopping agent fails.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)onConnection:(NSObject *)<em>aObject</em> fail:(NSString *)<em>aTitle</em> withDescription:(NSString *)<em>aDescription</em> andCode:(NSInteger)<em>aCode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aDescription</em></dt>
+			<dd><p>The detailed description of the error responsible for the connection failure.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aCode</em></dt>
+			<dd><p>The error code associated with the connection failure.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aName</em></dt>
+			<dd><p>The brief description of the error responsible for the connection failure.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLSigninProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onDeviceBoundForOperator:withPassword:forBasket:" title="onDeviceBoundForOperator:withPassword:forBasket:"></a>
+	<h3 class="subsubtitle method-title">onDeviceBoundForOperator:withPassword:forBasket:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onDeviceBoundForOperator:(NSString *)<em>aOperator</em> withPassword:(NSString *)<em>aPassword</em> forBasket:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onIdLabelPlaceholder:" title="onIdLabelPlaceholder:"></a>
+	<h3 class="subsubtitle method-title">onIdLabelPlaceholder:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onIdLabelPlaceholder:(NSString *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onIdLabelText:" title="onIdLabelText:"></a>
+	<h3 class="subsubtitle method-title">onIdLabelText:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onIdLabelText:(NSString *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onInvalidBinding:toTerminal:" title="onInvalidBinding:toTerminal:"></a>
+	<h3 class="subsubtitle method-title">onInvalidBinding:toTerminal:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onInvalidBinding:(NSString *)<em>aMessage</em> toTerminal:(NSString *)<em>aTerminalName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:" title="onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:"></a>
+	<h3 class="subsubtitle method-title">onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onNoTerminalsForDeviceBinding:(NSString *)<em>aDeviceId</em> forSession:(NSString *)<em>aSession</em> withOperatorId:(NSString *)<em>aOperatorId</em> andPassword:(NSString *)<em>aPassword</em> withMessage:(NSString *)<em>aMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:" title="onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:"></a>
+	<h3 class="subsubtitle method-title">onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSelect:(NSArray *)<em>aArray</em> bindingForDevice:(NSString *)<em>aDeviceId</em> forSession:(NSString *)<em>aSession</em> withOperatorId:(NSString *)<em>aOperatorId</em> andPassword:(NSString *)<em>aPassword</em> withMessage:(NSString *)<em>aMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onServiceSignedOutAutomatically:failedForOperator:message:forSession:" title="onServiceSignedOutAutomatically:failedForOperator:message:forSession:"></a>
+	<h3 class="subsubtitle method-title">onServiceSignedOutAutomatically:failedForOperator:message:forSession:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onServiceSignedOutAutomatically:(bool)<em>aAutomatically</em> failedForOperator:(BLOperator *)<em>aOperator</em> message:(NSString *)<em>aMessage</em> forSession:(NSString *)<em>aSession</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onServiceSignedOutAutomatically:forOperator:forSession:" title="onServiceSignedOutAutomatically:forOperator:forSession:"></a>
+	<h3 class="subsubtitle method-title">onServiceSignedOutAutomatically:forOperator:forSession:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onServiceSignedOutAutomatically:(bool)<em>aAutomatically</em> forOperator:(BLOperator *)<em>aOperator</em> forSession:(NSString *)<em>aSession</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSignedIn:withOperator:forSession:withMessage:object:" title="onSignedIn:withOperator:forSession:withMessage:object:"></a>
+	<h3 class="subsubtitle method-title">onSignedIn:withOperator:forSession:withMessage:object:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated when a user has successfully signed in.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)onSignedIn:(BLBasket *)<em>aBasket</em> withOperator:(BLOperator *)<em>aOperator</em> forSession:(NSString *)<em>aSession</em> withMessage:(NSString *)<em>aMessage</em> object:(NSObject *)<em>aObject</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aBasket</em></dt>
+			<dd><p>The basket associated with the operator.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aOperator</em></dt>
+			<dd><p>The signed in operator.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aSession</em></dt>
+			<dd><p>The current session to associate with the request.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLSigninProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSignedInFail:withPassword:andErrorMessage:object:" title="onSignedInFail:withPassword:andErrorMessage:object:"></a>
+	<h3 class="subsubtitle method-title">onSignedInFail:withPassword:andErrorMessage:object:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSignedInFail:(NSString *)<em>aId</em> withPassword:(NSString *)<em>aPassword</em> andErrorMessage:(NSString *)<em>aErrorMessage</em> object:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSignedOut:forSession:automatically:" title="onSignedOut:forSession:automatically:"></a>
+	<h3 class="subsubtitle method-title">onSignedOut:forSession:automatically:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSignedOut:(BLOperator *)<em>aOperator</em> forSession:(NSString *)<em>aSession</em> automatically:(bool)<em>aAutomatically</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionsLoadedForObject:" title="onTransactionsLoadedForObject:"></a>
+	<h3 class="subsubtitle method-title">onTransactionsLoadedForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onTransactionsLoadedForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIngenico.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIngenico</TokenIdentifier>
+			<Abstract type="html">Manages the connectivity and interaction between an app and hardware manufactured by Ingenico.</Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+            
+			
+			<NodeRef refid="286"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/setAdmin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) ICAdministration *admin</Declaration>
+			
+			
+			<Anchor>//api/name/admin</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/admin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) ICAdministration *admin</Declaration>
+			
+			
+			<Anchor>//api/name/admin</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIngenico/admin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) ICAdministration *admin</Declaration>
+			
+			
+			<Anchor>//api/name/admin</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/setLastResponseCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *lastResponseCode</Declaration>
+			
+			
+			<Anchor>//api/name/lastResponseCode</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/lastResponseCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *lastResponseCode</Declaration>
+			
+			
+			<Anchor>//api/name/lastResponseCode</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIngenico/lastResponseCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *lastResponseCode</Declaration>
+			
+			
+			<Anchor>//api/name/lastResponseCode</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/setLastResponseText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *lastResponseText</Declaration>
+			
+			
+			<Anchor>//api/name/lastResponseText</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/lastResponseText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *lastResponseText</Declaration>
+			
+			
+			<Anchor>//api/name/lastResponseText</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIngenico/lastResponseText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *lastResponseText</Declaration>
+			
+			
+			<Anchor>//api/name/lastResponseText</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/setLastSuccess:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool lastSuccess</Declaration>
+			
+			
+			<Anchor>//api/name/lastSuccess</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/lastSuccess</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool lastSuccess</Declaration>
+			
+			
+			<Anchor>//api/name/lastSuccess</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIngenico/lastSuccess</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool lastSuccess</Declaration>
+			
+			
+			<Anchor>//api/name/lastSuccess</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/posgate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>- (PosGate *)posgate</Declaration>
+			
+			
+			<Anchor>//api/name/posgate</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/onTransactionComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>- (void)onTransactionComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onTransactionComplete</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenico/onInitialisationComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenico.h</DeclaredIn>
+			
+			<Declaration>- (void)onInitialisationComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onInitialisationComplete</Anchor>
+            <NodeRef refid="286"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

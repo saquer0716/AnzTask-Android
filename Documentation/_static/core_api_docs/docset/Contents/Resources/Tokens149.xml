@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSOkCancelView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSOkCancelView</TokenIdentifier>
+			<Abstract type="html">BLIOSOkCancelView defines a rectangular area on the screen with a shadow, an &quot;ok&quot; button, a &quot;cancel&quot; button and the interfaces for managing the content in that area.</Abstract>
+			<DeclaredIn>BLIOSOkCancelView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="149"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOkCancelView/doOk:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOkCancelView.h</DeclaredIn>
+			
+			<Declaration>- (void)doOk:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doOk:</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOkCancelView/doCancel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOkCancelView.h</DeclaredIn>
+			
+			<Declaration>- (void)doCancel:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doCancel:</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

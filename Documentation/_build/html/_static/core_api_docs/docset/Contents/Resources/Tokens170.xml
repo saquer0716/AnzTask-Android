@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPickerView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPickerView</TokenIdentifier>
+			<Abstract type="html">Inherits from UIPickerView to provide standardised behaviour within an app when displaying selectable items in a tumbler/spinner style view.</Abstract>
+			<DeclaredIn>BLIOSPickerView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="170"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

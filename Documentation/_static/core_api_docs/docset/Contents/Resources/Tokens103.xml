@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSEditProductViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSEditProductViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="103"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductViewController/productView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSEditProductOverlayView *)productView</Declaration>
+			
+			
+			<Anchor>//api/name/productView</Anchor>
+            <NodeRef refid="103"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductViewController/doSave:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doSave:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSave:</Anchor>
+            <NodeRef refid="103"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductViewController/clear:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)clear:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/clear:</Anchor>
+            <NodeRef refid="103"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductViewController/setProduct:asNew:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setProduct:(id)sender asNew:(bool)asNew</Declaration>
+			
+			
+			<Anchor>//api/name/setProduct:asNew:</Anchor>
+            <NodeRef refid="103"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLStoreDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLStoreDataRequest</TokenIdentifier>
+			<Abstract type="html">BLStoreDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving and processing store data.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="368"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/setStoresDataDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the store.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLStoreDelegate&gt; storesDataDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/storesDataDelegate</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/storesDataDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the store.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLStoreDelegate&gt; storesDataDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/storesDataDelegate</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStoreDataRequest/storesDataDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the store.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLStoreDelegate&gt; storesDataDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/storesDataDelegate</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/setStores:</TokenIdentifier>
+			<Abstract type="html">The stores data.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *stores</Declaration>
+			
+			
+			<Anchor>//api/name/stores</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/stores</TokenIdentifier>
+			<Abstract type="html">The stores data.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *stores</Declaration>
+			
+			
+			<Anchor>//api/name/stores</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStoreDataRequest/stores</TokenIdentifier>
+			<Abstract type="html">The stores data.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *stores</Declaration>
+			
+			
+			<Anchor>//api/name/stores</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/setStateCount:</TokenIdentifier>
+			<Abstract type="html">The counter for iterating the states.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stateCount</Declaration>
+			
+			
+			<Anchor>//api/name/stateCount</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/stateCount</TokenIdentifier>
+			<Abstract type="html">The counter for iterating the states.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stateCount</Declaration>
+			
+			
+			<Anchor>//api/name/stateCount</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStoreDataRequest/stateCount</TokenIdentifier>
+			<Abstract type="html">The counter for iterating the states.</Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stateCount</Declaration>
+			
+			
+			<Anchor>//api/name/stateCount</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/doGetStores</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)doGetStores</Declaration>
+			
+			
+			<Anchor>//api/name/doGetStores</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStoreDataRequest/storesForState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStoreDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)storesForState:(NSString *)aState</Declaration>
+			
+			
+			<Anchor>//api/name/storesForState:</Anchor>
+            <NodeRef refid="368"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

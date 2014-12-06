@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/ZBarHelpDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/ZBarHelpDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarHelpController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ZBarHelpDelegate/helpControllerDidFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarHelpController.h</DeclaredIn>
+			
+			<Declaration>- (void)helpControllerDidFinish:(ZBarHelpController *)help</Declaration>
+			
+			
+			<Anchor>//api/name/helpControllerDidFinish:</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

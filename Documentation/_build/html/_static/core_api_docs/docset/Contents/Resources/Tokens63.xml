@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSBarcodeScannerViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSBarcodeScannerViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/setInstructionLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/instructionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBarcodeScannerViewController/instructionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/setOrigin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLSearchOrigin origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/origin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLSearchOrigin origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBarcodeScannerViewController/origin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLSearchOrigin origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/setShouldDismissOnScan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shouldDismissOnScan</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDismissOnScan</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/shouldDismissOnScan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shouldDismissOnScan</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDismissOnScan</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBarcodeScannerViewController/shouldDismissOnScan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shouldDismissOnScan</Declaration>
+			
+			
+			<Anchor>//api/name/shouldDismissOnScan</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/setBarcodeDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with barcodes.</Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSBarcodeDelegate&gt; barcodeDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeDelegate</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/barcodeDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with barcodes.</Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSBarcodeDelegate&gt; barcodeDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeDelegate</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBarcodeScannerViewController/barcodeDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with barcodes.</Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSBarcodeDelegate&gt; barcodeDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeDelegate</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/doClose</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doClose</Declaration>
+			
+			
+			<Anchor>//api/name/doClose</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/doScan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doScan</Declaration>
+			
+			
+			<Anchor>//api/name/doScan</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/doBatchScan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doBatchScan</Declaration>
+			
+			
+			<Anchor>//api/name/doBatchScan</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBarcodeScannerViewController/doCloseReader:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeScannerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doCloseReader:(NSDictionary *)aDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/doCloseReader:</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

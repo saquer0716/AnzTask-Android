@@ -1,0 +1,623 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLIOSEditProductOverlayView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLIOSEditProductOverlayView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/modified">&nbsp;&nbsp;&nbsp;&nbsp;modified</option>
+	
+	<option value="//api/name/productDelegate">&nbsp;&nbsp;&nbsp;&nbsp;productDelegate</option>
+	
+	<option value="//api/name/textFieldDelegate">&nbsp;&nbsp;&nbsp;&nbsp;textFieldDelegate</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/clear">&nbsp;&nbsp;&nbsp;&nbsp;- clear</option>
+	
+	<option value="//api/name/doSave:">&nbsp;&nbsp;&nbsp;&nbsp;- doSave:</option>
+	
+	<option value="//api/name/editingMode">&nbsp;&nbsp;&nbsp;&nbsp;- editingMode</option>
+	
+	<option value="//api/name/imagePickerController:didFinishPickingMediaWithInfo:">&nbsp;&nbsp;&nbsp;&nbsp;- imagePickerController:didFinishPickingMediaWithInfo:</option>
+	
+	<option value="//api/name/isValidInput">&nbsp;&nbsp;&nbsp;&nbsp;- isValidInput</option>
+	
+	<option value="//api/name/navigationController:willShowViewController:animated:">&nbsp;&nbsp;&nbsp;&nbsp;- navigationController:willShowViewController:animated:</option>
+	
+	<option value="//api/name/product">&nbsp;&nbsp;&nbsp;&nbsp;- product</option>
+	
+	<option value="//api/name/saveImage:">&nbsp;&nbsp;&nbsp;&nbsp;- saveImage:</option>
+	
+	<option value="//api/name/setBarcode:asFirstResponder:">&nbsp;&nbsp;&nbsp;&nbsp;- setBarcode:asFirstResponder:</option>
+	
+	<option value="//api/name/setButtonColor:">&nbsp;&nbsp;&nbsp;&nbsp;- setButtonColor:</option>
+	
+	<option value="//api/name/setHasCamera:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasCamera:</option>
+	
+	<option value="//api/name/setHasScanButton:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasScanButton:</option>
+	
+	<option value="//api/name/setProduct:asNew:">&nbsp;&nbsp;&nbsp;&nbsp;- setProduct:asNew:</option>
+	
+	<option value="//api/name/updateProductWithInput">&nbsp;&nbsp;&nbsp;&nbsp;- updateProductWithInput</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/modified">modified</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productDelegate">productDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textFieldDelegate">textFieldDelegate</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clear">clear</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doSave:">doSave:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/editingMode">editingMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imagePickerController:didFinishPickingMediaWithInfo:">imagePickerController:didFinishPickingMediaWithInfo:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isValidInput">isValidInput</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/navigationController:willShowViewController:animated:">navigationController:willShowViewController:animated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/product">product</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveImage:">saveImage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBarcode:asFirstResponder:">setBarcode:asFirstResponder:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setButtonColor:">setButtonColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasCamera:">setHasCamera:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasScanButton:">setHasScanButton:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setProduct:asNew:">setProduct:asNew:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateProductWithInput">updateProductWithInput</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLIOSEditProductOverlayView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLIOSEditProductOverlayView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLIOSOverlayView.html">BLIOSOverlayView</a> : <a href="../Classes/BLIOSView.html">BLIOSView</a> : UIView</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/BLIOSTextFieldDelegate.html">BLIOSTextFieldDelegate</a><br /><a href="../Protocols/BLIOSViewDelegate.html">BLIOSViewDelegate</a><br /><a href="../Protocols/BLProductDelegate.html">BLProductDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSEditProductOverlayView.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/modified">&nbsp;&nbsp;modified</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productDelegate">&nbsp;&nbsp;productDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textFieldDelegate">&nbsp;&nbsp;textFieldDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/product">&ndash;&nbsp;product</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setProduct:asNew:">&ndash;&nbsp;setProduct:asNew:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBarcode:asFirstResponder:">&ndash;&nbsp;setBarcode:asFirstResponder:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setButtonColor:">&ndash;&nbsp;setButtonColor:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateProductWithInput">&ndash;&nbsp;updateProductWithInput</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveImage:">&ndash;&nbsp;saveImage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clear">&ndash;&nbsp;clear</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isValidInput">&ndash;&nbsp;isValidInput</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doSave:">&ndash;&nbsp;doSave:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/editingMode">&ndash;&nbsp;editingMode</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasScanButton:">&ndash;&nbsp;setHasScanButton:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasCamera:">&ndash;&nbsp;setHasCamera:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imagePickerController:didFinishPickingMediaWithInfo:">&ndash;&nbsp;imagePickerController:didFinishPickingMediaWithInfo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/navigationController:willShowViewController:animated:">&ndash;&nbsp;navigationController:willShowViewController:animated:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/modified" title="modified"></a>
+	<h3 class="subsubtitle method-title">modified</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool modified</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productDelegate" title="productDelegate"></a>
+	<h3 class="subsubtitle method-title">productDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/textFieldDelegate" title="textFieldDelegate"></a>
+	<h3 class="subsubtitle method-title">textFieldDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLIOSTextFieldDelegate&gt; textFieldDelegate</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/clear" title="clear"></a>
+	<h3 class="subsubtitle method-title">clear</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)clear</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doSave:" title="doSave:"></a>
+	<h3 class="subsubtitle method-title">doSave:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doSave:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/editingMode" title="editingMode"></a>
+	<h3 class="subsubtitle method-title">editingMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLEditingMode)editingMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imagePickerController:didFinishPickingMediaWithInfo:" title="imagePickerController:didFinishPickingMediaWithInfo:"></a>
+	<h3 class="subsubtitle method-title">imagePickerController:didFinishPickingMediaWithInfo:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)imagePickerController:(UIImagePickerController *)<em>picker</em> didFinishPickingMediaWithInfo:(NSDictionary *)<em>info</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isValidInput" title="isValidInput"></a>
+	<h3 class="subsubtitle method-title">isValidInput</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)isValidInput</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/navigationController:willShowViewController:animated:" title="navigationController:willShowViewController:animated:"></a>
+	<h3 class="subsubtitle method-title">navigationController:willShowViewController:animated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)navigationController:(UINavigationController *)<em>navigationController</em> willShowViewController:(UIViewController *)<em>viewController</em> animated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/product" title="product"></a>
+	<h3 class="subsubtitle method-title">product</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLProduct *)product</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveImage:" title="saveImage:"></a>
+	<h3 class="subsubtitle method-title">saveImage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)saveImage:(BLProduct *)<em>aProduct</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBarcode:asFirstResponder:" title="setBarcode:asFirstResponder:"></a>
+	<h3 class="subsubtitle method-title">setBarcode:asFirstResponder:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setBarcode:(NSString *)<em>value</em> asFirstResponder:(bool)<em>aResponder</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setButtonColor:" title="setButtonColor:"></a>
+	<h3 class="subsubtitle method-title">setButtonColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setButtonColor:(UIColor *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasCamera:" title="setHasCamera:"></a>
+	<h3 class="subsubtitle method-title">setHasCamera:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasCamera:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasScanButton:" title="setHasScanButton:"></a>
+	<h3 class="subsubtitle method-title">setHasScanButton:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasScanButton:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setProduct:asNew:" title="setProduct:asNew:"></a>
+	<h3 class="subsubtitle method-title">setProduct:asNew:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setProduct:(BLProduct *)<em>value</em> asNew:(bool)<em>asNew</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateProductWithInput" title="updateProductWithInput"></a>
+	<h3 class="subsubtitle method-title">updateProductWithInput</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateProductWithInput</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

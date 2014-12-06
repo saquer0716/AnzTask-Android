@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSImageView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSImageView</TokenIdentifier>
+			<Abstract type="html">Inherits from UIImageView to provide standardised behaviour within an app when displaying imagese.</Abstract>
+			<DeclaredIn>BLIOSImageView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="119"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageView/setLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageView/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSImageView/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="119"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

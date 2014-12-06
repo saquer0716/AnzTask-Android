@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLSignInDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLSignInDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="438"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onSignedIn:withOperator:forSession:withMessage:object:</TokenIdentifier>
+			<Abstract type="html">Initiated when a user has successfully signed in.</Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onSignedIn:(BLBasket *)aBasket withOperator:(BLOperator *)aOperator forSession:(NSString *)aSession withMessage:(NSString *)aMessage object:(NSObject *)aObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aBasket</Name>
+					<Abstract type="html">The basket associated with the operator.</Abstract>
+				</Parameter><Parameter>
+					<Name>aOperator</Name>
+					<Abstract type="html">The signed in operator.</Abstract>
+				</Parameter><Parameter>
+					<Name>aSession</Name>
+					<Abstract type="html">The current session to associate with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onSignedIn:withOperator:forSession:withMessage:object:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onSignedOut:forSession:automatically:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSignedOut:(BLOperator *)aOperator forSession:(NSString *)aSession automatically:(bool)aAutomatically</Declaration>
+			
+			
+			<Anchor>//api/name/onSignedOut:forSession:automatically:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onServiceSignedOutAutomatically:forOperator:forSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onServiceSignedOutAutomatically:(bool)aAutomatically forOperator:(BLOperator *)aOperator forSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/onServiceSignedOutAutomatically:forOperator:forSession:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onServiceSignedOutAutomatically:failedForOperator:message:forSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onServiceSignedOutAutomatically:(bool)aAutomatically failedForOperator:(BLOperator *)aOperator message:(NSString *)aMessage forSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/onServiceSignedOutAutomatically:failedForOperator:message:forSession:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onSignedInFail:withPassword:andErrorMessage:object:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSignedInFail:(NSString *)aId withPassword:(NSString *)aPassword andErrorMessage:(NSString *)aErrorMessage object:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onSignedInFail:withPassword:andErrorMessage:object:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onConnection:fail:withDescription:andCode:</TokenIdentifier>
+			<Abstract type="html">Initiated when the connection to the shopping agent fails.</Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnection:(NSObject *)aObject fail:(NSString *)aTitle withDescription:(NSString *)aDescription andCode:(NSInteger)aCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aDescription</Name>
+					<Abstract type="html">The detailed description of the error responsible for the connection failure.</Abstract>
+				</Parameter><Parameter>
+					<Name>aCode</Name>
+					<Abstract type="html">The error code associated with the connection failure.</Abstract>
+				</Parameter><Parameter>
+					<Name>aName</Name>
+					<Abstract type="html">The brief description of the error responsible for the connection failure.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onConnection:fail:withDescription:andCode:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSelect:(NSArray *)aArray bindingForDevice:(NSString *)aDeviceId forSession:(NSString *)aSession withOperatorId:(NSString *)aOperatorId andPassword:(NSString *)aPassword withMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onSelect:bindingForDevice:forSession:withOperatorId:andPassword:withMessage:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onNoTerminalsForDeviceBinding:(NSString *)aDeviceId forSession:(NSString *)aSession withOperatorId:(NSString *)aOperatorId andPassword:(NSString *)aPassword withMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onNoTerminalsForDeviceBinding:forSession:withOperatorId:andPassword:withMessage:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onInvalidBinding:toTerminal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onInvalidBinding:(NSString *)aMessage toTerminal:(NSString *)aTerminalName</Declaration>
+			
+			
+			<Anchor>//api/name/onInvalidBinding:toTerminal:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onDeviceBoundForOperator:withPassword:forBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onDeviceBoundForOperator:(NSString *)aOperator withPassword:(NSString *)aPassword forBasket:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/onDeviceBoundForOperator:withPassword:forBasket:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onIdLabelText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onIdLabelText:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/onIdLabelText:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onIdLabelPlaceholder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onIdLabelPlaceholder:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/onIdLabelPlaceholder:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSignInDelegate/onTransactionsLoadedForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onTransactionsLoadedForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onTransactionsLoadedForObject:</Anchor>
+            <NodeRef refid="438"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

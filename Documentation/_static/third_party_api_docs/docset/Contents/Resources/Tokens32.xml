@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PayPalItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PayPalItem</TokenIdentifier>
+			<Abstract type="html">The PayPalItem class defines an optional itemization for a payment.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalItem/itemWithName:withQuantity:withPrice:withCurrency:withSku:</TokenIdentifier>
+			<Abstract type="html">Convenience constructor.
+See the documentation of the individual properties for more detail.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>+ (PayPalItem *)itemWithName:(NSString *)name withQuantity:(NSUInteger)quantity withPrice:(NSDecimalNumber *)price withCurrency:(NSString *)currency withSku:(NSString *)sku</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">Name of the item.</Abstract>
+				</Parameter><Parameter>
+					<Name>quantity</Name>
+					<Abstract type="html">Number of units.</Abstract>
+				</Parameter><Parameter>
+					<Name>price</Name>
+					<Abstract type="html">Unit price for this item.</Abstract>
+				</Parameter><Parameter>
+					<Name>currency</Name>
+					<Abstract type="html">ISO standard currency code.</Abstract>
+				</Parameter><Parameter>
+					<Name>sku</Name>
+					<Abstract type="html">The stock keeping unit for this item.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/itemWithName:withQuantity:withPrice:withCurrency:withSku:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalItem/totalPriceForItems:</TokenIdentifier>
+			<Abstract type="html">Convenience utility.
+Returns the total of (quantity * price for all of the items.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>+ (NSDecimalNumber *)totalPriceForItems:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>array</Name>
+					<Abstract type="html">of PayPalItem objects.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/totalPriceForItems:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/setName:</TokenIdentifier>
+			<Abstract type="html">Item name. 127 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/name</TokenIdentifier>
+			<Abstract type="html">Item name. 127 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalItem/name</TokenIdentifier>
+			<Abstract type="html">Item name. 127 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/setQuantity:</TokenIdentifier>
+			<Abstract type="html">Number of a particular item. 10 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readwrite) NSUInteger quantity</Declaration>
+			
+			
+			<Anchor>//api/name/quantity</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/quantity</TokenIdentifier>
+			<Abstract type="html">Number of a particular item. 10 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readwrite) NSUInteger quantity</Declaration>
+			
+			
+			<Anchor>//api/name/quantity</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalItem/quantity</TokenIdentifier>
+			<Abstract type="html">Number of a particular item. 10 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, readwrite) NSUInteger quantity</Declaration>
+			
+			
+			<Anchor>//api/name/quantity</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/setPrice:</TokenIdentifier>
+			<Abstract type="html">Item cost. 10 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *price</Declaration>
+			
+			
+			<Anchor>//api/name/price</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/price</TokenIdentifier>
+			<Abstract type="html">Item cost. 10 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *price</Declaration>
+			
+			
+			<Anchor>//api/name/price</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalItem/price</TokenIdentifier>
+			<Abstract type="html">Item cost. 10 characters max. Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *price</Declaration>
+			
+			
+			<Anchor>//api/name/price</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/setCurrency:</TokenIdentifier>
+			<Abstract type="html">ISO standard currency code (http://en.wikipedia.org/wiki/ISO_4217). Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *currency</Declaration>
+			
+			
+			<Anchor>//api/name/currency</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/currency</TokenIdentifier>
+			<Abstract type="html">ISO standard currency code (http://en.wikipedia.org/wiki/ISO_4217). Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *currency</Declaration>
+			
+			
+			<Anchor>//api/name/currency</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalItem/currency</TokenIdentifier>
+			<Abstract type="html">ISO standard currency code (http://en.wikipedia.org/wiki/ISO_4217). Required.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *currency</Declaration>
+			
+			
+			<Anchor>//api/name/currency</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/setSku:</TokenIdentifier>
+			<Abstract type="html">Stock keeping unit corresponding (SKU) to item. 50 characters max.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *sku</Declaration>
+			
+			
+			<Anchor>//api/name/sku</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalItem/sku</TokenIdentifier>
+			<Abstract type="html">Stock keeping unit corresponding (SKU) to item. 50 characters max.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *sku</Declaration>
+			
+			
+			<Anchor>//api/name/sku</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalItem/sku</TokenIdentifier>
+			<Abstract type="html">Stock keeping unit corresponding (SKU) to item. 50 characters max.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSString *sku</Declaration>
+			
+			
+			<Anchor>//api/name/sku</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

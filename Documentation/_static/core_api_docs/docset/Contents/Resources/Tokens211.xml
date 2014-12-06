@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSRetryCancelView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSRetryCancelView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="211"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetryCancelView/setRecoveryDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRecoveryDelegate&gt; recoveryDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/recoveryDelegate</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetryCancelView/recoveryDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRecoveryDelegate&gt; recoveryDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/recoveryDelegate</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRetryCancelView/recoveryDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRecoveryDelegate&gt; recoveryDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/recoveryDelegate</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetryCancelView/onRetry:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>- (void)onRetry:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onRetry:</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetryCancelView/onCancel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>- (void)onCancel:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onCancel:</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetryCancelView/setFailed:withRetry:andMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>- (void)setFailed:(bool)aFailed withRetry:(bool)aRetry andMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/setFailed:withRetry:andMessage:</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetryCancelView/startProcess:withMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>- (void)startProcess:(id)sender withMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/startProcess:withMessage:</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetryCancelView/endProcess:withMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetryCancelView.h</DeclaredIn>
+			
+			<Declaration>- (void)endProcess:(id)sender withMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/endProcess:withMessage:</Anchor>
+            <NodeRef refid="211"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

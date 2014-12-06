@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLPrinterDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLPrinterDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for a printer.</Abstract>
+			<DeclaredIn>BLPrinterProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="427"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPrinterDelegate/onPrinterForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPrinterProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLPrinter *)onPrinterForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onPrinterForObject:</Anchor>
+            <NodeRef refid="427"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPrinterDelegate/onPrinters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPrinterProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onPrinters</Declaration>
+			
+			
+			<Anchor>//api/name/onPrinters</Anchor>
+            <NodeRef refid="427"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPrinterDelegate/onReceiptHeaderImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPrinterProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)onReceiptHeaderImage</Declaration>
+			
+			
+			<Anchor>//api/name/onReceiptHeaderImage</Anchor>
+            <NodeRef refid="427"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPrinterDelegate/onPrinterChanged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPrinterProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPrinterChanged:(BLPrinter *)aPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/onPrinterChanged:</Anchor>
+            <NodeRef refid="427"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

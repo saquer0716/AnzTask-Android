@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZBarSymbol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZBarSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) zbar_symbol_type_t type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) zbar_symbol_type_t type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) zbar_symbol_type_t type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setTypeName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *typeName</Declaration>
+			
+			
+			<Anchor>//api/name/typeName</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/typeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *typeName</Declaration>
+			
+			
+			<Anchor>//api/name/typeName</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/typeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *typeName</Declaration>
+			
+			
+			<Anchor>//api/name/typeName</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setConfigMask:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUInteger configMask</Declaration>
+			
+			
+			<Anchor>//api/name/configMask</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/configMask</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUInteger configMask</Declaration>
+			
+			
+			<Anchor>//api/name/configMask</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/configMask</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUInteger configMask</Declaration>
+			
+			
+			<Anchor>//api/name/configMask</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setModifierMask:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUInteger modifierMask</Declaration>
+			
+			
+			<Anchor>//api/name/modifierMask</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/modifierMask</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUInteger modifierMask</Declaration>
+			
+			
+			<Anchor>//api/name/modifierMask</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/modifierMask</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSUInteger modifierMask</Declaration>
+			
+			
+			<Anchor>//api/name/modifierMask</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) NSString *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setQuality:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) int quality</Declaration>
+			
+			
+			<Anchor>//api/name/quality</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/quality</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) int quality</Declaration>
+			
+			
+			<Anchor>//api/name/quality</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/quality</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) int quality</Declaration>
+			
+			
+			<Anchor>//api/name/quality</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) int count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/count</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) int count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/count</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) int count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) zbar_orientation_t orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/orientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) zbar_orientation_t orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/orientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) zbar_orientation_t orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setComponents:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) ZBarSymbolSet *components</Declaration>
+			
+			
+			<Anchor>//api/name/components</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/components</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) ZBarSymbolSet *components</Declaration>
+			
+			
+			<Anchor>//api/name/components</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/components</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) ZBarSymbolSet *components</Declaration>
+			
+			
+			<Anchor>//api/name/components</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setZbarSymbol:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) const zbar_symbol_t *zbarSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/zbarSymbol</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/zbarSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) const zbar_symbol_t *zbarSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/zbarSymbol</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/zbarSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) const zbar_symbol_t *zbarSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/zbarSymbol</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/setBounds:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGRect bounds</Declaration>
+			
+			
+			<Anchor>//api/name/bounds</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/bounds</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGRect bounds</Declaration>
+			
+			
+			<Anchor>//api/name/bounds</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarSymbol/bounds</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) CGRect bounds</Declaration>
+			
+			
+			<Anchor>//api/name/bounds</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarSymbol/initWithSymbol:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSymbol:(const zbar_symbol_t *)symbol</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSymbol:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ZBarSymbol/nameForType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarSymbol.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)nameForType:(zbar_symbol_type_t)type</Declaration>
+			
+			
+			<Anchor>//api/name/nameForType:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

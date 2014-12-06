@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPDF.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPDF</TokenIdentifier>
+			<Abstract type="html">BLIOSPDF manages the creation and rendering of a pdf document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+            
+			
+			<NodeRef refid="152"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setPageSize:</TokenIdentifier>
+			<Abstract type="html">Defines the height and width of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize pageSize</Declaration>
+			
+			
+			<Anchor>//api/name/pageSize</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/pageSize</TokenIdentifier>
+			<Abstract type="html">Defines the height and width of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize pageSize</Declaration>
+			
+			
+			<Anchor>//api/name/pageSize</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/pageSize</TokenIdentifier>
+			<Abstract type="html">Defines the height and width of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize pageSize</Declaration>
+			
+			
+			<Anchor>//api/name/pageSize</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setMarginLeft:</TokenIdentifier>
+			<Abstract type="html">Defines the left margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginLeft</Declaration>
+			
+			
+			<Anchor>//api/name/marginLeft</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/marginLeft</TokenIdentifier>
+			<Abstract type="html">Defines the left margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginLeft</Declaration>
+			
+			
+			<Anchor>//api/name/marginLeft</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/marginLeft</TokenIdentifier>
+			<Abstract type="html">Defines the left margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginLeft</Declaration>
+			
+			
+			<Anchor>//api/name/marginLeft</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setMarginRight:</TokenIdentifier>
+			<Abstract type="html">Defines the right margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginRight</Declaration>
+			
+			
+			<Anchor>//api/name/marginRight</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/marginRight</TokenIdentifier>
+			<Abstract type="html">Defines the right margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginRight</Declaration>
+			
+			
+			<Anchor>//api/name/marginRight</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/marginRight</TokenIdentifier>
+			<Abstract type="html">Defines the right margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginRight</Declaration>
+			
+			
+			<Anchor>//api/name/marginRight</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setMarginTop:</TokenIdentifier>
+			<Abstract type="html">Defines the top margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginTop</Declaration>
+			
+			
+			<Anchor>//api/name/marginTop</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/marginTop</TokenIdentifier>
+			<Abstract type="html">Defines the top margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginTop</Declaration>
+			
+			
+			<Anchor>//api/name/marginTop</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/marginTop</TokenIdentifier>
+			<Abstract type="html">Defines the top margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginTop</Declaration>
+			
+			
+			<Anchor>//api/name/marginTop</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setMarginBottom:</TokenIdentifier>
+			<Abstract type="html">Defines the bottom margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginBottom</Declaration>
+			
+			
+			<Anchor>//api/name/marginBottom</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/marginBottom</TokenIdentifier>
+			<Abstract type="html">Defines the bottom margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginBottom</Declaration>
+			
+			
+			<Anchor>//api/name/marginBottom</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/marginBottom</TokenIdentifier>
+			<Abstract type="html">Defines the bottom margin of the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger marginBottom</Declaration>
+			
+			
+			<Anchor>//api/name/marginBottom</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setMaxStringLength:</TokenIdentifier>
+			<Abstract type="html">Defines the maximum length of a string within the pdf document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxStringLength</Declaration>
+			
+			
+			<Anchor>//api/name/maxStringLength</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/maxStringLength</TokenIdentifier>
+			<Abstract type="html">Defines the maximum length of a string within the pdf document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxStringLength</Declaration>
+			
+			
+			<Anchor>//api/name/maxStringLength</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/maxStringLength</TokenIdentifier>
+			<Abstract type="html">Defines the maximum length of a string within the pdf document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxStringLength</Declaration>
+			
+			
+			<Anchor>//api/name/maxStringLength</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setPrintableString:</TokenIdentifier>
+			<Abstract type="html">the printable (formatted) string version of the pdf document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *printableString</Declaration>
+			
+			
+			<Anchor>//api/name/printableString</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/printableString</TokenIdentifier>
+			<Abstract type="html">the printable (formatted) string version of the pdf document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *printableString</Declaration>
+			
+			
+			<Anchor>//api/name/printableString</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/printableString</TokenIdentifier>
+			<Abstract type="html">the printable (formatted) string version of the pdf document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *printableString</Declaration>
+			
+			
+			<Anchor>//api/name/printableString</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/setPdfDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate for the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPDFDelegate&gt; pdfDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pdfDelegate</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/pdfDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate for the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPDFDelegate&gt; pdfDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pdfDelegate</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPDF/pdfDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate for the PDF document.</Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPDFDelegate&gt; pdfDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pdfDelegate</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/createPDFWithTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)createPDFWithTitle:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/createPDFWithTitle:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawPageNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (void)drawPageNumber:(NSInteger)pageNum</Declaration>
+			
+			
+			<Anchor>//api/name/drawPageNumber:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawFrame:withColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)drawFrame:(CGRect)aRect withColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/drawFrame:withColor:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawText:underneath:withBold:andAlignment:andFontSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)drawText:(NSString *)aText underneath:(CGRect)aLastRect withBold:(bool)aBold andAlignment:(NSTextAlignment)aAlignment andFontSize:(NSInteger)aFontSize</Declaration>
+			
+			
+			<Anchor>//api/name/drawText:underneath:withBold:andAlignment:andFontSize:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawText:underneath:withBold:andAlignment:andFontSize:asNegative:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)drawText:(NSString *)aText underneath:(CGRect)aLastRect withBold:(bool)aBold andAlignment:(NSTextAlignment)aAlignment andFontSize:(NSInteger)aFontSize asNegative:(bool)aNegative</Declaration>
+			
+			
+			<Anchor>//api/name/drawText:underneath:withBold:andAlignment:andFontSize:asNegative:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (void)drawLine:(CGRect)aRect</Declaration>
+			
+			
+			<Anchor>//api/name/drawLine:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawHeaderText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)drawHeaderText:(NSString *)aText</Declaration>
+			
+			
+			<Anchor>//api/name/drawHeaderText:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawImage:withinRect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)drawImage:(UIImage *)aImage withinRect:(CGRect)aRect</Declaration>
+			
+			
+			<Anchor>//api/name/drawImage:withinRect:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawBarcode:underneath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)drawBarcode:(NSString *)aBarcode underneath:(CGRect)aLastRect</Declaration>
+			
+			
+			<Anchor>//api/name/drawBarcode:underneath:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/drawContent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)drawContent:(CGSize)aPageSize</Declaration>
+			
+			
+			<Anchor>//api/name/drawContent:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/paddedLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)paddedLine:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/paddedLine:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/paddedLine:ofLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)paddedLine:(NSString *)aString ofLength:(NSInteger)aLength</Declaration>
+			
+			
+			<Anchor>//api/name/paddedLine:ofLength:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/justifiedLineWithLeftString:andRightString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)justifiedLineWithLeftString:(NSString *)aLeftString andRightString:(NSString *)aRightString</Declaration>
+			
+			
+			<Anchor>//api/name/justifiedLineWithLeftString:andRightString:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/lineWithCharacter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)lineWithCharacter:(NSString *)aCharacter</Declaration>
+			
+			
+			<Anchor>//api/name/lineWithCharacter:</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPDF/passes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPDF.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)passes</Declaration>
+			
+			
+			<Anchor>//api/name/passes</Anchor>
+            <NodeRef refid="152"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

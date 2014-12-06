@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLShare.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLShare</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+            
+			
+			<NodeRef refid="356"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setContentLink:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *contentLink</Declaration>
+			
+			
+			<Anchor>//api/name/contentLink</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/contentLink</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *contentLink</Declaration>
+			
+			
+			<Anchor>//api/name/contentLink</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/contentLink</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *contentLink</Declaration>
+			
+			
+			<Anchor>//api/name/contentLink</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setAppLink:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *appLink</Declaration>
+			
+			
+			<Anchor>//api/name/appLink</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/appLink</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *appLink</Declaration>
+			
+			
+			<Anchor>//api/name/appLink</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/appLink</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *appLink</Declaration>
+			
+			
+			<Anchor>//api/name/appLink</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setAppTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *appTitle</Declaration>
+			
+			
+			<Anchor>//api/name/appTitle</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/appTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *appTitle</Declaration>
+			
+			
+			<Anchor>//api/name/appTitle</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/appTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *appTitle</Declaration>
+			
+			
+			<Anchor>//api/name/appTitle</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/file</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/file</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShare/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShare/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShare.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="356"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

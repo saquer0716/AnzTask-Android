@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSAlertViewBinding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSAlertViewBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertViewBinding.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAlertViewBinding/alertView:didDismissWithButtonIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAlertViewBinding.h</DeclaredIn>
+			
+			<Declaration>- (void)alertView:(BLIOSAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex</Declaration>
+			
+			
+			<Anchor>//api/name/alertView:didDismissWithButtonIndex:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

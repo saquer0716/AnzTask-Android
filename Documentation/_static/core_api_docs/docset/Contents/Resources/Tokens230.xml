@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSShoppingApplicationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSShoppingApplicationDelegate</TokenIdentifier>
+			<Abstract type="html">The base application delegate for a retail app aimed at consumer&apos;s wishing to shop online and/or instore.</Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="230"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/setDataRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRemoteStoreDataRequest *dataRequest</Declaration>
+			
+			
+			<Anchor>//api/name/dataRequest</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/dataRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRemoteStoreDataRequest *dataRequest</Declaration>
+			
+			
+			<Anchor>//api/name/dataRequest</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSShoppingApplicationDelegate/dataRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRemoteStoreDataRequest *dataRequest</Declaration>
+			
+			
+			<Anchor>//api/name/dataRequest</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/setShoppingDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSShoppingApplicationDelegate/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSShoppingApplicationDelegate/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doOrderOnline:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doOrderOnline:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doOrderOnline:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doShopInstore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doShopInstore:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doShopInstore:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doShoppingList:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doShoppingList:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doShoppingList:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doRecipes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doRecipes</Declaration>
+			
+			
+			<Anchor>//api/name/doRecipes</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doOffers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doOffers</Declaration>
+			
+			
+			<Anchor>//api/name/doOffers</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doSpecials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doSpecials</Declaration>
+			
+			
+			<Anchor>//api/name/doSpecials</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doMore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doMore</Declaration>
+			
+			
+			<Anchor>//api/name/doMore</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doProductCatalogue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doProductCatalogue</Declaration>
+			
+			
+			<Anchor>//api/name/doProductCatalogue</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doVipShopper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doVipShopper</Declaration>
+			
+			
+			<Anchor>//api/name/doVipShopper</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doAddBasket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doAddBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doAddBasket</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doStoreConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doStoreConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/doStoreConfiguration</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/loadBaskets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)loadBaskets</Declaration>
+			
+			
+			<Anchor>//api/name/loadBaskets</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSShoppingApplicationDelegate/saveBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>+ (void)saveBasket:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/saveBasket:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSShoppingApplicationDelegate/saveTemporaryBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>+ (void)saveTemporaryBasket:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/saveTemporaryBasket:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSShoppingApplicationDelegate/temporaryBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>+ (BLBasket *)temporaryBasket:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/temporaryBasket:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doMyDetails:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doMyDetails:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doMyDetails:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doMyDetailsWithTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doMyDetailsWithTitle:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/doMyDetailsWithTitle:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/doHelp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doHelp:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doHelp:</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingApplicationDelegate/appHub</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSPointOfSaleScanner *)appHub</Declaration>
+			
+			
+			<Anchor>//api/name/appHub</Anchor>
+            <NodeRef refid="230"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLRetrieveBasketDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLRetrieveBasketDataRequest</TokenIdentifier>
+			<Abstract type="html">BLRetrieveBasketDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving a basket/transaction.</Abstract>
+			<DeclaredIn>BLRetrieveBasketDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="353"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetrieveBasketDataRequest/setForOrder:</TokenIdentifier>
+			<Abstract type="html">Determines/indicates whether the request is for an order (true) or a transaction(false).</Abstract>
+			<DeclaredIn>BLRetrieveBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool forOrder</Declaration>
+			
+			
+			<Anchor>//api/name/forOrder</Anchor>
+            <NodeRef refid="353"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetrieveBasketDataRequest/forOrder</TokenIdentifier>
+			<Abstract type="html">Determines/indicates whether the request is for an order (true) or a transaction(false).</Abstract>
+			<DeclaredIn>BLRetrieveBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool forOrder</Declaration>
+			
+			
+			<Anchor>//api/name/forOrder</Anchor>
+            <NodeRef refid="353"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLRetrieveBasketDataRequest/forOrder</TokenIdentifier>
+			<Abstract type="html">Determines/indicates whether the request is for an order (true) or a transaction(false).</Abstract>
+			<DeclaredIn>BLRetrieveBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool forOrder</Declaration>
+			
+			
+			<Anchor>//api/name/forOrder</Anchor>
+            <NodeRef refid="353"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetrieveBasketDataRequest/retrieveDataForBasket:atDomain:forSession:onDevice:withPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetrieveBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)retrieveDataForBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice withPrinter:(BLPrinter *)aPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/retrieveDataForBasket:atDomain:forSession:onDevice:withPrinter:</Anchor>
+            <NodeRef refid="353"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLRetrieveBasketDataRequest/extractTransactionInformation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetrieveBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)extractTransactionInformation:(SMXMLDocument *)aDocument</Declaration>
+			
+			
+			<Anchor>//api/name/extractTransactionInformation:</Anchor>
+            <NodeRef refid="353"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

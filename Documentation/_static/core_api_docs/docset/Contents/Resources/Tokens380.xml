@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLVerifone.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLVerifone</TokenIdentifier>
+			<Abstract type="html">Manages the connectivity and interaction between an app and hardware manufatured by Verifone.</Abstract>
+			<DeclaredIn>BLVerifone.h</DeclaredIn>
+            
+			
+			<NodeRef refid="380"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

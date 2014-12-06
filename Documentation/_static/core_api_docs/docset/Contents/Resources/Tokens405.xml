@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSMainMenuDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSMainMenuDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for an app&apos;s main menu.</Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="405"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onBackgroundImageForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)onBackgroundImageForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBackgroundImageForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onButtonType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIButtonType)onButtonType</Declaration>
+			
+			
+			<Anchor>//api/name/onButtonType</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onProminent:buttonCreated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onProminent:(bool)aProminent buttonCreated:(BLIOSButton *)aButton</Declaration>
+			
+			
+			<Anchor>//api/name/onProminent:buttonCreated:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onButton:sizeForRect:forMenuType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)onButton:(BLIOSButton *)aButton sizeForRect:(CGRect)aRect forMenuType:(BLMenuType)aMenuType</Declaration>
+			
+			
+			<Anchor>//api/name/onButton:sizeForRect:forMenuType:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onButtonPosition:withProposedPosition:forButtonSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)onButtonPosition:(CGRect)aFrame withProposedPosition:(CGPoint)aProposedPosition forButtonSize:(CGSize)aButtonSize</Declaration>
+			
+			
+			<Anchor>//api/name/onButtonPosition:withProposedPosition:forButtonSize:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onButtonSpacing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onButtonSpacing:(NSInteger)aSpacing</Declaration>
+			
+			
+			<Anchor>//api/name/onButtonSpacing:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onMenuType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLMenuType)onMenuType</Declaration>
+			
+			
+			<Anchor>//api/name/onMenuType</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onFontColorforObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onFontColorforObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onFontColorforObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onHudColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onHudColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onHudColorForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onActionViewColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onActionViewColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onActionViewColorForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onCurrencyColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onCurrencyColor</Declaration>
+			
+			
+			<Anchor>//api/name/onCurrencyColor</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onDesktopFontColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onDesktopFontColor</Declaration>
+			
+			
+			<Anchor>//api/name/onDesktopFontColor</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onGroupColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onGroupColor</Declaration>
+			
+			
+			<Anchor>//api/name/onGroupColor</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onToolbarButtonColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onToolbarButtonColor</Declaration>
+			
+			
+			<Anchor>//api/name/onToolbarButtonColor</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onTerminalColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onTerminalColor</Declaration>
+			
+			
+			<Anchor>//api/name/onTerminalColor</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onTintColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onTintColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onTintColorForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onBarTintColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onBarTintColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBarTintColorForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onMainFeatureCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onMainFeatureCount</Declaration>
+			
+			
+			<Anchor>//api/name/onMainFeatureCount</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onFooterCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onFooterCount</Declaration>
+			
+			
+			<Anchor>//api/name/onFooterCount</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onSectionIndexBackgroundColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onSectionIndexBackgroundColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onSectionIndexBackgroundColorForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onCellHeightForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onCellHeightForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onCellHeightForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onMissingImageForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onMissingImageForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onMissingImageForObject:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onIsCompatibleIOS</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onIsCompatibleIOS</Declaration>
+			
+			
+			<Anchor>//api/name/onIsCompatibleIOS</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onMainMenuReady</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onMainMenuReady</Declaration>
+			
+			
+			<Anchor>//api/name/onMainMenuReady</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onStartConnectionTest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onStartConnectionTest</Declaration>
+			
+			
+			<Anchor>//api/name/onStartConnectionTest</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onContentMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIViewContentMode)onContentMode:(UIView *)aView</Declaration>
+			
+			
+			<Anchor>//api/name/onContentMode:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onSubView:hasFrame:forObject:inViewController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSubView:(UIView *)aView hasFrame:(CGRect)aRect forObject:(NSObject *)aObject inViewController:(UIViewController *)aController</Declaration>
+			
+			
+			<Anchor>//api/name/onSubView:hasFrame:forObject:inViewController:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onHasToolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onHasToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/onHasToolbar</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMainMenuDelegate/onOffsetForObject:inController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onOffsetForObject:(NSObject *)aObject inController:(UIViewController *)aController</Declaration>
+			
+			
+			<Anchor>//api/name/onOffsetForObject:inController:</Anchor>
+            <NodeRef refid="405"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

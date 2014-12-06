@@ -2,7 +2,7 @@
 What’s in package
 =================
 
-Below is a list of content when you open the folder of AnzTask/Android
+Below is a list of content you will find when you open the folder of AnzTask/Android
 
 0. Documentation
 ================
@@ -21,11 +21,12 @@ You'll most likely have all of these which is why its step 0 but just in case yo
 ==========
 
 The source code of ANZ task Android project. The project is running in Android Studio. You should always start new project on Android Studio and migrate old projects into Android Studio because AS + Gradle is way better than Eclipse + ADT. There are many reasons you should choose Android Studio over Eclipse.
+
  - Much faster and takes less hardware resources.
  - Advance code editer and refactoring
  - Better user interface design tool
- - Brand new and efficient project organization (Big sale point!)
- - Powerful build system (Another big sale point!)
+ - Brand new and efficient project organization (big sale point!)
+ - Powerful build system (another big sale point!)
  - Almost never hang or crash.
  - Already integrated with GIT, SVN, CVS
  - The version is 0.9.9 now
@@ -38,7 +39,7 @@ Some dependency libraries required by ANZ Task Android project, including GSON a
 3. Binary
 =========
 
-The release signed APK file of ANZ Task Android project and library of AnzVolley module. AnzVolley module library could be distributed in other project. Simply just plug and play.
+The release signed APK file of ANZ Task Android project and library of AnzVolley module. AnzVolley module library could be distributed in other projects. Simply just plug and play.
 
 4. Access to the code through GitHub
 ======================================

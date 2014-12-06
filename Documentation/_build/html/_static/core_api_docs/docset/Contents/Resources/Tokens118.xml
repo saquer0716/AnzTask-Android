@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSImagePickerController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSImagePickerController</TokenIdentifier>
+			<Abstract type="html">The BLIOSImagePickerController class subclasses the control for choosing saved images on a device.</Abstract>
+			<DeclaredIn>BLIOSImagePickerController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="118"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

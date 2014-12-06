@@ -8,9 +8,8 @@ Coding
 	:maxdepth: 1
 	
 	coding_conventions
-	identified_issues
-	third_party_libraries
-	building_running_configuring
+	code_explain
+	third_party_libs
 	deployment
-	l10n_i18n
+	api_docs
 	

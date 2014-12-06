@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSLabel</TokenIdentifier>
+			<Abstract type="html">Inherits from UILabel to provide standardised behaviour within an app when displaying static text in a view.</Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="126"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSLabel/fontForLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+			
+			<Declaration>- (UIFont *)fontForLabel</Declaration>
+			
+			
+			<Anchor>//api/name/fontForLabel</Anchor>
+            <NodeRef refid="126"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSLabel/boldFontForLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+			
+			<Declaration>- (UIFont *)boldFontForLabel</Declaration>
+			
+			
+			<Anchor>//api/name/boldFontForLabel</Anchor>
+            <NodeRef refid="126"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSLabel/sizeForFont</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)sizeForFont</Declaration>
+			
+			
+			<Anchor>//api/name/sizeForFont</Anchor>
+            <NodeRef refid="126"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSLabel/positionLabel:at:under:or:within:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+			
+			<Declaration>+ (CGRect)positionLabel:(UILabel *)aLabel at:(NSInteger)aLeft under:(UIView *)aTopLabel or:(UIView *)aKeyLabel within:(CGRect)aBounds</Declaration>
+			
+			
+			<Anchor>//api/name/positionLabel:at:under:or:within:</Anchor>
+            <NodeRef refid="126"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSLabel/positionLabel:under:within:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+			
+			<Declaration>+ (CGRect)positionLabel:(UILabel *)aLabel under:(UIView *)aView within:(CGRect)aBounds</Declaration>
+			
+			
+			<Anchor>//api/name/positionLabel:under:within:</Anchor>
+            <NodeRef refid="126"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSLabel/positionLabel:nextTo:within:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+			
+			<Declaration>+ (CGRect)positionLabel:(UILabel *)aLabel nextTo:(UIView *)aView within:(CGRect)aBounds</Declaration>
+			
+			
+			<Anchor>//api/name/positionLabel:nextTo:within:</Anchor>
+            <NodeRef refid="126"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSLabel/labelSize:inRect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabel.h</DeclaredIn>
+			
+			<Declaration>+ (CGSize)labelSize:(UILabel *)aLabel inRect:(CGRect)aRect</Declaration>
+			
+			
+			<Anchor>//api/name/labelSize:inRect:</Anchor>
+            <NodeRef refid="126"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

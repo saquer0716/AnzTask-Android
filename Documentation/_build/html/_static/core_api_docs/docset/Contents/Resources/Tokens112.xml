@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSHeadingTextField.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSHeadingTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+            
+			
+			<NodeRef refid="112"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setText:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setText:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setRightMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setRightMargin:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setRightMargin:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/isFirstResponder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isFirstResponder</Declaration>
+			
+			
+			<Anchor>//api/name/isFirstResponder</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setTextFieldDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setTextFieldDelegate:(id)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTextFieldDelegate:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/becomeFirstResponder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)becomeFirstResponder</Declaration>
+			
+			
+			<Anchor>//api/name/becomeFirstResponder</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/resignFirstResponder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)resignFirstResponder</Declaration>
+			
+			
+			<Anchor>//api/name/resignFirstResponder</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setKeyboardType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setKeyboardType:(UIKeyboardType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/setKeyboardType:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setAutocapitalizationType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setAutocapitalizationType:(UITextAutocapitalizationType)autocapitalizationType</Declaration>
+			
+			
+			<Anchor>//api/name/setAutocapitalizationType:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setAutocorrectionType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setAutocorrectionType:(UITextAutocorrectionType)autocorrectionType</Declaration>
+			
+			
+			<Anchor>//api/name/setAutocorrectionType:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setSecureTextEntry:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setSecureTextEntry:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSecureTextEntry:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/viewRect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)viewRect</Declaration>
+			
+			
+			<Anchor>//api/name/viewRect</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/lineRect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)lineRect</Declaration>
+			
+			
+			<Anchor>//api/name/lineRect</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/rightMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)rightMargin</Declaration>
+			
+			
+			<Anchor>//api/name/rightMargin</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/leftMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)leftMargin</Declaration>
+			
+			
+			<Anchor>//api/name/leftMargin</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setTextFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setTextFont:(UIFont *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTextFont:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setReadOnly:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setReadOnly:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setReadOnly:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/readOnly</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (bool)readOnly</Declaration>
+			
+			
+			<Anchor>//api/name/readOnly</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSHeadingTextField/setFontSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (void)setFontSize:(CGFloat)value</Declaration>
+			
+			
+			<Anchor>//api/name/setFontSize:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

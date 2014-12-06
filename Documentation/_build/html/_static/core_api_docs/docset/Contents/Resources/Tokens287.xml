@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIngenicoBinding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIngenicoBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenicoBinding.h</DeclaredIn>
+            
+			
+			<NodeRef refid="287"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenicoBinding/setViewController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenicoBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIViewController *viewController</Declaration>
+			
+			
+			<Anchor>//api/name/viewController</Anchor>
+            <NodeRef refid="287"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIngenicoBinding/viewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenicoBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIViewController *viewController</Declaration>
+			
+			
+			<Anchor>//api/name/viewController</Anchor>
+            <NodeRef refid="287"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIngenicoBinding/viewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenicoBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIViewController *viewController</Declaration>
+			
+			
+			<Anchor>//api/name/viewController</Anchor>
+            <NodeRef refid="287"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

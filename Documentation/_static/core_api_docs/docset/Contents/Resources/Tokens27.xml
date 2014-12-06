@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLCustomer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLCustomer</TokenIdentifier>
+			<Abstract type="html">BLCustomer encapsulates the data and methods associated with a retail customer.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/setName:</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s name.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/name</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s name.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCustomer/name</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s name.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/setBarcode:</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s barcode number.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *barcode</Declaration>
+			
+			
+			<Anchor>//api/name/barcode</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/barcode</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s barcode number.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *barcode</Declaration>
+			
+			
+			<Anchor>//api/name/barcode</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCustomer/barcode</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s barcode number.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *barcode</Declaration>
+			
+			
+			<Anchor>//api/name/barcode</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/setEmail:</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s email address.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/email</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s email address.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCustomer/email</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s email address.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/setLoyaltyNumber:</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s loyalty number.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *loyaltyNumber</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyNumber</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/loyaltyNumber</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s loyalty number.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *loyaltyNumber</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyNumber</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCustomer/loyaltyNumber</TokenIdentifier>
+			<Abstract type="html">The customer&apos;s loyalty number.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *loyaltyNumber</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyNumber</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/setAllowScanAndBag:</TokenIdentifier>
+			<Abstract type="html">Determines whether scan and bag is allowed for this customer.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool allowScanAndBag</Declaration>
+			
+			
+			<Anchor>//api/name/allowScanAndBag</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/allowScanAndBag</TokenIdentifier>
+			<Abstract type="html">Determines whether scan and bag is allowed for this customer.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool allowScanAndBag</Declaration>
+			
+			
+			<Anchor>//api/name/allowScanAndBag</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCustomer/allowScanAndBag</TokenIdentifier>
+			<Abstract type="html">Determines whether scan and bag is allowed for this customer.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool allowScanAndBag</Declaration>
+			
+			
+			<Anchor>//api/name/allowScanAndBag</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/setBasketRescanRequired:</TokenIdentifier>
+			<Abstract type="html">Determines whether the basket should be rescanned at the checkout.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool basketRescanRequired</Declaration>
+			
+			
+			<Anchor>//api/name/basketRescanRequired</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCustomer/basketRescanRequired</TokenIdentifier>
+			<Abstract type="html">Determines whether the basket should be rescanned at the checkout.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool basketRescanRequired</Declaration>
+			
+			
+			<Anchor>//api/name/basketRescanRequired</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCustomer/basketRescanRequired</TokenIdentifier>
+			<Abstract type="html">Determines whether the basket should be rescanned at the checkout.</Abstract>
+			<DeclaredIn>BLCustomer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool basketRescanRequired</Declaration>
+			
+			
+			<Anchor>//api/name/basketRescanRequired</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

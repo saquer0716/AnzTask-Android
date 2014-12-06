@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLRetailHardware.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLRetailHardware</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+            
+			
+			<NodeRef refid="350"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setScannerDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLScannerDelegate&gt; scannerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/scannerDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/scannerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLScannerDelegate&gt; scannerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/scannerDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLRetailHardware/scannerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLScannerDelegate&gt; scannerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/scannerDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setEftposTerminalDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLEFTPOSTerminalDelegate&gt; eftposTerminalDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/eftposTerminalDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/eftposTerminalDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLEFTPOSTerminalDelegate&gt; eftposTerminalDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/eftposTerminalDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLRetailHardware/eftposTerminalDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLEFTPOSTerminalDelegate&gt; eftposTerminalDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/eftposTerminalDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setEftposViewDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSEFTPOSViewDelegate&gt; eftposViewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/eftposViewDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/eftposViewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSEFTPOSViewDelegate&gt; eftposViewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/eftposViewDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLRetailHardware/eftposViewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSEFTPOSViewDelegate&gt; eftposViewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/eftposViewDelegate</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setPaymentDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentDevice *paymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevice</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/paymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentDevice *paymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevice</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLRetailHardware/paymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentDevice *paymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevice</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *printer</Declaration>
+			
+			
+			<Anchor>//api/name/printer</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/printer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *printer</Declaration>
+			
+			
+			<Anchor>//api/name/printer</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLRetailHardware/printer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *printer</Declaration>
+			
+			
+			<Anchor>//api/name/printer</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/isHardwareReadyOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (bool)isHardwareReadyOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/isHardwareReadyOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/isTriggerEnabledForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (bool)isTriggerEnabledForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/isTriggerEnabledForHardwareOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/powerOnHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (bool)powerOnHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/powerOnHardwareOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/powerOffHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)powerOffHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/powerOffHardwareOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/initialiseHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)initialiseHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/initialiseHardwareOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/enableTriggerForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)enableTriggerForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/enableTriggerForHardwareOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/disableTriggerForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)disableTriggerForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/disableTriggerForHardwareOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/batteryStateForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)batteryStateForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/batteryStateForHardwareOfType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/successBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)successBeep</Declaration>
+			
+			
+			<Anchor>//api/name/successBeep</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/failBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)failBeep</Declaration>
+			
+			
+			<Anchor>//api/name/failBeep</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/resetBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)resetBeep</Declaration>
+			
+			
+			<Anchor>//api/name/resetBeep</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/onStatusRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)onStatusRequest</Declaration>
+			
+			
+			<Anchor>//api/name/onStatusRequest</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/onErrorRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)onErrorRequest</Declaration>
+			
+			
+			<Anchor>//api/name/onErrorRequest</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/statusData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)statusData</Declaration>
+			
+			
+			<Anchor>//api/name/statusData</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/errorData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)errorData</Declaration>
+			
+			
+			<Anchor>//api/name/errorData</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/monitorDeviceBattery:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)monitorDeviceBattery:(bool)aEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/monitorDeviceBattery:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/onBatteryStateChange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)onBatteryStateChange:(NSNotification *)notification</Declaration>
+			
+			
+			<Anchor>//api/name/onBatteryStateChange:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/powerOnScanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)powerOnScanner</Declaration>
+			
+			
+			<Anchor>//api/name/powerOnScanner</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setMerchantIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)setMerchantIndex:(NSInteger)aIndex</Declaration>
+			
+			
+			<Anchor>//api/name/setMerchantIndex:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setCatId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)setCatId:(NSString *)aId</Declaration>
+			
+			
+			<Anchor>//api/name/setCatId:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/doBankLogon:forMerchantIndex:withCatId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)doBankLogon:(bool)aOverrideCredentials forMerchantIndex:(NSInteger)aIndex withCatId:(NSString *)aCatId</Declaration>
+			
+			
+			<Anchor>//api/name/doBankLogon:forMerchantIndex:withCatId:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/doBankLoggedOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)doBankLoggedOn</Declaration>
+			
+			
+			<Anchor>//api/name/doBankLoggedOn</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/doConfigureMerchantAtIndex:withCAID:andCATID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)doConfigureMerchantAtIndex:(NSInteger)aIndex withCAID:(NSString *)aCAID andCATID:(NSString *)aCATID</Declaration>
+			
+			
+			<Anchor>//api/name/doConfigureMerchantAtIndex:withCAID:andCATID:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/doEFTPOSTransaction:ofType:forAmount:andCashBack:withReturn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)doEFTPOSTransaction:(NSString *)aId ofType:(NSString *)aType forAmount:(NSDecimalNumber *)aAmount andCashBack:(NSDecimalNumber *)aCashBack withReturn:(NSString *)aReturn</Declaration>
+			
+			
+			<Anchor>//api/name/doEFTPOSTransaction:ofType:forAmount:andCashBack:withReturn:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/doLastTransaction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)doLastTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/doLastTransaction</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/doLastReceiptForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)doLastReceiptForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/doLastReceiptForObject:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/validBindingForHardware:ofType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (bool)validBindingForHardware:(NSString *)aSerialNumber ofType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/validBindingForHardware:ofType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/caId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)caId</Declaration>
+			
+			
+			<Anchor>//api/name/caId</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/catId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)catId</Declaration>
+			
+			
+			<Anchor>//api/name/catId</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/trackTwo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)trackTwo</Declaration>
+			
+			
+			<Anchor>//api/name/trackTwo</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/print:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)print:(NSString *)aString</Declaration>
+			
+			
+			<Anchor>//api/name/print:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/receipt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)receipt</Declaration>
+			
+			
+			<Anchor>//api/name/receipt</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/settle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)settle:(NSString *)aType</Declaration>
+			
+			
+			<Anchor>//api/name/settle:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/loyaltyCardSwipe:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)loyaltyCardSwipe:(NSString *)aId</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyCardSwipe:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/loyaltyCardBalance:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)loyaltyCardBalance:(NSString *)aTrackData</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyCardBalance:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/clearLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)clearLog</Declaration>
+			
+			
+			<Anchor>//api/name/clearLog</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/dispatchLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)dispatchLog</Declaration>
+			
+			
+			<Anchor>//api/name/dispatchLog</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/printer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (BLPrinter *)printer</Declaration>
+			
+			
+			<Anchor>//api/name/printer</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/paymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (BLHardware *)paymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevice</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/printers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)printers</Declaration>
+			
+			
+			<Anchor>//api/name/printers</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setPrinters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)setPrinters:(NSArray *)aPrinters</Declaration>
+			
+			
+			<Anchor>//api/name/setPrinters:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/paymentDevices</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)paymentDevices</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevices</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/setPaymentDevices:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)setPaymentDevices:(NSArray *)aPaymentDevices</Declaration>
+			
+			
+			<Anchor>//api/name/setPaymentDevices:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/onTransactionComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)onTransactionComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onTransactionComplete</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/onEFTPOSStatusComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)onEFTPOSStatusComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onEFTPOSStatusComplete</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLRetailHardware/hasBankLogon</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasBankLogon</Declaration>
+			
+			
+			<Anchor>//api/name/hasBankLogon</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLRetailHardware/receiptType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRetailHardware.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)receiptType:(NSString *)aType</Declaration>
+			
+			
+			<Anchor>//api/name/receiptType:</Anchor>
+            <NodeRef refid="350"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLCheckListItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLCheckListItem</TokenIdentifier>
+			<Abstract type="html">The class recognised by a BLChecklistView object for storing items in its view.
+A BLChecklistItem has a number of properties for indicating its state within a list.
+The aliases array can be used to hold an array of any type of object that may facilitate other property matches of the displayed text.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/setTitle:</TokenIdentifier>
+			<Abstract type="html">The title for the checklist item.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/title</TokenIdentifier>
+			<Abstract type="html">The title for the checklist item.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCheckListItem/title</TokenIdentifier>
+			<Abstract type="html">The title for the checklist item.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/setImagePath:</TokenIdentifier>
+			<Abstract type="html">The full path to the associated image file.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *imagePath</Declaration>
+			
+			
+			<Anchor>//api/name/imagePath</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/imagePath</TokenIdentifier>
+			<Abstract type="html">The full path to the associated image file.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *imagePath</Declaration>
+			
+			
+			<Anchor>//api/name/imagePath</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCheckListItem/imagePath</TokenIdentifier>
+			<Abstract type="html">The full path to the associated image file.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *imagePath</Declaration>
+			
+			
+			<Anchor>//api/name/imagePath</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/setAliases:</TokenIdentifier>
+			<Abstract type="html">An array of data objects associated with the checklist item.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *aliases</Declaration>
+			
+			
+			<Anchor>//api/name/aliases</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/aliases</TokenIdentifier>
+			<Abstract type="html">An array of data objects associated with the checklist item.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *aliases</Declaration>
+			
+			
+			<Anchor>//api/name/aliases</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCheckListItem/aliases</TokenIdentifier>
+			<Abstract type="html">An array of data objects associated with the checklist item.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *aliases</Declaration>
+			
+			
+			<Anchor>//api/name/aliases</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/setChecked:</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item appears with a tick next to it. If true then the item appears with a tick. Otherwise the item appears as normal.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool checked</Declaration>
+			
+			
+			<Anchor>//api/name/checked</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/checked</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item appears with a tick next to it. If true then the item appears with a tick. Otherwise the item appears as normal.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool checked</Declaration>
+			
+			
+			<Anchor>//api/name/checked</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCheckListItem/checked</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item appears with a tick next to it. If true then the item appears with a tick. Otherwise the item appears as normal.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool checked</Declaration>
+			
+			
+			<Anchor>//api/name/checked</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/setStrikeThrough:</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item appears crossed out. If true then the item appears crossed out. Otherwise the item appears as normal.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool strikeThrough</Declaration>
+			
+			
+			<Anchor>//api/name/strikeThrough</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/strikeThrough</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item appears crossed out. If true then the item appears crossed out. Otherwise the item appears as normal.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool strikeThrough</Declaration>
+			
+			
+			<Anchor>//api/name/strikeThrough</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCheckListItem/strikeThrough</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item appears crossed out. If true then the item appears crossed out. Otherwise the item appears as normal.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool strikeThrough</Declaration>
+			
+			
+			<Anchor>//api/name/strikeThrough</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/setHidden:</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item is hidden. If true then the item is hidden. Otherwise the item is visible.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCheckListItem/hidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item is hidden. If true then the item is hidden. Otherwise the item is visible.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCheckListItem/hidden</TokenIdentifier>
+			<Abstract type="html">Determines whether the checklist item is hidden. If true then the item is hidden. Otherwise the item is visible.</Abstract>
+			<DeclaredIn>BLCheckListItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

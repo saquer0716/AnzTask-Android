@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSViewController</TokenIdentifier>
+			<Abstract type="html">Inherits from UIViewController to provide standardised behaviour within an app for a viewController.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="282"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setViewControllerDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the viee controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewControllerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewControllerDelegate</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/viewControllerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the viee controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewControllerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewControllerDelegate</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/viewControllerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the viee controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewControllerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewControllerDelegate</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setPhotoView:</TokenIdentifier>
+			<Abstract type="html">The view that displays the main screen graphics for the app.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSImageView *photoView</Declaration>
+			
+			
+			<Anchor>//api/name/photoView</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/photoView</TokenIdentifier>
+			<Abstract type="html">The view that displays the main screen graphics for the app.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSImageView *photoView</Declaration>
+			
+			
+			<Anchor>//api/name/photoView</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/photoView</TokenIdentifier>
+			<Abstract type="html">The view that displays the main screen graphics for the app.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSImageView *photoView</Declaration>
+			
+			
+			<Anchor>//api/name/photoView</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setProgressView:</TokenIdentifier>
+			<Abstract type="html">Displays the progress of a process.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowView *progressView</Declaration>
+			
+			
+			<Anchor>//api/name/progressView</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/progressView</TokenIdentifier>
+			<Abstract type="html">Displays the progress of a process.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowView *progressView</Declaration>
+			
+			
+			<Anchor>//api/name/progressView</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/progressView</TokenIdentifier>
+			<Abstract type="html">Displays the progress of a process.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowView *progressView</Declaration>
+			
+			
+			<Anchor>//api/name/progressView</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setLocale:</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/locale</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/locale</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setHasFadeIn:</TokenIdentifier>
+			<Abstract type="html">Indicates/determines whether the controller subviews will animate into view using a fade in.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasFadeIn</Declaration>
+			
+			
+			<Anchor>//api/name/hasFadeIn</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/hasFadeIn</TokenIdentifier>
+			<Abstract type="html">Indicates/determines whether the controller subviews will animate into view using a fade in.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasFadeIn</Declaration>
+			
+			
+			<Anchor>//api/name/hasFadeIn</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/hasFadeIn</TokenIdentifier>
+			<Abstract type="html">Indicates/determines whether the controller subviews will animate into view using a fade in.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasFadeIn</Declaration>
+			
+			
+			<Anchor>//api/name/hasFadeIn</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setFadeIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the view within the array of views that is being &apos;faded in&apos;.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fadeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/fadeIndex</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/fadeIndex</TokenIdentifier>
+			<Abstract type="html">The index of the view within the array of views that is being &apos;faded in&apos;.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fadeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/fadeIndex</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/fadeIndex</TokenIdentifier>
+			<Abstract type="html">The index of the view within the array of views that is being &apos;faded in&apos;.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fadeIndex</Declaration>
+			
+			
+			<Anchor>//api/name/fadeIndex</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setOriginalFrame:</TokenIdentifier>
+			<Abstract type="html">The original size and location of the view controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect originalFrame</Declaration>
+			
+			
+			<Anchor>//api/name/originalFrame</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/originalFrame</TokenIdentifier>
+			<Abstract type="html">The original size and location of the view controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect originalFrame</Declaration>
+			
+			
+			<Anchor>//api/name/originalFrame</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/originalFrame</TokenIdentifier>
+			<Abstract type="html">The original size and location of the view controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect originalFrame</Declaration>
+			
+			
+			<Anchor>//api/name/originalFrame</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setOriginalTitle:</TokenIdentifier>
+			<Abstract type="html">The original title of the view controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *originalTitle</Declaration>
+			
+			
+			<Anchor>//api/name/originalTitle</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/originalTitle</TokenIdentifier>
+			<Abstract type="html">The original title of the view controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *originalTitle</Declaration>
+			
+			
+			<Anchor>//api/name/originalTitle</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/originalTitle</TokenIdentifier>
+			<Abstract type="html">The original title of the view controller.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *originalTitle</Declaration>
+			
+			
+			<Anchor>//api/name/originalTitle</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setClosing:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app is terminating.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool closing</Declaration>
+			
+			
+			<Anchor>//api/name/closing</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/closing</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app is terminating.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool closing</Declaration>
+			
+			
+			<Anchor>//api/name/closing</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSViewController/closing</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app is terminating.</Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool closing</Declaration>
+			
+			
+			<Anchor>//api/name/closing</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/applicationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (id)applicationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/applicationDelegate</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/showOkCancelAlert:withMessage:forIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showOkCancelAlert:(NSString *)aTitle withMessage:(NSString *)aMessage forIdentifier:(NSInteger)aIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/showOkCancelAlert:withMessage:forIdentifier:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setBackButtonCaption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setBackButtonCaption:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBackButtonCaption:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setBusy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setBusy:(NSString *)aText</Declaration>
+			
+			
+			<Anchor>//api/name/setBusy:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setBusyAnimate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setBusyAnimate:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBusyAnimate:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/setMainImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setMainImage:(UIImage *)aImage</Declaration>
+			
+			
+			<Anchor>//api/name/setMainImage:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/fadeInHasCompleted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)fadeInHasCompleted:(UIView *)aView</Declaration>
+			
+			
+			<Anchor>//api/name/fadeInHasCompleted:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/share:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)share:(BLShare *)aShare</Declaration>
+			
+			
+			<Anchor>//api/name/share:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/viewRect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)viewRect</Declaration>
+			
+			
+			<Anchor>//api/name/viewRect</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/viewRectWithNavigationBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)viewRectWithNavigationBar:(UINavigationBar *)aNavigationBar</Declaration>
+			
+			
+			<Anchor>//api/name/viewRectWithNavigationBar:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/hasImageForNavigationBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasImageForNavigationBar:(UINavigationBar *)aNavigationBar</Declaration>
+			
+			
+			<Anchor>//api/name/hasImageForNavigationBar:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/hasImageForNavigationBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasImageForNavigationBar</Declaration>
+			
+			
+			<Anchor>//api/name/hasImageForNavigationBar</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/searchBarShowing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)searchBarShowing</Declaration>
+			
+			
+			<Anchor>//api/name/searchBarShowing</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/repositionToolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)repositionToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/repositionToolbar</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/doBack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doBack:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doBack:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/activityExclusions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)activityExclusions</Declaration>
+			
+			
+			<Anchor>//api/name/activityExclusions</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/canShare:withTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)canShare:(bool)aCompleted withTitle:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/canShare:withTitle:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/navigationBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (UINavigationBar *)navigationBar</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBar</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/alertViewShowing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)alertViewShowing</Declaration>
+			
+			
+			<Anchor>//api/name/alertViewShowing</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/initialiseControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)initialiseControls</Declaration>
+			
+			
+			<Anchor>//api/name/initialiseControls</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/updateBusy:inNewThread:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateBusy:(NSInteger)aCount inNewThread:(bool)aNewThread</Declaration>
+			
+			
+			<Anchor>//api/name/updateBusy:inNewThread:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/updateBusy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateBusy:(NSNumber *)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/updateBusy:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/processView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSProgressView *)processView</Declaration>
+			
+			
+			<Anchor>//api/name/processView</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/appHub</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLAppHub *)appHub</Declaration>
+			
+			
+			<Anchor>//api/name/appHub</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/prepareProgressHudWithTitle:andMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)prepareProgressHudWithTitle:(NSString *)aTitle andMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/prepareProgressHudWithTitle:andMessage:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/showProgressMomentarily:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showProgressMomentarily:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/showProgressMomentarily:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/showProgressMomentarilyInNewThread:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showProgressMomentarilyInNewThread:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/showProgressMomentarilyInNewThread:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/showProgressHudAnimated:withTitle:message:whileExecutingBlock:completionBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showProgressHudAnimated:(BOOL)animated withTitle:(NSString *)aTitle message:(NSString *)aMessage whileExecutingBlock:(dispatch_block_t)block completionBlock:(void ( ^ ) ( ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/showProgressHudAnimated:withTitle:message:whileExecutingBlock:completionBlock:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSViewController/hideProgressHudAnimated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)hideProgressHudAnimated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/hideProgressHudAnimated:</Anchor>
+            <NodeRef refid="282"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLTileProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLTileProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTileProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="444"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTileProtocol/onButton:tappedForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTileProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onButton:(UIButton *)aButton tappedForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onButton:tappedForObject:</Anchor>
+            <NodeRef refid="444"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

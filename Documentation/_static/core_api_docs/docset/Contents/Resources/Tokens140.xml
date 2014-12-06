@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSMiniDisclosureTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSMiniDisclosureTableViewCell</TokenIdentifier>
+			<Abstract type="html">The BLIOSMiniDisclosureTableViewCell class defines the attributes and behavior of a cell that appears in a tableView objects.
+The BLIOSMiniDisclosureTableViewCell has a disclosure symbol to the right of the cell content.
+The disclosure symbol can be used to load additional context specific views.</Abstract>
+			<DeclaredIn>BLIOSMiniDisclosureTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="140"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMiniDisclosureTableViewCell/doDisclosure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMiniDisclosureTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)doDisclosure:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doDisclosure:</Anchor>
+            <NodeRef refid="140"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

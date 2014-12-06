@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLSubscription.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLSubscription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+            
+			
+			<NodeRef refid="370"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/baseName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)baseName</Declaration>
+			
+			
+			<Anchor>//api/name/baseName</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/status</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/startDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/endDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)endDate</Declaration>
+			
+			
+			<Anchor>//api/name/endDate</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/basePrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)basePrice</Declaration>
+			
+			
+			<Anchor>//api/name/basePrice</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/totalPrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)totalPrice</Declaration>
+			
+			
+			<Anchor>//api/name/totalPrice</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (bool)enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/active</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (bool)active</Declaration>
+			
+			
+			<Anchor>//api/name/active</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setName:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setName:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setBaseName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setBaseName:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBaseName:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setDescription:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDescription:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setStartDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setStartDate:(NSDate *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setStartDate:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setEndDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setEndDate:(NSDate *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setEndDate:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setStatus:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setStatus:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setBasePrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setBasePrice:(NSDecimalNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBasePrice:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setTotalPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setTotalPrice:(NSDecimalNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTotalPrice:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSubscription/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSubscription.h</DeclaredIn>
+			
+			<Declaration>- (void)setEnabled:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setEnabled:</Anchor>
+            <NodeRef refid="370"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

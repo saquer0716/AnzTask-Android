@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLShoppingAgentXML.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLShoppingAgentXML</TokenIdentifier>
+			<Abstract type="html">BLShoppingAgentXML encapsulates the data and methods associated with building xml strings for soap requests to the shopping agent.</Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+            
+			
+			<NodeRef refid="359"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/addInformation:ofType:toBasket:withSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)addInformation:(NSString *)aInformation ofType:(NSString *)aType toBasket:(BLBasket *)aBasket withSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/addInformation:ofType:toBasket:withSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/addItem:toBasket:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)addItem:(BLProduct *)aProduct toBasket:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/addItem:toBasket:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/addItems:toBasket:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)addItems:(NSArray *)aItems toBasket:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/addItems:toBasket:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/addMetricInformation:toBasket:forSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)addMetricInformation:(NSArray *)aMetrics toBasket:(BLBasket *)aBasket forSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/addMetricInformation:toBasket:forSession:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/addTender:toBasket:forSession:onDevice:withPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)addTender:(BLTender *)aTender toBasket:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice withPrinter:(BLPrinter *)aPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/addTender:toBasket:forSession:onDevice:withPrinter:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/allCategoriesUpdatedSince:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)allCategoriesUpdatedSince:(NSString *)aDate forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/allCategoriesUpdatedSince:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/allProductsUpdatedSince:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)allProductsUpdatedSince:(NSString *)aDate forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/allProductsUpdatedSince:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/allStepPromotionsUpdatedSince:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)allStepPromotionsUpdatedSince:(NSString *)aDate forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/allStepPromotionsUpdatedSince:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/allStockGroupDetailUpdatedSince:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)allStockGroupDetailUpdatedSince:(NSString *)aDate forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/allStockGroupDetailUpdatedSince:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/authenticateOperator:withPassword:forBasketVersion:onDevice:andWait:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)authenticateOperator:(NSString *)aId withPassword:(NSString *)aPassword forBasketVersion:(NSInteger)aBasketVersion onDevice:(NSString *)aDevice andWait:(bool)aWait</Declaration>
+			
+			
+			<Anchor>//api/name/authenticateOperator:withPassword:forBasketVersion:onDevice:andWait:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/basketWithSuspendedStatusForSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)basketWithSuspendedStatusForSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/basketWithSuspendedStatusForSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/basketWithFinalisedStatusForSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)basketWithFinalisedStatusForSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/basketWithFinalisedStatusForSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/basketWithPartialStatusForSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)basketWithPartialStatusForSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/basketWithPartialStatusForSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/bindDevice:withOperatorId:andPassword:forSession:withDevice:andBasketVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)bindDevice:(BLDeviceBinding *)aBinding withOperatorId:(NSString *)aOperatorId andPassword:(NSString *)aPassword forSession:(NSString *)aSession withDevice:(NSString *)aDevice andBasketVersion:(NSInteger)aBasketVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bindDevice:withOperatorId:andPassword:forSession:withDevice:andBasketVersion:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/categorySearchString:categoryId:parentId:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)categorySearchString:(NSInteger)aBasketVersion categoryId:(NSInteger)aCategoryId parentId:(NSInteger)aParentId forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/categorySearchString:categoryId:parentId:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/changePrice:ofProduct:forCustomer:withSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)changePrice:(BLBasket *)aBasket ofProduct:(BLProduct *)aProduct forCustomer:(NSString *)aCustomerBarcode withSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/changePrice:ofProduct:forCustomer:withSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/changePrices:ofProducts:forCustomer:withSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)changePrices:(BLBasket *)aBasket ofProducts:(NSArray *)aProducts forCustomer:(NSString *)aCustomerBarcode withSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/changePrices:ofProducts:forCustomer:withSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/collectionPremium:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)collectionPremium:(NSInteger)aUid forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/collectionPremium:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/collectionTimeSlot:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)collectionTimeSlot:(NSInteger)aUid forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/collectionTimeSlot:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/createBasketForSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)createBasketForSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/createBasketForSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/deliveryLocation:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)deliveryLocation:(NSInteger)aUid forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryLocation:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/discardTransaction:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)discardTransaction:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/discardTransaction:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/downloadSQLiteDatabase:forSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)downloadSQLiteDatabase:(NSString *)aDatabase forSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/downloadSQLiteDatabase:forSession:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/emailReceipt:forBasket:withSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)emailReceipt:(NSString *)aEmailAddress forBasket:(BLBasket *)aBasket withSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/emailReceipt:forBasket:withSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/fee:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)fee:(NSInteger)aUid forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/fee:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/finaliseTransaction:withSession:onDevice:withPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)finaliseTransaction:(BLBasket *)aBasket withSession:(NSString *)aSession onDevice:(NSString *)aDevice withPrinter:(BLPrinter *)aPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/finaliseTransaction:withSession:onDevice:withPrinter:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/giftCardBalance:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)giftCardBalance:(NSString *)aBarcode forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/giftCardBalance:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/identifyCustomer:withBarcode:inVersion:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)identifyCustomer:(NSString *)aName withBarcode:(NSString *)aBarcode inVersion:(NSInteger)aBasketVersion forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/identifyCustomer:withBarcode:inVersion:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/posConfiguration:forBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)posConfiguration:(NSString *)aConfiguration forBasket:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/posConfiguration:forBasket:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/productSearchString:version:barcode:categoryId:description:range:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)productSearchString:(NSString *)aBasketId version:(NSInteger)aBasketVersion barcode:(NSString *)aBarcode categoryId:(NSInteger)aCategoryId description:(NSString *)aDescription range:(NSRange)aRange forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/productSearchString:version:barcode:categoryId:description:range:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/removeItem:fromBasket:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)removeItem:(BLProduct *)aProduct fromBasket:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/removeItem:fromBasket:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/removeItems:fromBasket:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)removeItems:(NSArray *)aItems fromBasket:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/removeItems:fromBasket:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/resumeTransaction:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)resumeTransaction:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/resumeTransaction:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/retrieveBasket:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)retrieveBasket:(NSString *)aId forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/retrieveBasket:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/setBasket:status:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)setBasket:(BLBasket *)aBasket status:(NSInteger)aStatus forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/setBasket:status:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/signOutOperator:forBasketVersion:onDevice:forSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)signOutOperator:(NSString *)aOperator forBasketVersion:(NSInteger)aBasketVersion onDevice:(NSString *)aDevice forSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/signOutOperator:forBasketVersion:onDevice:forSession:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/storeConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)storeConfiguration:(NSString *)aURL</Declaration>
+			
+			
+			<Anchor>//api/name/storeConfiguration:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/storesInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)storesInfo</Declaration>
+			
+			
+			<Anchor>//api/name/storesInfo</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/suspendTransaction:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)suspendTransaction:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/suspendTransaction:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentXML/voidTransaction:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentXML.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)voidTransaction:(BLBasket *)aBasket forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/voidTransaction:forSession:onDevice:</Anchor>
+            <NodeRef refid="359"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

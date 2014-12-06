@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIngenicoPaymentDeviceCompanion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIngenicoPaymentDeviceCompanion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIngenicoPaymentDeviceCompanion.h</DeclaredIn>
+            
+			
+			<NodeRef refid="289"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

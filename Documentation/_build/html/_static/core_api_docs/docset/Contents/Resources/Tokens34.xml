@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLDeviceBinding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLDeviceBinding</TokenIdentifier>
+			<Abstract type="html">BLDeviceBinding encapsulates the data and methods associated with a device binding.</Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/setDeviceId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/deviceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLDeviceBinding/deviceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/setClientId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/clientId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLDeviceBinding/clientId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *clientId</Declaration>
+			
+			
+			<Anchor>//api/name/clientId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/setTerminalName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalName</Declaration>
+			
+			
+			<Anchor>//api/name/terminalName</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/terminalName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalName</Declaration>
+			
+			
+			<Anchor>//api/name/terminalName</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLDeviceBinding/terminalName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalName</Declaration>
+			
+			
+			<Anchor>//api/name/terminalName</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/setTerminalDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalDescription</Declaration>
+			
+			
+			<Anchor>//api/name/terminalDescription</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/terminalDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalDescription</Declaration>
+			
+			
+			<Anchor>//api/name/terminalDescription</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLDeviceBinding/terminalDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalDescription</Declaration>
+			
+			
+			<Anchor>//api/name/terminalDescription</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/setWorkstationId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *workstationId</Declaration>
+			
+			
+			<Anchor>//api/name/workstationId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/workstationId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *workstationId</Declaration>
+			
+			
+			<Anchor>//api/name/workstationId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLDeviceBinding/workstationId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *workstationId</Declaration>
+			
+			
+			<Anchor>//api/name/workstationId</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeviceBinding/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLDeviceBinding/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

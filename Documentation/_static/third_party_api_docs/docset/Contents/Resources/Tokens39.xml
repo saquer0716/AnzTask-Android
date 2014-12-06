@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SMXMLElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SMXMLElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/setDocument:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) SMXMLDocument *document</Declaration>
+			
+			
+			<Anchor>//api/name/document</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/document</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) SMXMLDocument *document</Declaration>
+			
+			
+			<Anchor>//api/name/document</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLElement/document</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) SMXMLDocument *document</Declaration>
+			
+			
+			<Anchor>//api/name/document</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/setParent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) SMXMLElement *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/parent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) SMXMLElement *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLElement/parent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) SMXMLElement *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLElement/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/setValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLElement/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/setChildren:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/children</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLElement/children</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/setLastChild:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) SMXMLElement *, *lastChild</Declaration>
+			
+			
+			<Anchor>//api/name/lastChild</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/lastChild</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) SMXMLElement *, *lastChild</Declaration>
+			
+			
+			<Anchor>//api/name/lastChild</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLElement/lastChild</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) SMXMLElement *, *lastChild</Declaration>
+			
+			
+			<Anchor>//api/name/lastChild</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/setAttributes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDictionary *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/attributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDictionary *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLElement/attributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDictionary *attributes</Declaration>
+			
+			
+			<Anchor>//api/name/attributes</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/initWithDocument:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDocument:(SMXMLDocument *)document</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDocument:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/childNamed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (SMXMLElement *)childNamed:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/childNamed:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/childrenNamed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)childrenNamed:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/childrenNamed:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/childWithAttribute:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (SMXMLElement *)childWithAttribute:(NSString *)attributeName value:(NSString *)attributeValue</Declaration>
+			
+			
+			<Anchor>//api/name/childWithAttribute:value:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/attributeNamed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)attributeNamed:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/attributeNamed:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/descendantWithPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (SMXMLElement *)descendantWithPath:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/descendantWithPath:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLElement/valueWithPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)valueWithPath:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/valueWithPath:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSRoundRectTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSRoundRectTableViewCell</TokenIdentifier>
+			<Abstract type="html">The BLIOSRoundRectTableViewCell class defines the attributes and behavior of a cell that appears in a tableView objects.
+The BLIOSRoundRectTableViewCell has rounded corners.</Abstract>
+			<DeclaredIn>BLIOSRoundRectTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="212"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

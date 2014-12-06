@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSmallLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSmallLabel</TokenIdentifier>
+			<Abstract type="html">Inherits from BLIOSLabel to provide standardised behaviour within an app when displaying small text in a view.</Abstract>
+			<DeclaredIn>BLIOSSmallLabel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="235"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

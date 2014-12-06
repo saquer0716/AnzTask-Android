@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSMainMenuApplicationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSMainMenuApplicationDelegate</TokenIdentifier>
+			<Abstract type="html">The BLIOSMainMenuApplicationDelegate is the application delegate responsible for
+creating and configuring the app&apos;s root view controller and the navigation
+controller that will contain it.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="135"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setMenuButtons:</TokenIdentifier>
+			<Abstract type="html">The buttons that appear as the main menu options for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *menuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/menuButtons</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/menuButtons</TokenIdentifier>
+			<Abstract type="html">The buttons that appear as the main menu options for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *menuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/menuButtons</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/menuButtons</TokenIdentifier>
+			<Abstract type="html">The buttons that appear as the main menu options for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *menuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/menuButtons</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setFontColor:</TokenIdentifier>
+			<Abstract type="html">The default font color for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/fontColor</TokenIdentifier>
+			<Abstract type="html">The default font color for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/fontColor</TokenIdentifier>
+			<Abstract type="html">The default font color for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setHudColor:</TokenIdentifier>
+			<Abstract type="html">The default background color for views with an alpha value less than 1.0.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *hudColor</Declaration>
+			
+			
+			<Anchor>//api/name/hudColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/hudColor</TokenIdentifier>
+			<Abstract type="html">The default background color for views with an alpha value less than 1.0.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *hudColor</Declaration>
+			
+			
+			<Anchor>//api/name/hudColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/hudColor</TokenIdentifier>
+			<Abstract type="html">The default background color for views with an alpha value less than 1.0.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *hudColor</Declaration>
+			
+			
+			<Anchor>//api/name/hudColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setCurrencyColor:</TokenIdentifier>
+			<Abstract type="html">The color used to display currency symbols.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *currencyColor</Declaration>
+			
+			
+			<Anchor>//api/name/currencyColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/currencyColor</TokenIdentifier>
+			<Abstract type="html">The color used to display currency symbols.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *currencyColor</Declaration>
+			
+			
+			<Anchor>//api/name/currencyColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/currencyColor</TokenIdentifier>
+			<Abstract type="html">The color used to display currency symbols.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *currencyColor</Declaration>
+			
+			
+			<Anchor>//api/name/currencyColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setGroupColor:</TokenIdentifier>
+			<Abstract type="html">The default background color for views that are used to group other ui controls.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *groupColor</Declaration>
+			
+			
+			<Anchor>//api/name/groupColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/groupColor</TokenIdentifier>
+			<Abstract type="html">The default background color for views that are used to group other ui controls.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *groupColor</Declaration>
+			
+			
+			<Anchor>//api/name/groupColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/groupColor</TokenIdentifier>
+			<Abstract type="html">The default background color for views that are used to group other ui controls.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *groupColor</Declaration>
+			
+			
+			<Anchor>//api/name/groupColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setTerminalColor:</TokenIdentifier>
+			<Abstract type="html">The font color for text that appears within a &apos;terminal&apos; style view.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *terminalColor</Declaration>
+			
+			
+			<Anchor>//api/name/terminalColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/terminalColor</TokenIdentifier>
+			<Abstract type="html">The font color for text that appears within a &apos;terminal&apos; style view.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *terminalColor</Declaration>
+			
+			
+			<Anchor>//api/name/terminalColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/terminalColor</TokenIdentifier>
+			<Abstract type="html">The font color for text that appears within a &apos;terminal&apos; style view.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *terminalColor</Declaration>
+			
+			
+			<Anchor>//api/name/terminalColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setDesktopFontColor:</TokenIdentifier>
+			<Abstract type="html">The font color for text that appears on the apps main (menu) view controller.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *desktopFontColor</Declaration>
+			
+			
+			<Anchor>//api/name/desktopFontColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/desktopFontColor</TokenIdentifier>
+			<Abstract type="html">The font color for text that appears on the apps main (menu) view controller.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *desktopFontColor</Declaration>
+			
+			
+			<Anchor>//api/name/desktopFontColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/desktopFontColor</TokenIdentifier>
+			<Abstract type="html">The font color for text that appears on the apps main (menu) view controller.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *desktopFontColor</Declaration>
+			
+			
+			<Anchor>//api/name/desktopFontColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">The default background color for the view controllers.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/backgroundColor</TokenIdentifier>
+			<Abstract type="html">The default background color for the view controllers.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/backgroundColor</TokenIdentifier>
+			<Abstract type="html">The default background color for the view controllers.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setLanguage:</TokenIdentifier>
+			<Abstract type="html">The language for the current user.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/language</TokenIdentifier>
+			<Abstract type="html">The language for the current user.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/language</TokenIdentifier>
+			<Abstract type="html">The language for the current user.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setLocale:</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/locale</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/locale</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setMainMenuDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the main menu.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMainMenuDelegate&gt; mainMenuDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mainMenuDelegate</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/mainMenuDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the main menu.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMainMenuDelegate&gt; mainMenuDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mainMenuDelegate</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/mainMenuDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the main menu.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMainMenuDelegate&gt; mainMenuDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mainMenuDelegate</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setViewControllerDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the view controller.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewControllerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewControllerDelegate</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/viewControllerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the view controller.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewControllerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewControllerDelegate</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/viewControllerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the view controller.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewControllerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewControllerDelegate</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setAppURL:</TokenIdentifier>
+			<Abstract type="html">The uniform resource location for the app as hosted in the iTunes store.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *appURL</Declaration>
+			
+			
+			<Anchor>//api/name/appURL</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/appURL</TokenIdentifier>
+			<Abstract type="html">The uniform resource location for the app as hosted in the iTunes store.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *appURL</Declaration>
+			
+			
+			<Anchor>//api/name/appURL</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/appURL</TokenIdentifier>
+			<Abstract type="html">The uniform resource location for the app as hosted in the iTunes store.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *appURL</Declaration>
+			
+			
+			<Anchor>//api/name/appURL</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setAdHoc:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app is deployed adHoc (to registered devices) or via the app store. If True then the app is adhoc. Otherwise, deployment is via the app store.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool adHoc</Declaration>
+			
+			
+			<Anchor>//api/name/adHoc</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/adHoc</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app is deployed adHoc (to registered devices) or via the app store. If True then the app is adhoc. Otherwise, deployment is via the app store.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool adHoc</Declaration>
+			
+			
+			<Anchor>//api/name/adHoc</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/adHoc</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app is deployed adHoc (to registered devices) or via the app store. If True then the app is adhoc. Otherwise, deployment is via the app store.</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool adHoc</Declaration>
+			
+			
+			<Anchor>//api/name/adHoc</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setBundledData:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app uses data that is bundled during deployment. If true then the app data is bundled. Otherwise the app data is available via some other means (e.g. download).</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bundledData</Declaration>
+			
+			
+			<Anchor>//api/name/bundledData</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/bundledData</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app uses data that is bundled during deployment. If true then the app data is bundled. Otherwise the app data is available via some other means (e.g. download).</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bundledData</Declaration>
+			
+			
+			<Anchor>//api/name/bundledData</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuApplicationDelegate/bundledData</TokenIdentifier>
+			<Abstract type="html">Indicates whether the app uses data that is bundled during deployment. If true then the app data is bundled. Otherwise the app data is available via some other means (e.g. download).</Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bundledData</Declaration>
+			
+			
+			<Anchor>//api/name/bundledData</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/createMenuButtonsAndToolbar:recreate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)createMenuButtonsAndToolbar:(bool)aToolbar recreate:(bool)aRecreate</Declaration>
+			
+			
+			<Anchor>//api/name/createMenuButtonsAndToolbar:recreate:</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setMainMenuButtonsHidden:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)setMainMenuButtonsHidden:(bool)aHidden</Declaration>
+			
+			
+			<Anchor>//api/name/setMainMenuButtonsHidden:</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/setToolbarButtonsHidden:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)setToolbarButtonsHidden:(bool)aHidden</Declaration>
+			
+			
+			<Anchor>//api/name/setToolbarButtonsHidden:</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/showExitRetryAlert:withMessage:forIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)showExitRetryAlert:(NSString *)aTitle withMessage:(NSString *)aMessage forIdentifier:(NSInteger)aIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/showExitRetryAlert:withMessage:forIdentifier:</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/onToolBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onToolBar:(UIToolbar *)aToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/onToolBar:</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuApplicationDelegate/onMenuButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onMenuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/onMenuButtons</Anchor>
+            <NodeRef refid="135"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

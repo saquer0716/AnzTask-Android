@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSSettingsDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSSettingsDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for settings.</Abstract>
+			<DeclaredIn>BLIOSSettingsProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="410"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSettingsDelegate/didFinish:withListViewController:andMapViewController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettingsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)didFinish:(NSObject *)aSettings withListViewController:(UIViewController *)aListViewController andMapViewController:(UIViewController *)aMapViewController</Declaration>
+			
+			
+			<Anchor>//api/name/didFinish:withListViewController:andMapViewController:</Anchor>
+            <NodeRef refid="410"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

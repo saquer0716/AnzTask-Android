@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPOSMetrics.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPOSMetrics</TokenIdentifier>
+			<Abstract type="html">BLMetrics encapsulates the data and methods associated with recording POS metrics.</Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+            
+			
+			<NodeRef refid="317"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setMetricsType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLMetricsType metricsType</Declaration>
+			
+			
+			<Anchor>//api/name/metricsType</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/metricsType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLMetricsType metricsType</Declaration>
+			
+			
+			<Anchor>//api/name/metricsType</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/metricsType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLMetricsType metricsType</Declaration>
+			
+			
+			<Anchor>//api/name/metricsType</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setSessionId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionId</Declaration>
+			
+			
+			<Anchor>//api/name/sessionId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/sessionId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionId</Declaration>
+			
+			
+			<Anchor>//api/name/sessionId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/sessionId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionId</Declaration>
+			
+			
+			<Anchor>//api/name/sessionId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setStoreId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *storeId</Declaration>
+			
+			
+			<Anchor>//api/name/storeId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/storeId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *storeId</Declaration>
+			
+			
+			<Anchor>//api/name/storeId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/storeId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *storeId</Declaration>
+			
+			
+			<Anchor>//api/name/storeId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setIntegrator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *integrator</Declaration>
+			
+			
+			<Anchor>//api/name/integrator</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/integrator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *integrator</Declaration>
+			
+			
+			<Anchor>//api/name/integrator</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/integrator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *integrator</Declaration>
+			
+			
+			<Anchor>//api/name/integrator</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setApplicationType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *applicationType</Declaration>
+			
+			
+			<Anchor>//api/name/applicationType</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/applicationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *applicationType</Declaration>
+			
+			
+			<Anchor>//api/name/applicationType</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/applicationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *applicationType</Declaration>
+			
+			
+			<Anchor>//api/name/applicationType</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setSource:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/source</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/source</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *source</Declaration>
+			
+			
+			<Anchor>//api/name/source</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/setRequestId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPOSMetrics/requestId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPOSMetrics/requestId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSMetrics.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+            <NodeRef refid="317"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

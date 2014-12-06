@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSBasketItemTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSBasketItemTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketItemTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketItemTableViewCell/setPriceLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketItemTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *priceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/priceLabel</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketItemTableViewCell/priceLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketItemTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *priceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/priceLabel</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBasketItemTableViewCell/priceLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketItemTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *priceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/priceLabel</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketItemTableViewCell/setData:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketItemTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(BLProduct *)aItem :</Declaration>
+			
+			
+			<Anchor>//api/name/setData:::</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

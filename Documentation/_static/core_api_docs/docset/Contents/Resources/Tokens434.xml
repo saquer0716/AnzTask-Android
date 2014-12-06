@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLRequestDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLRequestDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRequestProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="434"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRequestDelegate/onGetURLString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRequestProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onGetURLString:(NSString *)aState</Declaration>
+			
+			
+			<Anchor>//api/name/onGetURLString:</Anchor>
+            <NodeRef refid="434"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRequestDelegate/onAddData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRequestProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLAnnotation *)onAddData:(NSDictionary *)aStore</Declaration>
+			
+			
+			<Anchor>//api/name/onAddData:</Anchor>
+            <NodeRef refid="434"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRequestDelegate/onDeserialise:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRequestProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onDeserialise:(CJSONDeserializer *)aDeserializer :</Declaration>
+			
+			
+			<Anchor>//api/name/onDeserialise:::</Anchor>
+            <NodeRef refid="434"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRequestDelegate/onGetRequest:forState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRequestProtocol.h</DeclaredIn>
+			
+			<Declaration>- (id)onGetRequest:(NSURL *)aURL forState:(NSString *)aState</Declaration>
+			
+			
+			<Anchor>//api/name/onGetRequest:forState:</Anchor>
+            <NodeRef refid="434"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRequestDelegate/onResponseMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRequestProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onResponseMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onResponseMessage:</Anchor>
+            <NodeRef refid="434"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLGiftCardBalanceDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLGiftCardBalanceDataRequest</TokenIdentifier>
+			<Abstract type="html">BLGiftCardBalanceDataRequest encapsulates the data and methods associated with soap requests and responses for querying the balance of a gift card.</Abstract>
+			<DeclaredIn>BLGiftCardBalanceDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLGiftCardBalanceDataRequest/setGiftcard:</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the queried gift card.</Abstract>
+			<DeclaredIn>BLGiftCardBalanceDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *giftcard</Declaration>
+			
+			
+			<Anchor>//api/name/giftcard</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLGiftCardBalanceDataRequest/giftcard</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the queried gift card.</Abstract>
+			<DeclaredIn>BLGiftCardBalanceDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *giftcard</Declaration>
+			
+			
+			<Anchor>//api/name/giftcard</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLGiftCardBalanceDataRequest/giftcard</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the queried gift card.</Abstract>
+			<DeclaredIn>BLGiftCardBalanceDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *giftcard</Declaration>
+			
+			
+			<Anchor>//api/name/giftcard</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLGiftCardBalanceDataRequest/giftCard:balanceAtDomain:forDevice:withSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLGiftCardBalanceDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)giftCard:(NSString *)aGiftCard balanceAtDomain:(NSString *)aDomain forDevice:(NSString *)aDevice withSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/giftCard:balanceAtDomain:forDevice:withSession:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

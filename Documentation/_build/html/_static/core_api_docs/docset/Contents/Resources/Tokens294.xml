@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLJSonAccount.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLJSonAccount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonAccount.h</DeclaredIn>
+            
+			
+			<NodeRef refid="294"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonAccount/checkAccountExists:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonAccount.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAccountExists:(BLRetailer *)aRetailer</Declaration>
+			
+			
+			<Anchor>//api/name/checkAccountExists:</Anchor>
+            <NodeRef refid="294"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonAccount/createAccount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonAccount.h</DeclaredIn>
+			
+			<Declaration>- (bool)createAccount:(BLRetailer *)aRetailer</Declaration>
+			
+			
+			<Anchor>//api/name/createAccount:</Anchor>
+            <NodeRef refid="294"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

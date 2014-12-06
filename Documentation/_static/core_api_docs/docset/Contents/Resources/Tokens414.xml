@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSViewControllerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSViewControllerDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for view controllers.</Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="414"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onMainMenuViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIViewController *)onMainMenuViewController</Declaration>
+			
+			
+			<Anchor>//api/name/onMainMenuViewController</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onConnectionStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnectionStart:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onConnectionStart:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onSubView:hasFrame:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSubView:(UIView *)aView hasFrame:(CGRect)aRect forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onSubView:hasFrame:forObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onCaption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onCaption:(NSString *)aCaption</Declaration>
+			
+			
+			<Anchor>//api/name/onCaption:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onBusyView:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)onBusyView:(UIView *)aBusyView forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBusyView:forObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onToolbar:(UIToolbar *)aToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/onToolbar:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onConnectionLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnectionLabel:(UILabel *)aLabel</Declaration>
+			
+			
+			<Anchor>//api/name/onConnectionLabel:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onBackgroundColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onBackgroundColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBackgroundColorForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onStatusBarStyleForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIStatusBarStyle)onStatusBarStyleForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onStatusBarStyleForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onFontForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIFont *)onFontForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onFontForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onFontSizeForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)onFontSizeForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onFontSizeForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onRowHeightForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)onRowHeightForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onRowHeightForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onCornerRadiusForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)onCornerRadiusForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onCornerRadiusForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onBorderColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onBorderColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBorderColorForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onButtonColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onButtonColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onButtonColorForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onImageForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)onImageForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onImageForObject:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onApplicationIdleTimeExceeded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onApplicationIdleTimeExceeded</Declaration>
+			
+			
+			<Anchor>//api/name/onApplicationIdleTimeExceeded</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSViewControllerDelegate/onDynamicContentWithTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSViewControllerProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onDynamicContentWithTitle:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/onDynamicContentWithTitle:</Anchor>
+            <NodeRef refid="414"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

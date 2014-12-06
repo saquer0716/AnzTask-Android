@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPickerViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPickerViewController</TokenIdentifier>
+			<Abstract type="html">The view controller for selecting an item from a picker view.</Abstract>
+			<DeclaredIn>BLIOSPickerViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="171"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPickerViewController/setPickerDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the item selection.</Abstract>
+			<DeclaredIn>BLIOSPickerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPickerDelegate&gt; pickerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pickerDelegate</Anchor>
+            <NodeRef refid="171"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPickerViewController/pickerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the item selection.</Abstract>
+			<DeclaredIn>BLIOSPickerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPickerDelegate&gt; pickerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pickerDelegate</Anchor>
+            <NodeRef refid="171"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPickerViewController/pickerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the item selection.</Abstract>
+			<DeclaredIn>BLIOSPickerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPickerDelegate&gt; pickerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pickerDelegate</Anchor>
+            <NodeRef refid="171"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPickerViewController/setData:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPickerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(NSArray *)aData forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/setData:forObject:</Anchor>
+            <NodeRef refid="171"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPickerViewController/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPickerViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="171"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPickerViewController/doNext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPickerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doNext:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doNext:</Anchor>
+            <NodeRef refid="171"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLJSonDeviceBinding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLJSonDeviceBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonDeviceBinding.h</DeclaredIn>
+            
+			
+			<NodeRef refid="296"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonDeviceBinding/bindCurrentDeviceToPlan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonDeviceBinding.h</DeclaredIn>
+			
+			<Declaration>- (void)bindCurrentDeviceToPlan:(NSString *)aPlan</Declaration>
+			
+			
+			<Anchor>//api/name/bindCurrentDeviceToPlan:</Anchor>
+            <NodeRef refid="296"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

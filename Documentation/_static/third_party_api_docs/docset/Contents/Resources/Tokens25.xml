@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OCMLocation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OCMLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMLocation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMLocation/locationWithTestCase:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMLocation.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)locationWithTestCase:(id)aTestCase file:(NSString *)aFile line:(NSUInteger)aLine</Declaration>
+			
+			
+			<Anchor>//api/name/locationWithTestCase:file:line:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMLocation/initWithTestCase:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMLocation.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithTestCase:(id)aTestCase file:(NSString *)aFile line:(NSUInteger)aLine</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTestCase:file:line:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMLocation/testCase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMLocation.h</DeclaredIn>
+			
+			<Declaration>- (id)testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMLocation/file</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMLocation.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMLocation/line</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMLocation.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)line</Declaration>
+			
+			
+			<Anchor>//api/name/line</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

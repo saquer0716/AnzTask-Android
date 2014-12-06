@@ -1,0 +1,599 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLIOSPOSSettingsView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLIOSPOSSettingsView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/logo">&nbsp;&nbsp;&nbsp;&nbsp;logo</option>
+	
+	<option value="//api/name/pointOfSale">&nbsp;&nbsp;&nbsp;&nbsp;pointOfSale</option>
+	
+	<option value="//api/name/posSetupDelegate">&nbsp;&nbsp;&nbsp;&nbsp;posSetupDelegate</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/doBank:">&nbsp;&nbsp;&nbsp;&nbsp;- doBank:</option>
+	
+	<option value="//api/name/doPaymentDevice:">&nbsp;&nbsp;&nbsp;&nbsp;- doPaymentDevice:</option>
+	
+	<option value="//api/name/doPrinter:">&nbsp;&nbsp;&nbsp;&nbsp;- doPrinter:</option>
+	
+	<option value="//api/name/doRetailer:">&nbsp;&nbsp;&nbsp;&nbsp;- doRetailer:</option>
+	
+	<option value="//api/name/doSignIn:">&nbsp;&nbsp;&nbsp;&nbsp;- doSignIn:</option>
+	
+	<option value="//api/name/doSubscription:">&nbsp;&nbsp;&nbsp;&nbsp;- doSubscription:</option>
+	
+	<option value="//api/name/retailer">&nbsp;&nbsp;&nbsp;&nbsp;- retailer</option>
+	
+	<option value="//api/name/setMarginX:">&nbsp;&nbsp;&nbsp;&nbsp;- setMarginX:</option>
+	
+	<option value="//api/name/setRetailer:">&nbsp;&nbsp;&nbsp;&nbsp;- setRetailer:</option>
+	
+	<option value="//api/name/setShouldSignOut:">&nbsp;&nbsp;&nbsp;&nbsp;- setShouldSignOut:</option>
+	
+	<option value="//api/name/setSubscriptions:">&nbsp;&nbsp;&nbsp;&nbsp;- setSubscriptions:</option>
+	
+	<option value="//api/name/shouldSignOut">&nbsp;&nbsp;&nbsp;&nbsp;- shouldSignOut</option>
+	
+	<option value="//api/name/updateDisplay:">&nbsp;&nbsp;&nbsp;&nbsp;- updateDisplay:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logo">logo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pointOfSale">pointOfSale</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/posSetupDelegate">posSetupDelegate</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doBank:">doBank:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doPaymentDevice:">doPaymentDevice:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doPrinter:">doPrinter:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doRetailer:">doRetailer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doSignIn:">doSignIn:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doSubscription:">doSubscription:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/retailer">retailer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setMarginX:">setMarginX:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setRetailer:">setRetailer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setShouldSignOut:">setShouldSignOut:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSubscriptions:">setSubscriptions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldSignOut">shouldSignOut</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateDisplay:">updateDisplay:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLIOSPOSSettingsView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLIOSPOSSettingsView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLIOSView.html">BLIOSView</a> : UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSPOSSettingsView.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/logo">&nbsp;&nbsp;logo</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/posSetupDelegate">&nbsp;&nbsp;posSetupDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pointOfSale">&nbsp;&nbsp;pointOfSale</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doSignIn:">&ndash;&nbsp;doSignIn:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doSubscription:">&ndash;&nbsp;doSubscription:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doRetailer:">&ndash;&nbsp;doRetailer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doPrinter:">&ndash;&nbsp;doPrinter:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doPaymentDevice:">&ndash;&nbsp;doPaymentDevice:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doBank:">&ndash;&nbsp;doBank:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateDisplay:">&ndash;&nbsp;updateDisplay:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSubscriptions:">&ndash;&nbsp;setSubscriptions:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setRetailer:">&ndash;&nbsp;setRetailer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setShouldSignOut:">&ndash;&nbsp;setShouldSignOut:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/retailer">&ndash;&nbsp;retailer</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldSignOut">&ndash;&nbsp;shouldSignOut</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setMarginX:">&ndash;&nbsp;setMarginX:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/logo" title="logo"></a>
+	<h3 class="subsubtitle method-title">logo</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIImage *logo</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pointOfSale" title="pointOfSale"></a>
+	<h3 class="subsubtitle method-title">pointOfSale</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSPointOfSale *pointOfSale</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/posSetupDelegate" title="posSetupDelegate"></a>
+	<h3 class="subsubtitle method-title">posSetupDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLPOSSetupDelegate&gt; posSetupDelegate</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/doBank:" title="doBank:"></a>
+	<h3 class="subsubtitle method-title">doBank:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doBank:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doPaymentDevice:" title="doPaymentDevice:"></a>
+	<h3 class="subsubtitle method-title">doPaymentDevice:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doPaymentDevice:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doPrinter:" title="doPrinter:"></a>
+	<h3 class="subsubtitle method-title">doPrinter:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doPrinter:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doRetailer:" title="doRetailer:"></a>
+	<h3 class="subsubtitle method-title">doRetailer:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doRetailer:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doSignIn:" title="doSignIn:"></a>
+	<h3 class="subsubtitle method-title">doSignIn:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doSignIn:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doSubscription:" title="doSubscription:"></a>
+	<h3 class="subsubtitle method-title">doSubscription:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doSubscription:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/retailer" title="retailer"></a>
+	<h3 class="subsubtitle method-title">retailer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLRetailer *)retailer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setMarginX:" title="setMarginX:"></a>
+	<h3 class="subsubtitle method-title">setMarginX:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setMarginX:(NSInteger)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setRetailer:" title="setRetailer:"></a>
+	<h3 class="subsubtitle method-title">setRetailer:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setRetailer:(BLRetailer *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setShouldSignOut:" title="setShouldSignOut:"></a>
+	<h3 class="subsubtitle method-title">setShouldSignOut:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setShouldSignOut:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSubscriptions:" title="setSubscriptions:"></a>
+	<h3 class="subsubtitle method-title">setSubscriptions:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSubscriptions:(NSArray *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldSignOut" title="shouldSignOut"></a>
+	<h3 class="subsubtitle method-title">shouldSignOut</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)shouldSignOut</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateDisplay:" title="updateDisplay:"></a>
+	<h3 class="subsubtitle method-title">updateDisplay:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateDisplay:(BLIOSPointOfSale *)<em>aPointOfSale</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

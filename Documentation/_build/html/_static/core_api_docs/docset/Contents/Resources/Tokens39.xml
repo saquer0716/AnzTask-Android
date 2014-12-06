@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLEpsonPrinter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLEpsonPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEpsonPrinter/setFontName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEpsonPrinter/fontName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLEpsonPrinter/fontName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEpsonPrinter/setPrinterNameAndLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+			
+			<Declaration>- (bool)setPrinterNameAndLanguage:(BLPrinter *)aPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/setPrinterNameAndLanguage:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEpsonPrinter/onTimerToDiscoverPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+			
+			<Declaration>- (void)onTimerToDiscoverPrinter:(NSTimer *)timer</Declaration>
+			
+			
+			<Anchor>//api/name/onTimerToDiscoverPrinter:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEpsonPrinter/receiveResponseFromPort:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)receiveResponseFromPort:(EpsonIo *)aPort</Declaration>
+			
+			
+			<Anchor>//api/name/receiveResponseFromPort:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLEpsonPrinter/getLanguageForFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEpsonPrinter.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)getLanguageForFont:(NSString *)aFont</Declaration>
+			
+			
+			<Anchor>//api/name/getLanguageForFont:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

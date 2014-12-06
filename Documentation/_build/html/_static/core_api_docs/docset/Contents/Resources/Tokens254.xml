@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSTableFooterView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSTableFooterView</TokenIdentifier>
+			<Abstract type="html">Provides a view that appears at the bottom of a tableView for displaying a heading, a message and a button for initiating a task associated with the tableView content.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="254"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setMessageLabel:</TokenIdentifier>
+			<Abstract type="html">The label that displays the main text for the footer view.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/messageLabel</TokenIdentifier>
+			<Abstract type="html">The label that displays the main text for the footer view.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTableFooterView/messageLabel</TokenIdentifier>
+			<Abstract type="html">The label that displays the main text for the footer view.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *messageLabel</Declaration>
+			
+			
+			<Anchor>//api/name/messageLabel</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setButton:</TokenIdentifier>
+			<Abstract type="html">The button that initiates the action for the footer view.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *button</Declaration>
+			
+			
+			<Anchor>//api/name/button</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/button</TokenIdentifier>
+			<Abstract type="html">The button that initiates the action for the footer view.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *button</Declaration>
+			
+			
+			<Anchor>//api/name/button</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTableFooterView/button</TokenIdentifier>
+			<Abstract type="html">The button that initiates the action for the footer view.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *button</Declaration>
+			
+			
+			<Anchor>//api/name/button</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setCellDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate for the table cell</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTableViewCellDelegate&gt; cellDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/cellDelegate</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/cellDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate for the table cell</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTableViewCellDelegate&gt; cellDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/cellDelegate</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTableFooterView/cellDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate for the table cell</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTableViewCellDelegate&gt; cellDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/cellDelegate</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setUserDefinedIdentifier:</TokenIdentifier>
+			<Abstract type="html">A custom identifier that can be used to determine the appropriate action to take when the footerView is tapped.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger userDefinedIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/userDefinedIdentifier</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/userDefinedIdentifier</TokenIdentifier>
+			<Abstract type="html">A custom identifier that can be used to determine the appropriate action to take when the footerView is tapped.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger userDefinedIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/userDefinedIdentifier</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTableFooterView/userDefinedIdentifier</TokenIdentifier>
+			<Abstract type="html">A custom identifier that can be used to determine the appropriate action to take when the footerView is tapped.</Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger userDefinedIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/userDefinedIdentifier</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/onSelect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>- (void)onSelect:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onSelect:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTextColor:(UIColor *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTextColor:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setHasRightView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasRightView:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasRightView:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/setTitleColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitleColor:(UIColor *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitleColor:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableFooterView/doLeftButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTableFooterView.h</DeclaredIn>
+			
+			<Declaration>- (void)doLeftButton:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doLeftButton:</Anchor>
+            <NodeRef refid="254"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

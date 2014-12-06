@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLPOSSetupDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLPOSSetupDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSSetupProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="420"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPOSSetupDelegate/onPOSSignIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSSetupProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPOSSignIn:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPOSSignIn:</Anchor>
+            <NodeRef refid="420"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPOSSetupDelegate/onPOSSubscription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSSetupProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPOSSubscription:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPOSSubscription:</Anchor>
+            <NodeRef refid="420"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPOSSetupDelegate/onPOSRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSSetupProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPOSRetailer:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPOSRetailer:</Anchor>
+            <NodeRef refid="420"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPOSSetupDelegate/onPOSPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSSetupProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPOSPrinter:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPOSPrinter:</Anchor>
+            <NodeRef refid="420"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPOSSetupDelegate/onPOSPaymentDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSSetupProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPOSPaymentDevice:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPOSPaymentDevice:</Anchor>
+            <NodeRef refid="420"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPOSSetupDelegate/onPOSBank:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPOSSetupProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPOSBank:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPOSBank:</Anchor>
+            <NodeRef refid="420"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

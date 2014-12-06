@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CJSONDeserializer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CJSONDeserializer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/setScanner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) CJSONScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) CJSONScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CJSONDeserializer/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) CJSONScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/setNullObject:</TokenIdentifier>
+			<Abstract type="html">Object to return instead when a null encountered in the JSON. Defaults to NSNull. Setting to null causes the scanner to skip null values.</Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) id nullObject</Declaration>
+			
+			
+			<Anchor>//api/name/nullObject</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/nullObject</TokenIdentifier>
+			<Abstract type="html">Object to return instead when a null encountered in the JSON. Defaults to NSNull. Setting to null causes the scanner to skip null values.</Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) id nullObject</Declaration>
+			
+			
+			<Anchor>//api/name/nullObject</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CJSONDeserializer/nullObject</TokenIdentifier>
+			<Abstract type="html">Object to return instead when a null encountered in the JSON. Defaults to NSNull. Setting to null causes the scanner to skip null values.</Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, retain) id nullObject</Declaration>
+			
+			
+			<Anchor>//api/name/nullObject</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/setAllowedEncoding:</TokenIdentifier>
+			<Abstract type="html">JSON must be encoded in Unicode (UTF-8, UTF-16 or UTF-32). Use this if you expect to get the JSON in another encoding.</Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) NSStringEncoding allowedEncoding</Declaration>
+			
+			
+			<Anchor>//api/name/allowedEncoding</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/allowedEncoding</TokenIdentifier>
+			<Abstract type="html">JSON must be encoded in Unicode (UTF-8, UTF-16 or UTF-32). Use this if you expect to get the JSON in another encoding.</Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) NSStringEncoding allowedEncoding</Declaration>
+			
+			
+			<Anchor>//api/name/allowedEncoding</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CJSONDeserializer/allowedEncoding</TokenIdentifier>
+			<Abstract type="html">JSON must be encoded in Unicode (UTF-8, UTF-16 or UTF-32). Use this if you expect to get the JSON in another encoding.</Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) NSStringEncoding allowedEncoding</Declaration>
+			
+			
+			<Anchor>//api/name/allowedEncoding</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/setOptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) EJSONDeserializationOptions options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/options</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) EJSONDeserializationOptions options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CJSONDeserializer/options</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic, assign) EJSONDeserializationOptions options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CJSONDeserializer/deserializer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>+ (CJSONDeserializer *)deserializer</Declaration>
+			
+			
+			<Anchor>//api/name/deserializer</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/deserialize:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>- (id)deserialize:(NSData *)inData error:(NSError **)outError</Declaration>
+			
+			
+			<Anchor>//api/name/deserialize:error:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/deserializeAsDictionary:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>- (id)deserializeAsDictionary:(NSData *)inData error:(NSError **)outError</Declaration>
+			
+			
+			<Anchor>//api/name/deserializeAsDictionary:error:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CJSONDeserializer/deserializeAsArray:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CJSONDeserializer.h</DeclaredIn>
+			
+			<Declaration>- (id)deserializeAsArray:(NSData *)inData error:(NSError **)outError</Declaration>
+			
+			
+			<Anchor>//api/name/deserializeAsArray:error:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

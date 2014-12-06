@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSMapViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSMapViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="138"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setPurposeMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *purposeMessage</Declaration>
+			
+			
+			<Anchor>//api/name/purposeMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/purposeMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *purposeMessage</Declaration>
+			
+			
+			<Anchor>//api/name/purposeMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/purposeMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *purposeMessage</Declaration>
+			
+			
+			<Anchor>//api/name/purposeMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setHeadingForFindMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *headingForFindMessage</Declaration>
+			
+			
+			<Anchor>//api/name/headingForFindMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/headingForFindMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *headingForFindMessage</Declaration>
+			
+			
+			<Anchor>//api/name/headingForFindMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/headingForFindMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *headingForFindMessage</Declaration>
+			
+			
+			<Anchor>//api/name/headingForFindMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setLocatingMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *locatingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/locatingMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/locatingMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *locatingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/locatingMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/locatingMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *locatingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/locatingMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setNoLocationsMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *noLocationsMessage</Declaration>
+			
+			
+			<Anchor>//api/name/noLocationsMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/noLocationsMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *noLocationsMessage</Declaration>
+			
+			
+			<Anchor>//api/name/noLocationsMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/noLocationsMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *noLocationsMessage</Declaration>
+			
+			
+			<Anchor>//api/name/noLocationsMessage</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setEntityPlural:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityPlural</Declaration>
+			
+			
+			<Anchor>//api/name/entityPlural</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/entityPlural</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityPlural</Declaration>
+			
+			
+			<Anchor>//api/name/entityPlural</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/entityPlural</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityPlural</Declaration>
+			
+			
+			<Anchor>//api/name/entityPlural</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setEntitySingular:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entitySingular</Declaration>
+			
+			
+			<Anchor>//api/name/entitySingular</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/entitySingular</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entitySingular</Declaration>
+			
+			
+			<Anchor>//api/name/entitySingular</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/entitySingular</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entitySingular</Declaration>
+			
+			
+			<Anchor>//api/name/entitySingular</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setStoreName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *storeName</Declaration>
+			
+			
+			<Anchor>//api/name/storeName</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/storeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *storeName</Declaration>
+			
+			
+			<Anchor>//api/name/storeName</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/storeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *storeName</Declaration>
+			
+			
+			<Anchor>//api/name/storeName</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setInformationLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSInformationlabel *informationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/informationLabel</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/informationLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSInformationlabel *informationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/informationLabel</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/informationLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSInformationlabel *informationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/informationLabel</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setMapView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MKMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/mapView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MKMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/mapView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MKMapView *mapView</Declaration>
+			
+			
+			<Anchor>//api/name/mapView</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setLocationManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) CLLocationManager *locationManager</Declaration>
+			
+			
+			<Anchor>//api/name/locationManager</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/locationManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) CLLocationManager *locationManager</Declaration>
+			
+			
+			<Anchor>//api/name/locationManager</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/locationManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) CLLocationManager *locationManager</Declaration>
+			
+			
+			<Anchor>//api/name/locationManager</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setPostcodeAnnotationView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MKAnnotationView *postcodeAnnotationView</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotationView</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/postcodeAnnotationView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MKAnnotationView *postcodeAnnotationView</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotationView</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/postcodeAnnotationView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MKAnnotationView *postcodeAnnotationView</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotationView</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setAnnotations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *annotations</Declaration>
+			
+			
+			<Anchor>//api/name/annotations</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/annotations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *annotations</Declaration>
+			
+			
+			<Anchor>//api/name/annotations</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/annotations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *annotations</Declaration>
+			
+			
+			<Anchor>//api/name/annotations</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setPostcodeAnnotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPostcodeAnnotation *postcodeAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotation</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/postcodeAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPostcodeAnnotation *postcodeAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotation</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/postcodeAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPostcodeAnnotation *postcodeAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotation</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setLastSearch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastSearch</Declaration>
+			
+			
+			<Anchor>//api/name/lastSearch</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/lastSearch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastSearch</Declaration>
+			
+			
+			<Anchor>//api/name/lastSearch</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/lastSearch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastSearch</Declaration>
+			
+			
+			<Anchor>//api/name/lastSearch</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setSegmentedControl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSegmentedControl *segmentedControl</Declaration>
+			
+			
+			<Anchor>//api/name/segmentedControl</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/segmentedControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSegmentedControl *segmentedControl</Declaration>
+			
+			
+			<Anchor>//api/name/segmentedControl</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/segmentedControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSegmentedControl *segmentedControl</Declaration>
+			
+			
+			<Anchor>//api/name/segmentedControl</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/toolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/toolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setMapDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMapDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/mapDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMapDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/mapDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMapDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setCurrentLocationCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D currentLocationCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocationCoordinate</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/currentLocationCoordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D currentLocationCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocationCoordinate</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/currentLocationCoordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D currentLocationCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/currentLocationCoordinate</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setUsePostcode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool usePostcode</Declaration>
+			
+			
+			<Anchor>//api/name/usePostcode</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/usePostcode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool usePostcode</Declaration>
+			
+			
+			<Anchor>//api/name/usePostcode</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/usePostcode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool usePostcode</Declaration>
+			
+			
+			<Anchor>//api/name/usePostcode</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setLocationDisabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool locationDisabled</Declaration>
+			
+			
+			<Anchor>//api/name/locationDisabled</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/locationDisabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool locationDisabled</Declaration>
+			
+			
+			<Anchor>//api/name/locationDisabled</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMapViewController/locationDisabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool locationDisabled</Declaration>
+			
+			
+			<Anchor>//api/name/locationDisabled</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/doFind:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doFind:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doFind:</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/doFindAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doFindAddress</Declaration>
+			
+			
+			<Anchor>//api/name/doFindAddress</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/doList</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doList</Declaration>
+			
+			
+			<Anchor>//api/name/doList</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/doMore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doMore</Declaration>
+			
+			
+			<Anchor>//api/name/doMore</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/doCurrentLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doCurrentLocation</Declaration>
+			
+			
+			<Anchor>//api/name/doCurrentLocation</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/removeAnnotations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAnnotations:(NSArray *)aAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/removeAnnotations:</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/addAnnotations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)addAnnotations:(NSArray *)aAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/addAnnotations:</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/refreshMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)refreshMap</Declaration>
+			
+			
+			<Anchor>//api/name/refreshMap</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/setDistanceInformation:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setDistanceInformation:(CLLocationDistance)aDistance :</Declaration>
+			
+			
+			<Anchor>//api/name/setDistanceInformation:::</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/showLocationServicesDeniedError</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showLocationServicesDeniedError</Declaration>
+			
+			
+			<Anchor>//api/name/showLocationServicesDeniedError</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMapViewController/showLocationOnMap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showLocationOnMap:(NSString *)aLocation</Declaration>
+			
+			
+			<Anchor>//api/name/showLocationOnMap:</Anchor>
+            <NodeRef refid="138"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

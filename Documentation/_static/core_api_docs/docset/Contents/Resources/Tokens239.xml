@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSStoreTableViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSStoreTableViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreTableViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="239"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreTableViewController/setSelectDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSInputDelegate&gt; selectDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/selectDelegate</Anchor>
+            <NodeRef refid="239"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreTableViewController/selectDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSInputDelegate&gt; selectDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/selectDelegate</Anchor>
+            <NodeRef refid="239"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreTableViewController/selectDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSInputDelegate&gt; selectDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/selectDelegate</Anchor>
+            <NodeRef refid="239"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

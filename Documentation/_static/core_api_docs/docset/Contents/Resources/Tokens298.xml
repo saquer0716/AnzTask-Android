@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLJSonRegistration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLJSonRegistration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="298"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonRegistration/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonRegistration/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLJSonRegistration/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonRegistration/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>- (void)setRetailer:(BLRetailer *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setRetailer:</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonRegistration/active</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>- (bool)active</Declaration>
+			
+			
+			<Anchor>//api/name/active</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonRegistration/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>- (BLRetailer *)retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonRegistration/setActive:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>- (void)setActive:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setActive:</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLJSonRegistration/ipAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)ipAddress</Declaration>
+			
+			
+			<Anchor>//api/name/ipAddress</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLJSonRegistration/accountsURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)accountsURL</Declaration>
+			
+			
+			<Anchor>//api/name/accountsURL</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLJSonRegistration/plansURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)plansURL</Declaration>
+			
+			
+			<Anchor>//api/name/plansURL</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLJSonRegistration/planSubscriptionURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)planSubscriptionURL</Declaration>
+			
+			
+			<Anchor>//api/name/planSubscriptionURL</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLJSonRegistration/subscriptionsURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonRegistration.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)subscriptionsURL</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptionsURL</Anchor>
+            <NodeRef refid="298"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLBasketStatusDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLBasketStatusDataRequest</TokenIdentifier>
+			<Abstract type="html">BLBasketStatusDataRequest encapsulates the data and methods associated with soap requests and responses for manipulating basket status data.</Abstract>
+			<DeclaredIn>BLBasketStatusDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasketStatusDataRequest/setStatus:</TokenIdentifier>
+			<Abstract type="html">The status.</Abstract>
+			<DeclaredIn>BLBasketStatusDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasketStatusDataRequest/status</TokenIdentifier>
+			<Abstract type="html">The status.</Abstract>
+			<DeclaredIn>BLBasketStatusDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasketStatusDataRequest/status</TokenIdentifier>
+			<Abstract type="html">The status.</Abstract>
+			<DeclaredIn>BLBasketStatusDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasketStatusDataRequest/setBasketStatus:forBasket:atDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketStatusDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)setBasketStatus:(NSInteger)aStatus forBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/setBasketStatus:forBasket:atDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasketStatusDataRequest/extractStatus:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketStatusDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)extractStatus:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/extractStatus:forRequest:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

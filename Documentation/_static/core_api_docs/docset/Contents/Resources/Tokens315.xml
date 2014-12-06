@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLOperatorDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLOperatorDataRequest</TokenIdentifier>
+			<Abstract type="html">BLOperaterDataRequest encapsulates the data and methods associated with soap requests and responses for manipulating operator data.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="315"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/authenticateOperator:withPassword:forBasket:atDomain:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)authenticateOperator:(NSString *)aId withPassword:(NSString *)aPassword forBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/authenticateOperator:withPassword:forBasket:atDomain:onDevice:</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/setOperatorId:</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s id.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/operatorId</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s id.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperatorDataRequest/operatorId</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s id.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/setPassword:</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s password.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/password</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s password.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperatorDataRequest/password</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s password.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/setSuccessMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *successMessage</Declaration>
+			
+			
+			<Anchor>//api/name/successMessage</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/successMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *successMessage</Declaration>
+			
+			
+			<Anchor>//api/name/successMessage</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperatorDataRequest/successMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *successMessage</Declaration>
+			
+			
+			<Anchor>//api/name/successMessage</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/setSignInDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will respond to events associated with signing in.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLSignInDelegate&gt; signInDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/signInDelegate</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperatorDataRequest/signInDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will respond to events associated with signing in.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLSignInDelegate&gt; signInDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/signInDelegate</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperatorDataRequest/signInDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will respond to events associated with signing in.</Abstract>
+			<DeclaredIn>BLOperatorDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLSignInDelegate&gt; signInDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/signInDelegate</Anchor>
+            <NodeRef refid="315"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

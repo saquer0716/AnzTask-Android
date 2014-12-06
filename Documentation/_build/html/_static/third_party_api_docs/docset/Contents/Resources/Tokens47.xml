@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZBarReaderViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZBarReaderViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setScanner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setReaderDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarReaderDelegate&gt; readerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/readerDelegate</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/readerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarReaderDelegate&gt; readerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/readerDelegate</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/readerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarReaderDelegate&gt; readerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/readerDelegate</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setShowsZBarControls:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsZBarControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsZBarControls</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/showsZBarControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsZBarControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsZBarControls</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/showsZBarControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsZBarControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsZBarControls</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setTracksSymbols:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL tracksSymbols</Declaration>
+			
+			
+			<Anchor>//api/name/tracksSymbols</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/tracksSymbols</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL tracksSymbols</Declaration>
+			
+			
+			<Anchor>//api/name/tracksSymbols</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/tracksSymbols</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL tracksSymbols</Declaration>
+			
+			
+			<Anchor>//api/name/tracksSymbols</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setSupportedOrientationsMask:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger supportedOrientationsMask</Declaration>
+			
+			
+			<Anchor>//api/name/supportedOrientationsMask</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/supportedOrientationsMask</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger supportedOrientationsMask</Declaration>
+			
+			
+			<Anchor>//api/name/supportedOrientationsMask</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/supportedOrientationsMask</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger supportedOrientationsMask</Declaration>
+			
+			
+			<Anchor>//api/name/supportedOrientationsMask</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setScanCrop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/scanCrop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/scanCrop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setCameraOverlayView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *cameraOverlayView</Declaration>
+			
+			
+			<Anchor>//api/name/cameraOverlayView</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/cameraOverlayView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *cameraOverlayView</Declaration>
+			
+			
+			<Anchor>//api/name/cameraOverlayView</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/cameraOverlayView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *cameraOverlayView</Declaration>
+			
+			
+			<Anchor>//api/name/cameraOverlayView</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setCameraViewTransform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform cameraViewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/cameraViewTransform</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/cameraViewTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform cameraViewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/cameraViewTransform</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/cameraViewTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform cameraViewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/cameraViewTransform</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/showHelpWithReason:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showHelpWithReason:(NSString *)reason</Declaration>
+			
+			
+			<Anchor>//api/name/showHelpWithReason:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/takePicture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)takePicture</Declaration>
+			
+			
+			<Anchor>//api/name/takePicture</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ZBarReaderViewController/isCameraDeviceAvailable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isCameraDeviceAvailable:(UIImagePickerControllerCameraDevice)cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/isCameraDeviceAvailable:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ZBarReaderViewController/isFlashAvailableForCameraDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isFlashAvailableForCameraDevice:(UIImagePickerControllerCameraDevice)cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/isFlashAvailableForCameraDevice:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ZBarReaderViewController/availableCaptureModesForCameraDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)availableCaptureModesForCameraDevice:(UIImagePickerControllerCameraDevice)cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/availableCaptureModesForCameraDevice:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setCameraDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraDevice cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/cameraDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraDevice cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/cameraDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraDevice cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setCameraFlashMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraFlashMode cameraFlashMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraFlashMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/cameraFlashMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraFlashMode cameraFlashMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraFlashMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/cameraFlashMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraFlashMode cameraFlashMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraFlashMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setCameraCaptureMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraCaptureMode cameraCaptureMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraCaptureMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/cameraCaptureMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraCaptureMode cameraCaptureMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraCaptureMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/cameraCaptureMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerCameraCaptureMode cameraCaptureMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraCaptureMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setVideoQuality:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerQualityType videoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/videoQuality</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/videoQuality</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerQualityType videoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/videoQuality</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/videoQuality</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerQualityType videoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/videoQuality</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setReaderView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarReaderView *readerView</Declaration>
+			
+			
+			<Anchor>//api/name/readerView</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/readerView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarReaderView *readerView</Declaration>
+			
+			
+			<Anchor>//api/name/readerView</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/readerView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarReaderView *readerView</Declaration>
+			
+			
+			<Anchor>//api/name/readerView</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setEnableCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setSourceType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerSourceType sourceType</Declaration>
+			
+			
+			<Anchor>//api/name/sourceType</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/sourceType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerSourceType sourceType</Declaration>
+			
+			
+			<Anchor>//api/name/sourceType</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/sourceType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIImagePickerControllerSourceType sourceType</Declaration>
+			
+			
+			<Anchor>//api/name/sourceType</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setAllowsEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsEditing</Declaration>
+			
+			
+			<Anchor>//api/name/allowsEditing</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/allowsEditing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsEditing</Declaration>
+			
+			
+			<Anchor>//api/name/allowsEditing</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/allowsEditing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsEditing</Declaration>
+			
+			
+			<Anchor>//api/name/allowsEditing</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setAllowsImageEditing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsImageEditing</Declaration>
+			
+			
+			<Anchor>//api/name/allowsImageEditing</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/allowsImageEditing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsImageEditing</Declaration>
+			
+			
+			<Anchor>//api/name/allowsImageEditing</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/allowsImageEditing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsImageEditing</Declaration>
+			
+			
+			<Anchor>//api/name/allowsImageEditing</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setShowsCameraControls:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsCameraControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsCameraControls</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/showsCameraControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsCameraControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsCameraControls</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/showsCameraControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsCameraControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsCameraControls</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setShowsHelpOnFail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsHelpOnFail</Declaration>
+			
+			
+			<Anchor>//api/name/showsHelpOnFail</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/showsHelpOnFail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsHelpOnFail</Declaration>
+			
+			
+			<Anchor>//api/name/showsHelpOnFail</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/showsHelpOnFail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsHelpOnFail</Declaration>
+			
+			
+			<Anchor>//api/name/showsHelpOnFail</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setCameraMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) ZBarReaderControllerCameraMode cameraMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/cameraMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) ZBarReaderControllerCameraMode cameraMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/cameraMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) ZBarReaderControllerCameraMode cameraMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraMode</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setTakesPicture:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL takesPicture</Declaration>
+			
+			
+			<Anchor>//api/name/takesPicture</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/takesPicture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL takesPicture</Declaration>
+			
+			
+			<Anchor>//api/name/takesPicture</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/takesPicture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL takesPicture</Declaration>
+			
+			
+			<Anchor>//api/name/takesPicture</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/setMaxScanDimension:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxScanDimension</Declaration>
+			
+			
+			<Anchor>//api/name/maxScanDimension</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderViewController/maxScanDimension</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxScanDimension</Declaration>
+			
+			
+			<Anchor>//api/name/maxScanDimension</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderViewController/maxScanDimension</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maxScanDimension</Declaration>
+			
+			
+			<Anchor>//api/name/maxScanDimension</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ZBarReaderViewController/isSourceTypeAvailable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderViewController.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isSourceTypeAvailable:(UIImagePickerControllerSourceType)sourceType</Declaration>
+			
+			
+			<Anchor>//api/name/isSourceTypeAvailable:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

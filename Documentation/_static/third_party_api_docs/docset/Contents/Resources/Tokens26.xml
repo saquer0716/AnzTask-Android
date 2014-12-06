@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OCMMacroState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OCMMacroState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMMacroState/beginStubMacro</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>+ (void)beginStubMacro</Declaration>
+			
+			
+			<Anchor>//api/name/beginStubMacro</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMMacroState/endStubMacro</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>+ (OCMStubRecorder *)endStubMacro</Declaration>
+			
+			
+			<Anchor>//api/name/endStubMacro</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMMacroState/beginExpectMacro</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>+ (void)beginExpectMacro</Declaration>
+			
+			
+			<Anchor>//api/name/beginExpectMacro</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMMacroState/endExpectMacro</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>+ (OCMStubRecorder *)endExpectMacro</Declaration>
+			
+			
+			<Anchor>//api/name/endExpectMacro</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMMacroState/beginVerifyMacroAtLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>+ (void)beginVerifyMacroAtLocation:(OCMLocation *)aLocation</Declaration>
+			
+			
+			<Anchor>//api/name/beginVerifyMacroAtLocation:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMMacroState/endVerifyMacro</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>+ (void)endVerifyMacro</Declaration>
+			
+			
+			<Anchor>//api/name/endVerifyMacro</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMMacroState/globalState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>+ (OCMMacroState *)globalState</Declaration>
+			
+			
+			<Anchor>//api/name/globalState</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMMacroState/recorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>- (OCMRecorder *)recorder</Declaration>
+			
+			
+			<Anchor>//api/name/recorder</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMMacroState/switchToClassMethod</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMMacroState.h</DeclaredIn>
+			
+			<Declaration>- (void)switchToClassMethod</Declaration>
+			
+			
+			<Anchor>//api/name/switchToClassMethod</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

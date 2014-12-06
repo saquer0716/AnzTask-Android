@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSStoresNavigationViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSStoresNavigationViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="240"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setViewDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the view controller.</Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the view controller.</Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the view controller.</Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewControllerDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setMapDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMapDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/mapDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMapDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/mapDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMapDelegate&gt; mapDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mapDelegate</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setCountButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *countButton</Declaration>
+			
+			
+			<Anchor>//api/name/countButton</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/countButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *countButton</Declaration>
+			
+			
+			<Anchor>//api/name/countButton</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/countButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *countButton</Declaration>
+			
+			
+			<Anchor>//api/name/countButton</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setMapViewController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIViewController *mapViewController</Declaration>
+			
+			
+			<Anchor>//api/name/mapViewController</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/mapViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIViewController *mapViewController</Declaration>
+			
+			
+			<Anchor>//api/name/mapViewController</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/mapViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIViewController *mapViewController</Declaration>
+			
+			
+			<Anchor>//api/name/mapViewController</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setOrigin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/origin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/origin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setHasDistanceInformation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasDistanceInformation</Declaration>
+			
+			
+			<Anchor>//api/name/hasDistanceInformation</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/hasDistanceInformation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasDistanceInformation</Declaration>
+			
+			
+			<Anchor>//api/name/hasDistanceInformation</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/hasDistanceInformation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasDistanceInformation</Declaration>
+			
+			
+			<Anchor>//api/name/hasDistanceInformation</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setDefaultAnnotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLStoreAnnotation *defaultAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/defaultAnnotation</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/defaultAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLStoreAnnotation *defaultAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/defaultAnnotation</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/defaultAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLStoreAnnotation *defaultAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/defaultAnnotation</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setEntitySingular:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entitySingular</Declaration>
+			
+			
+			<Anchor>//api/name/entitySingular</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/entitySingular</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entitySingular</Declaration>
+			
+			
+			<Anchor>//api/name/entitySingular</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/entitySingular</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entitySingular</Declaration>
+			
+			
+			<Anchor>//api/name/entitySingular</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setEntityPlural:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityPlural</Declaration>
+			
+			
+			<Anchor>//api/name/entityPlural</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/entityPlural</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityPlural</Declaration>
+			
+			
+			<Anchor>//api/name/entityPlural</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/entityPlural</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityPlural</Declaration>
+			
+			
+			<Anchor>//api/name/entityPlural</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/toolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/toolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/setNavigationBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UINavigationBar *navigationBar</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBar</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/navigationBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UINavigationBar *navigationBar</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBar</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoresNavigationViewController/navigationBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UINavigationBar *navigationBar</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBar</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/doMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doMap</Declaration>
+			
+			
+			<Anchor>//api/name/doMap</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoresNavigationViewController/refreshList:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoresNavigationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)refreshList:(NSArray *)aAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/refreshList:</Anchor>
+            <NodeRef refid="240"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

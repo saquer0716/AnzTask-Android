@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPinpadStatusViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPinpadStatusViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="173"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPinpadStatusViewController/setTerminalTextView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTextView *terminalTextView</Declaration>
+			
+			
+			<Anchor>//api/name/terminalTextView</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPinpadStatusViewController/terminalTextView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTextView *terminalTextView</Declaration>
+			
+			
+			<Anchor>//api/name/terminalTextView</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPinpadStatusViewController/terminalTextView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTextView *terminalTextView</Declaration>
+			
+			
+			<Anchor>//api/name/terminalTextView</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPinpadStatusViewController/setLogView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTitleScrollView *logView</Declaration>
+			
+			
+			<Anchor>//api/name/logView</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPinpadStatusViewController/logView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTitleScrollView *logView</Declaration>
+			
+			
+			<Anchor>//api/name/logView</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPinpadStatusViewController/logView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTitleScrollView *logView</Declaration>
+			
+			
+			<Anchor>//api/name/logView</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPinpadStatusViewController/setViewDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPinpadStatusViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPinpadStatusViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPinpadStatusViewController/updateDisplay</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPinpadStatusViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateDisplay</Declaration>
+			
+			
+			<Anchor>//api/name/updateDisplay</Anchor>
+            <NodeRef refid="173"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

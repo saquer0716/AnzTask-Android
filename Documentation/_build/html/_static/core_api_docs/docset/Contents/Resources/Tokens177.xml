@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPrinterConfigurationViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPrinterConfigurationViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="177"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(NSArray *)data</Declaration>
+			
+			
+			<Anchor>//api/name/setData:</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/setDefaultPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *defaultPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPrinter</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/defaultPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *defaultPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPrinter</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPrinterConfigurationViewController/defaultPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *defaultPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPrinter</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/setViewDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPrinterConfigurationViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/setPickerDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the printer selection.</Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPickerDelegate&gt; pickerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pickerDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/pickerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the printer selection.</Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPickerDelegate&gt; pickerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pickerDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPrinterConfigurationViewController/pickerDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the printer selection.</Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPickerDelegate&gt; pickerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pickerDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/setPrinterDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPrinterDelegate&gt; printerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/printerDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/printerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPrinterDelegate&gt; printerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/printerDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPrinterConfigurationViewController/printerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPrinterDelegate&gt; printerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/printerDelegate</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPrinterConfigurationViewController/doChangePrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPrinterConfigurationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doChangePrinter:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doChangePrinter:</Anchor>
+            <NodeRef refid="177"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

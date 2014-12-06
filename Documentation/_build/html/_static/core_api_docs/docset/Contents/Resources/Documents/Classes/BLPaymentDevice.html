@@ -1,0 +1,678 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLPaymentDevice Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLPaymentDevice Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/caId">&nbsp;&nbsp;&nbsp;&nbsp;caId</option>
+	
+	<option value="//api/name/cameraAccessible">&nbsp;&nbsp;&nbsp;&nbsp;cameraAccessible</option>
+	
+	<option value="//api/name/catId">&nbsp;&nbsp;&nbsp;&nbsp;catId</option>
+	
+	<option value="//api/name/hasPinpad">&nbsp;&nbsp;&nbsp;&nbsp;hasPinpad</option>
+	
+	<option value="//api/name/hasScanner">&nbsp;&nbsp;&nbsp;&nbsp;hasScanner</option>
+	
+	<option value="//api/name/merchantId">&nbsp;&nbsp;&nbsp;&nbsp;merchantId</option>
+	
+	<option value="//api/name/serialNumber">&nbsp;&nbsp;&nbsp;&nbsp;serialNumber</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/hasOwnViewForTendering">&nbsp;&nbsp;&nbsp;&nbsp;- hasOwnViewForTendering</option>
+	
+	<option value="//api/name/onShouldAskForCaId">&nbsp;&nbsp;&nbsp;&nbsp;- onShouldAskForCaId</option>
+	
+	<option value="//api/name/onShouldAskForCatId">&nbsp;&nbsp;&nbsp;&nbsp;- onShouldAskForCatId</option>
+	
+	<option value="//api/name/onStartTenderMessage">&nbsp;&nbsp;&nbsp;&nbsp;- onStartTenderMessage</option>
+	
+	<option value="//api/name/pendingTransaction">&nbsp;&nbsp;&nbsp;&nbsp;- pendingTransaction</option>
+	
+	<option value="//api/name/pendingTransactionFilename">&nbsp;&nbsp;&nbsp;&nbsp;- pendingTransactionFilename</option>
+	
+	<option value="//api/name/removePendingTransaction">&nbsp;&nbsp;&nbsp;&nbsp;- removePendingTransaction</option>
+	
+	<option value="//api/name/setPendingTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- setPendingTransaction:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/caId">caId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cameraAccessible">cameraAccessible</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/catId">catId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasPinpad">hasPinpad</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasScanner">hasScanner</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/merchantId">merchantId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/serialNumber">serialNumber</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasOwnViewForTendering">hasOwnViewForTendering</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onShouldAskForCaId">onShouldAskForCaId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onShouldAskForCatId">onShouldAskForCatId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onStartTenderMessage">onStartTenderMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pendingTransaction">pendingTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pendingTransactionFilename">pendingTransactionFilename</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removePendingTransaction">removePendingTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPendingTransaction:">setPendingTransaction:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLPaymentDevice Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLPaymentDevice Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLHardware.html">BLHardware</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLPaymentDevice.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/catId">&nbsp;&nbsp;catId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/caId">&nbsp;&nbsp;caId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/merchantId">&nbsp;&nbsp;merchantId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/serialNumber">&nbsp;&nbsp;serialNumber</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasPinpad">&nbsp;&nbsp;hasPinpad</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasScanner">&nbsp;&nbsp;hasScanner</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cameraAccessible">&nbsp;&nbsp;cameraAccessible</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onStartTenderMessage">&ndash;&nbsp;onStartTenderMessage</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onShouldAskForCatId">&ndash;&nbsp;onShouldAskForCatId</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onShouldAskForCaId">&ndash;&nbsp;onShouldAskForCaId</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasOwnViewForTendering">&ndash;&nbsp;hasOwnViewForTendering</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pendingTransaction">&ndash;&nbsp;pendingTransaction</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPendingTransaction:">&ndash;&nbsp;setPendingTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removePendingTransaction">&ndash;&nbsp;removePendingTransaction</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pendingTransactionFilename">&ndash;&nbsp;pendingTransactionFilename</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/caId" title="caId"></a>
+	<h3 class="subsubtitle method-title">caId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The retailer&rsquo;s card acceptor id.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *caId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLPaymentDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cameraAccessible" title="cameraAccessible"></a>
+	<h3 class="subsubtitle method-title">cameraAccessible</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool cameraAccessible</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/catId" title="catId"></a>
+	<h3 class="subsubtitle method-title">catId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The retailer&rsquo;s card acceptor terminal id.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *catId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLPaymentDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasPinpad" title="hasPinpad"></a>
+	<h3 class="subsubtitle method-title">hasPinpad</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool hasPinpad</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasScanner" title="hasScanner"></a>
+	<h3 class="subsubtitle method-title">hasScanner</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool hasScanner</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/merchantId" title="merchantId"></a>
+	<h3 class="subsubtitle method-title">merchantId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The retailer&rsquo;s merchant id.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger merchantId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLPaymentDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/serialNumber" title="serialNumber"></a>
+	<h3 class="subsubtitle method-title">serialNumber</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The serial number of the associated pinpad.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *serialNumber</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLPaymentDevice.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/hasOwnViewForTendering" title="hasOwnViewForTendering"></a>
+	<h3 class="subsubtitle method-title">hasOwnViewForTendering</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)hasOwnViewForTendering</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onShouldAskForCaId" title="onShouldAskForCaId"></a>
+	<h3 class="subsubtitle method-title">onShouldAskForCaId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onShouldAskForCaId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onShouldAskForCatId" title="onShouldAskForCatId"></a>
+	<h3 class="subsubtitle method-title">onShouldAskForCatId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onShouldAskForCatId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onStartTenderMessage" title="onStartTenderMessage"></a>
+	<h3 class="subsubtitle method-title">onStartTenderMessage</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onStartTenderMessage</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pendingTransaction" title="pendingTransaction"></a>
+	<h3 class="subsubtitle method-title">pendingTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSObject *)pendingTransaction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pendingTransactionFilename" title="pendingTransactionFilename"></a>
+	<h3 class="subsubtitle method-title">pendingTransactionFilename</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)pendingTransactionFilename</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removePendingTransaction" title="removePendingTransaction"></a>
+	<h3 class="subsubtitle method-title">removePendingTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)removePendingTransaction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPendingTransaction:" title="setPendingTransaction:"></a>
+	<h3 class="subsubtitle method-title">setPendingTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)setPendingTransaction:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

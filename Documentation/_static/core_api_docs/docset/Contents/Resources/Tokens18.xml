@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLCategory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLCategory</TokenIdentifier>
+			<Abstract type="html">BLCategory encapsulates the data and methods associated with product categories.</Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/uid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/level</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)level</Declaration>
+			
+			
+			<Anchor>//api/name/level</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/comments</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)comments</Declaration>
+			
+			
+			<Anchor>//api/name/comments</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/uidParent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)uidParent</Declaration>
+			
+			
+			<Anchor>//api/name/uidParent</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/hierarchy</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)hierarchy</Declaration>
+			
+			
+			<Anchor>//api/name/hierarchy</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/status</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/uidHierarchy</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)uidHierarchy</Declaration>
+			
+			
+			<Anchor>//api/name/uidHierarchy</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/flatHierarchy</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)flatHierarchy</Declaration>
+			
+			
+			<Anchor>//api/name/flatHierarchy</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (bool)deleted</Declaration>
+			
+			
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setUid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setUid:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setUid:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setName:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setName:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setLevel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setLevel:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setLevel:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setComments:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setComments:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setComments:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setUidParent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setUidParent:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setUidParent:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setHierarchy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setHierarchy:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHierarchy:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setStatus:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setStatus:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setUidHierarchy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setUidHierarchy:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setUidHierarchy:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setFlatHierarchy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setFlatHierarchy:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setFlatHierarchy:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategory/setDeleted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategory.h</DeclaredIn>
+			
+			<Declaration>- (void)setDeleted:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDeleted:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

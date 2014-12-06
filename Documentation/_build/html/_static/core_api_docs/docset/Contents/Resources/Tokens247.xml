@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSubscriptionProductsOverlayView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSubscriptionProductsOverlayView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionProductsOverlayView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="247"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionProductsOverlayView/setRegistrationDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionProductsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="247"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionProductsOverlayView/registrationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionProductsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="247"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSubscriptionProductsOverlayView/registrationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionProductsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="247"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

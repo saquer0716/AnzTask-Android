@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPaymentTransaction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPaymentTransaction</TokenIdentifier>
+			<Abstract type="html">BLPaymentTransaction encapsulates the data and methods associated with an app store payment transaction.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+            
+			
+			<NodeRef refid="321"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/setTransactionState:</TokenIdentifier>
+			<Abstract type="html">The transaction state.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SKPaymentTransactionState transactionState</Declaration>
+			
+			
+			<Anchor>//api/name/transactionState</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/transactionState</TokenIdentifier>
+			<Abstract type="html">The transaction state.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SKPaymentTransactionState transactionState</Declaration>
+			
+			
+			<Anchor>//api/name/transactionState</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPaymentTransaction/transactionState</TokenIdentifier>
+			<Abstract type="html">The transaction state.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SKPaymentTransactionState transactionState</Declaration>
+			
+			
+			<Anchor>//api/name/transactionState</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/setTransactionIdentifier:</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the transaction.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/transactionIdentifier</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/transactionIdentifier</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the transaction.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/transactionIdentifier</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPaymentTransaction/transactionIdentifier</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the transaction.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/transactionIdentifier</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/setProductIdentifier:</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the product.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *productIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/productIdentifier</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/productIdentifier</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the product.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *productIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/productIdentifier</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPaymentTransaction/productIdentifier</TokenIdentifier>
+			<Abstract type="html">The unique identifier for the product.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *productIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/productIdentifier</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/setTransactionDate:</TokenIdentifier>
+			<Abstract type="html">The transaction date.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionDate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDate</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/transactionDate</TokenIdentifier>
+			<Abstract type="html">The transaction date.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionDate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDate</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPaymentTransaction/transactionDate</TokenIdentifier>
+			<Abstract type="html">The transaction date.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionDate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDate</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/setQuantity:</TokenIdentifier>
+			<Abstract type="html">The product quantity.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger quantity</Declaration>
+			
+			
+			<Anchor>//api/name/quantity</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/quantity</TokenIdentifier>
+			<Abstract type="html">The product quantity.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger quantity</Declaration>
+			
+			
+			<Anchor>//api/name/quantity</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPaymentTransaction/quantity</TokenIdentifier>
+			<Abstract type="html">The product quantity.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger quantity</Declaration>
+			
+			
+			<Anchor>//api/name/quantity</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/setPaymentReceipt:</TokenIdentifier>
+			<Abstract type="html">The receipt for the app store transaction.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentReceipt *paymentReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/paymentReceipt</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaymentTransaction/paymentReceipt</TokenIdentifier>
+			<Abstract type="html">The receipt for the app store transaction.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentReceipt *paymentReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/paymentReceipt</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPaymentTransaction/paymentReceipt</TokenIdentifier>
+			<Abstract type="html">The receipt for the app store transaction.</Abstract>
+			<DeclaredIn>BLPaymentTransaction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentReceipt *paymentReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/paymentReceipt</Anchor>
+            <NodeRef refid="321"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

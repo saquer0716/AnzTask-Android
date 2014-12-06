@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSTransactionHeaderView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSTransactionHeaderView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the user interface relating to a transaction header.</Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="275"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setProductToolsDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductToolsDelegate&gt; productToolsDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productToolsDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/productToolsDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductToolsDelegate&gt; productToolsDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productToolsDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTransactionHeaderView/productToolsDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductToolsDelegate&gt; productToolsDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productToolsDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setViewDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the view.</Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the view.</Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTransactionHeaderView/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the view.</Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setTransactionDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTransactionDelegate&gt; transactionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/transactionDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTransactionDelegate&gt; transactionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTransactionHeaderView/transactionDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTransactionDelegate&gt; transactionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/transactionDelegate</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/collapsed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)collapsed</Declaration>
+			
+			
+			<Anchor>//api/name/collapsed</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/favouritesSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)favouritesSelected</Declaration>
+			
+			
+			<Anchor>//api/name/favouritesSelected</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/searchSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)searchSelected</Declaration>
+			
+			
+			<Anchor>//api/name/searchSelected</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setTotal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTotal:(NSDecimalNumber *)aTotal</Declaration>
+			
+			
+			<Anchor>//api/name/setTotal:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setHasScan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasScan:(bool)aValue</Declaration>
+			
+			
+			<Anchor>//api/name/setHasScan:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setHasFavourites:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasFavourites:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasFavourites:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setHasCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasCategories:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasCategories:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/sethasAmount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)sethasAmount:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/sethasAmount:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/refreshTransactionDetailAndScroll:forLayout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)refreshTransactionDetailAndScroll:(bool)aScroll forLayout:(bool)aLayout</Declaration>
+			
+			
+			<Anchor>//api/name/refreshTransactionDetailAndScroll:forLayout:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(NSArray *)aValue</Declaration>
+			
+			
+			<Anchor>//api/name/setData:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setOverlaySearch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setOverlaySearch:(bool)aOverlay</Declaration>
+			
+			
+			<Anchor>//api/name/setOverlaySearch:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/reset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/total</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)total</Declaration>
+			
+			
+			<Anchor>//api/name/total</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setPaid:partially:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setPaid:(bool)value partially:(bool)aPartially</Declaration>
+			
+			
+			<Anchor>//api/name/setPaid:partially:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setVoided:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setVoided:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setVoided:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setSuspended:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSuspended:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSuspended:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setRefund:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setRefund:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setRefund:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/paid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)paid</Declaration>
+			
+			
+			<Anchor>//api/name/paid</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/voided</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)voided</Declaration>
+			
+			
+			<Anchor>//api/name/voided</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/suspended</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)suspended</Declaration>
+			
+			
+			<Anchor>//api/name/suspended</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setCollapsed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCollapsed:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCollapsed:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/restorePreviousSelection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)restorePreviousSelection</Declaration>
+			
+			
+			<Anchor>//api/name/restorePreviousSelection</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setSearchUppercase:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSearchUppercase:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSearchUppercase:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/refund</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)refund</Declaration>
+			
+			
+			<Anchor>//api/name/refund</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/setVisibilityForItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setVisibilityForItems:(NSArray *)aItems</Declaration>
+			
+			
+			<Anchor>//api/name/setVisibilityForItems:</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/showBasket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)showBasket</Declaration>
+			
+			
+			<Anchor>//api/name/showBasket</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/hideBasket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)hideBasket</Declaration>
+			
+			
+			<Anchor>//api/name/hideBasket</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTransactionHeaderView/shouldHideProductToolView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTransactionHeaderView.h</DeclaredIn>
+			
+			<Declaration>- (bool)shouldHideProductToolView</Declaration>
+			
+			
+			<Anchor>//api/name/shouldHideProductToolView</Anchor>
+            <NodeRef refid="275"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSInputDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSInputDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for input view controllers.</Abstract>
+			<DeclaredIn>BLIOSInputProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="404"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSInputDelegate/didFinish:</TokenIdentifier>
+			<Abstract type="html">Initiated when the view has been dismissed.</Abstract>
+			<DeclaredIn>BLIOSInputProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)didFinish:(NSObject *)aObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aObject</Name>
+					<Abstract type="html">An object associated with the dismissal. </Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didFinish:</Anchor>
+            <NodeRef refid="404"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

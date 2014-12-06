@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLSoapDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLSoapDataRequest</TokenIdentifier>
+			<Abstract type="html">BLSoapDataRequest encapsulates the data and methods associated with a soap request and response.</Abstract>
+			<DeclaredIn>BLSoapDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="361"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLSoapDataRequest/createSoapMessageWithXML:forService:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)createSoapMessageWithXML:(NSString *)aXML forService:(NSString *)aService</Declaration>
+			
+			
+			<Anchor>//api/name/createSoapMessageWithXML:forService:</Anchor>
+            <NodeRef refid="361"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLSoapDataRequest/convert:toHTML:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)convert:(NSString *)aString toHTML:(BOOL)aHTML</Declaration>
+			
+			
+			<Anchor>//api/name/convert:toHTML:</Anchor>
+            <NodeRef refid="361"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

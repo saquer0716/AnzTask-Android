@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+NSStringAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(NSStringAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSStringAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/stringByGeneratingUUID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSStringAdditions.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringByGeneratingUUID</Declaration>
+			
+			
+			<Anchor>//api/name/stringByGeneratingUUID</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/base64StringFromData:length:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSStringAdditions.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)base64StringFromData:(NSData *)data length:(int)length</Declaration>
+			
+			
+			<Anchor>//api/name/base64StringFromData:length:</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/unescapedString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSStringAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)unescapedString</Declaration>
+			
+			
+			<Anchor>//api/name/unescapedString</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/escapedString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSStringAdditions.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)escapedString</Declaration>
+			
+			
+			<Anchor>//api/name/escapedString</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

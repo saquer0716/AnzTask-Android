@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSProductView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSProductView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="192"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setHasShoppingAgent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/hasShoppingAgent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSProductView/hasShoppingAgent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setShoppingDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSProductView/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/product</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (BLProduct *)product</Declaration>
+			
+			
+			<Anchor>//api/name/product</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/doBack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)doBack:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doBack:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/doDone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)doDone:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doDone:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/doAdd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)doAdd:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doAdd:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/doRemove:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)doRemove:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doRemove:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/doPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)doPrice:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doPrice:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setProduct:(BLProduct *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setProduct:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setHasImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasImage:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasImage:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setHasAddButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasAddButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasAddButton:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setHasRemoveButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasRemoveButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasRemoveButton:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setHasBackButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasBackButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasBackButton:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setHasPriceButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasPriceButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasPriceButton:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setAddButtonEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setAddButtonEnabled:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setAddButtonEnabled:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setPriceButtonEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setPriceButtonEnabled:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPriceButtonEnabled:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setRemoveButtonEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setRemoveButtonEnabled:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setRemoveButtonEnabled:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setBackButtonEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setBackButtonEnabled:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBackButtonEnabled:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setBackCaption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setBackCaption:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBackCaption:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setQuantity:forPicking:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setQuantity:(NSInteger)value forPicking:(bool)aPicking</Declaration>
+			
+			
+			<Anchor>//api/name/setQuantity:forPicking:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setPrice:(NSDecimalNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPrice:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/resetImageView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)resetImageView</Declaration>
+			
+			
+			<Anchor>//api/name/resetImageView</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/minimumSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)minimumSize</Declaration>
+			
+			
+			<Anchor>//api/name/minimumSize</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/searchSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)searchSize</Declaration>
+			
+			
+			<Anchor>//api/name/searchSize</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/addProductToBasket:withPricePrompt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)addProductToBasket:(BLProduct *)aProduct withPricePrompt:(bool)aPricePrompt</Declaration>
+			
+			
+			<Anchor>//api/name/addProductToBasket:withPricePrompt:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setPriceTextWhileSearching:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setPriceTextWhileSearching:(bool)aSearching</Declaration>
+			
+			
+			<Anchor>//api/name/setPriceTextWhileSearching:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/positionControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)positionControls</Declaration>
+			
+			
+			<Anchor>//api/name/positionControls</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setButtonColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonColor:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setShoppingMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setShoppingMode:(BLShoppingMode)value</Declaration>
+			
+			
+			<Anchor>//api/name/setShoppingMode:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/shoppingMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (BLShoppingMode)shoppingMode</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingMode</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/sessionTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)sessionTime</Declaration>
+			
+			
+			<Anchor>//api/name/sessionTime</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductView/setSessionTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSessionTime:(NSDate *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSessionTime:</Anchor>
+            <NodeRef refid="192"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

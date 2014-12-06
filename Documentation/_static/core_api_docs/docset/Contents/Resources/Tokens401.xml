@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSBarcodeDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSBarcodeDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for barcode scanning.</Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="401"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcodeScannerTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onBarcodeScannerTitle</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcodeScannerTitle</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcodeScanned:fromOrigin:withView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onBarcodeScanned:(NSString *)aBarcode fromOrigin:(BLSearchOrigin)aOrigin withView:(UIView *)aTextView</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcodeScanned:fromOrigin:withView:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBarcode:(NSString *)aBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcode:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcodeSearchingComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBarcodeSearchingComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcodeSearchingComplete</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onProducts:(NSArray *)aProducts retrievedForBasket:(BLBasket *)aBasket onDate:(NSString *)aDate withNextCount:(NSInteger)aNextCount fromSource:(BLSearchOrigin)aOrigin usingSearch:(NSString *)aSearchString shouldOverwrite:(bool)aOverwrite</Declaration>
+			
+			
+			<Anchor>//api/name/onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onPromotions:retrievedForProduct:onDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPromotions:(NSArray *)aPromotions retrievedForProduct:(BLProduct *)aProduct onDate:(NSString *)aDate</Declaration>
+			
+			
+			<Anchor>//api/name/onPromotions:retrievedForProduct:onDate:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onCategories:retrievedForProduct:onDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCategories:(NSArray *)aCategories retrievedForProduct:(BLProduct *)aProduct onDate:(NSString *)aDate</Declaration>
+			
+			
+			<Anchor>//api/name/onCategories:retrievedForProduct:onDate:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onStockGroupDetails:retrievedForProduct:onDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onStockGroupDetails:(NSArray *)aStockGroupDetails retrievedForProduct:(BLProduct *)aProduct onDate:(NSString *)aDate</Declaration>
+			
+			
+			<Anchor>//api/name/onStockGroupDetails:retrievedForProduct:onDate:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onFavouriteProductData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onFavouriteProductData:(NSArray *)aProducts</Declaration>
+			
+			
+			<Anchor>//api/name/onFavouriteProductData:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onNoProducts:withOrigin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onNoProducts:(NSString *)aCategory withOrigin:(BLSearchOrigin)aOrigin</Declaration>
+			
+			
+			<Anchor>//api/name/onNoProducts:withOrigin:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onProductSold:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onProductSold:(NSString *)aBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/onProductSold:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onNoBarcode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onNoBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/onNoBarcode</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcodeCancel:WithView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBarcodeCancel:(bool)aCancel WithView:(UIView *)aView</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcodeCancel:WithView:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcodeConnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBarcodeConnected</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcodeConnected</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcodeDisconnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBarcodeDisconnected</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcodeDisconnected</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcodeTriggerPulledForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onBarcodeTriggerPulledForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcodeTriggerPulledForObject:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onProductDataDownloadBegin:withMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onProductDataDownloadBegin:(NSObject *)sender withMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onProductDataDownloadBegin:withMessage:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onProductDataDownloadFail:withTitle:andMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onProductDataDownloadFail:(NSObject *)sender withTitle:(NSString *)aTitle andMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onProductDataDownloadFail:withTitle:andMessage:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onProductSearchResults:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onProductSearchResults:(NSArray *)aProducts</Declaration>
+			
+			
+			<Anchor>//api/name/onProductSearchResults:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onInventoryDownloadComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onInventoryDownloadComplete:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onInventoryDownloadComplete:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onPromotionDownloadComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPromotionDownloadComplete:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPromotionDownloadComplete:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onStockGroupDetailDownloadComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onStockGroupDetailDownloadComplete:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onStockGroupDetailDownloadComplete:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onCategoryDownloadComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCategoryDownloadComplete:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onCategoryDownloadComplete:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onInventoryDownloadCanceled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onInventoryDownloadCanceled:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onInventoryDownloadCanceled:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onPromotionDownloadCanceled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPromotionDownloadCanceled:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPromotionDownloadCanceled:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcode:padding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onBarcode:(NSString *)aBarcode padding:(NSInteger)aPadding</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcode:padding:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcode:preProcess:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onBarcode:(NSString *)aBarcode preProcess:(bool)aPreprocess forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcode:preProcess:forObject:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onPromotionsForTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onPromotionsForTransaction:(BLBasket *)aTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/onPromotionsForTransaction:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcode:postProcess:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onBarcode:(NSString *)aBarcode postProcess:(bool)aPostProcess forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcode:postProcess:forObject:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onBarcode:validation:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onBarcode:(NSString *)aBarcode validation:(bool)aValidation forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBarcode:validation:forObject:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onGiftCardPresetAmountsForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onGiftCardPresetAmountsForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onGiftCardPresetAmountsForObject:</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSBarcodeDelegate/onGiftCardAmountPlaceHolderText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBarcodeProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onGiftCardAmountPlaceHolderText</Declaration>
+			
+			
+			<Anchor>//api/name/onGiftCardAmountPlaceHolderText</Anchor>
+            <NodeRef refid="401"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

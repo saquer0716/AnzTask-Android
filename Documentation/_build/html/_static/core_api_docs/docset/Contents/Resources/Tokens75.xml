@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSButtonRoundedRectView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSButtonRoundedRectView</TokenIdentifier>
+			<Abstract type="html">BLIOSButtonRoundedRectView is an opaque view with rounded corners, an information and action button. The buttons can be used to perform specific tasks or linked to other views.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="75"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/setInformationButton:</TokenIdentifier>
+			<Abstract type="html">The button that actions a subview for displaying additional information or editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *informationButton</Declaration>
+			
+			
+			<Anchor>//api/name/informationButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/informationButton</TokenIdentifier>
+			<Abstract type="html">The button that actions a subview for displaying additional information or editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *informationButton</Declaration>
+			
+			
+			<Anchor>//api/name/informationButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSButtonRoundedRectView/informationButton</TokenIdentifier>
+			<Abstract type="html">The button that actions a subview for displaying additional information or editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *informationButton</Declaration>
+			
+			
+			<Anchor>//api/name/informationButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/setActionButton:</TokenIdentifier>
+			<Abstract type="html">The button that actions a subview for editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *actionButton</Declaration>
+			
+			
+			<Anchor>//api/name/actionButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/actionButton</TokenIdentifier>
+			<Abstract type="html">The button that actions a subview for editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *actionButton</Declaration>
+			
+			
+			<Anchor>//api/name/actionButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSButtonRoundedRectView/actionButton</TokenIdentifier>
+			<Abstract type="html">The button that actions a subview for editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *actionButton</Declaration>
+			
+			
+			<Anchor>//api/name/actionButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/setDisclosureButton:</TokenIdentifier>
+			<Abstract type="html">The disclosure that actions a subview for editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *disclosureButton</Declaration>
+			
+			
+			<Anchor>//api/name/disclosureButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/disclosureButton</TokenIdentifier>
+			<Abstract type="html">The disclosure that actions a subview for editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *disclosureButton</Declaration>
+			
+			
+			<Anchor>//api/name/disclosureButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSButtonRoundedRectView/disclosureButton</TokenIdentifier>
+			<Abstract type="html">The disclosure that actions a subview for editing the displayed information.</Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *disclosureButton</Declaration>
+			
+			
+			<Anchor>//api/name/disclosureButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/hasInformationButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasInformationButton</Declaration>
+			
+			
+			<Anchor>//api/name/hasInformationButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/hasActionButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasActionButton</Declaration>
+			
+			
+			<Anchor>//api/name/hasActionButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/hasDisclosureButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasDisclosureButton</Declaration>
+			
+			
+			<Anchor>//api/name/hasDisclosureButton</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/setHasInformationButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasInformationButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasInformationButton:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/setHasActionButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasActionButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasActionButton:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/setHasDisclosureButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasDisclosureButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasDisclosureButton:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonRoundedRectView/setActionButtonCaption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (void)setActionButtonCaption:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setActionButtonCaption:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

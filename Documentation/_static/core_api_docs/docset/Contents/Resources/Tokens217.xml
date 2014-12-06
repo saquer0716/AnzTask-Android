@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSecureStoreApplicationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSecureStoreApplicationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="217"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/setSignInButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *signInButton</Declaration>
+			
+			
+			<Anchor>//api/name/signInButton</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/signInButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *signInButton</Declaration>
+			
+			
+			<Anchor>//api/name/signInButton</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSecureStoreApplicationDelegate/signInButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *signInButton</Declaration>
+			
+			
+			<Anchor>//api/name/signInButton</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/setSettingsButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *settingsButton</Declaration>
+			
+			
+			<Anchor>//api/name/settingsButton</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/settingsButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *settingsButton</Declaration>
+			
+			
+			<Anchor>//api/name/settingsButton</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSecureStoreApplicationDelegate/settingsButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *settingsButton</Declaration>
+			
+			
+			<Anchor>//api/name/settingsButton</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/setPosTransactionMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSTransactionMode posTransactionMode</Declaration>
+			
+			
+			<Anchor>//api/name/posTransactionMode</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/posTransactionMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSTransactionMode posTransactionMode</Declaration>
+			
+			
+			<Anchor>//api/name/posTransactionMode</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSecureStoreApplicationDelegate/posTransactionMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSTransactionMode posTransactionMode</Declaration>
+			
+			
+			<Anchor>//api/name/posTransactionMode</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/doSignIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doSignIn:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSignIn:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/setToolbarItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)setToolbarItems:(NSArray *)aItems</Declaration>
+			
+			
+			<Anchor>//api/name/setToolbarItems:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/doSetup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doSetup:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSetup:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/doSettings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doSettings:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSettings:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/saveRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (bool)saveRetailer:(BLRetailer *)aRetailer</Declaration>
+			
+			
+			<Anchor>//api/name/saveRetailer:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/savePaymentDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (bool)savePaymentDevice:(BLPaymentDevice *)aPaymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/savePaymentDevice:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/loadSettingsWithMerchantData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)loadSettingsWithMerchantData:(BLRetailer *)aRetailer</Declaration>
+			
+			
+			<Anchor>//api/name/loadSettingsWithMerchantData:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/doBackDoorDomainChange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doBackDoorDomainChange:(BLUser *)aUser</Declaration>
+			
+			
+			<Anchor>//api/name/doBackDoorDomainChange:</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/doAskToSetDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doAskToSetDomain</Declaration>
+			
+			
+			<Anchor>//api/name/doAskToSetDomain</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSecureStoreApplicationDelegate/doDomainChange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSecureStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doDomainChange</Declaration>
+			
+			
+			<Anchor>//api/name/doDomainChange</Anchor>
+            <NodeRef refid="217"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

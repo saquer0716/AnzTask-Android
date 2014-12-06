@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSRetailReportDetailViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSRetailReportDetailViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetailReportDetailViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="209"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetailReportDetailViewController/setReportDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetailReportDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLReportDelegate&gt; reportDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/reportDelegate</Anchor>
+            <NodeRef refid="209"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetailReportDetailViewController/reportDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetailReportDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLReportDelegate&gt; reportDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/reportDelegate</Anchor>
+            <NodeRef refid="209"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRetailReportDetailViewController/reportDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetailReportDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLReportDelegate&gt; reportDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/reportDelegate</Anchor>
+            <NodeRef refid="209"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRetailReportDetailViewController/doFilter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRetailReportDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doFilter:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doFilter:</Anchor>
+            <NodeRef refid="209"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZBarCaptureReader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZBarCaptureReader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/initWithImageScanner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithImageScanner:(ZBarImageScanner *)imageScanner</Declaration>
+			
+			
+			<Anchor>//api/name/initWithImageScanner:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/willStartRunning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>- (void)willStartRunning</Declaration>
+			
+			
+			<Anchor>//api/name/willStartRunning</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/willStopRunning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>- (void)willStopRunning</Declaration>
+			
+			
+			<Anchor>//api/name/willStopRunning</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/flushCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>- (void)flushCache</Declaration>
+			
+			
+			<Anchor>//api/name/flushCache</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/captureFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>- (void)captureFrame</Declaration>
+			
+			
+			<Anchor>//api/name/captureFrame</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setCaptureOutput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureOutput *captureOutput</Declaration>
+			
+			
+			<Anchor>//api/name/captureOutput</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/captureOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureOutput *captureOutput</Declaration>
+			
+			
+			<Anchor>//api/name/captureOutput</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/captureOutput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureOutput *captureOutput</Declaration>
+			
+			
+			<Anchor>//api/name/captureOutput</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setCaptureDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarCaptureDelegate&gt; captureDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/captureDelegate</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/captureDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarCaptureDelegate&gt; captureDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/captureDelegate</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/captureDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarCaptureDelegate&gt; captureDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/captureDelegate</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setScanner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setScanCrop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/scanCrop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/scanCrop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setEnableReader:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableReader</Declaration>
+			
+			
+			<Anchor>//api/name/enableReader</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/enableReader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableReader</Declaration>
+			
+			
+			<Anchor>//api/name/enableReader</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/enableReader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableReader</Declaration>
+			
+			
+			<Anchor>//api/name/enableReader</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setFramesPerSecond:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat framesPerSecond</Declaration>
+			
+			
+			<Anchor>//api/name/framesPerSecond</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/framesPerSecond</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat framesPerSecond</Declaration>
+			
+			
+			<Anchor>//api/name/framesPerSecond</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/framesPerSecond</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGFloat framesPerSecond</Declaration>
+			
+			
+			<Anchor>//api/name/framesPerSecond</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/setEnableCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarCaptureReader/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarCaptureReader/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarCaptureReader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLJSonSubscriptionPayment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLJSonSubscriptionPayment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonSubscriptionPayment.h</DeclaredIn>
+            
+			
+			<NodeRef refid="303"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonSubscriptionPayment/applyPaymentId:toPlanForRetailer:withTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonSubscriptionPayment.h</DeclaredIn>
+			
+			<Declaration>- (void)applyPaymentId:(NSString *)aId toPlanForRetailer:(BLRetailer *)aRetailer withTime:(NSDate *)aDate</Declaration>
+			
+			
+			<Anchor>//api/name/applyPaymentId:toPlanForRetailer:withTime:</Anchor>
+            <NodeRef refid="303"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

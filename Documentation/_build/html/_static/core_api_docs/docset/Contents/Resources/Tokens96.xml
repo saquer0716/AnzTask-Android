@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSDeliveryView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSDeliveryView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSDeliveryView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="96"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSDeliveryView/setDateLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSDeliveryView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *dateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/dateLabel</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSDeliveryView/dateLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSDeliveryView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *dateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/dateLabel</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSDeliveryView/dateLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSDeliveryView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *dateLabel</Declaration>
+			
+			
+			<Anchor>//api/name/dateLabel</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSDeliveryView/doChangeDelivery</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSDeliveryView.h</DeclaredIn>
+			
+			<Declaration>- (void)doChangeDelivery</Declaration>
+			
+			
+			<Anchor>//api/name/doChangeDelivery</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

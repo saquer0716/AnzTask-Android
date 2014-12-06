@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSMapDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSMapDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="406"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMapDelegate/onDoList</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onDoList</Declaration>
+			
+			
+			<Anchor>//api/name/onDoList</Anchor>
+            <NodeRef refid="406"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMapDelegate/onGetAnnotations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onGetAnnotations:(UIViewController *)aViewController</Declaration>
+			
+			
+			<Anchor>//api/name/onGetAnnotations:</Anchor>
+            <NodeRef refid="406"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMapDelegate/onViewForAnnotation:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapProtocol.h</DeclaredIn>
+			
+			<Declaration>- (MKAnnotationView *)onViewForAnnotation:(MKMapView *)aMapView :</Declaration>
+			
+			
+			<Anchor>//api/name/onViewForAnnotation:::</Anchor>
+            <NodeRef refid="406"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMapDelegate/onCalloutAccessoryControlTapped:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCalloutAccessoryControlTapped:(BLAnnotation *)aAnnotation :</Declaration>
+			
+			
+			<Anchor>//api/name/onCalloutAccessoryControlTapped:::</Anchor>
+            <NodeRef refid="406"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMapDelegate/onMore:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onMore:(UIViewController *)aMapViewController :</Declaration>
+			
+			
+			<Anchor>//api/name/onMore:::</Anchor>
+            <NodeRef refid="406"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSMapDelegate/onMapListControllerDidFinish:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMapProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onMapListControllerDidFinish:(UIViewController *)aMapViewController :</Declaration>
+			
+			
+			<Anchor>//api/name/onMapListControllerDidFinish:::</Anchor>
+            <NodeRef refid="406"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

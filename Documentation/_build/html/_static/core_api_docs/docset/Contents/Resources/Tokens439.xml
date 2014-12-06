@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLSoapDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLSoapDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for soap messages.</Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+            
+			
+			<NodeRef refid="439"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onConnection:fail:withDescription:andCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnection:(NSObject *)aObject fail:(NSString *)aName withDescription:(NSString *)aDescription andCode:(NSInteger)aCode</Declaration>
+			
+			
+			<Anchor>//api/name/onConnection:fail:withDescription:andCode:</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onRequestFail:withErrorCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)onRequestFail:(NSString *)aErrorMessage withErrorCode:(NSInteger)aErrorCode</Declaration>
+			
+			
+			<Anchor>//api/name/onRequestFail:withErrorCode:</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onXMLDocumentRetrieved:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onXMLDocumentRetrieved:(SMXMLDocument *)aDocument forRequest:(NSObject *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/onXMLDocumentRetrieved:forRequest:</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onGetURLString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onGetURLString:(NSString *)aURL</Declaration>
+			
+			
+			<Anchor>//api/name/onGetURLString:</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onSoapMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onSoapMessage:(NSObject *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/onSoapMessage:</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onMatchingResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)onMatchingResponse</Declaration>
+			
+			
+			<Anchor>//api/name/onMatchingResponse</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onNothingToProcess:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)onNothingToProcess:(NSObject *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/onNothingToProcess:</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSoapDelegate/onSessionChanged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSoapProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)onSessionChanged:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/onSessionChanged:</Anchor>
+            <NodeRef refid="439"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLReport.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLReport</TokenIdentifier>
+			<Abstract type="html">BLReport manages the data used for generating a report.</Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+            
+			
+			<NodeRef refid="347"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/setTitle:</TokenIdentifier>
+			<Abstract type="html">The title of the report.</Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/title</TokenIdentifier>
+			<Abstract type="html">The title of the report.</Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLReport/title</TokenIdentifier>
+			<Abstract type="html">The title of the report.</Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/setDescription:</TokenIdentifier>
+			<Abstract type="html">The description of the report.</Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/description</TokenIdentifier>
+			<Abstract type="html">The description of the report.</Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLReport/description</TokenIdentifier>
+			<Abstract type="html">The description of the report.</Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLReport/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)coder</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLReport/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLReport.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(NSCoder *)coder</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="347"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

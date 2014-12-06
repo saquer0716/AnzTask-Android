@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLItemDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLItemDataRequest</TokenIdentifier>
+			<Abstract type="html">BLItemDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving and processing product data within a basket/transaction.</Abstract>
+			<DeclaredIn>BLItemDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="291"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLItemDataRequest/setForOrder:</TokenIdentifier>
+			<Abstract type="html">Determines/indicates whether the request is for an order (true) or a transaction(false).</Abstract>
+			<DeclaredIn>BLItemDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool forOrder</Declaration>
+			
+			
+			<Anchor>//api/name/forOrder</Anchor>
+            <NodeRef refid="291"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLItemDataRequest/forOrder</TokenIdentifier>
+			<Abstract type="html">Determines/indicates whether the request is for an order (true) or a transaction(false).</Abstract>
+			<DeclaredIn>BLItemDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool forOrder</Declaration>
+			
+			
+			<Anchor>//api/name/forOrder</Anchor>
+            <NodeRef refid="291"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLItemDataRequest/forOrder</TokenIdentifier>
+			<Abstract type="html">Determines/indicates whether the request is for an order (true) or a transaction(false).</Abstract>
+			<DeclaredIn>BLItemDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool forOrder</Declaration>
+			
+			
+			<Anchor>//api/name/forOrder</Anchor>
+            <NodeRef refid="291"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLItemDataRequest/addItems:atDomain:forOrder:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLItemDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)addItems:(BLBasket *)aBasket atDomain:(NSString *)aDomain forOrder:(bool)aOrder forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/addItems:atDomain:forOrder:forSession:onDevice:</Anchor>
+            <NodeRef refid="291"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLItemDataRequest/extractProducts:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLItemDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)extractProducts:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/extractProducts:forRequest:</Anchor>
+            <NodeRef refid="291"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

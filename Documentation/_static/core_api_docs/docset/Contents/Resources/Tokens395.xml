@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLBasketDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLBasketDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="395"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLBasketDelegate/didCreateBasket:</TokenIdentifier>
+			<Abstract type="html">Initiated when a basket has been created.</Abstract>
+			<DeclaredIn>BLBasketProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)didCreateBasket:(BLBasket *)aBasket</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aBasket</Name>
+					<Abstract type="html">The created basket.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didCreateBasket:</Anchor>
+            <NodeRef refid="395"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLBasketDelegate/onBasketModified:</TokenIdentifier>
+			<Abstract type="html">Initiated when a basket has been modified.</Abstract>
+			<DeclaredIn>BLBasketProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBasketModified:(BLBasket *)aBasket</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aBasket</Name>
+					<Abstract type="html">The modified basket.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onBasketModified:</Anchor>
+            <NodeRef refid="395"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLBasketDelegate/onGetCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onGetCategories:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/onGetCategories:</Anchor>
+            <NodeRef refid="395"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLBasketDelegate/onGetCategoriesFail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onGetCategoriesFail:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/onGetCategoriesFail:</Anchor>
+            <NodeRef refid="395"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

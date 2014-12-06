@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLStepPromotionDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLStepPromotionDataRequest</TokenIdentifier>
+			<Abstract type="html">BLStepPromotionDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving and processing retail promotion data.</Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="363"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStepPromotionDataRequest/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStepPromotionDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStepPromotionDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStepPromotionDataRequest/setTolerance:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStepPromotionDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStepPromotionDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStepPromotionDataRequest/getAllPromotionsSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getAllPromotionsSince:(NSString *)aDate withBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/getAllPromotionsSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStepPromotionDataRequest/getPromotionsFinish:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getPromotionsFinish:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/getPromotionsFinish:forRequest:</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStepPromotionDataRequest/resetParameters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)resetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/resetParameters</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLStepPromotionDataRequest/processPromotions:forBasket:inResponse:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStepPromotionDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)processPromotions:(NSArray *)aPromotions forBasket:(BLBasket *)aBasket inResponse:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/processPromotions:forBasket:inResponse:forRequest:</Anchor>
+            <NodeRef refid="363"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSearchBar.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSearchBar</TokenIdentifier>
+			<Abstract type="html">Inherits from UISearchBar to provide standardised behaviour within an app when presenting the user interface for inputing search text.</Abstract>
+			<DeclaredIn>BLIOSSearchBar.h</DeclaredIn>
+            
+			
+			<NodeRef refid="216"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

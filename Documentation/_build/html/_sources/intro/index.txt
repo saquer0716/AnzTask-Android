@@ -8,7 +8,7 @@ Getting Started
 	:maxdepth: 1
 
 	package_content
-	the_team
-	agile_development_process
-	ios_codebase_overview
+	task_requirement
+	problem_analize
+	project_feature
 	api_docs

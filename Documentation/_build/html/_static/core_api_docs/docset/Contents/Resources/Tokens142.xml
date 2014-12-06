@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSMissingImageView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSMissingImageView</TokenIdentifier>
+			<Abstract type="html">Inherits from BLIOSImageView to provide standardised behaviour within an app when displaying images in a view.
+In particular, it displays a customisable message when an image is unavailable.
+BLIOSMissingImageView is particularly useful when a missing image would affect the layout or usability of an app.</Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="142"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMissingImageView/setLabel:</TokenIdentifier>
+			<Abstract type="html">The label within the imageView that displays the &apos;missing image&apos; message.</Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMissingImageView/label</TokenIdentifier>
+			<Abstract type="html">The label within the imageView that displays the &apos;missing image&apos; message.</Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMissingImageView/label</TokenIdentifier>
+			<Abstract type="html">The label within the imageView that displays the &apos;missing image&apos; message.</Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMissingImageView/setImageBackgroundColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *imageBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/imageBackgroundColor</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMissingImageView/imageBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *imageBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/imageBackgroundColor</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMissingImageView/imageBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *imageBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/imageBackgroundColor</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMissingImageView/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>- (void)setText:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setText:</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMissingImageView/repositionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMissingImageView.h</DeclaredIn>
+			
+			<Declaration>- (void)repositionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/repositionLabel</Anchor>
+            <NodeRef refid="142"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLCategoryDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLCategoryDataRequest</TokenIdentifier>
+			<Abstract type="html">BLCategoryDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving and processing product category data.</Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCategoryDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/setTolerance:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCategoryDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/setCategory:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLCategory *category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/category</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLCategory *category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLCategoryDataRequest/category</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLCategory *category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/getCategories:forBasket:fromDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getCategories:(BLCategory *)aCategory forBasket:(BLBasket *)aBasket fromDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/getCategories:forBasket:fromDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/getCategoriesFinish:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getCategoriesFinish:(SMXMLDocument *)aDocument forRequest:(BLShoppingAgentSoapServer *)aRequest</Declaration>
+			
+			
+			<Anchor>//api/name/getCategoriesFinish:forRequest:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/getAllCategoriesSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getAllCategoriesSince:(NSString *)aDate withBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/getAllCategoriesSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCategoryDataRequest/resetParameters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCategoryDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)resetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/resetParameters</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSEditReceiptLogoView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSEditReceiptLogoView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="104"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setReceiptButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIButton *receiptButton</Declaration>
+			
+			
+			<Anchor>//api/name/receiptButton</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/receiptButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIButton *receiptButton</Declaration>
+			
+			
+			<Anchor>//api/name/receiptButton</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditReceiptLogoView/receiptButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIButton *receiptButton</Declaration>
+			
+			
+			<Anchor>//api/name/receiptButton</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setInstructionLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/instructionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditReceiptLogoView/instructionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setMainView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/mainView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditReceiptLogoView/mainView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setImageView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSMissingImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/imageView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSMissingImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditReceiptLogoView/imageView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSMissingImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setLongPressLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLongPressLabel *longPressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/longPressLabel</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/longPressLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLongPressLabel *longPressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/longPressLabel</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditReceiptLogoView/longPressLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLongPressLabel *longPressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/longPressLabel</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setLogo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/logo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditReceiptLogoView/logo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/doReceiptSetup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>- (void)doReceiptSetup:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doReceiptSetup:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/showLogo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>- (void)showLogo</Declaration>
+			
+			
+			<Anchor>//api/name/showLogo</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/hideLogo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>- (void)hideLogo</Declaration>
+			
+			
+			<Anchor>//api/name/hideLogo</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>- (void)setButtonColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonColor:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditReceiptLogoView/setButtonTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditReceiptLogoView.h</DeclaredIn>
+			
+			<Declaration>- (void)setButtonTextColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonTextColor:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

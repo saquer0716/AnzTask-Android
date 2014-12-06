@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLDictionary.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLDictionary</TokenIdentifier>
+			<Abstract type="html">BLDictionary extends the NSDictionary class to provide static methods for manipulating dictionaries.</Abstract>
+			<DeclaredIn>BLDictionary.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLDictionary/writeDictionary:toFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDictionary.h</DeclaredIn>
+			
+			<Declaration>+ (bool)writeDictionary:(NSDictionary *)aDictionary toFile:(NSString *)aFile</Declaration>
+			
+			
+			<Anchor>//api/name/writeDictionary:toFile:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLTenderDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLTenderDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="443"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onEftTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onEftTender:(BLTender *)aTender</Declaration>
+			
+			
+			<Anchor>//api/name/onEftTender:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onSuccessTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSuccessTender:(BLTender *)aTender</Declaration>
+			
+			
+			<Anchor>//api/name/onSuccessTender:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onEmailTender:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onEmailTender:(BLTender *)aTender forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onEmailTender:forObject:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onCashTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCashTender:(BLTender *)aTender</Declaration>
+			
+			
+			<Anchor>//api/name/onCashTender:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onVoucherTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onVoucherTender:(BLTender *)aTender</Declaration>
+			
+			
+			<Anchor>//api/name/onVoucherTender:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onCancelTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCancelTender:(BLTender *)aTender</Declaration>
+			
+			
+			<Anchor>//api/name/onCancelTender:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onPrintTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPrintTender:(BLTender *)aTender</Declaration>
+			
+			
+			<Anchor>//api/name/onPrintTender:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTenderDelegate/onRoundedAmountForCashTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)onRoundedAmountForCashTender:(NSDecimalNumber *)aTender</Declaration>
+			
+			
+			<Anchor>//api/name/onRoundedAmountForCashTender:</Anchor>
+            <NodeRef refid="443"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

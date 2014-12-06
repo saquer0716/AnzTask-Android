@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSActivityItemProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSActivityItemProvider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActivityItemProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSActivityItemProvider/setShareDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActivityItemProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShareDelegate&gt; shareDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shareDelegate</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSActivityItemProvider/shareDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActivityItemProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShareDelegate&gt; shareDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shareDelegate</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSActivityItemProvider/shareDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActivityItemProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShareDelegate&gt; shareDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shareDelegate</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSActivityItemProvider/setObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActivityItemProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSActivityItemProvider/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActivityItemProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSActivityItemProvider/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActivityItemProvider.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

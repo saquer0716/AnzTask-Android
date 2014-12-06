@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLZebraPrinter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLZebraPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLZebraPrinter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="386"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLZebraPrinter/discoverPrinters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLZebraPrinter.h</DeclaredIn>
+			
+			<Declaration>- (bool)discoverPrinters</Declaration>
+			
+			
+			<Anchor>//api/name/discoverPrinters</Anchor>
+            <NodeRef refid="386"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLZebraPrinter/setPrinterName:Address:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLZebraPrinter.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setPrinterName:(NSString *)aName Address:(NSString *)aAddress</Declaration>
+			
+			
+			<Anchor>//api/name/setPrinterName:Address:</Anchor>
+            <NodeRef refid="386"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

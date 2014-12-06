@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSAuthenticatedStoreApplicationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSAuthenticatedStoreApplicationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/setPointOfSale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSaleScanner *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/pointOfSale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSaleScanner *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSAuthenticatedStoreApplicationDelegate/pointOfSale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSaleScanner *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/doSignIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doSignIn:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSignIn:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/showSignInViewController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)showSignInViewController:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/showSignInViewController:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/askToSignOut:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)askToSignOut:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/askToSignOut:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/signedIn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (bool)signedIn</Declaration>
+			
+			
+			<Anchor>//api/name/signedIn</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/setSignedIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)setSignedIn:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSignedIn:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/setNeverSignedIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)setNeverSignedIn:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setNeverSignedIn:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSAuthenticatedStoreApplicationDelegate/neverSignedIn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSAuthenticatedStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (bool)neverSignedIn</Declaration>
+			
+			
+			<Anchor>//api/name/neverSignedIn</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

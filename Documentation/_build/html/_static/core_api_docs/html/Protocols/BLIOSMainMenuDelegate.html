@@ -1,0 +1,871 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLIOSMainMenuDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLIOSMainMenuDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/onActionViewColorForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onActionViewColorForObject:</option>
+	
+	<option value="//api/name/onBackgroundImageForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onBackgroundImageForObject:</option>
+	
+	<option value="//api/name/onBarTintColorForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarTintColorForObject:</option>
+	
+	<option value="//api/name/onButton:sizeForRect:forMenuType:">&nbsp;&nbsp;&nbsp;&nbsp;- onButton:sizeForRect:forMenuType:</option>
+	
+	<option value="//api/name/onButtonPosition:withProposedPosition:forButtonSize:">&nbsp;&nbsp;&nbsp;&nbsp;- onButtonPosition:withProposedPosition:forButtonSize:</option>
+	
+	<option value="//api/name/onButtonSpacing:">&nbsp;&nbsp;&nbsp;&nbsp;- onButtonSpacing:</option>
+	
+	<option value="//api/name/onButtonType">&nbsp;&nbsp;&nbsp;&nbsp;- onButtonType</option>
+	
+	<option value="//api/name/onCellHeightForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onCellHeightForObject:</option>
+	
+	<option value="//api/name/onContentMode:">&nbsp;&nbsp;&nbsp;&nbsp;- onContentMode:</option>
+	
+	<option value="//api/name/onCurrencyColor">&nbsp;&nbsp;&nbsp;&nbsp;- onCurrencyColor</option>
+	
+	<option value="//api/name/onDesktopFontColor">&nbsp;&nbsp;&nbsp;&nbsp;- onDesktopFontColor</option>
+	
+	<option value="//api/name/onFontColorforObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onFontColorforObject:</option>
+	
+	<option value="//api/name/onFooterCount">&nbsp;&nbsp;&nbsp;&nbsp;- onFooterCount</option>
+	
+	<option value="//api/name/onGroupColor">&nbsp;&nbsp;&nbsp;&nbsp;- onGroupColor</option>
+	
+	<option value="//api/name/onHasToolbar">&nbsp;&nbsp;&nbsp;&nbsp;- onHasToolbar</option>
+	
+	<option value="//api/name/onHudColorForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onHudColorForObject:</option>
+	
+	<option value="//api/name/onIsCompatibleIOS">&nbsp;&nbsp;&nbsp;&nbsp;- onIsCompatibleIOS</option>
+	
+	<option value="//api/name/onMainFeatureCount">&nbsp;&nbsp;&nbsp;&nbsp;- onMainFeatureCount</option>
+	
+	<option value="//api/name/onMainMenuReady">&nbsp;&nbsp;&nbsp;&nbsp;- onMainMenuReady</option>
+	
+	<option value="//api/name/onMenuType">&nbsp;&nbsp;&nbsp;&nbsp;- onMenuType</option>
+	
+	<option value="//api/name/onMissingImageForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onMissingImageForObject:</option>
+	
+	<option value="//api/name/onOffsetForObject:inController:">&nbsp;&nbsp;&nbsp;&nbsp;- onOffsetForObject:inController:</option>
+	
+	<option value="//api/name/onProminent:buttonCreated:">&nbsp;&nbsp;&nbsp;&nbsp;- onProminent:buttonCreated:</option>
+	
+	<option value="//api/name/onSectionIndexBackgroundColorForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onSectionIndexBackgroundColorForObject:</option>
+	
+	<option value="//api/name/onStartConnectionTest">&nbsp;&nbsp;&nbsp;&nbsp;- onStartConnectionTest</option>
+	
+	<option value="//api/name/onSubView:hasFrame:forObject:inViewController:">&nbsp;&nbsp;&nbsp;&nbsp;- onSubView:hasFrame:forObject:inViewController:</option>
+	
+	<option value="//api/name/onTerminalColor">&nbsp;&nbsp;&nbsp;&nbsp;- onTerminalColor</option>
+	
+	<option value="//api/name/onTintColorForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onTintColorForObject:</option>
+	
+	<option value="//api/name/onToolbarButtonColor">&nbsp;&nbsp;&nbsp;&nbsp;- onToolbarButtonColor</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onActionViewColorForObject:">onActionViewColorForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBackgroundImageForObject:">onBackgroundImageForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarTintColorForObject:">onBarTintColorForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onButton:sizeForRect:forMenuType:">onButton:sizeForRect:forMenuType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onButtonPosition:withProposedPosition:forButtonSize:">onButtonPosition:withProposedPosition:forButtonSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onButtonSpacing:">onButtonSpacing:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onButtonType">onButtonType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onCellHeightForObject:">onCellHeightForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onContentMode:">onContentMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onCurrencyColor">onCurrencyColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onDesktopFontColor">onDesktopFontColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onFontColorforObject:">onFontColorforObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onFooterCount">onFooterCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onGroupColor">onGroupColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onHasToolbar">onHasToolbar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onHudColorForObject:">onHudColorForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onIsCompatibleIOS">onIsCompatibleIOS</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onMainFeatureCount">onMainFeatureCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onMainMenuReady">onMainMenuReady</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onMenuType">onMenuType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onMissingImageForObject:">onMissingImageForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onOffsetForObject:inController:">onOffsetForObject:inController:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onProminent:buttonCreated:">onProminent:buttonCreated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSectionIndexBackgroundColorForObject:">onSectionIndexBackgroundColorForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onStartConnectionTest">onStartConnectionTest</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSubView:hasFrame:forObject:inViewController:">onSubView:hasFrame:forObject:inViewController:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTerminalColor">onTerminalColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTintColorForObject:">onTintColorForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onToolbarButtonColor">onToolbarButtonColor</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLIOSMainMenuDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLIOSMainMenuDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/BLMainMenuDelegate.html">BLMainMenuDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSMainMenuProtocol.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The protocol declaration for an app&rsquo;s main menu.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBackgroundImageForObject:">&ndash;&nbsp;onBackgroundImageForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onButtonType">&ndash;&nbsp;onButtonType</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onProminent:buttonCreated:">&ndash;&nbsp;onProminent:buttonCreated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onButton:sizeForRect:forMenuType:">&ndash;&nbsp;onButton:sizeForRect:forMenuType:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onButtonPosition:withProposedPosition:forButtonSize:">&ndash;&nbsp;onButtonPosition:withProposedPosition:forButtonSize:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onButtonSpacing:">&ndash;&nbsp;onButtonSpacing:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onMenuType">&ndash;&nbsp;onMenuType</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onFontColorforObject:">&ndash;&nbsp;onFontColorforObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onHudColorForObject:">&ndash;&nbsp;onHudColorForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onActionViewColorForObject:">&ndash;&nbsp;onActionViewColorForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onCurrencyColor">&ndash;&nbsp;onCurrencyColor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onDesktopFontColor">&ndash;&nbsp;onDesktopFontColor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onGroupColor">&ndash;&nbsp;onGroupColor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onToolbarButtonColor">&ndash;&nbsp;onToolbarButtonColor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTerminalColor">&ndash;&nbsp;onTerminalColor</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTintColorForObject:">&ndash;&nbsp;onTintColorForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarTintColorForObject:">&ndash;&nbsp;onBarTintColorForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onMainFeatureCount">&ndash;&nbsp;onMainFeatureCount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onFooterCount">&ndash;&nbsp;onFooterCount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSectionIndexBackgroundColorForObject:">&ndash;&nbsp;onSectionIndexBackgroundColorForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onCellHeightForObject:">&ndash;&nbsp;onCellHeightForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onMissingImageForObject:">&ndash;&nbsp;onMissingImageForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onIsCompatibleIOS">&ndash;&nbsp;onIsCompatibleIOS</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onMainMenuReady">&ndash;&nbsp;onMainMenuReady</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onStartConnectionTest">&ndash;&nbsp;onStartConnectionTest</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onContentMode:">&ndash;&nbsp;onContentMode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSubView:hasFrame:forObject:inViewController:">&ndash;&nbsp;onSubView:hasFrame:forObject:inViewController:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onHasToolbar">&ndash;&nbsp;onHasToolbar</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onOffsetForObject:inController:">&ndash;&nbsp;onOffsetForObject:inController:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/onActionViewColorForObject:" title="onActionViewColorForObject:"></a>
+	<h3 class="subsubtitle method-title">onActionViewColorForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onActionViewColorForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBackgroundImageForObject:" title="onBackgroundImageForObject:"></a>
+	<h3 class="subsubtitle method-title">onBackgroundImageForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIImage *)onBackgroundImageForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarTintColorForObject:" title="onBarTintColorForObject:"></a>
+	<h3 class="subsubtitle method-title">onBarTintColorForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onBarTintColorForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onButton:sizeForRect:forMenuType:" title="onButton:sizeForRect:forMenuType:"></a>
+	<h3 class="subsubtitle method-title">onButton:sizeForRect:forMenuType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGSize)onButton:(BLIOSButton *)<em>aButton</em> sizeForRect:(CGRect)<em>aRect</em> forMenuType:(BLMenuType)<em>aMenuType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onButtonPosition:withProposedPosition:forButtonSize:" title="onButtonPosition:withProposedPosition:forButtonSize:"></a>
+	<h3 class="subsubtitle method-title">onButtonPosition:withProposedPosition:forButtonSize:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)onButtonPosition:(CGRect)<em>aFrame</em> withProposedPosition:(CGPoint)<em>aProposedPosition</em> forButtonSize:(CGSize)<em>aButtonSize</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onButtonSpacing:" title="onButtonSpacing:"></a>
+	<h3 class="subsubtitle method-title">onButtonSpacing:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)onButtonSpacing:(NSInteger)<em>aSpacing</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onButtonType" title="onButtonType"></a>
+	<h3 class="subsubtitle method-title">onButtonType</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIButtonType)onButtonType</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onCellHeightForObject:" title="onCellHeightForObject:"></a>
+	<h3 class="subsubtitle method-title">onCellHeightForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)onCellHeightForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onContentMode:" title="onContentMode:"></a>
+	<h3 class="subsubtitle method-title">onContentMode:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIViewContentMode)onContentMode:(UIView *)<em>aView</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onCurrencyColor" title="onCurrencyColor"></a>
+	<h3 class="subsubtitle method-title">onCurrencyColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onCurrencyColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onDesktopFontColor" title="onDesktopFontColor"></a>
+	<h3 class="subsubtitle method-title">onDesktopFontColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onDesktopFontColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onFontColorforObject:" title="onFontColorforObject:"></a>
+	<h3 class="subsubtitle method-title">onFontColorforObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onFontColorforObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onFooterCount" title="onFooterCount"></a>
+	<h3 class="subsubtitle method-title">onFooterCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)onFooterCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onGroupColor" title="onGroupColor"></a>
+	<h3 class="subsubtitle method-title">onGroupColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onGroupColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onHasToolbar" title="onHasToolbar"></a>
+	<h3 class="subsubtitle method-title">onHasToolbar</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onHasToolbar</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onHudColorForObject:" title="onHudColorForObject:"></a>
+	<h3 class="subsubtitle method-title">onHudColorForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onHudColorForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onIsCompatibleIOS" title="onIsCompatibleIOS"></a>
+	<h3 class="subsubtitle method-title">onIsCompatibleIOS</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onIsCompatibleIOS</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onMainFeatureCount" title="onMainFeatureCount"></a>
+	<h3 class="subsubtitle method-title">onMainFeatureCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)onMainFeatureCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onMainMenuReady" title="onMainMenuReady"></a>
+	<h3 class="subsubtitle method-title">onMainMenuReady</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onMainMenuReady</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onMenuType" title="onMenuType"></a>
+	<h3 class="subsubtitle method-title">onMenuType</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLMenuType)onMenuType</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onMissingImageForObject:" title="onMissingImageForObject:"></a>
+	<h3 class="subsubtitle method-title">onMissingImageForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onMissingImageForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onOffsetForObject:inController:" title="onOffsetForObject:inController:"></a>
+	<h3 class="subsubtitle method-title">onOffsetForObject:inController:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)onOffsetForObject:(NSObject *)<em>aObject</em> inController:(UIViewController *)<em>aController</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onProminent:buttonCreated:" title="onProminent:buttonCreated:"></a>
+	<h3 class="subsubtitle method-title">onProminent:buttonCreated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onProminent:(bool)<em>aProminent</em> buttonCreated:(BLIOSButton *)<em>aButton</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSectionIndexBackgroundColorForObject:" title="onSectionIndexBackgroundColorForObject:"></a>
+	<h3 class="subsubtitle method-title">onSectionIndexBackgroundColorForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onSectionIndexBackgroundColorForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onStartConnectionTest" title="onStartConnectionTest"></a>
+	<h3 class="subsubtitle method-title">onStartConnectionTest</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onStartConnectionTest</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSubView:hasFrame:forObject:inViewController:" title="onSubView:hasFrame:forObject:inViewController:"></a>
+	<h3 class="subsubtitle method-title">onSubView:hasFrame:forObject:inViewController:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSubView:(UIView *)<em>aView</em> hasFrame:(CGRect)<em>aRect</em> forObject:(NSObject *)<em>aObject</em> inViewController:(UIViewController *)<em>aController</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTerminalColor" title="onTerminalColor"></a>
+	<h3 class="subsubtitle method-title">onTerminalColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onTerminalColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTintColorForObject:" title="onTintColorForObject:"></a>
+	<h3 class="subsubtitle method-title">onTintColorForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onTintColorForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onToolbarButtonColor" title="onToolbarButtonColor"></a>
+	<h3 class="subsubtitle method-title">onToolbarButtonColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIColor *)onToolbarButtonColor</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPosConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPosConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="327"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfiguration/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfiguration/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPosConfiguration/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfiguration/setValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfiguration/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPosConfiguration/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfiguration/setKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfiguration/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPosConfiguration/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="327"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

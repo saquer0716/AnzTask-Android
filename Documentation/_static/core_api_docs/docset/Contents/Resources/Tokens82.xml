@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSCheckoutView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSCheckoutView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCheckoutView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="82"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCheckoutView/setTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCheckoutView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTransaction:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/setTransaction:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

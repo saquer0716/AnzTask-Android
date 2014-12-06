@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLDeliveryLocationDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLDeliveryLocationDataRequest</TokenIdentifier>
+			<Abstract type="html">BLDeliveryLocationDataRequests encapsulates the data and methods associated with retrieving and processing delivery locations pertaining to a retail transaction.</Abstract>
+			<DeclaredIn>BLDeliveryLocationDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeliveryLocationDataRequest/deliveryLocation:atDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeliveryLocationDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)deliveryLocation:(NSInteger)aUid atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/deliveryLocation:atDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeliveryLocationDataRequest/extractLocations:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLDeliveryLocationDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)extractLocations:(SMXMLDocument *)aDocument forRequest:(BLDeliveryLocationDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/extractLocations:forRequest:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZBarReaderView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZBarReaderView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/initWithImageScanner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithImageScanner:(ZBarImageScanner *)imageScanner</Declaration>
+			
+			
+			<Anchor>//api/name/initWithImageScanner:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/stop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/flushCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)flushCache</Declaration>
+			
+			
+			<Anchor>//api/name/flushCache</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/willRotateToInterfaceOrientation:duration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)orient duration:(NSTimeInterval)duration</Declaration>
+			
+			
+			<Anchor>//api/name/willRotateToInterfaceOrientation:duration:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setReaderDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarReaderViewDelegate&gt; readerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/readerDelegate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/readerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarReaderViewDelegate&gt; readerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/readerDelegate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/readerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;ZBarReaderViewDelegate&gt; readerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/readerDelegate</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setScanner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/scanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarImageScanner *scanner</Declaration>
+			
+			
+			<Anchor>//api/name/scanner</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setTracksSymbols:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL tracksSymbols</Declaration>
+			
+			
+			<Anchor>//api/name/tracksSymbols</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/tracksSymbols</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL tracksSymbols</Declaration>
+			
+			
+			<Anchor>//api/name/tracksSymbols</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/tracksSymbols</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL tracksSymbols</Declaration>
+			
+			
+			<Anchor>//api/name/tracksSymbols</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setTrackingColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *trackingColor</Declaration>
+			
+			
+			<Anchor>//api/name/trackingColor</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/trackingColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *trackingColor</Declaration>
+			
+			
+			<Anchor>//api/name/trackingColor</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/trackingColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *trackingColor</Declaration>
+			
+			
+			<Anchor>//api/name/trackingColor</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setAllowsPinchZoom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsPinchZoom</Declaration>
+			
+			
+			<Anchor>//api/name/allowsPinchZoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/allowsPinchZoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsPinchZoom</Declaration>
+			
+			
+			<Anchor>//api/name/allowsPinchZoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/allowsPinchZoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL allowsPinchZoom</Declaration>
+			
+			
+			<Anchor>//api/name/allowsPinchZoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setTorchMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger torchMode</Declaration>
+			
+			
+			<Anchor>//api/name/torchMode</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/torchMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger torchMode</Declaration>
+			
+			
+			<Anchor>//api/name/torchMode</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/torchMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger torchMode</Declaration>
+			
+			
+			<Anchor>//api/name/torchMode</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setShowsFPS:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsFPS</Declaration>
+			
+			
+			<Anchor>//api/name/showsFPS</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/showsFPS</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsFPS</Declaration>
+			
+			
+			<Anchor>//api/name/showsFPS</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/showsFPS</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsFPS</Declaration>
+			
+			
+			<Anchor>//api/name/showsFPS</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setZoom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat zoom</Declaration>
+			
+			
+			<Anchor>//api/name/zoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/zoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat zoom</Declaration>
+			
+			
+			<Anchor>//api/name/zoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/zoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat zoom</Declaration>
+			
+			
+			<Anchor>//api/name/zoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setZoom:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setZoom:(CGFloat)zoom animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/setZoom:animated:</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setMaxZoom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat maxZoom</Declaration>
+			
+			
+			<Anchor>//api/name/maxZoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/maxZoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat maxZoom</Declaration>
+			
+			
+			<Anchor>//api/name/maxZoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/maxZoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat maxZoom</Declaration>
+			
+			
+			<Anchor>//api/name/maxZoom</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setScanCrop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/scanCrop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/scanCrop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGRect scanCrop</Declaration>
+			
+			
+			<Anchor>//api/name/scanCrop</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setPreviewTransform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform previewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/previewTransform</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/previewTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform previewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/previewTransform</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/previewTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform previewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/previewTransform</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) AVCaptureDevice *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/device</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) AVCaptureDevice *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/device</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) AVCaptureDevice *device</Declaration>
+			
+			
+			<Anchor>//api/name/device</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureSession *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/session</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureSession *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/session</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureSession *session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setCaptureReader:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarCaptureReader *captureReader</Declaration>
+			
+			
+			<Anchor>//api/name/captureReader</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/captureReader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarCaptureReader *captureReader</Declaration>
+			
+			
+			<Anchor>//api/name/captureReader</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/captureReader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ZBarCaptureReader *captureReader</Declaration>
+			
+			
+			<Anchor>//api/name/captureReader</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/setEnableCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarReaderView/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarReaderView/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

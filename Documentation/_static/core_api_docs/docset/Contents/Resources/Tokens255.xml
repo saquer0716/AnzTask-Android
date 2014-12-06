@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSTableHeaderView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSTableHeaderView</TokenIdentifier>
+			<Abstract type="html">Provides a view that appears at the top of a tableView for displaying a heading, a message and a button for initiating a task associated with the tableView content.</Abstract>
+			<DeclaredIn>BLIOSTableHeaderView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="255"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

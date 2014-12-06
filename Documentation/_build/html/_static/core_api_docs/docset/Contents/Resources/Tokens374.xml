@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLTimeSlot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLTimeSlot</TokenIdentifier>
+			<Abstract type="html">BLTimeDSlot encapsulates the data and methods associated with delivery time slots for an order.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+            
+			
+			<NodeRef refid="374"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/setFromTime:</TokenIdentifier>
+			<Abstract type="html">The commencement [date]time for the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *fromTime</Declaration>
+			
+			
+			<Anchor>//api/name/fromTime</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/fromTime</TokenIdentifier>
+			<Abstract type="html">The commencement [date]time for the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *fromTime</Declaration>
+			
+			
+			<Anchor>//api/name/fromTime</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTimeSlot/fromTime</TokenIdentifier>
+			<Abstract type="html">The commencement [date]time for the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *fromTime</Declaration>
+			
+			
+			<Anchor>//api/name/fromTime</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/setToTime:</TokenIdentifier>
+			<Abstract type="html">The expiry [date]time for the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *toTime</Declaration>
+			
+			
+			<Anchor>//api/name/toTime</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/toTime</TokenIdentifier>
+			<Abstract type="html">The expiry [date]time for the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *toTime</Declaration>
+			
+			
+			<Anchor>//api/name/toTime</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTimeSlot/toTime</TokenIdentifier>
+			<Abstract type="html">The expiry [date]time for the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *toTime</Declaration>
+			
+			
+			<Anchor>//api/name/toTime</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/setCollectionType:</TokenIdentifier>
+			<Abstract type="html">The type of time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *collectionType</Declaration>
+			
+			
+			<Anchor>//api/name/collectionType</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/collectionType</TokenIdentifier>
+			<Abstract type="html">The type of time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *collectionType</Declaration>
+			
+			
+			<Anchor>//api/name/collectionType</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTimeSlot/collectionType</TokenIdentifier>
+			<Abstract type="html">The type of time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *collectionType</Declaration>
+			
+			
+			<Anchor>//api/name/collectionType</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/setPremium:</TokenIdentifier>
+			<Abstract type="html">The premium associated with the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPremium *premium</Declaration>
+			
+			
+			<Anchor>//api/name/premium</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/premium</TokenIdentifier>
+			<Abstract type="html">The premium associated with the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPremium *premium</Declaration>
+			
+			
+			<Anchor>//api/name/premium</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTimeSlot/premium</TokenIdentifier>
+			<Abstract type="html">The premium associated with the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPremium *premium</Declaration>
+			
+			
+			<Anchor>//api/name/premium</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/setCharge:</TokenIdentifier>
+			<Abstract type="html">The charge for the timeslot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDecimalNumber *charge</Declaration>
+			
+			
+			<Anchor>//api/name/charge</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/charge</TokenIdentifier>
+			<Abstract type="html">The charge for the timeslot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDecimalNumber *charge</Declaration>
+			
+			
+			<Anchor>//api/name/charge</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTimeSlot/charge</TokenIdentifier>
+			<Abstract type="html">The charge for the timeslot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDecimalNumber *charge</Declaration>
+			
+			
+			<Anchor>//api/name/charge</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/setUid:</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/uid</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTimeSlot/uid</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the time slot.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/setDayOfWeek:</TokenIdentifier>
+			<Abstract type="html">The day of the week that the time slot applies to.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger dayOfWeek</Declaration>
+			
+			
+			<Anchor>//api/name/dayOfWeek</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTimeSlot/dayOfWeek</TokenIdentifier>
+			<Abstract type="html">The day of the week that the time slot applies to.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger dayOfWeek</Declaration>
+			
+			
+			<Anchor>//api/name/dayOfWeek</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTimeSlot/dayOfWeek</TokenIdentifier>
+			<Abstract type="html">The day of the week that the time slot applies to.</Abstract>
+			<DeclaredIn>BLTimeSlot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger dayOfWeek</Declaration>
+			
+			
+			<Anchor>//api/name/dayOfWeek</Anchor>
+            <NodeRef refid="374"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

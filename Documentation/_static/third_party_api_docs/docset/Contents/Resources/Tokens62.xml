@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/JSONRepresentation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/JSONRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JSONRepresentation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JSONRepresentation/initWithJSONDataRepresentation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JSONRepresentation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithJSONDataRepresentation:(NSData *)inJSONData</Declaration>
+			
+			
+			<Anchor>//api/name/initWithJSONDataRepresentation:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JSONRepresentation/JSONDataRepresentation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JSONRepresentation.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)JSONDataRepresentation</Declaration>
+			
+			
+			<Anchor>//api/name/JSONDataRepresentation</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

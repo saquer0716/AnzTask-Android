@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSTaxInvoicePDF.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSTaxInvoicePDF</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+            
+			
+			<NodeRef refid="259"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/setBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLBasket *basket</Declaration>
+			
+			
+			<Anchor>//api/name/basket</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/basket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLBasket *basket</Declaration>
+			
+			
+			<Anchor>//api/name/basket</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTaxInvoicePDF/basket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLBasket *basket</Declaration>
+			
+			
+			<Anchor>//api/name/basket</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTaxInvoicePDF/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTaxInvoicePDF/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/setLocale:</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/locale</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTaxInvoicePDF/locale</TokenIdentifier>
+			<Abstract type="html">The locale for the current user.</Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSLocale *locale</Declaration>
+			
+			
+			<Anchor>//api/name/locale</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/setPrintableWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger printableWidth</Declaration>
+			
+			
+			<Anchor>//api/name/printableWidth</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTaxInvoicePDF/printableWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger printableWidth</Declaration>
+			
+			
+			<Anchor>//api/name/printableWidth</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTaxInvoicePDF/printableWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTaxInvoicePDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger printableWidth</Declaration>
+			
+			
+			<Anchor>//api/name/printableWidth</Anchor>
+            <NodeRef refid="259"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

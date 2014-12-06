@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/nomadPOSViewControllerBinding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/nomadPOSViewControllerBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadPOSViewControllerBinding.h</DeclaredIn>
+            
+			
+			<NodeRef refid="391"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

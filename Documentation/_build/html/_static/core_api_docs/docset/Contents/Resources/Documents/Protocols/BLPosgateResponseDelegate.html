@@ -1,0 +1,1063 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLPosgateResponseDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLPosgateResponseDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/onEFTPOSLoyaltyCardSwipeComplete">&nbsp;&nbsp;&nbsp;&nbsp;- onEFTPOSLoyaltyCardSwipeComplete</option>
+	
+	<option value="//api/name/onEFTPOSMerchantConfigured:">&nbsp;&nbsp;&nbsp;&nbsp;- onEFTPOSMerchantConfigured:</option>
+	
+	<option value="//api/name/onHasPendingPinpadTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- onHasPendingPinpadTransaction:</option>
+	
+	<option value="//api/name/onIsMerchantConfigured:forRetailer:">&nbsp;&nbsp;&nbsp;&nbsp;- onIsMerchantConfigured:forRetailer:</option>
+	
+	<option value="//api/name/onLastPinpadTransactionApproved:">&nbsp;&nbsp;&nbsp;&nbsp;- onLastPinpadTransactionApproved:</option>
+	
+	<option value="//api/name/onLastPinpadTransactionFailed:">&nbsp;&nbsp;&nbsp;&nbsp;- onLastPinpadTransactionFailed:</option>
+	
+	<option value="//api/name/onLastPinpadTransactionRejected:">&nbsp;&nbsp;&nbsp;&nbsp;- onLastPinpadTransactionRejected:</option>
+	
+	<option value="//api/name/onPaymentOutstandingForTransaction:withObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onPaymentOutstandingForTransaction:withObject:</option>
+	
+	<option value="//api/name/onPinPadStatus:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinPadStatus:</option>
+	
+	<option value="//api/name/onPinpadDisconnected:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadDisconnected:</option>
+	
+	<option value="//api/name/onPinpadLogsDeleted:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadLogsDeleted:</option>
+	
+	<option value="//api/name/onPinpadLogsRetrieved:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadLogsRetrieved:</option>
+	
+	<option value="//api/name/onPinpadResponseFinished">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadResponseFinished</option>
+	
+	<option value="//api/name/onPinpadTransactionFailed:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadTransactionFailed:</option>
+	
+	<option value="//api/name/onPinpadTransactionNotProcessed:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadTransactionNotProcessed:</option>
+	
+	<option value="//api/name/onPinpadTransactionPending:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadTransactionPending:</option>
+	
+	<option value="//api/name/onPinpadTransactionSuccessful:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadTransactionSuccessful:</option>
+	
+	<option value="//api/name/onPinpadTransactionTenderedWithShoppingAgent:">&nbsp;&nbsp;&nbsp;&nbsp;- onPinpadTransactionTenderedWithShoppingAgent:</option>
+	
+	<option value="//api/name/onReceipt:withType:forBasket:andSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onReceipt:withType:forBasket:andSession:</option>
+	
+	<option value="//api/name/onResolvePaymentDeviceTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- onResolvePaymentDeviceTransaction:</option>
+	
+	<option value="//api/name/onResolveShoppingAgentTransaction">&nbsp;&nbsp;&nbsp;&nbsp;- onResolveShoppingAgentTransaction</option>
+	
+	<option value="//api/name/onTransaction:suspended:forSession:withMessage:andResult:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransaction:suspended:forSession:withMessage:andResult:</option>
+	
+	<option value="//api/name/onTransactionDiscarded:forSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionDiscarded:forSession:</option>
+	
+	<option value="//api/name/onTransactionResumed:forSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionResumed:forSession:</option>
+	
+	<option value="//api/name/onTransactionSuspendFail:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionSuspendFail:</option>
+	
+	<option value="//api/name/onTransactionUnvoided:forSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionUnvoided:forSession:</option>
+	
+	<option value="//api/name/onTransactionVoidFail:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionVoidFail:</option>
+	
+	<option value="//api/name/onTransactionVoided:forSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionVoided:forSession:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onEFTPOSLoyaltyCardSwipeComplete">onEFTPOSLoyaltyCardSwipeComplete</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onEFTPOSMerchantConfigured:">onEFTPOSMerchantConfigured:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onHasPendingPinpadTransaction:">onHasPendingPinpadTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onIsMerchantConfigured:forRetailer:">onIsMerchantConfigured:forRetailer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onLastPinpadTransactionApproved:">onLastPinpadTransactionApproved:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onLastPinpadTransactionFailed:">onLastPinpadTransactionFailed:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onLastPinpadTransactionRejected:">onLastPinpadTransactionRejected:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPaymentOutstandingForTransaction:withObject:">onPaymentOutstandingForTransaction:withObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinPadStatus:">onPinPadStatus:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadDisconnected:">onPinpadDisconnected:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadLogsDeleted:">onPinpadLogsDeleted:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadLogsRetrieved:">onPinpadLogsRetrieved:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadResponseFinished">onPinpadResponseFinished</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadTransactionFailed:">onPinpadTransactionFailed:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadTransactionNotProcessed:">onPinpadTransactionNotProcessed:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadTransactionPending:">onPinpadTransactionPending:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadTransactionSuccessful:">onPinpadTransactionSuccessful:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPinpadTransactionTenderedWithShoppingAgent:">onPinpadTransactionTenderedWithShoppingAgent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onReceipt:withType:forBasket:andSession:">onReceipt:withType:forBasket:andSession:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onResolvePaymentDeviceTransaction:">onResolvePaymentDeviceTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onResolveShoppingAgentTransaction">onResolveShoppingAgentTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransaction:suspended:forSession:withMessage:andResult:">onTransaction:suspended:forSession:withMessage:andResult:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionDiscarded:forSession:">onTransactionDiscarded:forSession:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionResumed:forSession:">onTransactionResumed:forSession:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionSuspendFail:">onTransactionSuspendFail:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionUnvoided:forSession:">onTransactionUnvoided:forSession:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionVoidFail:">onTransactionVoidFail:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionVoided:forSession:">onTransactionVoided:forSession:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLPosgateResponseDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLPosgateResponseDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSPosgateProtocol.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onIsMerchantConfigured:forRetailer:">&ndash;&nbsp;onIsMerchantConfigured:forRetailer:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onHasPendingPinpadTransaction:">&ndash;&nbsp;onHasPendingPinpadTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onLastPinpadTransactionFailed:">&ndash;&nbsp;onLastPinpadTransactionFailed:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onEFTPOSMerchantConfigured:">&ndash;&nbsp;onEFTPOSMerchantConfigured:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onEFTPOSLoyaltyCardSwipeComplete">&ndash;&nbsp;onEFTPOSLoyaltyCardSwipeComplete</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPaymentOutstandingForTransaction:withObject:">&ndash;&nbsp;onPaymentOutstandingForTransaction:withObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadDisconnected:">&ndash;&nbsp;onPinpadDisconnected:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadLogsDeleted:">&ndash;&nbsp;onPinpadLogsDeleted:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadLogsRetrieved:">&ndash;&nbsp;onPinpadLogsRetrieved:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadResponseFinished">&ndash;&nbsp;onPinpadResponseFinished</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onLastPinpadTransactionApproved:">&ndash;&nbsp;onLastPinpadTransactionApproved:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadTransactionFailed:">&ndash;&nbsp;onPinpadTransactionFailed:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadTransactionNotProcessed:">&ndash;&nbsp;onPinpadTransactionNotProcessed:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadTransactionPending:">&ndash;&nbsp;onPinpadTransactionPending:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onLastPinpadTransactionRejected:">&ndash;&nbsp;onLastPinpadTransactionRejected:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadTransactionSuccessful:">&ndash;&nbsp;onPinpadTransactionSuccessful:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinpadTransactionTenderedWithShoppingAgent:">&ndash;&nbsp;onPinpadTransactionTenderedWithShoppingAgent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onResolvePaymentDeviceTransaction:">&ndash;&nbsp;onResolvePaymentDeviceTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onResolveShoppingAgentTransaction">&ndash;&nbsp;onResolveShoppingAgentTransaction</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionResumed:forSession:">&ndash;&nbsp;onTransactionResumed:forSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionDiscarded:forSession:">&ndash;&nbsp;onTransactionDiscarded:forSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransaction:suspended:forSession:withMessage:andResult:">&ndash;&nbsp;onTransaction:suspended:forSession:withMessage:andResult:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionVoided:forSession:">&ndash;&nbsp;onTransactionVoided:forSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionUnvoided:forSession:">&ndash;&nbsp;onTransactionUnvoided:forSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionSuspendFail:">&ndash;&nbsp;onTransactionSuspendFail:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionVoidFail:">&ndash;&nbsp;onTransactionVoidFail:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onReceipt:withType:forBasket:andSession:">&ndash;&nbsp;onReceipt:withType:forBasket:andSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPinPadStatus:">&ndash;&nbsp;onPinPadStatus:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/onEFTPOSLoyaltyCardSwipeComplete" title="onEFTPOSLoyaltyCardSwipeComplete"></a>
+	<h3 class="subsubtitle method-title">onEFTPOSLoyaltyCardSwipeComplete</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onEFTPOSLoyaltyCardSwipeComplete</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onEFTPOSMerchantConfigured:" title="onEFTPOSMerchantConfigured:"></a>
+	<h3 class="subsubtitle method-title">onEFTPOSMerchantConfigured:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onEFTPOSMerchantConfigured:(BLRetailer *)<em>aRetailer</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onHasPendingPinpadTransaction:" title="onHasPendingPinpadTransaction:"></a>
+	<h3 class="subsubtitle method-title">onHasPendingPinpadTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLBasket *)onHasPendingPinpadTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onIsMerchantConfigured:forRetailer:" title="onIsMerchantConfigured:forRetailer:"></a>
+	<h3 class="subsubtitle method-title">onIsMerchantConfigured:forRetailer:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated to determine whether the merchant data is configured on the device.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (bool)onIsMerchantConfigured:(bool)<em>aHasPaymentDevice</em> forRetailer:(BLRetailer *)<em>aRetailer</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aHasPaymentDevice.</em></dt>
+			<dd><p>Indicates whether the mobile device is attached to a payment device. If true then the mobile device is attached to a payment device. Otherwise, the mobile device is not attached to a payment device.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>True if the merchant is configured. Otherwise false.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLIOSPosgateProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onLastPinpadTransactionApproved:" title="onLastPinpadTransactionApproved:"></a>
+	<h3 class="subsubtitle method-title">onLastPinpadTransactionApproved:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onLastPinpadTransactionApproved:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onLastPinpadTransactionFailed:" title="onLastPinpadTransactionFailed:"></a>
+	<h3 class="subsubtitle method-title">onLastPinpadTransactionFailed:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onLastPinpadTransactionFailed:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onLastPinpadTransactionRejected:" title="onLastPinpadTransactionRejected:"></a>
+	<h3 class="subsubtitle method-title">onLastPinpadTransactionRejected:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onLastPinpadTransactionRejected:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPaymentOutstandingForTransaction:withObject:" title="onPaymentOutstandingForTransaction:withObject:"></a>
+	<h3 class="subsubtitle method-title">onPaymentOutstandingForTransaction:withObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPaymentOutstandingForTransaction:(BLBasket *)<em>aBasket</em> withObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinPadStatus:" title="onPinPadStatus:"></a>
+	<h3 class="subsubtitle method-title">onPinPadStatus:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinPadStatus:(NSString *)<em>aStatus</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadDisconnected:" title="onPinpadDisconnected:"></a>
+	<h3 class="subsubtitle method-title">onPinpadDisconnected:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadDisconnected:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadLogsDeleted:" title="onPinpadLogsDeleted:"></a>
+	<h3 class="subsubtitle method-title">onPinpadLogsDeleted:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadLogsDeleted:(NSString *)<em>aErrorMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadLogsRetrieved:" title="onPinpadLogsRetrieved:"></a>
+	<h3 class="subsubtitle method-title">onPinpadLogsRetrieved:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadLogsRetrieved:(NSString *)<em>aErrorMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadResponseFinished" title="onPinpadResponseFinished"></a>
+	<h3 class="subsubtitle method-title">onPinpadResponseFinished</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadResponseFinished</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadTransactionFailed:" title="onPinpadTransactionFailed:"></a>
+	<h3 class="subsubtitle method-title">onPinpadTransactionFailed:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadTransactionFailed:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadTransactionNotProcessed:" title="onPinpadTransactionNotProcessed:"></a>
+	<h3 class="subsubtitle method-title">onPinpadTransactionNotProcessed:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadTransactionNotProcessed:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadTransactionPending:" title="onPinpadTransactionPending:"></a>
+	<h3 class="subsubtitle method-title">onPinpadTransactionPending:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadTransactionPending:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadTransactionSuccessful:" title="onPinpadTransactionSuccessful:"></a>
+	<h3 class="subsubtitle method-title">onPinpadTransactionSuccessful:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadTransactionSuccessful:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPinpadTransactionTenderedWithShoppingAgent:" title="onPinpadTransactionTenderedWithShoppingAgent:"></a>
+	<h3 class="subsubtitle method-title">onPinpadTransactionTenderedWithShoppingAgent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPinpadTransactionTenderedWithShoppingAgent:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onReceipt:withType:forBasket:andSession:" title="onReceipt:withType:forBasket:andSession:"></a>
+	<h3 class="subsubtitle method-title">onReceipt:withType:forBasket:andSession:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onReceipt:(NSString *)<em>aReceipt</em> withType:(NSString *)<em>aType</em> forBasket:(BLBasket *)<em>aBasket</em> andSession:(NSString *)<em>aSession</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onResolvePaymentDeviceTransaction:" title="onResolvePaymentDeviceTransaction:"></a>
+	<h3 class="subsubtitle method-title">onResolvePaymentDeviceTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onResolvePaymentDeviceTransaction:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onResolveShoppingAgentTransaction" title="onResolveShoppingAgentTransaction"></a>
+	<h3 class="subsubtitle method-title">onResolveShoppingAgentTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onResolveShoppingAgentTransaction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransaction:suspended:forSession:withMessage:andResult:" title="onTransaction:suspended:forSession:withMessage:andResult:"></a>
+	<h3 class="subsubtitle method-title">onTransaction:suspended:forSession:withMessage:andResult:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated when a transaction is suspended.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)onTransaction:(BLBasket *)<em>aBasket</em> suspended:(bool)<em>aSuspended</em> forSession:(NSString *)<em>aSession</em> withMessage:(NSString *)<em>aMessage</em> andResult:(NSInteger)<em>aCode</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aBasket</em></dt>
+			<dd><p>The suspended transaction</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aSession</em></dt>
+			<dd><p>The current soap session id.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The array of transactions (including the changes to the status of the suspended transaction).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLIOSPosgateProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionDiscarded:forSession:" title="onTransactionDiscarded:forSession:"></a>
+	<h3 class="subsubtitle method-title">onTransactionDiscarded:forSession:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated when a transaction is discarded.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)onTransactionDiscarded:(BLBasket *)<em>aTransaction</em> forSession:(NSString *)<em>aSession</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aBasket</em></dt>
+			<dd><p>The discarded transaction</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLIOSPosgateProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionResumed:forSession:" title="onTransactionResumed:forSession:"></a>
+	<h3 class="subsubtitle method-title">onTransactionResumed:forSession:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated when a transaction is resumed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)onTransactionResumed:(BLBasket *)<em>aTransaction</em> forSession:(NSString *)<em>aSession</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aBasket</em></dt>
+			<dd><p>The resumed transaction</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLIOSPosgateProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionSuspendFail:" title="onTransactionSuspendFail:"></a>
+	<h3 class="subsubtitle method-title">onTransactionSuspendFail:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onTransactionSuspendFail:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionUnvoided:forSession:" title="onTransactionUnvoided:forSession:"></a>
+	<h3 class="subsubtitle method-title">onTransactionUnvoided:forSession:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated when a transaction is unvoided.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)onTransactionUnvoided:(BLBasket *)<em>aTransaction</em> forSession:(NSString *)<em>aSession</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aBasket</em></dt>
+			<dd><p>The unvoided transaction</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLIOSPosgateProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionVoidFail:" title="onTransactionVoidFail:"></a>
+	<h3 class="subsubtitle method-title">onTransactionVoidFail:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onTransactionVoidFail:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionVoided:forSession:" title="onTransactionVoided:forSession:"></a>
+	<h3 class="subsubtitle method-title">onTransactionVoided:forSession:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initiated when a transaction is voided.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)onTransactionVoided:(BLBasket *)<em>aTransaction</em> forSession:(NSString *)<em>aSession</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>aBasket</em></dt>
+			<dd><p>The voided transaction</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLIOSPosgateProtocol.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSubscriptionsView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSubscriptionsView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="252"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionsView/setRegistrationDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="252"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionsView/registrationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="252"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSubscriptionsView/registrationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="252"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionsView/subscriptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)subscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/subscriptions</Anchor>
+            <NodeRef refid="252"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionsView/setSubscriptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSubscriptions:(NSArray *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSubscriptions:</Anchor>
+            <NodeRef refid="252"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionsView/reloadData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+			
+			<Declaration>- (void)reloadData</Declaration>
+			
+			
+			<Anchor>//api/name/reloadData</Anchor>
+            <NodeRef refid="252"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionsView/showSubscriptionDetailAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionsView.h</DeclaredIn>
+			
+			<Declaration>- (void)showSubscriptionDetailAtIndex:(NSInteger)aIndex</Declaration>
+			
+			
+			<Anchor>//api/name/showSubscriptionDetailAtIndex:</Anchor>
+            <NodeRef refid="252"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

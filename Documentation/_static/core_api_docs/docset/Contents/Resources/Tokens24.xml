@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLColumnData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLColumnData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/width</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/width</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float width</Declaration>
+			
+			
+			<Anchor>//api/name/width</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/height</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/height</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float height</Declaration>
+			
+			
+			<Anchor>//api/name/height</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setFontSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/fontSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/fontSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setBold:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bold</Declaration>
+			
+			
+			<Anchor>//api/name/bold</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/bold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bold</Declaration>
+			
+			
+			<Anchor>//api/name/bold</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/bold</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bold</Declaration>
+			
+			
+			<Anchor>//api/name/bold</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setRow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger row</Declaration>
+			
+			
+			<Anchor>//api/name/row</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/row</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger row</Declaration>
+			
+			
+			<Anchor>//api/name/row</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/row</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger row</Declaration>
+			
+			
+			<Anchor>//api/name/row</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setColumn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger column</Declaration>
+			
+			
+			<Anchor>//api/name/column</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/column</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger column</Declaration>
+			
+			
+			<Anchor>//api/name/column</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/column</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger column</Declaration>
+			
+			
+			<Anchor>//api/name/column</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setTextAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/textAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/textAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/setFontColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLColumnData/fontColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLColumnData/fontColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLColumnData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

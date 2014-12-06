@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLMapView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLMapView</TokenIdentifier>
+			<Abstract type="html">The wrapper for the MKMapView object providing additional helper functions to the embeddable map interface.</Abstract>
+			<DeclaredIn>BLMapView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="306"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLMapView/zoomToNearestAnnotation:withCoordinates:ignoring:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLMapView.h</DeclaredIn>
+			
+			<Declaration>+ (CLLocationDistance)zoomToNearestAnnotation:(MKMapView *)aMapView withCoordinates:(CLLocationCoordinate2D)aCurrentCoordinates ignoring:(NSArray *)aIgnore</Declaration>
+			
+			
+			<Anchor>//api/name/zoomToNearestAnnotation:withCoordinates:ignoring:</Anchor>
+            <NodeRef refid="306"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLMapView/distance:to:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLMapView.h</DeclaredIn>
+			
+			<Declaration>+ (CLLocationDistance)distance:(CLLocationCoordinate2D)aFromCoordinate to:(CLLocationCoordinate2D)aToCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/distance:to:</Anchor>
+            <NodeRef refid="306"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLMapView/showRegionForCoordinates:thatAreClosestTo:onMapView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLMapView.h</DeclaredIn>
+			
+			<Declaration>+ (void)showRegionForCoordinates:(CLLocationCoordinate2D)aCurrentCoordinates thatAreClosestTo:(CLLocationCoordinate2D)aClosestCoordinates onMapView:(MKMapView *)aMapView</Declaration>
+			
+			
+			<Anchor>//api/name/showRegionForCoordinates:thatAreClosestTo:onMapView:</Anchor>
+            <NodeRef refid="306"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

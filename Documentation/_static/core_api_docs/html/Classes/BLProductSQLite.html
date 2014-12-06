@@ -1,0 +1,1141 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLProductSQLite Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLProductSQLite Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/categoryData">&nbsp;&nbsp;&nbsp;&nbsp;categoryData</option>
+	
+	<option value="//api/name/categoryProductData">&nbsp;&nbsp;&nbsp;&nbsp;categoryProductData</option>
+	
+	<option value="//api/name/favouritesData">&nbsp;&nbsp;&nbsp;&nbsp;favouritesData</option>
+	
+	<option value="//api/name/productData">&nbsp;&nbsp;&nbsp;&nbsp;productData</option>
+	
+	<option value="//api/name/promotionData">&nbsp;&nbsp;&nbsp;&nbsp;promotionData</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/categoryWhereString:">&nbsp;&nbsp;&nbsp;&nbsp;+ categoryWhereString:</option>
+	
+	<option value="//api/name/productWhereString:ForOrigin:">&nbsp;&nbsp;&nbsp;&nbsp;+ productWhereString:ForOrigin:</option>
+	
+	<option value="//api/name/promotionWhereString:">&nbsp;&nbsp;&nbsp;&nbsp;+ promotionWhereString:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/categoryResultCount">&nbsp;&nbsp;&nbsp;&nbsp;- categoryResultCount</option>
+	
+	<option value="//api/name/deleted:">&nbsp;&nbsp;&nbsp;&nbsp;- deleted:</option>
+	
+	<option value="//api/name/exists:">&nbsp;&nbsp;&nbsp;&nbsp;- exists:</option>
+	
+	<option value="//api/name/insert:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- insert:withStatement:</option>
+	
+	<option value="//api/name/insertCategory:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- insertCategory:withStatement:</option>
+	
+	<option value="//api/name/insertProduct:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- insertProduct:withStatement:</option>
+	
+	<option value="//api/name/insertStepPromotion:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- insertStepPromotion:withStatement:</option>
+	
+	<option value="//api/name/insertStockGroupDetail:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- insertStockGroupDetail:withStatement:</option>
+	
+	<option value="//api/name/loadCategoryData:startingFromIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- loadCategoryData:startingFromIndex:</option>
+	
+	<option value="//api/name/loadProductData:asGroup:startingFromIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- loadProductData:asGroup:startingFromIndex:</option>
+	
+	<option value="//api/name/loadPromotionData:startingFromIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- loadPromotionData:startingFromIndex:</option>
+	
+	<option value="//api/name/productResultCount">&nbsp;&nbsp;&nbsp;&nbsp;- productResultCount</option>
+	
+	<option value="//api/name/promotionResultCount">&nbsp;&nbsp;&nbsp;&nbsp;- promotionResultCount</option>
+	
+	<option value="//api/name/remove:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- remove:withStatement:</option>
+	
+	<option value="//api/name/removeCategory:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- removeCategory:withStatement:</option>
+	
+	<option value="//api/name/removeProduct:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- removeProduct:withStatement:</option>
+	
+	<option value="//api/name/removeStepPromotion:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- removeStepPromotion:withStatement:</option>
+	
+	<option value="//api/name/removeStockGroupDetail:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- removeStockGroupDetail:withStatement:</option>
+	
+	<option value="//api/name/search:withOrigin:atIndex:andOverwrite:limit:">&nbsp;&nbsp;&nbsp;&nbsp;- search:withOrigin:atIndex:andOverwrite:limit:</option>
+	
+	<option value="//api/name/searchFavourites">&nbsp;&nbsp;&nbsp;&nbsp;- searchFavourites</option>
+	
+	<option value="//api/name/searchProductsForCategory:atIndex:limit:">&nbsp;&nbsp;&nbsp;&nbsp;- searchProductsForCategory:atIndex:limit:</option>
+	
+	<option value="//api/name/searchPromotion:">&nbsp;&nbsp;&nbsp;&nbsp;- searchPromotion:</option>
+	
+	<option value="//api/name/selectCategories:">&nbsp;&nbsp;&nbsp;&nbsp;- selectCategories:</option>
+	
+	<option value="//api/name/selectParentCategories:">&nbsp;&nbsp;&nbsp;&nbsp;- selectParentCategories:</option>
+	
+	<option value="//api/name/selectProducts">&nbsp;&nbsp;&nbsp;&nbsp;- selectProducts</option>
+	
+	<option value="//api/name/selectPromotions">&nbsp;&nbsp;&nbsp;&nbsp;- selectPromotions</option>
+	
+	<option value="//api/name/update:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- update:withStatement:</option>
+	
+	<option value="//api/name/updateCategory:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- updateCategory:withStatement:</option>
+	
+	<option value="//api/name/updateInsertOrDelete:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- updateInsertOrDelete:withStatement:</option>
+	
+	<option value="//api/name/updateProduct:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- updateProduct:withStatement:</option>
+	
+	<option value="//api/name/updateStepPromotion:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- updateStepPromotion:withStatement:</option>
+	
+	<option value="//api/name/updateStockGroupDetail:withStatement:">&nbsp;&nbsp;&nbsp;&nbsp;- updateStockGroupDetail:withStatement:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/categoryData">categoryData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/categoryProductData">categoryProductData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/favouritesData">favouritesData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productData">productData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/promotionData">promotionData</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/categoryWhereString:">categoryWhereString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productWhereString:ForOrigin:">productWhereString:ForOrigin:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/promotionWhereString:">promotionWhereString:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/categoryResultCount">categoryResultCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleted:">deleted:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exists:">exists:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insert:withStatement:">insert:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertCategory:withStatement:">insertCategory:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertProduct:withStatement:">insertProduct:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertStepPromotion:withStatement:">insertStepPromotion:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertStockGroupDetail:withStatement:">insertStockGroupDetail:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadCategoryData:startingFromIndex:">loadCategoryData:startingFromIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadProductData:asGroup:startingFromIndex:">loadProductData:asGroup:startingFromIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadPromotionData:startingFromIndex:">loadPromotionData:startingFromIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productResultCount">productResultCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/promotionResultCount">promotionResultCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/remove:withStatement:">remove:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeCategory:withStatement:">removeCategory:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeProduct:withStatement:">removeProduct:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeStepPromotion:withStatement:">removeStepPromotion:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeStockGroupDetail:withStatement:">removeStockGroupDetail:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/search:withOrigin:atIndex:andOverwrite:limit:">search:withOrigin:atIndex:andOverwrite:limit:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchFavourites">searchFavourites</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchProductsForCategory:atIndex:limit:">searchProductsForCategory:atIndex:limit:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchPromotion:">searchPromotion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectCategories:">selectCategories:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectParentCategories:">selectParentCategories:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectProducts">selectProducts</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectPromotions">selectPromotions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/update:withStatement:">update:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateCategory:withStatement:">updateCategory:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateInsertOrDelete:withStatement:">updateInsertOrDelete:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateProduct:withStatement:">updateProduct:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateStepPromotion:withStatement:">updateStepPromotion:withStatement:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateStockGroupDetail:withStatement:">updateStockGroupDetail:withStatement:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLProductSQLite Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLProductSQLite Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLSQLite.html">BLSQLite</a> : <a href="../Classes/BLObject.html">BLObject</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLProductSQLite.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productData">&nbsp;&nbsp;productData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/favouritesData">&nbsp;&nbsp;favouritesData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/promotionData">&nbsp;&nbsp;promotionData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/categoryData">&nbsp;&nbsp;categoryData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/categoryProductData">&nbsp;&nbsp;categoryProductData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exists:">&ndash;&nbsp;exists:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleted:">&ndash;&nbsp;deleted:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insert:withStatement:">&ndash;&nbsp;insert:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchPromotion:">&ndash;&nbsp;searchPromotion:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchFavourites">&ndash;&nbsp;searchFavourites</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/search:withOrigin:atIndex:andOverwrite:limit:">&ndash;&nbsp;search:withOrigin:atIndex:andOverwrite:limit:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchProductsForCategory:atIndex:limit:">&ndash;&nbsp;searchProductsForCategory:atIndex:limit:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/update:withStatement:">&ndash;&nbsp;update:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/remove:withStatement:">&ndash;&nbsp;remove:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateInsertOrDelete:withStatement:">&ndash;&nbsp;updateInsertOrDelete:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateCategory:withStatement:">&ndash;&nbsp;updateCategory:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateProduct:withStatement:">&ndash;&nbsp;updateProduct:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateStepPromotion:withStatement:">&ndash;&nbsp;updateStepPromotion:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateStockGroupDetail:withStatement:">&ndash;&nbsp;updateStockGroupDetail:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertCategory:withStatement:">&ndash;&nbsp;insertCategory:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertProduct:withStatement:">&ndash;&nbsp;insertProduct:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertStepPromotion:withStatement:">&ndash;&nbsp;insertStepPromotion:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertStockGroupDetail:withStatement:">&ndash;&nbsp;insertStockGroupDetail:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeCategory:withStatement:">&ndash;&nbsp;removeCategory:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeProduct:withStatement:">&ndash;&nbsp;removeProduct:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeStepPromotion:withStatement:">&ndash;&nbsp;removeStepPromotion:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeStockGroupDetail:withStatement:">&ndash;&nbsp;removeStockGroupDetail:withStatement:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadCategoryData:startingFromIndex:">&ndash;&nbsp;loadCategoryData:startingFromIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadProductData:asGroup:startingFromIndex:">&ndash;&nbsp;loadProductData:asGroup:startingFromIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadPromotionData:startingFromIndex:">&ndash;&nbsp;loadPromotionData:startingFromIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectCategories:">&ndash;&nbsp;selectCategories:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectParentCategories:">&ndash;&nbsp;selectParentCategories:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectProducts">&ndash;&nbsp;selectProducts</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectPromotions">&ndash;&nbsp;selectPromotions</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/categoryResultCount">&ndash;&nbsp;categoryResultCount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productResultCount">&ndash;&nbsp;productResultCount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/promotionResultCount">&ndash;&nbsp;promotionResultCount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/categoryWhereString:">+&nbsp;categoryWhereString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/promotionWhereString:">+&nbsp;promotionWhereString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productWhereString:ForOrigin:">+&nbsp;productWhereString:ForOrigin:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/categoryData" title="categoryData"></a>
+	<h3 class="subsubtitle method-title">categoryData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *categoryData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/categoryProductData" title="categoryProductData"></a>
+	<h3 class="subsubtitle method-title">categoryProductData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *categoryProductData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/favouritesData" title="favouritesData"></a>
+	<h3 class="subsubtitle method-title">favouritesData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *favouritesData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productData" title="productData"></a>
+	<h3 class="subsubtitle method-title">productData</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The data resulting from a sqlite query.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *productData</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLProductSQLite.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/promotionData" title="promotionData"></a>
+	<h3 class="subsubtitle method-title">promotionData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *promotionData</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/categoryWhereString:" title="categoryWhereString:"></a>
+	<h3 class="subsubtitle method-title">categoryWhereString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)categoryWhereString:(NSInteger)<em>aUid</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productWhereString:ForOrigin:" title="productWhereString:ForOrigin:"></a>
+	<h3 class="subsubtitle method-title">productWhereString:ForOrigin:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)productWhereString:(NSString *)<em>aSearchString</em> ForOrigin:(BLSearchOrigin)<em>aOrigin</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/promotionWhereString:" title="promotionWhereString:"></a>
+	<h3 class="subsubtitle method-title">promotionWhereString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)promotionWhereString:(NSInteger)<em>aUid</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/categoryResultCount" title="categoryResultCount"></a>
+	<h3 class="subsubtitle method-title">categoryResultCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)categoryResultCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleted:" title="deleted:"></a>
+	<h3 class="subsubtitle method-title">deleted:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)deleted:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exists:" title="exists:"></a>
+	<h3 class="subsubtitle method-title">exists:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)exists:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insert:withStatement:" title="insert:withStatement:"></a>
+	<h3 class="subsubtitle method-title">insert:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)insert:(NSObject *)<em>aObject</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertCategory:withStatement:" title="insertCategory:withStatement:"></a>
+	<h3 class="subsubtitle method-title">insertCategory:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)insertCategory:(BLCategory *)<em>aCategory</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertProduct:withStatement:" title="insertProduct:withStatement:"></a>
+	<h3 class="subsubtitle method-title">insertProduct:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)insertProduct:(BLProduct *)<em>aProduct</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertStepPromotion:withStatement:" title="insertStepPromotion:withStatement:"></a>
+	<h3 class="subsubtitle method-title">insertStepPromotion:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)insertStepPromotion:(BLStepPromotion *)<em>aPromotion</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertStockGroupDetail:withStatement:" title="insertStockGroupDetail:withStatement:"></a>
+	<h3 class="subsubtitle method-title">insertStockGroupDetail:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)insertStockGroupDetail:(BLStockGroupDetail *)<em>aStockGroupDetail</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadCategoryData:startingFromIndex:" title="loadCategoryData:startingFromIndex:"></a>
+	<h3 class="subsubtitle method-title">loadCategoryData:startingFromIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)loadCategoryData:(sqlite3_stmt *)<em>aStatement</em> startingFromIndex:(NSInteger)<em>aIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadProductData:asGroup:startingFromIndex:" title="loadProductData:asGroup:startingFromIndex:"></a>
+	<h3 class="subsubtitle method-title">loadProductData:asGroup:startingFromIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)loadProductData:(sqlite3_stmt *)<em>aStatement</em> asGroup:(BLProductGroup)<em>aGroup</em> startingFromIndex:(NSInteger)<em>aIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadPromotionData:startingFromIndex:" title="loadPromotionData:startingFromIndex:"></a>
+	<h3 class="subsubtitle method-title">loadPromotionData:startingFromIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)loadPromotionData:(sqlite3_stmt *)<em>aStatement</em> startingFromIndex:(NSInteger)<em>aIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productResultCount" title="productResultCount"></a>
+	<h3 class="subsubtitle method-title">productResultCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)productResultCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/promotionResultCount" title="promotionResultCount"></a>
+	<h3 class="subsubtitle method-title">promotionResultCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)promotionResultCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/remove:withStatement:" title="remove:withStatement:"></a>
+	<h3 class="subsubtitle method-title">remove:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)remove:(NSObject *)<em>aObject</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeCategory:withStatement:" title="removeCategory:withStatement:"></a>
+	<h3 class="subsubtitle method-title">removeCategory:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)removeCategory:(BLCategory *)<em>aCategory</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeProduct:withStatement:" title="removeProduct:withStatement:"></a>
+	<h3 class="subsubtitle method-title">removeProduct:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)removeProduct:(BLProduct *)<em>aProduct</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeStepPromotion:withStatement:" title="removeStepPromotion:withStatement:"></a>
+	<h3 class="subsubtitle method-title">removeStepPromotion:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)removeStepPromotion:(BLStepPromotion *)<em>aPromotion</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeStockGroupDetail:withStatement:" title="removeStockGroupDetail:withStatement:"></a>
+	<h3 class="subsubtitle method-title">removeStockGroupDetail:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)removeStockGroupDetail:(BLStockGroupDetail *)<em>aStockGroupDetail</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/search:withOrigin:atIndex:andOverwrite:limit:" title="search:withOrigin:atIndex:andOverwrite:limit:"></a>
+	<h3 class="subsubtitle method-title">search:withOrigin:atIndex:andOverwrite:limit:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)search:(NSString *)<em>aSearchString</em> withOrigin:(BLSearchOrigin)<em>aOrigin</em> atIndex:(NSInteger)<em>aIndex</em> andOverwrite:(bool)<em>aOverwrite</em> limit:(NSInteger)<em>aLimit</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchFavourites" title="searchFavourites"></a>
+	<h3 class="subsubtitle method-title">searchFavourites</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)searchFavourites</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchProductsForCategory:atIndex:limit:" title="searchProductsForCategory:atIndex:limit:"></a>
+	<h3 class="subsubtitle method-title">searchProductsForCategory:atIndex:limit:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)searchProductsForCategory:(NSInteger)<em>aCategory</em> atIndex:(NSInteger)<em>aIndex</em> limit:(NSInteger)<em>aLimit</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchPromotion:" title="searchPromotion:"></a>
+	<h3 class="subsubtitle method-title">searchPromotion:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)searchPromotion:(NSInteger)<em>aUid</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectCategories:" title="selectCategories:"></a>
+	<h3 class="subsubtitle method-title">selectCategories:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)selectCategories:(BLCategory *)<em>aCategory</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectParentCategories:" title="selectParentCategories:"></a>
+	<h3 class="subsubtitle method-title">selectParentCategories:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)selectParentCategories:(NSInteger)<em>aId</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectProducts" title="selectProducts"></a>
+	<h3 class="subsubtitle method-title">selectProducts</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)selectProducts</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectPromotions" title="selectPromotions"></a>
+	<h3 class="subsubtitle method-title">selectPromotions</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)selectPromotions</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/update:withStatement:" title="update:withStatement:"></a>
+	<h3 class="subsubtitle method-title">update:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)update:(NSObject *)<em>aObject</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateCategory:withStatement:" title="updateCategory:withStatement:"></a>
+	<h3 class="subsubtitle method-title">updateCategory:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)updateCategory:(BLCategory *)<em>aCategory</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateInsertOrDelete:withStatement:" title="updateInsertOrDelete:withStatement:"></a>
+	<h3 class="subsubtitle method-title">updateInsertOrDelete:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)updateInsertOrDelete:(NSObject *)<em>aObject</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateProduct:withStatement:" title="updateProduct:withStatement:"></a>
+	<h3 class="subsubtitle method-title">updateProduct:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)updateProduct:(BLProduct *)<em>aProduct</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateStepPromotion:withStatement:" title="updateStepPromotion:withStatement:"></a>
+	<h3 class="subsubtitle method-title">updateStepPromotion:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)updateStepPromotion:(BLStepPromotion *)<em>aPromotion</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateStockGroupDetail:withStatement:" title="updateStockGroupDetail:withStatement:"></a>
+	<h3 class="subsubtitle method-title">updateStockGroupDetail:withStatement:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)updateStockGroupDetail:(BLStockGroupDetail *)<em>aStockGroupDetail</em> withStatement:(sqlite3_stmt *)<em>aStatement</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

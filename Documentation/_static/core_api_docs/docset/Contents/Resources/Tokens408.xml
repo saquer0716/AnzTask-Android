@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSProductSearchDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSProductSearchDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductSearchProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="408"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSProductSearchDelegate/onProductSearch:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductSearchProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onProductSearch:(UISearchBar *)aSearchBar :</Declaration>
+			
+			
+			<Anchor>//api/name/onProductSearch:::</Anchor>
+            <NodeRef refid="408"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

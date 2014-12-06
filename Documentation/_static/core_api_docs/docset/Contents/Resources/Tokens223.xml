@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSetupYourBusinessViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSetupYourBusinessViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="223"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSetupYourBusinessViewController/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSetupYourBusinessViewController/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSetupYourBusinessViewController/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSetupYourBusinessViewController/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(BLRetailer *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setData:</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSetupYourBusinessViewController/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLRetailer *)data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSetupYourBusinessViewController/setHasNext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasNext:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasNext:</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSetupYourBusinessViewController/isValidInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSetupYourBusinessViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)isValidInput</Declaration>
+			
+			
+			<Anchor>//api/name/isValidInput</Anchor>
+            <NodeRef refid="223"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

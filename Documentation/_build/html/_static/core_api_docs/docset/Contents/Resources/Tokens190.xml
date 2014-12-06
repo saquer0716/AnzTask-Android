@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSProductTableViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSProductTableViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="190"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewController/setHasBackToBasketButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property bool hasBackToBasketButton</Declaration>
+			
+			
+			<Anchor>//api/name/hasBackToBasketButton</Anchor>
+            <NodeRef refid="190"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewController/hasBackToBasketButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property bool hasBackToBasketButton</Declaration>
+			
+			
+			<Anchor>//api/name/hasBackToBasketButton</Anchor>
+            <NodeRef refid="190"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSProductTableViewController/hasBackToBasketButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property bool hasBackToBasketButton</Declaration>
+			
+			
+			<Anchor>//api/name/hasBackToBasketButton</Anchor>
+            <NodeRef refid="190"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewController/productListingView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSProductListingView *)productListingView</Declaration>
+			
+			
+			<Anchor>//api/name/productListingView</Anchor>
+            <NodeRef refid="190"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewController/updateInformationLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateInformationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/updateInformationLabel</Anchor>
+            <NodeRef refid="190"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

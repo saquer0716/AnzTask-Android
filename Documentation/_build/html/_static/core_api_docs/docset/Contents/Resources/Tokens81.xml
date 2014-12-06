@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSChecklistView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSChecklistView</TokenIdentifier>
+			<Abstract type="html">Displays a transparent list of BLChecklistItem objects.
+The list has a header for displaying the list title and a footer for additional button functionality.</Abstract>
+			<DeclaredIn>BLIOSChecklistView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

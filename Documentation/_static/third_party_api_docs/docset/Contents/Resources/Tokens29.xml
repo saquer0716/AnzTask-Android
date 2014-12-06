@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OCMockObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OCMockObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMockObject/mockForClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>+ (id)mockForClass:(Class)aClass</Declaration>
+			
+			
+			<Anchor>//api/name/mockForClass:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMockObject/mockForProtocol:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>+ (id)mockForProtocol:(Protocol *)aProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/mockForProtocol:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMockObject/partialMockForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>+ (id)partialMockForObject:(NSObject *)anObject</Declaration>
+			
+			
+			<Anchor>//api/name/partialMockForObject:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMockObject/niceMockForClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>+ (id)niceMockForClass:(Class)aClass</Declaration>
+			
+			
+			<Anchor>//api/name/niceMockForClass:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMockObject/niceMockForProtocol:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>+ (id)niceMockForProtocol:(Protocol *)aProtocol</Declaration>
+			
+			
+			<Anchor>//api/name/niceMockForProtocol:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/OCMockObject/observerMock</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>+ (id)observerMock</Declaration>
+			
+			
+			<Anchor>//api/name/observerMock</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/setExpectationOrderMatters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)setExpectationOrderMatters:(BOOL)flag</Declaration>
+			
+			
+			<Anchor>//api/name/setExpectationOrderMatters:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/stub</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (id)stub</Declaration>
+			
+			
+			<Anchor>//api/name/stub</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/expect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (id)expect</Declaration>
+			
+			
+			<Anchor>//api/name/expect</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/reject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (id)reject</Declaration>
+			
+			
+			<Anchor>//api/name/reject</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/verify</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (id)verify</Declaration>
+			
+			
+			<Anchor>//api/name/verify</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/verifyAtLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (id)verifyAtLocation:(OCMLocation *)location</Declaration>
+			
+			
+			<Anchor>//api/name/verifyAtLocation:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/verifyWithDelay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)verifyWithDelay:(NSTimeInterval)delay</Declaration>
+			
+			
+			<Anchor>//api/name/verifyWithDelay:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/verifyWithDelay:atLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)verifyWithDelay:(NSTimeInterval)delay atLocation:(OCMLocation *)location</Declaration>
+			
+			
+			<Anchor>//api/name/verifyWithDelay:atLocation:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/stopMocking</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)stopMocking</Declaration>
+			
+			
+			<Anchor>//api/name/stopMocking</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/addStub:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)addStub:(OCMInvocationStub *)aStub</Declaration>
+			
+			
+			<Anchor>//api/name/addStub:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/addExpectation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)addExpectation:(OCMInvocationExpectation *)anExpectation</Declaration>
+			
+			
+			<Anchor>//api/name/addExpectation:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/handleInvocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)handleInvocation:(NSInvocation *)anInvocation</Declaration>
+			
+			
+			<Anchor>//api/name/handleInvocation:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/handleUnRecordedInvocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)handleUnRecordedInvocation:(NSInvocation *)anInvocation</Declaration>
+			
+			
+			<Anchor>//api/name/handleUnRecordedInvocation:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/handleSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)handleSelector:(SEL)sel</Declaration>
+			
+			
+			<Anchor>//api/name/handleSelector:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/verifyInvocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)verifyInvocation:(OCMInvocationMatcher *)matcher</Declaration>
+			
+			
+			<Anchor>//api/name/verifyInvocation:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMockObject/verifyInvocation:atLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMockObject.h</DeclaredIn>
+			
+			<Declaration>- (void)verifyInvocation:(OCMInvocationMatcher *)matcher atLocation:(OCMLocation *)location</Declaration>
+			
+			
+			<Anchor>//api/name/verifyInvocation:atLocation:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

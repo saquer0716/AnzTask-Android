@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PayPalPaymentDetails.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PayPalPaymentDetails</TokenIdentifier>
+			<Abstract type="html">The PayPalPaymentDetails class defines optional amount details.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalPaymentDetails/paymentDetailsWithSubtotal:withShipping:withTax:</TokenIdentifier>
+			<Abstract type="html">Convenience constructor.
+See the documentation of the individual properties for more detail.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>+ (PayPalPaymentDetails *)paymentDetailsWithSubtotal:(NSDecimalNumber *)subtotal withShipping:(NSDecimalNumber *)shipping withTax:(NSDecimalNumber *)tax</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>subtotal</Name>
+					<Abstract type="html">Sum of amounts for all items in this transaction.</Abstract>
+				</Parameter><Parameter>
+					<Name>shipping</Name>
+					<Abstract type="html">Shipping and handling amount for the overall transaction.</Abstract>
+				</Parameter><Parameter>
+					<Name>tax</Name>
+					<Abstract type="html">Tax amount for the overall transaction.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/paymentDetailsWithSubtotal:withShipping:withTax:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalPaymentDetails/setSubtotal:</TokenIdentifier>
+			<Abstract type="html">Sub-total (amount) of items being paid for. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *subtotal</Declaration>
+			
+			
+			<Anchor>//api/name/subtotal</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalPaymentDetails/subtotal</TokenIdentifier>
+			<Abstract type="html">Sub-total (amount) of items being paid for. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *subtotal</Declaration>
+			
+			
+			<Anchor>//api/name/subtotal</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalPaymentDetails/subtotal</TokenIdentifier>
+			<Abstract type="html">Sub-total (amount) of items being paid for. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *subtotal</Declaration>
+			
+			
+			<Anchor>//api/name/subtotal</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalPaymentDetails/setShipping:</TokenIdentifier>
+			<Abstract type="html">Amount charged for shipping. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *shipping</Declaration>
+			
+			
+			<Anchor>//api/name/shipping</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalPaymentDetails/shipping</TokenIdentifier>
+			<Abstract type="html">Amount charged for shipping. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *shipping</Declaration>
+			
+			
+			<Anchor>//api/name/shipping</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalPaymentDetails/shipping</TokenIdentifier>
+			<Abstract type="html">Amount charged for shipping. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *shipping</Declaration>
+			
+			
+			<Anchor>//api/name/shipping</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalPaymentDetails/setTax:</TokenIdentifier>
+			<Abstract type="html">Amount charged for tax. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *tax</Declaration>
+			
+			
+			<Anchor>//api/name/tax</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PayPalPaymentDetails/tax</TokenIdentifier>
+			<Abstract type="html">Amount charged for tax. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *tax</Declaration>
+			
+			
+			<Anchor>//api/name/tax</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PayPalPaymentDetails/tax</TokenIdentifier>
+			<Abstract type="html">Amount charged for tax. 10 characters max with support for 2 decimal places.</Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readwrite) NSDecimalNumber *tax</Declaration>
+			
+			
+			<Anchor>//api/name/tax</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

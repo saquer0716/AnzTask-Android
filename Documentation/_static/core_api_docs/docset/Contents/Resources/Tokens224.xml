@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSShadowButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSShadowButton</TokenIdentifier>
+			<Abstract type="html">BLIOSShadowButton inherits from BLIOSButton providing additional properties such as a shadow, border and device specific titles that are appropriate to the available screen dimensions.</Abstract>
+			<DeclaredIn>BLIOSShadowButton.h</DeclaredIn>
+            
+			
+			<NodeRef refid="224"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShadowButton/setEnabledColor:</TokenIdentifier>
+			<Abstract type="html">Determines the color of the button when it is enabled.</Abstract>
+			<DeclaredIn>BLIOSShadowButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *enabledColor</Declaration>
+			
+			
+			<Anchor>//api/name/enabledColor</Anchor>
+            <NodeRef refid="224"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShadowButton/enabledColor</TokenIdentifier>
+			<Abstract type="html">Determines the color of the button when it is enabled.</Abstract>
+			<DeclaredIn>BLIOSShadowButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *enabledColor</Declaration>
+			
+			
+			<Anchor>//api/name/enabledColor</Anchor>
+            <NodeRef refid="224"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSShadowButton/enabledColor</TokenIdentifier>
+			<Abstract type="html">Determines the color of the button when it is enabled.</Abstract>
+			<DeclaredIn>BLIOSShadowButton.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *enabledColor</Declaration>
+			
+			
+			<Anchor>//api/name/enabledColor</Anchor>
+            <NodeRef refid="224"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShadowButton/setShortTitle:andLongTitle:forState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShadowButton.h</DeclaredIn>
+			
+			<Declaration>- (void)setShortTitle:(NSString *)aShortTitle andLongTitle:(NSString *)aLongTitle forState:(UIControlState)aState</Declaration>
+			
+			
+			<Anchor>//api/name/setShortTitle:andLongTitle:forState:</Anchor>
+            <NodeRef refid="224"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSShadowButton/defaultBackgroundColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShadowButton.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)defaultBackgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultBackgroundColor</Anchor>
+            <NodeRef refid="224"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSShadowButton/defaultDisabledColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShadowButton.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)defaultDisabledColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultDisabledColor</Anchor>
+            <NodeRef refid="224"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

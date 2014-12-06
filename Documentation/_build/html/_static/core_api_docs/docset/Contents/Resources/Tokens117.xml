@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSImageDetailViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSImageDetailViewController</TokenIdentifier>
+			<Abstract type="html">A view controller for displaying an image and its associated information.
+The view controller contains a toolbar for implementing additional functionality.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="117"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/setToolbar:</TokenIdentifier>
+			<Abstract type="html">The toolbar that appears at the bottom of the view controller.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/toolbar</TokenIdentifier>
+			<Abstract type="html">The toolbar that appears at the bottom of the view controller.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSImageDetailViewController/toolbar</TokenIdentifier>
+			<Abstract type="html">The toolbar that appears at the bottom of the view controller.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/setTitleLabel:</TokenIdentifier>
+			<Abstract type="html">The label taht displays the text that appears below the image.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *titleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/titleLabel</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/titleLabel</TokenIdentifier>
+			<Abstract type="html">The label taht displays the text that appears below the image.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *titleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/titleLabel</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSImageDetailViewController/titleLabel</TokenIdentifier>
+			<Abstract type="html">The label taht displays the text that appears below the image.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *titleLabel</Declaration>
+			
+			
+			<Anchor>//api/name/titleLabel</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/setImageView:</TokenIdentifier>
+			<Abstract type="html">The view that displays the image.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSMissingImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/imageView</TokenIdentifier>
+			<Abstract type="html">The view that displays the image.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSMissingImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSImageDetailViewController/imageView</TokenIdentifier>
+			<Abstract type="html">The view that displays the image.</Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSMissingImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setImage:(UIImage *)aImage</Declaration>
+			
+			
+			<Anchor>//api/name/setImage:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageDetailViewController/setFontSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setFontSize:(CGFloat)aSize</Declaration>
+			
+			
+			<Anchor>//api/name/setFontSize:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

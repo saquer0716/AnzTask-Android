@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLTenderDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLTenderDataRequest</TokenIdentifier>
+			<Abstract type="html">BLTenderDataRequest encapsulates the data and methods associated with soap requests and responses for adding a tender to a retail transaction.</Abstract>
+			<DeclaredIn>BLTenderDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="373"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTenderDataRequest/setTender:</TokenIdentifier>
+			<Abstract type="html">The tender associated with the request.</Abstract>
+			<DeclaredIn>BLTenderDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="373"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTenderDataRequest/tender</TokenIdentifier>
+			<Abstract type="html">The tender associated with the request.</Abstract>
+			<DeclaredIn>BLTenderDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="373"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLTenderDataRequest/tender</TokenIdentifier>
+			<Abstract type="html">The tender associated with the request.</Abstract>
+			<DeclaredIn>BLTenderDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="373"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLTenderDataRequest/addTender:forBasket:atDomain:forSession:onDevice:withPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTenderDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)addTender:(BLTender *)aTender forBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice withPrinter:(BLPrinter *)aPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/addTender:forBasket:atDomain:forSession:onDevice:withPrinter:</Anchor>
+            <NodeRef refid="373"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

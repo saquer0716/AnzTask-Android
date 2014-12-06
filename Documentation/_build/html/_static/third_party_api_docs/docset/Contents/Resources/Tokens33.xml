@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PayPalMobile.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PayPalMobile</TokenIdentifier>
+			<Abstract type="html">NoNetwork: Mock mode. Does not submit transactions to PayPal. Fakes successful responses. Useful for unit tests.</Abstract>
+			<DeclaredIn>PayPalMobile.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalMobile/initializeWithClientIdsForEnvironments:</TokenIdentifier>
+			<Abstract type="html">The PayPal Mobile SDK can operate in different environments to facilitate development and testing.
+See PayPalEnvironmentProduction, PayPalEnvironmentSandbox, PayPalEnvironmentNoNetwork for more details.</Abstract>
+			<DeclaredIn>PayPalMobile.h</DeclaredIn>
+			
+			<Declaration>+ (void)initializeWithClientIdsForEnvironments:(NSDictionary *)clientIdsForEnvironments</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>clientIdsForEnvironments</Name>
+					<Abstract type="html">Your client id for each relevant environment, as obtained from developer.paypal.com.
+You do not need to provide a client id for PayPalEnvironmentNoNetwork.
+For example,
+  @{PayPalEnvironmentProduction : @&quot;my-client-id-for-Production&quot;,
+    PayPalEnvironmentSandbox : @&quot;my-client-id-for-Sandbox&quot;}</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initializeWithClientIdsForEnvironments:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalMobile/preconnectWithEnvironment:</TokenIdentifier>
+			<Abstract type="html">@param environment
+The PayPal Mobile SDK can operate in different environments to facilitate development and testing.
+See PayPalEnvironmentProduction, PayPalEnvironmentSandbox, PayPalEnvironmentNoNetwork for more details.</Abstract>
+			<DeclaredIn>PayPalMobile.h</DeclaredIn>
+			
+			<Declaration>+ (void)preconnectWithEnvironment:(NSString *)environment</Declaration>
+			
+			
+			<Anchor>//api/name/preconnectWithEnvironment:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalMobile/applicationCorrelationIDForEnvironment:</TokenIdentifier>
+			<Abstract type="html">Once a user has consented to future payments, when the user subsequently initiates a PayPal payment
+from their device to be completed by your server, PayPal uses a Correlation ID to verify that the
+payment is originating from a valid, user-consented device+application.
+This helps reduce fraud and decrease declines.
+This method MUST be called prior to initiating a pre-consented payment (a &quot;future payment&quot;) from a mobile device.
+Pass the result to your server, to include in the payment request sent to PayPal.
+Do not otherwise cache or store this value.
+@param environment
+The PayPal Mobile SDK can operate in different environments to facilitate development and testing.
+See PayPalEnvironmentProduction, PayPalEnvironmentSandbox, PayPalEnvironmentNoNetwork for more details.</Abstract>
+			<DeclaredIn>PayPalMobile.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)applicationCorrelationIDForEnvironment:(NSString *)environment</Declaration>
+			
+			<ReturnValue><Abstract type="html">applicationCorrelationID Your server will send this to PayPal in a &apos;Paypal-Application-Correlation-Id&apos; header.</Abstract></ReturnValue>
+			<Anchor>//api/name/applicationCorrelationIDForEnvironment:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalMobile/clearAllUserData</TokenIdentifier>
+			<Abstract type="html">Do NOT call this method while any PayPal Mobile SDK viewcontroller is active.</Abstract>
+			<DeclaredIn>PayPalMobile.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/PayPalConfiguration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>+ (void)clearAllUserData</Declaration>
+			
+			
+			<Anchor>//api/name/clearAllUserData</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PayPalMobile/libraryVersion</TokenIdentifier>
+			<Abstract type="html">Please be sure to include this library version in tech support requests.</Abstract>
+			<DeclaredIn>PayPalMobile.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)libraryVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">The version of the PayPal Mobile SDK in use. Version numbering follows http://semver.org/.</Abstract></ReturnValue>
+			<Anchor>//api/name/libraryVersion</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

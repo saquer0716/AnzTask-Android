@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSButtonHeadingTextField.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSButtonHeadingTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonHeadingTextField.h</DeclaredIn>
+            
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonHeadingTextField/button</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (UIButton *)button</Declaration>
+			
+			
+			<Anchor>//api/name/button</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSButtonHeadingTextField/readOnlyButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSButtonHeadingTextField.h</DeclaredIn>
+			
+			<Declaration>- (UIButton *)readOnlyButton</Declaration>
+			
+			
+			<Anchor>//api/name/readOnlyButton</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

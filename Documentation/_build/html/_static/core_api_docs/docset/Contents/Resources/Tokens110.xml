@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSGestureLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSGestureLabel</TokenIdentifier>
+			<Abstract type="html">A label for displaying text that also responds to being touched or moved.</Abstract>
+			<DeclaredIn>BLIOSGestureLabel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="110"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSGestureLabel/setViewDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the label.</Abstract>
+			<DeclaredIn>BLIOSGestureLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSGestureLabel/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the label.</Abstract>
+			<DeclaredIn>BLIOSGestureLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSGestureLabel/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the label.</Abstract>
+			<DeclaredIn>BLIOSGestureLabel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

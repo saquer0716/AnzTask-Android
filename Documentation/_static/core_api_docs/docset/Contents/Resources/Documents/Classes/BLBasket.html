@@ -1,0 +1,3078 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLBasket Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLBasket Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/active">&nbsp;&nbsp;&nbsp;&nbsp;active</option>
+	
+	<option value="//api/name/author">&nbsp;&nbsp;&nbsp;&nbsp;author</option>
+	
+	<option value="//api/name/basketId">&nbsp;&nbsp;&nbsp;&nbsp;basketId</option>
+	
+	<option value="//api/name/bpointInProgress">&nbsp;&nbsp;&nbsp;&nbsp;bpointInProgress</option>
+	
+	<option value="//api/name/checklist">&nbsp;&nbsp;&nbsp;&nbsp;checklist</option>
+	
+	<option value="//api/name/closed">&nbsp;&nbsp;&nbsp;&nbsp;closed</option>
+	
+	<option value="//api/name/customerBarcode">&nbsp;&nbsp;&nbsp;&nbsp;customerBarcode</option>
+	
+	<option value="//api/name/customerTransaction">&nbsp;&nbsp;&nbsp;&nbsp;customerTransaction</option>
+	
+	<option value="//api/name/dateCreated">&nbsp;&nbsp;&nbsp;&nbsp;dateCreated</option>
+	
+	<option value="//api/name/dateModified">&nbsp;&nbsp;&nbsp;&nbsp;dateModified</option>
+	
+	<option value="//api/name/deviceId">&nbsp;&nbsp;&nbsp;&nbsp;deviceId</option>
+	
+	<option value="//api/name/filename">&nbsp;&nbsp;&nbsp;&nbsp;filename</option>
+	
+	<option value="//api/name/final">&nbsp;&nbsp;&nbsp;&nbsp;final</option>
+	
+	<option value="//api/name/finalised">&nbsp;&nbsp;&nbsp;&nbsp;finalised</option>
+	
+	<option value="//api/name/integrated">&nbsp;&nbsp;&nbsp;&nbsp;integrated</option>
+	
+	<option value="//api/name/lastUsed">&nbsp;&nbsp;&nbsp;&nbsp;lastUsed</option>
+	
+	<option value="//api/name/mode">&nbsp;&nbsp;&nbsp;&nbsp;mode</option>
+	
+	<option value="//api/name/name">&nbsp;&nbsp;&nbsp;&nbsp;name</option>
+	
+	<option value="//api/name/operatorId">&nbsp;&nbsp;&nbsp;&nbsp;operatorId</option>
+	
+	<option value="//api/name/operatorTransaction">&nbsp;&nbsp;&nbsp;&nbsp;operatorTransaction</option>
+	
+	<option value="//api/name/orderAcknowledged">&nbsp;&nbsp;&nbsp;&nbsp;orderAcknowledged</option>
+	
+	<option value="//api/name/partiallyTendered">&nbsp;&nbsp;&nbsp;&nbsp;partiallyTendered</option>
+	
+	<option value="//api/name/paymentDevice">&nbsp;&nbsp;&nbsp;&nbsp;paymentDevice</option>
+	
+	<option value="//api/name/paymentDue">&nbsp;&nbsp;&nbsp;&nbsp;paymentDue</option>
+	
+	<option value="//api/name/picking">&nbsp;&nbsp;&nbsp;&nbsp;picking</option>
+	
+	<option value="//api/name/pinpadFailure">&nbsp;&nbsp;&nbsp;&nbsp;pinpadFailure</option>
+	
+	<option value="//api/name/pinpadMessage">&nbsp;&nbsp;&nbsp;&nbsp;pinpadMessage</option>
+	
+	<option value="//api/name/pinpadPIN">&nbsp;&nbsp;&nbsp;&nbsp;pinpadPIN</option>
+	
+	<option value="//api/name/pinpadReceipt">&nbsp;&nbsp;&nbsp;&nbsp;pinpadReceipt</option>
+	
+	<option value="//api/name/pinpadSignature">&nbsp;&nbsp;&nbsp;&nbsp;pinpadSignature</option>
+	
+	<option value="//api/name/pinpadStatus">&nbsp;&nbsp;&nbsp;&nbsp;pinpadStatus</option>
+	
+	<option value="//api/name/productError">&nbsp;&nbsp;&nbsp;&nbsp;productError</option>
+	
+	<option value="//api/name/queueDate">&nbsp;&nbsp;&nbsp;&nbsp;queueDate</option>
+	
+	<option value="//api/name/readyForDispatch">&nbsp;&nbsp;&nbsp;&nbsp;readyForDispatch</option>
+	
+	<option value="//api/name/receiptAudit">&nbsp;&nbsp;&nbsp;&nbsp;receiptAudit</option>
+	
+	<option value="//api/name/refund">&nbsp;&nbsp;&nbsp;&nbsp;refund</option>
+	
+	<option value="//api/name/requestId">&nbsp;&nbsp;&nbsp;&nbsp;requestId</option>
+	
+	<option value="//api/name/retailer">&nbsp;&nbsp;&nbsp;&nbsp;retailer</option>
+	
+	<option value="//api/name/serverURL">&nbsp;&nbsp;&nbsp;&nbsp;serverURL</option>
+	
+	<option value="//api/name/shoppingAgentFailure">&nbsp;&nbsp;&nbsp;&nbsp;shoppingAgentFailure</option>
+	
+	<option value="//api/name/shoppingAgentMessage">&nbsp;&nbsp;&nbsp;&nbsp;shoppingAgentMessage</option>
+	
+	<option value="//api/name/shoppingAgentStatus">&nbsp;&nbsp;&nbsp;&nbsp;shoppingAgentStatus</option>
+	
+	<option value="//api/name/shoppingList">&nbsp;&nbsp;&nbsp;&nbsp;shoppingList</option>
+	
+	<option value="//api/name/status">&nbsp;&nbsp;&nbsp;&nbsp;status</option>
+	
+	<option value="//api/name/statusString">&nbsp;&nbsp;&nbsp;&nbsp;statusString</option>
+	
+	<option value="//api/name/store">&nbsp;&nbsp;&nbsp;&nbsp;store</option>
+	
+	<option value="//api/name/suspended">&nbsp;&nbsp;&nbsp;&nbsp;suspended</option>
+	
+	<option value="//api/name/tenderDelegate">&nbsp;&nbsp;&nbsp;&nbsp;tenderDelegate</option>
+	
+	<option value="//api/name/tenders">&nbsp;&nbsp;&nbsp;&nbsp;tenders</option>
+	
+	<option value="//api/name/totals">&nbsp;&nbsp;&nbsp;&nbsp;totals</option>
+	
+	<option value="//api/name/transactionBarcode">&nbsp;&nbsp;&nbsp;&nbsp;transactionBarcode</option>
+	
+	<option value="//api/name/transactionEndTime">&nbsp;&nbsp;&nbsp;&nbsp;transactionEndTime</option>
+	
+	<option value="//api/name/transactionReceipt">&nbsp;&nbsp;&nbsp;&nbsp;transactionReceipt</option>
+	
+	<option value="//api/name/transactionStartTime">&nbsp;&nbsp;&nbsp;&nbsp;transactionStartTime</option>
+	
+	<option value="//api/name/version">&nbsp;&nbsp;&nbsp;&nbsp;version</option>
+	
+	<option value="//api/name/voided">&nbsp;&nbsp;&nbsp;&nbsp;voided</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/basketFolder">&nbsp;&nbsp;&nbsp;&nbsp;+ basketFolder</option>
+	
+	<option value="//api/name/estimatedTotalForItems:">&nbsp;&nbsp;&nbsp;&nbsp;+ estimatedTotalForItems:</option>
+	
+	<option value="//api/name/generateUniqueIdentifierWithIndex:">&nbsp;&nbsp;&nbsp;&nbsp;+ generateUniqueIdentifierWithIndex:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/canTender">&nbsp;&nbsp;&nbsp;&nbsp;- canTender</option>
+	
+	<option value="//api/name/cashOutAmount">&nbsp;&nbsp;&nbsp;&nbsp;- cashOutAmount</option>
+	
+	<option value="//api/name/changeAmount">&nbsp;&nbsp;&nbsp;&nbsp;- changeAmount</option>
+	
+	<option value="//api/name/customerEmail">&nbsp;&nbsp;&nbsp;&nbsp;- customerEmail</option>
+	
+	<option value="//api/name/decodeStatus:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeStatus:</option>
+	
+	<option value="//api/name/dueAmountAfterLastTenderType:fromShoppingAgent:">&nbsp;&nbsp;&nbsp;&nbsp;- dueAmountAfterLastTenderType:fromShoppingAgent:</option>
+	
+	<option value="//api/name/dueAmountForTenderType:fromShoppingAgent:">&nbsp;&nbsp;&nbsp;&nbsp;- dueAmountForTenderType:fromShoppingAgent:</option>
+	
+	<option value="//api/name/dueAmountFromTenders">&nbsp;&nbsp;&nbsp;&nbsp;- dueAmountFromTenders</option>
+	
+	<option value="//api/name/editable">&nbsp;&nbsp;&nbsp;&nbsp;- editable</option>
+	
+	<option value="//api/name/empty">&nbsp;&nbsp;&nbsp;&nbsp;- empty</option>
+	
+	<option value="//api/name/items">&nbsp;&nbsp;&nbsp;&nbsp;- items</option>
+	
+	<option value="//api/name/lastPinpadTenderAmount">&nbsp;&nbsp;&nbsp;&nbsp;- lastPinpadTenderAmount</option>
+	
+	<option value="//api/name/multiTenderReceipt">&nbsp;&nbsp;&nbsp;&nbsp;- multiTenderReceipt</option>
+	
+	<option value="//api/name/orderDate">&nbsp;&nbsp;&nbsp;&nbsp;- orderDate</option>
+	
+	<option value="//api/name/paid">&nbsp;&nbsp;&nbsp;&nbsp;- paid</option>
+	
+	<option value="//api/name/paidFromTenders">&nbsp;&nbsp;&nbsp;&nbsp;- paidFromTenders</option>
+	
+	<option value="//api/name/partiallyPaid">&nbsp;&nbsp;&nbsp;&nbsp;- partiallyPaid</option>
+	
+	<option value="//api/name/partiallyPaidFromTenders">&nbsp;&nbsp;&nbsp;&nbsp;- partiallyPaidFromTenders</option>
+	
+	<option value="//api/name/pendingTender">&nbsp;&nbsp;&nbsp;&nbsp;- pendingTender</option>
+	
+	<option value="//api/name/resetStatus">&nbsp;&nbsp;&nbsp;&nbsp;- resetStatus</option>
+	
+	<option value="//api/name/setCustomerEmail:">&nbsp;&nbsp;&nbsp;&nbsp;- setCustomerEmail:</option>
+	
+	<option value="//api/name/setItems:">&nbsp;&nbsp;&nbsp;&nbsp;- setItems:</option>
+	
+	<option value="//api/name/setMultiTenderReceipt:">&nbsp;&nbsp;&nbsp;&nbsp;- setMultiTenderReceipt:</option>
+	
+	<option value="//api/name/setOrderDate:">&nbsp;&nbsp;&nbsp;&nbsp;- setOrderDate:</option>
+	
+	<option value="//api/name/setPaid:">&nbsp;&nbsp;&nbsp;&nbsp;- setPaid:</option>
+	
+	<option value="//api/name/setPendingTender:">&nbsp;&nbsp;&nbsp;&nbsp;- setPendingTender:</option>
+	
+	<option value="//api/name/taxFromShoppingAgent:">&nbsp;&nbsp;&nbsp;&nbsp;- taxFromShoppingAgent:</option>
+	
+	<option value="//api/name/tenderTotal">&nbsp;&nbsp;&nbsp;&nbsp;- tenderTotal</option>
+	
+	<option value="//api/name/tenderTypesAsString">&nbsp;&nbsp;&nbsp;&nbsp;- tenderTypesAsString</option>
+	
+	<option value="//api/name/transactionAmountFromShoppingAgent:">&nbsp;&nbsp;&nbsp;&nbsp;- transactionAmountFromShoppingAgent:</option>
+	
+	<option value="//api/name/transactionTotal">&nbsp;&nbsp;&nbsp;&nbsp;- transactionTotal</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/active">active</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/author">author</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/basketId">basketId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bpointInProgress">bpointInProgress</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/checklist">checklist</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/closed">closed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/customerBarcode">customerBarcode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/customerTransaction">customerTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateCreated">dateCreated</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dateModified">dateModified</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deviceId">deviceId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/filename">filename</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/final">final</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/finalised">finalised</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/integrated">integrated</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastUsed">lastUsed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mode">mode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/name">name</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/operatorId">operatorId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/operatorTransaction">operatorTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderAcknowledged">orderAcknowledged</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/partiallyTendered">partiallyTendered</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentDevice">paymentDevice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentDue">paymentDue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/picking">picking</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pinpadFailure">pinpadFailure</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pinpadMessage">pinpadMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pinpadPIN">pinpadPIN</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pinpadReceipt">pinpadReceipt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pinpadSignature">pinpadSignature</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pinpadStatus">pinpadStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productError">productError</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queueDate">queueDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/readyForDispatch">readyForDispatch</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/receiptAudit">receiptAudit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refund">refund</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/requestId">requestId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/retailer">retailer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/serverURL">serverURL</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shoppingAgentFailure">shoppingAgentFailure</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shoppingAgentMessage">shoppingAgentMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shoppingAgentStatus">shoppingAgentStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shoppingList">shoppingList</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/status">status</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/statusString">statusString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/store">store</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/suspended">suspended</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tenderDelegate">tenderDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tenders">tenders</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totals">totals</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionBarcode">transactionBarcode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionEndTime">transactionEndTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionReceipt">transactionReceipt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionStartTime">transactionStartTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/version">version</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/voided">voided</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/basketFolder">basketFolder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/estimatedTotalForItems:">estimatedTotalForItems:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/generateUniqueIdentifierWithIndex:">generateUniqueIdentifierWithIndex:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canTender">canTender</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cashOutAmount">cashOutAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/changeAmount">changeAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/customerEmail">customerEmail</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeStatus:">decodeStatus:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dueAmountAfterLastTenderType:fromShoppingAgent:">dueAmountAfterLastTenderType:fromShoppingAgent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dueAmountForTenderType:fromShoppingAgent:">dueAmountForTenderType:fromShoppingAgent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dueAmountFromTenders">dueAmountFromTenders</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/editable">editable</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/empty">empty</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/items">items</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastPinpadTenderAmount">lastPinpadTenderAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/multiTenderReceipt">multiTenderReceipt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orderDate">orderDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paid">paid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paidFromTenders">paidFromTenders</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/partiallyPaid">partiallyPaid</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/partiallyPaidFromTenders">partiallyPaidFromTenders</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pendingTender">pendingTender</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetStatus">resetStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setCustomerEmail:">setCustomerEmail:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setItems:">setItems:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setMultiTenderReceipt:">setMultiTenderReceipt:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setOrderDate:">setOrderDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPaid:">setPaid:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPendingTender:">setPendingTender:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/taxFromShoppingAgent:">taxFromShoppingAgent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tenderTotal">tenderTotal</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tenderTypesAsString">tenderTypesAsString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionAmountFromShoppingAgent:">transactionAmountFromShoppingAgent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionTotal">transactionTotal</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLBasket Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLBasket Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLObject.html">BLObject</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLBasket.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>BLBasket encapsulates the data and methods associated with a retail transaction, order and shopping list.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/items">&ndash;&nbsp;items</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setItems:">&ndash;&nbsp;setItems:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setCustomerEmail:">&ndash;&nbsp;setCustomerEmail:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/customerEmail">&ndash;&nbsp;customerEmail</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/name">&nbsp;&nbsp;name</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/filename">&nbsp;&nbsp;filename</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/author">&nbsp;&nbsp;author</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/store">&nbsp;&nbsp;store</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/serverURL">&nbsp;&nbsp;serverURL</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/basketId">&nbsp;&nbsp;basketId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deviceId">&nbsp;&nbsp;deviceId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/customerBarcode">&nbsp;&nbsp;customerBarcode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/operatorId">&nbsp;&nbsp;operatorId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/statusString">&nbsp;&nbsp;statusString</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pinpadStatus">&nbsp;&nbsp;pinpadStatus</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shoppingAgentStatus">&nbsp;&nbsp;shoppingAgentStatus</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pinpadMessage">&nbsp;&nbsp;pinpadMessage</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shoppingAgentMessage">&nbsp;&nbsp;shoppingAgentMessage</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pinpadReceipt">&nbsp;&nbsp;pinpadReceipt</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/receiptAudit">&nbsp;&nbsp;receiptAudit</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionReceipt">&nbsp;&nbsp;transactionReceipt</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionBarcode">&nbsp;&nbsp;transactionBarcode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateCreated">&nbsp;&nbsp;dateCreated</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dateModified">&nbsp;&nbsp;dateModified</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queueDate">&nbsp;&nbsp;queueDate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastUsed">&nbsp;&nbsp;lastUsed</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionStartTime">&nbsp;&nbsp;transactionStartTime</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionEndTime">&nbsp;&nbsp;transactionEndTime</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/checklist">&nbsp;&nbsp;checklist</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totals">&nbsp;&nbsp;totals</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/retailer">&nbsp;&nbsp;retailer</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tenders">&nbsp;&nbsp;tenders</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/requestId">&nbsp;&nbsp;requestId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/version">&nbsp;&nbsp;version</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mode">&nbsp;&nbsp;mode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/voided">&nbsp;&nbsp;voided</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refund">&nbsp;&nbsp;refund</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/final">&nbsp;&nbsp;final</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/closed">&nbsp;&nbsp;closed</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/suspended">&nbsp;&nbsp;suspended</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/picking">&nbsp;&nbsp;picking</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pinpadFailure">&nbsp;&nbsp;pinpadFailure</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shoppingAgentFailure">&nbsp;&nbsp;shoppingAgentFailure</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/readyForDispatch">&nbsp;&nbsp;readyForDispatch</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderAcknowledged">&nbsp;&nbsp;orderAcknowledged</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productError">&nbsp;&nbsp;productError</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/finalised">&nbsp;&nbsp;finalised</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/partiallyTendered">&nbsp;&nbsp;partiallyTendered</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pinpadSignature">&nbsp;&nbsp;pinpadSignature</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pinpadPIN">&nbsp;&nbsp;pinpadPIN</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/integrated">&nbsp;&nbsp;integrated</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/active">&nbsp;&nbsp;active</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentDue">&nbsp;&nbsp;paymentDue</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/operatorTransaction">&nbsp;&nbsp;operatorTransaction</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/customerTransaction">&nbsp;&nbsp;customerTransaction</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shoppingList">&nbsp;&nbsp;shoppingList</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bpointInProgress">&nbsp;&nbsp;bpointInProgress</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentDevice">&nbsp;&nbsp;paymentDevice</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tenderDelegate">&nbsp;&nbsp;tenderDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setOrderDate:">&ndash;&nbsp;setOrderDate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orderDate">&ndash;&nbsp;orderDate</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/editable">&ndash;&nbsp;editable</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canTender">&ndash;&nbsp;canTender</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resetStatus">&ndash;&nbsp;resetStatus</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeStatus:">&ndash;&nbsp;decodeStatus:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paid">&ndash;&nbsp;paid</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paidFromTenders">&ndash;&nbsp;paidFromTenders</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/partiallyPaid">&ndash;&nbsp;partiallyPaid</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/partiallyPaidFromTenders">&ndash;&nbsp;partiallyPaidFromTenders</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/empty">&ndash;&nbsp;empty</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tenderTypesAsString">&ndash;&nbsp;tenderTypesAsString</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPaid:">&ndash;&nbsp;setPaid:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tenderTotal">&ndash;&nbsp;tenderTotal</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionTotal">&ndash;&nbsp;transactionTotal</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionAmountFromShoppingAgent:">&ndash;&nbsp;transactionAmountFromShoppingAgent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dueAmountForTenderType:fromShoppingAgent:">&ndash;&nbsp;dueAmountForTenderType:fromShoppingAgent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dueAmountAfterLastTenderType:fromShoppingAgent:">&ndash;&nbsp;dueAmountAfterLastTenderType:fromShoppingAgent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dueAmountFromTenders">&ndash;&nbsp;dueAmountFromTenders</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/changeAmount">&ndash;&nbsp;changeAmount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cashOutAmount">&ndash;&nbsp;cashOutAmount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastPinpadTenderAmount">&ndash;&nbsp;lastPinpadTenderAmount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/taxFromShoppingAgent:">&ndash;&nbsp;taxFromShoppingAgent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/multiTenderReceipt">&ndash;&nbsp;multiTenderReceipt</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setMultiTenderReceipt:">&ndash;&nbsp;setMultiTenderReceipt:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pendingTender">&ndash;&nbsp;pendingTender</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPendingTender:">&ndash;&nbsp;setPendingTender:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/basketFolder">+&nbsp;basketFolder</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/estimatedTotalForItems:">+&nbsp;estimatedTotalForItems:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/generateUniqueIdentifierWithIndex:">+&nbsp;generateUniqueIdentifierWithIndex:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/active" title="active"></a>
+	<h3 class="subsubtitle method-title">active</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool active</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/author" title="author"></a>
+	<h3 class="subsubtitle method-title">author</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The author/creator of the basket</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *author</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/basketId" title="basketId"></a>
+	<h3 class="subsubtitle method-title">basketId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The unique identifier of the basket</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *basketId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bpointInProgress" title="bpointInProgress"></a>
+	<h3 class="subsubtitle method-title">bpointInProgress</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool bpointInProgress</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/checklist" title="checklist"></a>
+	<h3 class="subsubtitle method-title">checklist</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The items/products in the shopping list/checklist.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *checklist</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/closed" title="closed"></a>
+	<h3 class="subsubtitle method-title">closed</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool closed</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/customerBarcode" title="customerBarcode"></a>
+	<h3 class="subsubtitle method-title">customerBarcode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The barcode number of the customer associated with the basket.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *customerBarcode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/customerTransaction" title="customerTransaction"></a>
+	<h3 class="subsubtitle method-title">customerTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool customerTransaction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateCreated" title="dateCreated"></a>
+	<h3 class="subsubtitle method-title">dateCreated</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The date that the basket was created.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSDate *dateCreated</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dateModified" title="dateModified"></a>
+	<h3 class="subsubtitle method-title">dateModified</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The date that the basket was last modified.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSDate *dateModified</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deviceId" title="deviceId"></a>
+	<h3 class="subsubtitle method-title">deviceId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *deviceId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/filename" title="filename"></a>
+	<h3 class="subsubtitle method-title">filename</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The <a href="#//api/name/name">name</a> to use when saving associated documents (e.g. images, receipts).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *filename</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/final" title="final"></a>
+	<h3 class="subsubtitle method-title">final</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool final</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/finalised" title="finalised"></a>
+	<h3 class="subsubtitle method-title">finalised</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket has been finalised.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool finalised</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/integrated" title="integrated"></a>
+	<h3 class="subsubtitle method-title">integrated</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the transaction is managed by the shopping agent.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool integrated</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastUsed" title="lastUsed"></a>
+	<h3 class="subsubtitle method-title">lastUsed</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The date that the basket was last used.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSDate *lastUsed</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mode" title="mode"></a>
+	<h3 class="subsubtitle method-title">mode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the mode of the app when the basket was last used.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger mode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/name" title="name"></a>
+	<h3 class="subsubtitle method-title">name</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The name of the basket</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *name</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/operatorId" title="operatorId"></a>
+	<h3 class="subsubtitle method-title">operatorId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *operatorId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/operatorTransaction" title="operatorTransaction"></a>
+	<h3 class="subsubtitle method-title">operatorTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool operatorTransaction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderAcknowledged" title="orderAcknowledged"></a>
+	<h3 class="subsubtitle method-title">orderAcknowledged</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket (of type order) has been acknowledged.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool orderAcknowledged</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/partiallyTendered" title="partiallyTendered"></a>
+	<h3 class="subsubtitle method-title">partiallyTendered</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool partiallyTendered</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentDevice" title="paymentDevice"></a>
+	<h3 class="subsubtitle method-title">paymentDevice</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLPaymentDevice *paymentDevice</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentDue" title="paymentDue"></a>
+	<h3 class="subsubtitle method-title">paymentDue</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool paymentDue</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/picking" title="picking"></a>
+	<h3 class="subsubtitle method-title">picking</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket (of type order) is in the process of being picked.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool picking</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pinpadFailure" title="pinpadFailure"></a>
+	<h3 class="subsubtitle method-title">pinpadFailure</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket (of type transaction) failed to tender due to a pinpad error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool pinpadFailure</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pinpadMessage" title="pinpadMessage"></a>
+	<h3 class="subsubtitle method-title">pinpadMessage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current/last message received from the pinpad (if applicable).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *pinpadMessage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pinpadPIN" title="pinpadPIN"></a>
+	<h3 class="subsubtitle method-title">pinpadPIN</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the transaction was authorised using a pin.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool pinpadPIN</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pinpadReceipt" title="pinpadReceipt"></a>
+	<h3 class="subsubtitle method-title">pinpadReceipt</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The receipt generated by the pinpad for the associated transaction.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *pinpadReceipt</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pinpadSignature" title="pinpadSignature"></a>
+	<h3 class="subsubtitle method-title">pinpadSignature</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the transaction was authorised using a signature.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool pinpadSignature</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pinpadStatus" title="pinpadStatus"></a>
+	<h3 class="subsubtitle method-title">pinpadStatus</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The current/last <a href="#//api/name/status">status</a> received from the pinpad (if applicable).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *pinpadStatus</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productError" title="productError"></a>
+	<h3 class="subsubtitle method-title">productError</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket triggered a product error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool productError</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queueDate" title="queueDate"></a>
+	<h3 class="subsubtitle method-title">queueDate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The date that should appear when the basket is listed in a transaction queue.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSDate *queueDate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/readyForDispatch" title="readyForDispatch"></a>
+	<h3 class="subsubtitle method-title">readyForDispatch</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket (of type order) has been fulfilled and is ready to be dispatched.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool readyForDispatch</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/receiptAudit" title="receiptAudit"></a>
+	<h3 class="subsubtitle method-title">receiptAudit</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *receiptAudit</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refund" title="refund"></a>
+	<h3 class="subsubtitle method-title">refund</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the transaction is a refundf.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool refund</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/requestId" title="requestId"></a>
+	<h3 class="subsubtitle method-title">requestId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The sequence identifier of the request.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger requestId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/retailer" title="retailer"></a>
+	<h3 class="subsubtitle method-title">retailer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The retailer associated with the basket.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLRetailer *retailer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/serverURL" title="serverURL"></a>
+	<h3 class="subsubtitle method-title">serverURL</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *serverURL</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shoppingAgentFailure" title="shoppingAgentFailure"></a>
+	<h3 class="subsubtitle method-title">shoppingAgentFailure</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool shoppingAgentFailure</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shoppingAgentMessage" title="shoppingAgentMessage"></a>
+	<h3 class="subsubtitle method-title">shoppingAgentMessage</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *shoppingAgentMessage</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shoppingAgentStatus" title="shoppingAgentStatus"></a>
+	<h3 class="subsubtitle method-title">shoppingAgentStatus</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *shoppingAgentStatus</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shoppingList" title="shoppingList"></a>
+	<h3 class="subsubtitle method-title">shoppingList</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool shoppingList</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/status" title="status"></a>
+	<h3 class="subsubtitle method-title">status</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates the status of the basket.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BLPOSStatus status</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/statusString" title="statusString"></a>
+	<h3 class="subsubtitle method-title">statusString</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The readable string indicating the current <a href="#//api/name/status">status</a> of the basket.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *statusString</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/store" title="store"></a>
+	<h3 class="subsubtitle method-title">store</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The <a href="#//api/name/name">name</a> of the store that the basket is associated with</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *store</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/suspended" title="suspended"></a>
+	<h3 class="subsubtitle method-title">suspended</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket has been suspended.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool suspended</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tenderDelegate" title="tenderDelegate"></a>
+	<h3 class="subsubtitle method-title">tenderDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tenders" title="tenders"></a>
+	<h3 class="subsubtitle method-title">tenders</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The list of tenders for the transaction.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *tenders</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totals" title="totals"></a>
+	<h3 class="subsubtitle method-title">totals</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The transaction totals for the basket (of type transaction).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLTotals *totals</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionBarcode" title="transactionBarcode"></a>
+	<h3 class="subsubtitle method-title">transactionBarcode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The transaction barcode.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *transactionBarcode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionEndTime" title="transactionEndTime"></a>
+	<h3 class="subsubtitle method-title">transactionEndTime</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSDate *transactionEndTime</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionReceipt" title="transactionReceipt"></a>
+	<h3 class="subsubtitle method-title">transactionReceipt</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The receipt generated for the associated transaction.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *transactionReceipt</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionStartTime" title="transactionStartTime"></a>
+	<h3 class="subsubtitle method-title">transactionStartTime</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSDate *transactionStartTime</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/version" title="version"></a>
+	<h3 class="subsubtitle method-title">version</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The basket&rsquo;s version number.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger version</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/voided" title="voided"></a>
+	<h3 class="subsubtitle method-title">voided</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Indicates whether the basket has been voided.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool voided</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLBasket.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/basketFolder" title="basketFolder"></a>
+	<h3 class="subsubtitle method-title">basketFolder</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)basketFolder</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/estimatedTotalForItems:" title="estimatedTotalForItems:"></a>
+	<h3 class="subsubtitle method-title">estimatedTotalForItems:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSDecimalNumber *)estimatedTotalForItems:(NSArray *)<em>aItems</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/generateUniqueIdentifierWithIndex:" title="generateUniqueIdentifierWithIndex:"></a>
+	<h3 class="subsubtitle method-title">generateUniqueIdentifierWithIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)generateUniqueIdentifierWithIndex:(NSInteger)<em>aIndex</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/canTender" title="canTender"></a>
+	<h3 class="subsubtitle method-title">canTender</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)canTender</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cashOutAmount" title="cashOutAmount"></a>
+	<h3 class="subsubtitle method-title">cashOutAmount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)cashOutAmount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/changeAmount" title="changeAmount"></a>
+	<h3 class="subsubtitle method-title">changeAmount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)changeAmount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/customerEmail" title="customerEmail"></a>
+	<h3 class="subsubtitle method-title">customerEmail</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)customerEmail</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeStatus:" title="decodeStatus:"></a>
+	<h3 class="subsubtitle method-title">decodeStatus:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)decodeStatus:(NSString *)<em>aStatus</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dueAmountAfterLastTenderType:fromShoppingAgent:" title="dueAmountAfterLastTenderType:fromShoppingAgent:"></a>
+	<h3 class="subsubtitle method-title">dueAmountAfterLastTenderType:fromShoppingAgent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)dueAmountAfterLastTenderType:(NSString *)<em>aType</em> fromShoppingAgent:(bool)<em>aShoppingAgent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dueAmountForTenderType:fromShoppingAgent:" title="dueAmountForTenderType:fromShoppingAgent:"></a>
+	<h3 class="subsubtitle method-title">dueAmountForTenderType:fromShoppingAgent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)dueAmountForTenderType:(NSString *)<em>aType</em> fromShoppingAgent:(bool)<em>aShoppingAgent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dueAmountFromTenders" title="dueAmountFromTenders"></a>
+	<h3 class="subsubtitle method-title">dueAmountFromTenders</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)dueAmountFromTenders</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/editable" title="editable"></a>
+	<h3 class="subsubtitle method-title">editable</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)editable</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/empty" title="empty"></a>
+	<h3 class="subsubtitle method-title">empty</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)empty</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/items" title="items"></a>
+	<h3 class="subsubtitle method-title">items</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)items</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastPinpadTenderAmount" title="lastPinpadTenderAmount"></a>
+	<h3 class="subsubtitle method-title">lastPinpadTenderAmount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)lastPinpadTenderAmount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/multiTenderReceipt" title="multiTenderReceipt"></a>
+	<h3 class="subsubtitle method-title">multiTenderReceipt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)multiTenderReceipt</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orderDate" title="orderDate"></a>
+	<h3 class="subsubtitle method-title">orderDate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDate *)orderDate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paid" title="paid"></a>
+	<h3 class="subsubtitle method-title">paid</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)paid</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paidFromTenders" title="paidFromTenders"></a>
+	<h3 class="subsubtitle method-title">paidFromTenders</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)paidFromTenders</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/partiallyPaid" title="partiallyPaid"></a>
+	<h3 class="subsubtitle method-title">partiallyPaid</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)partiallyPaid</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/partiallyPaidFromTenders" title="partiallyPaidFromTenders"></a>
+	<h3 class="subsubtitle method-title">partiallyPaidFromTenders</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)partiallyPaidFromTenders</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pendingTender" title="pendingTender"></a>
+	<h3 class="subsubtitle method-title">pendingTender</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLTender *)pendingTender</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resetStatus" title="resetStatus"></a>
+	<h3 class="subsubtitle method-title">resetStatus</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)resetStatus</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setCustomerEmail:" title="setCustomerEmail:"></a>
+	<h3 class="subsubtitle method-title">setCustomerEmail:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setCustomerEmail:(NSString *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setItems:" title="setItems:"></a>
+	<h3 class="subsubtitle method-title">setItems:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setItems:(NSArray *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setMultiTenderReceipt:" title="setMultiTenderReceipt:"></a>
+	<h3 class="subsubtitle method-title">setMultiTenderReceipt:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setMultiTenderReceipt:(NSString *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setOrderDate:" title="setOrderDate:"></a>
+	<h3 class="subsubtitle method-title">setOrderDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setOrderDate:(NSDate *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPaid:" title="setPaid:"></a>
+	<h3 class="subsubtitle method-title">setPaid:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPaid:(bool)<em>aValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPendingTender:" title="setPendingTender:"></a>
+	<h3 class="subsubtitle method-title">setPendingTender:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPendingTender:(BLTender *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/taxFromShoppingAgent:" title="taxFromShoppingAgent:"></a>
+	<h3 class="subsubtitle method-title">taxFromShoppingAgent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)taxFromShoppingAgent:(bool)<em>aShoppingAgent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tenderTotal" title="tenderTotal"></a>
+	<h3 class="subsubtitle method-title">tenderTotal</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)tenderTotal</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tenderTypesAsString" title="tenderTypesAsString"></a>
+	<h3 class="subsubtitle method-title">tenderTypesAsString</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)tenderTypesAsString</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionAmountFromShoppingAgent:" title="transactionAmountFromShoppingAgent:"></a>
+	<h3 class="subsubtitle method-title">transactionAmountFromShoppingAgent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)transactionAmountFromShoppingAgent:(bool)<em>aShoppingAgent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionTotal" title="transactionTotal"></a>
+	<h3 class="subsubtitle method-title">transactionTotal</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimalNumber *)transactionTotal</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

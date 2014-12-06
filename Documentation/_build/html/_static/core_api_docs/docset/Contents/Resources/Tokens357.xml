@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLShoppingAgentDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLShoppingAgentDataRequest</TokenIdentifier>
+			<Abstract type="html">BLShoppingAgentDataRequest is the base class that encapsulates the data and methods associated with soap requests and responses for retrieving and processing shopping agent data.</Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="357"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShoppingAgentDataRequest/setShoppingDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the shopping agent.</Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShoppingAgentDataRequest/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the shopping agent.</Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLShoppingAgentDataRequest/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with the shopping agent.</Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShoppingAgentDataRequest/pollForMatchingRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)pollForMatchingRequest:(BLShoppingAgentDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/pollForMatchingRequest:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLShoppingAgentDataRequest/processProductErrors:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)processProductErrors:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/processProductErrors:forRequest:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentDataRequest/processProducts:forBasket:inResponse:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)processProducts:(NSArray *)aProducts forBasket:(BLBasket *)aBasket inResponse:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/processProducts:forBasket:inResponse:forRequest:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentDataRequest/existingProduct:withinProducts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (BLProduct *)existingProduct:(BLProduct *)aProduct withinProducts:(NSArray *)aProducts</Declaration>
+			
+			
+			<Anchor>//api/name/existingProduct:withinProducts:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentDataRequest/voidedProduct:withinProducts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (BLProduct *)voidedProduct:(BLProduct *)aProduct withinProducts:(NSArray *)aProducts</Declaration>
+			
+			
+			<Anchor>//api/name/voidedProduct:withinProducts:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentDataRequest/extractReceiptData:forPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)extractReceiptData:(SMXMLDocument *)aDocument forPrinter:(BLPrinter *)aPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/extractReceiptData:forPrinter:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentDataRequest/extractTextFromFormatting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)extractTextFromFormatting:(SMXMLElement *)aElement</Declaration>
+			
+			
+			<Anchor>//api/name/extractTextFromFormatting:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLShoppingAgentDataRequest/extractTextFromElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLShoppingAgentDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)extractTextFromElement:(SMXMLElement *)aElement</Declaration>
+			
+			
+			<Anchor>//api/name/extractTextFromElement:</Anchor>
+            <NodeRef refid="357"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

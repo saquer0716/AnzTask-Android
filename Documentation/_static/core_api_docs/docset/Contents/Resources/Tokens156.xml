@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPOSSettingsOverlayView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPOSSettingsOverlayView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="156"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/setPosSetupDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPOSSetupDelegate&gt; posSetupDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/posSetupDelegate</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/posSetupDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPOSSetupDelegate&gt; posSetupDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/posSetupDelegate</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSSettingsOverlayView/posSetupDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPOSSetupDelegate&gt; posSetupDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/posSetupDelegate</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/updateDisplay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)updateDisplay:(BLIOSPointOfSale *)aPointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/updateDisplay:</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setRetailer:(BLRetailer *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setRetailer:</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/setShouldSignOut:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setShouldSignOut:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setShouldSignOut:</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (BLRetailer *)retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/shouldSignOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (bool)shouldSignOut</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSignOut</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/setMarginX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setMarginX:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setMarginX:</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsOverlayView/setSubscriptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSubscriptions:(NSArray *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSubscriptions:</Anchor>
+            <NodeRef refid="156"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

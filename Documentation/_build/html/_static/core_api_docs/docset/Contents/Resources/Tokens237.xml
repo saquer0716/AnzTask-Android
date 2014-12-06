@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSStoreDetailViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSStoreDetailViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="237"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/setAnnotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLStoreAnnotation *annotation</Declaration>
+			
+			
+			<Anchor>//api/name/annotation</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/annotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLStoreAnnotation *annotation</Declaration>
+			
+			
+			<Anchor>//api/name/annotation</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreDetailViewController/annotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLStoreAnnotation *annotation</Declaration>
+			
+			
+			<Anchor>//api/name/annotation</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/setOriginLocationCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D originLocationCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/originLocationCoordinate</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/originLocationCoordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D originLocationCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/originLocationCoordinate</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreDetailViewController/originLocationCoordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CLLocationCoordinate2D originLocationCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/originLocationCoordinate</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/setAddressLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *addressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/addressLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/addressLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *addressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/addressLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreDetailViewController/addressLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *addressLabel</Declaration>
+			
+			
+			<Anchor>//api/name/addressLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/setOpeningHourLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *openingHourLabel</Declaration>
+			
+			
+			<Anchor>//api/name/openingHourLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/openingHourLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *openingHourLabel</Declaration>
+			
+			
+			<Anchor>//api/name/openingHourLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreDetailViewController/openingHourLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *openingHourLabel</Declaration>
+			
+			
+			<Anchor>//api/name/openingHourLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/setPhoneNumberLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *phoneNumberLabel</Declaration>
+			
+			
+			<Anchor>//api/name/phoneNumberLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/phoneNumberLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *phoneNumberLabel</Declaration>
+			
+			
+			<Anchor>//api/name/phoneNumberLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreDetailViewController/phoneNumberLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSSmallLabel *phoneNumberLabel</Declaration>
+			
+			
+			<Anchor>//api/name/phoneNumberLabel</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/setTelephoneButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *telephoneButton</Declaration>
+			
+			
+			<Anchor>//api/name/telephoneButton</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/telephoneButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *telephoneButton</Declaration>
+			
+			
+			<Anchor>//api/name/telephoneButton</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreDetailViewController/telephoneButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *telephoneButton</Declaration>
+			
+			
+			<Anchor>//api/name/telephoneButton</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/setEntityName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityName</Declaration>
+			
+			
+			<Anchor>//api/name/entityName</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/entityName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityName</Declaration>
+			
+			
+			<Anchor>//api/name/entityName</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreDetailViewController/entityName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *entityName</Declaration>
+			
+			
+			<Anchor>//api/name/entityName</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/doDirections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doDirections</Declaration>
+			
+			
+			<Anchor>//api/name/doDirections</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/showDirections:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showDirections:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/showDirections:</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/doAddToContacts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doAddToContacts</Declaration>
+			
+			
+			<Anchor>//api/name/doAddToContacts</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/doTelephone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doTelephone</Declaration>
+			
+			
+			<Anchor>//api/name/doTelephone</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreDetailViewController/callText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreDetailViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)callText</Declaration>
+			
+			
+			<Anchor>//api/name/callText</Anchor>
+            <NodeRef refid="237"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

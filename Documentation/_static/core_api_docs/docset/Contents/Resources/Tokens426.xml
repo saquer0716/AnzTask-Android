@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLPrintDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLPrintDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for printing.</Abstract>
+			<DeclaredIn>BLPrintProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="426"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPrintDelegate/onPrinted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPrintProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPrinted:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPrinted:</Anchor>
+            <NodeRef refid="426"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPrintDelegate/onNotPrinted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPrintProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onNotPrinted:(NSObject *)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onNotPrinted:</Anchor>
+            <NodeRef refid="426"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

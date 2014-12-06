@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLJSon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLJSon</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSon.h</DeclaredIn>
+            
+			
+			<NodeRef refid="293"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSon/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSon.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="293"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSon/onAuthenticationChallengeUser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSon.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onAuthenticationChallengeUser</Declaration>
+			
+			
+			<Anchor>//api/name/onAuthenticationChallengeUser</Anchor>
+            <NodeRef refid="293"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSon/onAuthenticationChallengePassword</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSon.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onAuthenticationChallengePassword</Declaration>
+			
+			
+			<Anchor>//api/name/onAuthenticationChallengePassword</Anchor>
+            <NodeRef refid="293"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSon/connection:didFailWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSon.h</DeclaredIn>
+			
+			<Declaration>- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/connection:didFailWithError:</Anchor>
+            <NodeRef refid="293"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

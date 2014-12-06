@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSNomadPOSTransactionActionView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSNomadPOSTransactionActionView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="147"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setVoidButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *voidButton</Declaration>
+			
+			
+			<Anchor>//api/name/voidButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/voidButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *voidButton</Declaration>
+			
+			
+			<Anchor>//api/name/voidButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/voidButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *voidButton</Declaration>
+			
+			
+			<Anchor>//api/name/voidButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setSuspendButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *suspendButton</Declaration>
+			
+			
+			<Anchor>//api/name/suspendButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/suspendButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *suspendButton</Declaration>
+			
+			
+			<Anchor>//api/name/suspendButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/suspendButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *suspendButton</Declaration>
+			
+			
+			<Anchor>//api/name/suspendButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setTenderButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *tenderButton</Declaration>
+			
+			
+			<Anchor>//api/name/tenderButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/tenderButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *tenderButton</Declaration>
+			
+			
+			<Anchor>//api/name/tenderButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/tenderButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *tenderButton</Declaration>
+			
+			
+			<Anchor>//api/name/tenderButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setUtilityButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *utilityButton</Declaration>
+			
+			
+			<Anchor>//api/name/utilityButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/utilityButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *utilityButton</Declaration>
+			
+			
+			<Anchor>//api/name/utilityButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/utilityButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *utilityButton</Declaration>
+			
+			
+			<Anchor>//api/name/utilityButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setDiscountButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *discountButton</Declaration>
+			
+			
+			<Anchor>//api/name/discountButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/discountButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *discountButton</Declaration>
+			
+			
+			<Anchor>//api/name/discountButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/discountButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *discountButton</Declaration>
+			
+			
+			<Anchor>//api/name/discountButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setContactButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *contactButton</Declaration>
+			
+			
+			<Anchor>//api/name/contactButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/contactButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *contactButton</Declaration>
+			
+			
+			<Anchor>//api/name/contactButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/contactButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowButton *contactButton</Declaration>
+			
+			
+			<Anchor>//api/name/contactButton</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setShoppingDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setColumns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/columns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSNomadPOSTransactionActionView/columns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger columns</Declaration>
+			
+			
+			<Anchor>//api/name/columns</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/doVoid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)doVoid:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doVoid:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/doSuspend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)doSuspend:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSuspend:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/doDiscount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)doDiscount:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doDiscount:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/doContact:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)doContact:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doContact:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/doTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)doTender:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doTender:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/doUtility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)doUtility:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doUtility:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)setButtonColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonColor:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setCanSuspend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCanSuspend:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCanSuspend:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setHasDiscount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasDiscount:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasDiscount:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/setHasContact:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasContact:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasContact:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSNomadPOSTransactionActionView/showFromRect:withinRect:withColumns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNomadPOSTransactionActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)showFromRect:(CGRect)aOriginRect withinRect:(CGRect)aDestinationRect withColumns:(NSInteger)aColumns</Declaration>
+			
+			
+			<Anchor>//api/name/showFromRect:withinRect:withColumns:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

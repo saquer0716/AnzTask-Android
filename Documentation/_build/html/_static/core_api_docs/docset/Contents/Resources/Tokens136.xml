@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSMainMenuView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSMainMenuView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the user interface relating to the main menu of an app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="136"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuView/setMainMenuDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMainMenuDelegate&gt; mainMenuDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mainMenuDelegate</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuView/mainMenuDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMainMenuDelegate&gt; mainMenuDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mainMenuDelegate</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuView/mainMenuDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSMainMenuDelegate&gt; mainMenuDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/mainMenuDelegate</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuView/setMenuButtons:ofType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>- (void)setMenuButtons:(NSArray *)aButtons ofType:(UIButtonType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/setMenuButtons:ofType:</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuView/setPromenanceCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>- (void)setPromenanceCount:(NSInteger)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/setPromenanceCount:</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuView/setFooterCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>- (void)setFooterCount:(NSInteger)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/setFooterCount:</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuView/setButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>- (void)setButtonColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonColor:</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuView/setSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSelected:(NSObject *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSelected:</Anchor>
+            <NodeRef refid="136"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

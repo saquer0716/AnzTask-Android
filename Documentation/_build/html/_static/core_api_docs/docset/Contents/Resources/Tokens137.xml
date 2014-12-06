@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSMainMenuViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSMainMenuViewController</TokenIdentifier>
+			<Abstract type="html">The view controller for displaying the main menu for an app. This view is typically the first view that is displayed when the app launches.</Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="137"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/setConnectionLabel:</TokenIdentifier>
+			<Abstract type="html">The label that displays the connection status for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *connectionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/connectionLabel</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/connectionLabel</TokenIdentifier>
+			<Abstract type="html">The label that displays the connection status for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *connectionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/connectionLabel</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuViewController/connectionLabel</TokenIdentifier>
+			<Abstract type="html">The label that displays the connection status for the app.</Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *connectionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/connectionLabel</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/setSignInDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSSignInDelegate&gt; signInDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/signInDelegate</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/signInDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSSignInDelegate&gt; signInDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/signInDelegate</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSMainMenuViewController/signInDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSSignInDelegate&gt; signInDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/signInDelegate</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/updateConnectionText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateConnectionText:(NSString *)aText</Declaration>
+			
+			
+			<Anchor>//api/name/updateConnectionText:</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/positionControlsAboveToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)positionControlsAboveToolbar:(UIToolbar *)aToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/positionControlsAboveToolbar:</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/hasToolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasToolbar</Declaration>
+			
+			
+			<Anchor>//api/name/hasToolbar</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/doExit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doExit</Declaration>
+			
+			
+			<Anchor>//api/name/doExit</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/doCancel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doCancel</Declaration>
+			
+			
+			<Anchor>//api/name/doCancel</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/doLogin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doLogin</Declaration>
+			
+			
+			<Anchor>//api/name/doLogin</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/setToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setToolbar:(BLIOSToolbar *)toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/setToolbar:</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/toolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSToolbar *)toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/showRegister:andLogin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (bool)showRegister:(bool)aRegister andLogin:(bool)aLogin</Declaration>
+			
+			
+			<Anchor>//api/name/showRegister:andLogin:</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/hideRegister:andLogin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)hideRegister:(bool)aRegister andLogin:(bool)aLogin</Declaration>
+			
+			
+			<Anchor>//api/name/hideRegister:andLogin:</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/showSignin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showSignin</Declaration>
+			
+			
+			<Anchor>//api/name/showSignin</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/hideSignin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)hideSignin</Declaration>
+			
+			
+			<Anchor>//api/name/hideSignin</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/showMainMenu</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showMainMenu</Declaration>
+			
+			
+			<Anchor>//api/name/showMainMenu</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/hideMainMenu</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)hideMainMenu</Declaration>
+			
+			
+			<Anchor>//api/name/hideMainMenu</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/registerOrLoginView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSRegisterOrLoginOverlayView *)registerOrLoginView</Declaration>
+			
+			
+			<Anchor>//api/name/registerOrLoginView</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/mainMenuView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSMainMenuView *)mainMenuView</Declaration>
+			
+			
+			<Anchor>//api/name/mainMenuView</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSMainMenuViewController/enableToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSMainMenuViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)enableToolbar:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/enableToolbar:</Anchor>
+            <NodeRef refid="137"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLHardware.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLHardware</TokenIdentifier>
+			<Abstract type="html">The base class from which all hardware objects are derived from.</Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+            
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLHardware/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/setObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLHardware/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSObject *object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)coder</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(NSCoder *)coder</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/onIsHardwareReady</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>- (bool)onIsHardwareReady</Declaration>
+			
+			
+			<Anchor>//api/name/onIsHardwareReady</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/resume</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)resume</Declaration>
+			
+			
+			<Anchor>//api/name/resume</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/close</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>- (void)close</Declaration>
+			
+			
+			<Anchor>//api/name/close</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLHardware/active</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>- (bool)active</Declaration>
+			
+			
+			<Anchor>//api/name/active</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLHardware/noHardware</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardware.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)noHardware</Declaration>
+			
+			
+			<Anchor>//api/name/noHardware</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

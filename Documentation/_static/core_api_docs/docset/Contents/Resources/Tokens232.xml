@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSShoppingListView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSShoppingListView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingListView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="232"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingListView/setShoppingDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingListView/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSShoppingListView/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="232"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSRoundedRectView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSRoundedRectView</TokenIdentifier>
+			<Abstract type="html">BLIOSRoundedRectView is an opaque view with rounded corners inherited fron BLIOSView.</Abstract>
+			<DeclaredIn>BLIOSRoundedRectView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="213"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRoundedRectView/refreshLayout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>- (void)refreshLayout</Declaration>
+			
+			
+			<Anchor>//api/name/refreshLayout</Anchor>
+            <NodeRef refid="213"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSRoundedRectView/defaultBezierColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRoundedRectView.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)defaultBezierColor</Declaration>
+			
+			
+			<Anchor>//api/name/defaultBezierColor</Anchor>
+            <NodeRef refid="213"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

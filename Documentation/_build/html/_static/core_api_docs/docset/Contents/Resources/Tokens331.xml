@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPriceEmbeddedBarcode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPriceEmbeddedBarcode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+            
+			
+			<NodeRef refid="331"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/setFourDigitPricePrefixes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *fourDigitPricePrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/fourDigitPricePrefixes</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/fourDigitPricePrefixes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *fourDigitPricePrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/fourDigitPricePrefixes</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPriceEmbeddedBarcode/fourDigitPricePrefixes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *fourDigitPricePrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/fourDigitPricePrefixes</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/setFiveDigitPricePrefixes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *fiveDigitPricePrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/fiveDigitPricePrefixes</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/fiveDigitPricePrefixes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *fiveDigitPricePrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/fiveDigitPricePrefixes</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPriceEmbeddedBarcode/fiveDigitPricePrefixes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *fiveDigitPricePrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/fiveDigitPricePrefixes</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/setFourDigitCheck:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fourDigitCheck</Declaration>
+			
+			
+			<Anchor>//api/name/fourDigitCheck</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/fourDigitCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fourDigitCheck</Declaration>
+			
+			
+			<Anchor>//api/name/fourDigitCheck</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPriceEmbeddedBarcode/fourDigitCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fourDigitCheck</Declaration>
+			
+			
+			<Anchor>//api/name/fourDigitCheck</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/setFiveDigitCheck:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fiveDigitCheck</Declaration>
+			
+			
+			<Anchor>//api/name/fiveDigitCheck</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/fiveDigitCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fiveDigitCheck</Declaration>
+			
+			
+			<Anchor>//api/name/fiveDigitCheck</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPriceEmbeddedBarcode/fiveDigitCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger fiveDigitCheck</Declaration>
+			
+			
+			<Anchor>//api/name/fiveDigitCheck</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/searchableBarcode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)searchableBarcode:(NSString *)aBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/searchableBarcode:</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/hasFourDigitEmbeddedPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasFourDigitEmbeddedPrice:(NSString *)aBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/hasFourDigitEmbeddedPrice:</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/hasFiveDigitEmbeddedPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasFiveDigitEmbeddedPrice:(NSString *)aBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/hasFiveDigitEmbeddedPrice:</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPriceEmbeddedBarcode/embeddedPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)embeddedPrice:(NSString *)aBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/embeddedPrice:</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLPriceEmbeddedBarcode/barcode:containsPrefix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPriceEmbeddedBarcode.h</DeclaredIn>
+			
+			<Declaration>+ (bool)barcode:(NSString *)aBarcode containsPrefix:(NSArray *)aPrefixes</Declaration>
+			
+			
+			<Anchor>//api/name/barcode:containsPrefix:</Anchor>
+            <NodeRef refid="331"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

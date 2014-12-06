@@ -1,0 +1,1202 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLIOSProductDetailViewController Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLIOSProductDetailViewController Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/addButton">&nbsp;&nbsp;&nbsp;&nbsp;addButton</option>
+	
+	<option value="//api/name/backToBasketButton">&nbsp;&nbsp;&nbsp;&nbsp;backToBasketButton</option>
+	
+	<option value="//api/name/barcodeDelegate">&nbsp;&nbsp;&nbsp;&nbsp;barcodeDelegate</option>
+	
+	<option value="//api/name/barcodeLabel">&nbsp;&nbsp;&nbsp;&nbsp;barcodeLabel</option>
+	
+	<option value="//api/name/canChangePrice">&nbsp;&nbsp;&nbsp;&nbsp;canChangePrice</option>
+	
+	<option value="//api/name/canChangeQuantity">&nbsp;&nbsp;&nbsp;&nbsp;canChangeQuantity</option>
+	
+	<option value="//api/name/canInputQuantity">&nbsp;&nbsp;&nbsp;&nbsp;canInputQuantity</option>
+	
+	<option value="//api/name/canRemoveFromBasket">&nbsp;&nbsp;&nbsp;&nbsp;canRemoveFromBasket</option>
+	
+	<option value="//api/name/hasImage">&nbsp;&nbsp;&nbsp;&nbsp;hasImage</option>
+	
+	<option value="//api/name/modified">&nbsp;&nbsp;&nbsp;&nbsp;modified</option>
+	
+	<option value="//api/name/priceLabel">&nbsp;&nbsp;&nbsp;&nbsp;priceLabel</option>
+	
+	<option value="//api/name/productDelegate">&nbsp;&nbsp;&nbsp;&nbsp;productDelegate</option>
+	
+	<option value="//api/name/quantityLabel">&nbsp;&nbsp;&nbsp;&nbsp;quantityLabel</option>
+	
+	<option value="//api/name/quantitySegmentedControl">&nbsp;&nbsp;&nbsp;&nbsp;quantitySegmentedControl</option>
+	
+	<option value="//api/name/quantityTextField">&nbsp;&nbsp;&nbsp;&nbsp;quantityTextField</option>
+	
+	<option value="//api/name/saveForLaterButton">&nbsp;&nbsp;&nbsp;&nbsp;saveForLaterButton</option>
+	
+	<option value="//api/name/savedForLaterLabel">&nbsp;&nbsp;&nbsp;&nbsp;savedForLaterLabel</option>
+	
+	<option value="//api/name/shoppingDelegate">&nbsp;&nbsp;&nbsp;&nbsp;shoppingDelegate</option>
+	
+	<option value="//api/name/taxLabel">&nbsp;&nbsp;&nbsp;&nbsp;taxLabel</option>
+	
+	<option value="//api/name/totalLabel">&nbsp;&nbsp;&nbsp;&nbsp;totalLabel</option>
+	
+	<option value="//api/name/voidButton">&nbsp;&nbsp;&nbsp;&nbsp;voidButton</option>
+	
+	<option value="//api/name/voidLabel">&nbsp;&nbsp;&nbsp;&nbsp;voidLabel</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/basket">&nbsp;&nbsp;&nbsp;&nbsp;- basket</option>
+	
+	<option value="//api/name/doAddToBasket">&nbsp;&nbsp;&nbsp;&nbsp;- doAddToBasket</option>
+	
+	<option value="//api/name/doBackToBasket:">&nbsp;&nbsp;&nbsp;&nbsp;- doBackToBasket:</option>
+	
+	<option value="//api/name/doChangePrice:">&nbsp;&nbsp;&nbsp;&nbsp;- doChangePrice:</option>
+	
+	<option value="//api/name/doRemoveFromBasket">&nbsp;&nbsp;&nbsp;&nbsp;- doRemoveFromBasket</option>
+	
+	<option value="//api/name/doSaveForLater">&nbsp;&nbsp;&nbsp;&nbsp;- doSaveForLater</option>
+	
+	<option value="//api/name/doTotal:">&nbsp;&nbsp;&nbsp;&nbsp;- doTotal:</option>
+	
+	<option value="//api/name/doVoidItem:">&nbsp;&nbsp;&nbsp;&nbsp;- doVoidItem:</option>
+	
+	<option value="//api/name/product">&nbsp;&nbsp;&nbsp;&nbsp;- product</option>
+	
+	<option value="//api/name/productView">&nbsp;&nbsp;&nbsp;&nbsp;- productView</option>
+	
+	<option value="//api/name/setBasket:">&nbsp;&nbsp;&nbsp;&nbsp;- setBasket:</option>
+	
+	<option value="//api/name/setCanBrowse:">&nbsp;&nbsp;&nbsp;&nbsp;- setCanBrowse:</option>
+	
+	<option value="//api/name/setCanGoBackToBasket:">&nbsp;&nbsp;&nbsp;&nbsp;- setCanGoBackToBasket:</option>
+	
+	<option value="//api/name/setHasQuantity:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasQuantity:</option>
+	
+	<option value="//api/name/setPriceText">&nbsp;&nbsp;&nbsp;&nbsp;- setPriceText</option>
+	
+	<option value="//api/name/setProduct:">&nbsp;&nbsp;&nbsp;&nbsp;- setProduct:</option>
+	
+	<option value="//api/name/setSaveForLaterControls:">&nbsp;&nbsp;&nbsp;&nbsp;- setSaveForLaterControls:</option>
+	
+	<option value="//api/name/setShoppingMode:">&nbsp;&nbsp;&nbsp;&nbsp;- setShoppingMode:</option>
+	
+	<option value="//api/name/setTotalForProductByApplyingPromotions:">&nbsp;&nbsp;&nbsp;&nbsp;- setTotalForProductByApplyingPromotions:</option>
+	
+	<option value="//api/name/setVoidControls:">&nbsp;&nbsp;&nbsp;&nbsp;- setVoidControls:</option>
+	
+	<option value="//api/name/shoppingMode">&nbsp;&nbsp;&nbsp;&nbsp;- shoppingMode</option>
+	
+	<option value="//api/name/warningView">&nbsp;&nbsp;&nbsp;&nbsp;- warningView</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addButton">addButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/backToBasketButton">backToBasketButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/barcodeDelegate">barcodeDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/barcodeLabel">barcodeLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canChangePrice">canChangePrice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canChangeQuantity">canChangeQuantity</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canInputQuantity">canInputQuantity</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/canRemoveFromBasket">canRemoveFromBasket</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasImage">hasImage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/modified">modified</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/priceLabel">priceLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productDelegate">productDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quantityLabel">quantityLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quantitySegmentedControl">quantitySegmentedControl</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quantityTextField">quantityTextField</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveForLaterButton">saveForLaterButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/savedForLaterLabel">savedForLaterLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shoppingDelegate">shoppingDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/taxLabel">taxLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totalLabel">totalLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/voidButton">voidButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/voidLabel">voidLabel</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/basket">basket</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doAddToBasket">doAddToBasket</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doBackToBasket:">doBackToBasket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doChangePrice:">doChangePrice:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doRemoveFromBasket">doRemoveFromBasket</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doSaveForLater">doSaveForLater</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doTotal:">doTotal:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doVoidItem:">doVoidItem:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/product">product</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productView">productView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setBasket:">setBasket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setCanBrowse:">setCanBrowse:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setCanGoBackToBasket:">setCanGoBackToBasket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasQuantity:">setHasQuantity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPriceText">setPriceText</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setProduct:">setProduct:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSaveForLaterControls:">setSaveForLaterControls:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setShoppingMode:">setShoppingMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTotalForProductByApplyingPromotions:">setTotalForProductByApplyingPromotions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setVoidControls:">setVoidControls:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shoppingMode">shoppingMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/warningView">warningView</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLIOSProductDetailViewController Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLIOSProductDetailViewController Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLIOSImageDetailViewController.html">BLIOSImageDetailViewController</a> : <a href="../Classes/BLIOSViewController.html">BLIOSViewController</a> : UIViewController</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/BLIOSTextFieldDelegate.html">BLIOSTextFieldDelegate</a><br />ZBarReaderDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSProductDetailViewController.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The view controller for displaying the details of a <a href="#//api/name/product">product</a>.</p><div class="bug"><p><strong>Bug:</strong> The *go back to your basket" button needs to have color to make it more visible and it&rsquo;s method needs to be implemented.</p></div><div class="bug"><p><strong>Bug:</strong> The image needs to be smaller on an iPhone/iPod touch to allow more room for a long <a href="#//api/name/product">product</a> description.</p></div><div class="bug"><p><strong>Bug:</strong> The price label is not updated when a <a href="#//api/name/product">product</a> price is changed.</p></div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quantityLabel">&nbsp;&nbsp;quantityLabel</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/priceLabel">&nbsp;&nbsp;priceLabel</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/barcodeLabel">&nbsp;&nbsp;barcodeLabel</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/taxLabel">&nbsp;&nbsp;taxLabel</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totalLabel">&nbsp;&nbsp;totalLabel</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/voidLabel">&nbsp;&nbsp;voidLabel</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/savedForLaterLabel">&nbsp;&nbsp;savedForLaterLabel</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quantitySegmentedControl">&nbsp;&nbsp;quantitySegmentedControl</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quantityTextField">&nbsp;&nbsp;quantityTextField</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/backToBasketButton">&nbsp;&nbsp;backToBasketButton</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveForLaterButton">&nbsp;&nbsp;saveForLaterButton</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addButton">&nbsp;&nbsp;addButton</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/voidButton">&nbsp;&nbsp;voidButton</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canRemoveFromBasket">&nbsp;&nbsp;canRemoveFromBasket</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canChangePrice">&nbsp;&nbsp;canChangePrice</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canChangeQuantity">&nbsp;&nbsp;canChangeQuantity</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/canInputQuantity">&nbsp;&nbsp;canInputQuantity</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasImage">&nbsp;&nbsp;hasImage</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shoppingDelegate">&nbsp;&nbsp;shoppingDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productDelegate">&nbsp;&nbsp;productDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/barcodeDelegate">&nbsp;&nbsp;barcodeDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/modified">&nbsp;&nbsp;modified</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doAddToBasket">&ndash;&nbsp;doAddToBasket</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doRemoveFromBasket">&ndash;&nbsp;doRemoveFromBasket</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doVoidItem:">&ndash;&nbsp;doVoidItem:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doChangePrice:">&ndash;&nbsp;doChangePrice:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doBackToBasket:">&ndash;&nbsp;doBackToBasket:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doSaveForLater">&ndash;&nbsp;doSaveForLater</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTotalForProductByApplyingPromotions:">&ndash;&nbsp;setTotalForProductByApplyingPromotions:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doTotal:">&ndash;&nbsp;doTotal:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setCanBrowse:">&ndash;&nbsp;setCanBrowse:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setCanGoBackToBasket:">&ndash;&nbsp;setCanGoBackToBasket:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasQuantity:">&ndash;&nbsp;setHasQuantity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPriceText">&ndash;&nbsp;setPriceText</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setVoidControls:">&ndash;&nbsp;setVoidControls:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSaveForLaterControls:">&ndash;&nbsp;setSaveForLaterControls:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productView">&ndash;&nbsp;productView</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/warningView">&ndash;&nbsp;warningView</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setShoppingMode:">&ndash;&nbsp;setShoppingMode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shoppingMode">&ndash;&nbsp;shoppingMode</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setProduct:">&ndash;&nbsp;setProduct:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/product">&ndash;&nbsp;product</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/basket">&ndash;&nbsp;basket</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setBasket:">&ndash;&nbsp;setBasket:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addButton" title="addButton"></a>
+	<h3 class="subsubtitle method-title">addButton</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSBarButtonItem *addButton</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/backToBasketButton" title="backToBasketButton"></a>
+	<h3 class="subsubtitle method-title">backToBasketButton</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSButton *backToBasketButton</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/barcodeDelegate" title="barcodeDelegate"></a>
+	<h3 class="subsubtitle method-title">barcodeDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLIOSBarcodeDelegate&gt; barcodeDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/barcodeLabel" title="barcodeLabel"></a>
+	<h3 class="subsubtitle method-title">barcodeLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSmallLabel *barcodeLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/canChangePrice" title="canChangePrice"></a>
+	<h3 class="subsubtitle method-title">canChangePrice</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool canChangePrice</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/canChangeQuantity" title="canChangeQuantity"></a>
+	<h3 class="subsubtitle method-title">canChangeQuantity</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool canChangeQuantity</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/canInputQuantity" title="canInputQuantity"></a>
+	<h3 class="subsubtitle method-title">canInputQuantity</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool canInputQuantity</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/canRemoveFromBasket" title="canRemoveFromBasket"></a>
+	<h3 class="subsubtitle method-title">canRemoveFromBasket</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool canRemoveFromBasket</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasImage" title="hasImage"></a>
+	<h3 class="subsubtitle method-title">hasImage</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool hasImage</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/modified" title="modified"></a>
+	<h3 class="subsubtitle method-title">modified</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool modified</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/priceLabel" title="priceLabel"></a>
+	<h3 class="subsubtitle method-title">priceLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSmallLabel *priceLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productDelegate" title="productDelegate"></a>
+	<h3 class="subsubtitle method-title">productDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quantityLabel" title="quantityLabel"></a>
+	<h3 class="subsubtitle method-title">quantityLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSmallLabel *quantityLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quantitySegmentedControl" title="quantitySegmentedControl"></a>
+	<h3 class="subsubtitle method-title">quantitySegmentedControl</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSegmentedControl *quantitySegmentedControl</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quantityTextField" title="quantityTextField"></a>
+	<h3 class="subsubtitle method-title">quantityTextField</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSLabelTextField *quantityTextField</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveForLaterButton" title="saveForLaterButton"></a>
+	<h3 class="subsubtitle method-title">saveForLaterButton</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSBarButtonItem *saveForLaterButton</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/savedForLaterLabel" title="savedForLaterLabel"></a>
+	<h3 class="subsubtitle method-title">savedForLaterLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSmallLabel *savedForLaterLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shoppingDelegate" title="shoppingDelegate"></a>
+	<h3 class="subsubtitle method-title">shoppingDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLIOSShoppingDelegate&gt; shoppingDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/taxLabel" title="taxLabel"></a>
+	<h3 class="subsubtitle method-title">taxLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSmallLabel *taxLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totalLabel" title="totalLabel"></a>
+	<h3 class="subsubtitle method-title">totalLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSmallLabel *totalLabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/voidButton" title="voidButton"></a>
+	<h3 class="subsubtitle method-title">voidButton</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSBarButtonItem *voidButton</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/voidLabel" title="voidLabel"></a>
+	<h3 class="subsubtitle method-title">voidLabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSSmallLabel *voidLabel</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/basket" title="basket"></a>
+	<h3 class="subsubtitle method-title">basket</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLBasket *)basket</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doAddToBasket" title="doAddToBasket"></a>
+	<h3 class="subsubtitle method-title">doAddToBasket</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doAddToBasket</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doBackToBasket:" title="doBackToBasket:"></a>
+	<h3 class="subsubtitle method-title">doBackToBasket:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doBackToBasket:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doChangePrice:" title="doChangePrice:"></a>
+	<h3 class="subsubtitle method-title">doChangePrice:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doChangePrice:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doRemoveFromBasket" title="doRemoveFromBasket"></a>
+	<h3 class="subsubtitle method-title">doRemoveFromBasket</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doRemoveFromBasket</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doSaveForLater" title="doSaveForLater"></a>
+	<h3 class="subsubtitle method-title">doSaveForLater</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doSaveForLater</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doTotal:" title="doTotal:"></a>
+	<h3 class="subsubtitle method-title">doTotal:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doTotal:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doVoidItem:" title="doVoidItem:"></a>
+	<h3 class="subsubtitle method-title">doVoidItem:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doVoidItem:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/product" title="product"></a>
+	<h3 class="subsubtitle method-title">product</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLProduct *)product</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productView" title="productView"></a>
+	<h3 class="subsubtitle method-title">productView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLIOSProductDetailOverlayView *)productView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setBasket:" title="setBasket:"></a>
+	<h3 class="subsubtitle method-title">setBasket:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setBasket:(BLBasket *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setCanBrowse:" title="setCanBrowse:"></a>
+	<h3 class="subsubtitle method-title">setCanBrowse:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setCanBrowse:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setCanGoBackToBasket:" title="setCanGoBackToBasket:"></a>
+	<h3 class="subsubtitle method-title">setCanGoBackToBasket:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setCanGoBackToBasket:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasQuantity:" title="setHasQuantity:"></a>
+	<h3 class="subsubtitle method-title">setHasQuantity:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasQuantity:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPriceText" title="setPriceText"></a>
+	<h3 class="subsubtitle method-title">setPriceText</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPriceText</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setProduct:" title="setProduct:"></a>
+	<h3 class="subsubtitle method-title">setProduct:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setProduct:(BLProduct *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSaveForLaterControls:" title="setSaveForLaterControls:"></a>
+	<h3 class="subsubtitle method-title">setSaveForLaterControls:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSaveForLaterControls:(BLIOSBarButtonItem *)<em>aLaterButton</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setShoppingMode:" title="setShoppingMode:"></a>
+	<h3 class="subsubtitle method-title">setShoppingMode:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setShoppingMode:(BLShoppingMode)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTotalForProductByApplyingPromotions:" title="setTotalForProductByApplyingPromotions:"></a>
+	<h3 class="subsubtitle method-title">setTotalForProductByApplyingPromotions:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setTotalForProductByApplyingPromotions:(bool)<em>aPromotions</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setVoidControls:" title="setVoidControls:"></a>
+	<h3 class="subsubtitle method-title">setVoidControls:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setVoidControls:(BLIOSBarButtonItem *)<em>aVoidButton</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shoppingMode" title="shoppingMode"></a>
+	<h3 class="subsubtitle method-title">shoppingMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLShoppingMode)shoppingMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/warningView" title="warningView"></a>
+	<h3 class="subsubtitle method-title">warningView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIView *)warningView</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

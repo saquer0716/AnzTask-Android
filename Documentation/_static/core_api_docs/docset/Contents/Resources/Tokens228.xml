@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSShoppingAgentOverlayView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSShoppingAgentOverlayView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the overlayed user interface relating to the shopping agent.</Abstract>
+			<DeclaredIn>BLIOSShoppingAgentOverlayView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="228"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingAgentOverlayView/setRecoveryDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingAgentOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRecoveryDelegate&gt; recoveryDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/recoveryDelegate</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingAgentOverlayView/recoveryDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingAgentOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRecoveryDelegate&gt; recoveryDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/recoveryDelegate</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSShoppingAgentOverlayView/recoveryDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingAgentOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLRecoveryDelegate&gt; recoveryDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/recoveryDelegate</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingAgentOverlayView/setFailed:withRetry:andMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingAgentOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setFailed:(bool)aFailed withRetry:(bool)aRetry andMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/setFailed:withRetry:andMessage:</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingAgentOverlayView/startProcess:withMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingAgentOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)startProcess:(id)sender withMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/startProcess:withMessage:</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSShoppingAgentOverlayView/endProcess:withMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSShoppingAgentOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)endProcess:(id)sender withMessage:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/endProcess:withMessage:</Anchor>
+            <NodeRef refid="228"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

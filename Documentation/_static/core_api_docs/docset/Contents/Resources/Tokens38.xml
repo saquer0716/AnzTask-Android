@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLEmailDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLEmailDataRequest</TokenIdentifier>
+			<Abstract type="html">BLEmailDataRequest encapsulates the data and methods associated with a soap request and response for sending a transaction receipt via email.</Abstract>
+			<DeclaredIn>BLEmailDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEmailDataRequest/setTender:</TokenIdentifier>
+			<Abstract type="html">The tender data.</Abstract>
+			<DeclaredIn>BLEmailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEmailDataRequest/tender</TokenIdentifier>
+			<Abstract type="html">The tender data.</Abstract>
+			<DeclaredIn>BLEmailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLEmailDataRequest/tender</TokenIdentifier>
+			<Abstract type="html">The tender data.</Abstract>
+			<DeclaredIn>BLEmailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLEmailDataRequest/emailReceipt:forTender:atDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLEmailDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)emailReceipt:(BLBasket *)aBasket forTender:(BLTender *)aTender atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/emailReceipt:forTender:atDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

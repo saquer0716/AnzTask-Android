@@ -13,9 +13,7 @@ Getting started
 		:maxdepth: 2
 
 		intro/index
-		features/index
 		coding/index
-		projects/index
 		testing/index
 		faq/index
 		howto/index

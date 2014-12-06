@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPointOfSaleScanner.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPointOfSaleScanner</TokenIdentifier>
+			<Abstract type="html">The class that manages the data and methods used for communicating with the ISMP cradle when scanning barcodes and tendering transactions via credit cards.</Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+            
+			
+			<NodeRef refid="176"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/cancelScanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelScanner</Declaration>
+			
+			
+			<Anchor>//api/name/cancelScanner</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/disableScanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)disableScanner</Declaration>
+			
+			
+			<Anchor>//api/name/disableScanner</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/enableScannerWithTriggers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (bool)enableScannerWithTriggers:(bool)aTriggers</Declaration>
+			
+			
+			<Anchor>//api/name/enableScannerWithTriggers:</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/enableScannerTrigger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)enableScannerTrigger</Declaration>
+			
+			
+			<Anchor>//api/name/enableScannerTrigger</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/disableScannerTrigger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)disableScannerTrigger</Declaration>
+			
+			
+			<Anchor>//api/name/disableScannerTrigger</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/finishScanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)finishScanner</Declaration>
+			
+			
+			<Anchor>//api/name/finishScanner</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/showBarcodeReaderStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)showBarcodeReaderStatus</Declaration>
+			
+			
+			<Anchor>//api/name/showBarcodeReaderStatus</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/powerOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)powerOn</Declaration>
+			
+			
+			<Anchor>//api/name/powerOn</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/powerOff</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)powerOff</Declaration>
+			
+			
+			<Anchor>//api/name/powerOff</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/barcodeTriggerEnabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (bool)barcodeTriggerEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeTriggerEnabled</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/onBatteryStateForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)onBatteryStateForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onBatteryStateForHardwareOfType:</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPointOfSaleScanner/acceptMultipleInput:WithTitle:andMessage:forObject:andIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPointOfSaleScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)acceptMultipleInput:(UIKeyboardType)aKeyboardType WithTitle:(NSString *)aTitle andMessage:(NSString *)aMessage forObject:(NSObject *)aObject andIdentifier:(NSInteger)aIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/acceptMultipleInput:WithTitle:andMessage:forObject:andIdentifier:</Anchor>
+            <NodeRef refid="176"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

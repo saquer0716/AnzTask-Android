@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSInventoryProductTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSInventoryProductTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="124"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/setBarcodeHeadingLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/barcodeHeadingLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSInventoryProductTableViewCell/barcodeHeadingLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/setBarcodeLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/barcodeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSInventoryProductTableViewCell/barcodeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/setPriceHeadingLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *priceHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/priceHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/priceHeadingLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *priceHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/priceHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSInventoryProductTableViewCell/priceHeadingLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *priceHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/priceHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/setTaxHeadingLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *taxHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/taxHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/taxHeadingLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *taxHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/taxHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSInventoryProductTableViewCell/taxHeadingLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *taxHeadingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/taxHeadingLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/setTaxLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *taxLabel</Declaration>
+			
+			
+			<Anchor>//api/name/taxLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSInventoryProductTableViewCell/taxLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *taxLabel</Declaration>
+			
+			
+			<Anchor>//api/name/taxLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSInventoryProductTableViewCell/taxLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSInventoryProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *taxLabel</Declaration>
+			
+			
+			<Anchor>//api/name/taxLabel</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

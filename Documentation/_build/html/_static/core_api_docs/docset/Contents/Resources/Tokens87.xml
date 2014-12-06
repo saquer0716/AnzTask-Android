@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSColorBinding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSColorBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSColorBinding.h</DeclaredIn>
+            
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSColorBinding/onFontColorforObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSColorBinding.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onFontColorforObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onFontColorforObject:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

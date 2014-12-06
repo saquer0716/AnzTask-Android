@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSRegistrationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSRegistrationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="409"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSRegistrationDelegate/onNext:::</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onNext:(NSString *)aTitle :</Declaration>
+			
+			
+			<Anchor>//api/name/onNext:::</Anchor>
+            <NodeRef refid="409"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

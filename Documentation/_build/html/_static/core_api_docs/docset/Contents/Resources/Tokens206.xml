@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSReportTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSReportTableViewCell</TokenIdentifier>
+			<Abstract type="html">The BLIOSReportTableViewCell class defines the attributes and behavior of a cell that appears in a report tableView objects.
+The BLIOSReportTableViewCell has an image view to the left of the cell content for displaying a pdf logo.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="206"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReportTableViewCell/setDescriptionLabel:</TokenIdentifier>
+			<Abstract type="html">Displays the description of the report.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *descriptionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionLabel</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReportTableViewCell/descriptionLabel</TokenIdentifier>
+			<Abstract type="html">Displays the description of the report.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *descriptionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionLabel</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSReportTableViewCell/descriptionLabel</TokenIdentifier>
+			<Abstract type="html">Displays the description of the report.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *descriptionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionLabel</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReportTableViewCell/setLastUsedLabel:</TokenIdentifier>
+			<Abstract type="html">Displays the lastdate that the report was generated.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *lastUsedLabel</Declaration>
+			
+			
+			<Anchor>//api/name/lastUsedLabel</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReportTableViewCell/lastUsedLabel</TokenIdentifier>
+			<Abstract type="html">Displays the lastdate that the report was generated.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *lastUsedLabel</Declaration>
+			
+			
+			<Anchor>//api/name/lastUsedLabel</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSReportTableViewCell/lastUsedLabel</TokenIdentifier>
+			<Abstract type="html">Displays the lastdate that the report was generated.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *lastUsedLabel</Declaration>
+			
+			
+			<Anchor>//api/name/lastUsedLabel</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReportTableViewCell/setReport:</TokenIdentifier>
+			<Abstract type="html">The data for the report.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLReport *report</Declaration>
+			
+			
+			<Anchor>//api/name/report</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReportTableViewCell/report</TokenIdentifier>
+			<Abstract type="html">The data for the report.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLReport *report</Declaration>
+			
+			
+			<Anchor>//api/name/report</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSReportTableViewCell/report</TokenIdentifier>
+			<Abstract type="html">The data for the report.</Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLReport *report</Declaration>
+			
+			
+			<Anchor>//api/name/report</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReportTableViewCell/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReportTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(BLReport *)aReport</Declaration>
+			
+			
+			<Anchor>//api/name/setData:</Anchor>
+            <NodeRef refid="206"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

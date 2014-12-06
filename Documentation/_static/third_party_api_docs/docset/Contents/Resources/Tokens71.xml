@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/PayPalPaymentIntent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/PayPalPaymentIntent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PayPalPayment.h</DeclaredIn>
+            
+			
+			<NodeRef refid="71"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PayPalPaymentIntentSale</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>PayPalPaymentIntentSale</Declaration>
+            
+            <DeclaredIn>PayPalPayment.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/PayPalPaymentIntentAuthorize</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>PayPalPaymentIntentAuthorize</Declaration>
+            
+            <DeclaredIn>PayPalPayment.h</DeclaredIn>
+            
+            <NodeRef refid="71"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

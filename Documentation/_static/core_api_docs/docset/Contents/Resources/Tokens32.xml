@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLDeliveryDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLDeliveryDataRequest</TokenIdentifier>
+			<Abstract type="html">BLDeliveryDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving and processing delivery data.</Abstract>
+			<DeclaredIn>BLDeliveryDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeliveryDataRequest/setUid:</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the delivery.</Abstract>
+			<DeclaredIn>BLDeliveryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLDeliveryDataRequest/uid</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the delivery.</Abstract>
+			<DeclaredIn>BLDeliveryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLDeliveryDataRequest/uid</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the delivery.</Abstract>
+			<DeclaredIn>BLDeliveryDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger uid</Declaration>
+			
+			
+			<Anchor>//api/name/uid</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

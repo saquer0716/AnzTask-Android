@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLProductDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLProductDataRequest</TokenIdentifier>
+			<Abstract type="html">BLProductDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving and processing retail product data.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="334"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/setCategory:</TokenIdentifier>
+			<Abstract type="html">The product category data.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLCategory *category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/category</TokenIdentifier>
+			<Abstract type="html">The product category data.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLCategory *category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProductDataRequest/category</TokenIdentifier>
+			<Abstract type="html">The product category data.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLCategory *category</Declaration>
+			
+			
+			<Anchor>//api/name/category</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/setSearchString:</TokenIdentifier>
+			<Abstract type="html">The search string initiating the product search.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *searchString</Declaration>
+			
+			
+			<Anchor>//api/name/searchString</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/searchString</TokenIdentifier>
+			<Abstract type="html">The search string initiating the product search.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *searchString</Declaration>
+			
+			
+			<Anchor>//api/name/searchString</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProductDataRequest/searchString</TokenIdentifier>
+			<Abstract type="html">The search string initiating the product search.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *searchString</Declaration>
+			
+			
+			<Anchor>//api/name/searchString</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/setRange:</TokenIdentifier>
+			<Abstract type="html">The product range to return from the search.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSRange range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/range</TokenIdentifier>
+			<Abstract type="html">The product range to return from the search.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSRange range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProductDataRequest/range</TokenIdentifier>
+			<Abstract type="html">The product range to return from the search.</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSRange range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/setOrigin:</TokenIdentifier>
+			<Abstract type="html">The origin type of the search (governs how the search result is processed).</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLSearchOrigin origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/origin</TokenIdentifier>
+			<Abstract type="html">The origin type of the search (governs how the search result is processed).</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLSearchOrigin origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProductDataRequest/origin</TokenIdentifier>
+			<Abstract type="html">The origin type of the search (governs how the search result is processed).</Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLSearchOrigin origin</Declaration>
+			
+			
+			<Anchor>//api/name/origin</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProductDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/setTolerance:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProductDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/getAllProductsSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getAllProductsSince:(NSString *)aDate withBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/getAllProductsSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/getProductsForCategory:withBasket:andRange:atDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getProductsForCategory:(BLCategory *)aCategory withBasket:(BLBasket *)aBasket andRange:(NSRange)aRange atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/getProductsForCategory:withBasket:andRange:atDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/getProductsForBarcode:forBasket:fromOrigin:withDefaultPrice:withRange:atDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getProductsForBarcode:(NSString *)aBarcode forBasket:(BLBasket *)aBasket fromOrigin:(BLSearchOrigin)aOrigin withDefaultPrice:(NSDecimalNumber *)aPrice withRange:(NSRange)aRange atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/getProductsForBarcode:forBasket:fromOrigin:withDefaultPrice:withRange:atDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/searchForProducts:withSearchText:inRange:atDomain:forSession:onDevice:since:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)searchForProducts:(BLBasket *)aBasket withSearchText:(NSString *)aSearchText inRange:(NSRange)aRange atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice since:(NSString *)aDate</Declaration>
+			
+			
+			<Anchor>//api/name/searchForProducts:withSearchText:inRange:atDomain:forSession:onDevice:since:</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/getProductsFinish:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getProductsFinish:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/getProductsFinish:forRequest:</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/resetParameters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)resetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/resetParameters</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/setDefaultPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)setDefaultPrice:(NSDecimalNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDefaultPrice:</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProductDataRequest/defaultPrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)defaultPrice</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPrice</Anchor>
+            <NodeRef refid="334"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

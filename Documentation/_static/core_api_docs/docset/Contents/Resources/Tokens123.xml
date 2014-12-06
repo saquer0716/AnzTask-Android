@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSInstructionLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSInstructionLabel</TokenIdentifier>
+			<Abstract type="html">Inherits from BLIOSLabel to provide standardised behaviour within an app when displaying instructions.</Abstract>
+			<DeclaredIn>BLIOSInstructionLabel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="123"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

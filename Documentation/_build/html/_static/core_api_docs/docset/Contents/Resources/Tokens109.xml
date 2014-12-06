@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSFont.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSFont</TokenIdentifier>
+			<Abstract type="html">BLIOSFont provides static methods for manipulating fonts.</Abstract>
+			<DeclaredIn>BLIOSFont.h</DeclaredIn>
+            
+			
+			<NodeRef refid="109"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSFont/textSize:forFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSFont.h</DeclaredIn>
+			
+			<Declaration>+ (CGSize)textSize:(NSString *)aText forFont:(UIFont *)aFont</Declaration>
+			
+			
+			<Anchor>//api/name/textSize:forFont:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSFont/textSize:forFont:inRect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSFont.h</DeclaredIn>
+			
+			<Declaration>+ (CGSize)textSize:(NSString *)aText forFont:(UIFont *)aFont inRect:(CGRect)aRect</Declaration>
+			
+			
+			<Anchor>//api/name/textSize:forFont:inRect:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

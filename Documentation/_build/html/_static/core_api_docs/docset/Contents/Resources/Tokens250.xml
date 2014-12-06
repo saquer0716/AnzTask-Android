@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSubscriptionTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSubscriptionTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="250"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSubscriptionTableViewCell/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSubscriptionTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(BLPlan *)aSubscription</Declaration>
+			
+			
+			<Anchor>//api/name/setData:</Anchor>
+            <NodeRef refid="250"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

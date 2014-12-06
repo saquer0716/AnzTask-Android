@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPOSSettingsView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPOSSettingsView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="157"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/setLogo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/logo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSSettingsView/logo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/setPosSetupDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPOSSetupDelegate&gt; posSetupDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/posSetupDelegate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/posSetupDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPOSSetupDelegate&gt; posSetupDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/posSetupDelegate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSSettingsView/posSetupDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPOSSetupDelegate&gt; posSetupDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/posSetupDelegate</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/setPointOfSale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSale *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/pointOfSale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSale *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSSettingsView/pointOfSale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSale *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/doSignIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)doSignIn:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSignIn:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/doSubscription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)doSubscription:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSubscription:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/doRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)doRetailer:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doRetailer:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/doPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)doPrinter:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doPrinter:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/doPaymentDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)doPaymentDevice:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doPaymentDevice:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/doBank:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)doBank:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doBank:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/updateDisplay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)updateDisplay:(BLIOSPointOfSale *)aPointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/updateDisplay:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/setSubscriptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSubscriptions:(NSArray *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSubscriptions:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)setRetailer:(BLRetailer *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setRetailer:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/setShouldSignOut:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)setShouldSignOut:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setShouldSignOut:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (BLRetailer *)retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/shouldSignOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (bool)shouldSignOut</Declaration>
+			
+			
+			<Anchor>//api/name/shouldSignOut</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSSettingsView/setMarginX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSSettingsView.h</DeclaredIn>
+			
+			<Declaration>- (void)setMarginX:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setMarginX:</Anchor>
+            <NodeRef refid="157"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

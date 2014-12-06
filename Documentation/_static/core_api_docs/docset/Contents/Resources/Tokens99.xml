@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSEditCustomerLoyaltyView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSEditCustomerLoyaltyView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="99"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditCustomerLoyaltyView/setNameLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *nameLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/nameLabelTextField</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditCustomerLoyaltyView/nameLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *nameLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/nameLabelTextField</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditCustomerLoyaltyView/nameLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *nameLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/nameLabelTextField</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditCustomerLoyaltyView/setLoyaltyLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *loyaltyLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyLabelTextField</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditCustomerLoyaltyView/loyaltyLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *loyaltyLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyLabelTextField</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditCustomerLoyaltyView/loyaltyLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *loyaltyLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyLabelTextField</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditCustomerLoyaltyView/resignTextFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditCustomerLoyaltyView.h</DeclaredIn>
+			
+			<Declaration>- (void)resignTextFields</Declaration>
+			
+			
+			<Anchor>//api/name/resignTextFields</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

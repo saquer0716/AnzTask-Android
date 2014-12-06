@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPaypalPayment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPaypalPayment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPaypalPayment.h</DeclaredIn>
+            
+			
+			<NodeRef refid="322"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaypalPayment/setSandboxClientId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPaypalPayment.h</DeclaredIn>
+			
+			<Declaration>- (void)setSandboxClientId:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSandboxClientId:</Anchor>
+            <NodeRef refid="322"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPaypalPayment/setProductionClientId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPaypalPayment.h</DeclaredIn>
+			
+			<Declaration>- (void)setProductionClientId:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setProductionClientId:</Anchor>
+            <NodeRef refid="322"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

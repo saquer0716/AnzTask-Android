@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPinpadLog.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPinpadLog</TokenIdentifier>
+			<Abstract type="html">BLMetrics encapsulates the data and methods associated with recording pinpad pos metrics.</Abstract>
+			<DeclaredIn>BLPinpadLog.h</DeclaredIn>
+            
+			
+			<NodeRef refid="323"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPinpadLog/setReceipts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPinpadLog.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *receipts</Declaration>
+			
+			
+			<Anchor>//api/name/receipts</Anchor>
+            <NodeRef refid="323"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPinpadLog/receipts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPinpadLog.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *receipts</Declaration>
+			
+			
+			<Anchor>//api/name/receipts</Anchor>
+            <NodeRef refid="323"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPinpadLog/receipts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPinpadLog.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *receipts</Declaration>
+			
+			
+			<Anchor>//api/name/receipts</Anchor>
+            <NodeRef refid="323"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

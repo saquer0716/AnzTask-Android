@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSImageCollectionViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSImageCollectionViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageCollectionViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="116"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageCollectionViewCell/iconFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageCollectionViewCell.h</DeclaredIn>
+			
+			<Declaration>- (CGRect)iconFrame:(NSInteger)aHeight</Declaration>
+			
+			
+			<Anchor>//api/name/iconFrame:</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSImageCollectionViewCell/imageView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageCollectionViewCell.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSMissingImageView *)imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSImageCollectionViewCell/CellHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImageCollectionViewCell.h</DeclaredIn>
+			
+			<Declaration>+ (CGFloat)CellHeight</Declaration>
+			
+			
+			<Anchor>//api/name/CellHeight</Anchor>
+            <NodeRef refid="116"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

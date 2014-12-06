@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ZBarImageScanner.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ZBarImageScanner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarImageScanner/setEnableCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarImageScanner/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarImageScanner/enableCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enableCache</Declaration>
+			
+			
+			<Anchor>//api/name/enableCache</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarImageScanner/setResults:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) ZBarSymbolSet *results</Declaration>
+			
+			
+			<Anchor>//api/name/results</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarImageScanner/results</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) ZBarSymbolSet *results</Declaration>
+			
+			
+			<Anchor>//api/name/results</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ZBarImageScanner/results</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nonatomic) ZBarSymbolSet *results</Declaration>
+			
+			
+			<Anchor>//api/name/results</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarImageScanner/parseConfig:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)parseConfig:(NSString *)configStr</Declaration>
+			
+			
+			<Anchor>//api/name/parseConfig:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarImageScanner/setSymbology:config:to:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>- (void)setSymbology:(zbar_symbol_type_t)symbology config:(zbar_config_t)config to:(int)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSymbology:config:to:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ZBarImageScanner/scanImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarImageScanner.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)scanImage:(ZBarImage *)image</Declaration>
+			
+			
+			<Anchor>//api/name/scanImage:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

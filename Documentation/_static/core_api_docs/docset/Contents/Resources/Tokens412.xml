@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSSignInDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSSignInDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="412"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSignInDelegate/onBackgroundColorForObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onBackgroundColorForObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onBackgroundColorForObject:</Anchor>
+            <NodeRef refid="412"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSignInDelegate/onBorderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIColor *)onBorderColor</Declaration>
+			
+			
+			<Anchor>//api/name/onBorderColor</Anchor>
+            <NodeRef refid="412"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSignInDelegate/onImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIImage *)onImage</Declaration>
+			
+			
+			<Anchor>//api/name/onImage</Anchor>
+            <NodeRef refid="412"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSignInDelegate/onValidInput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onValidInput:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/onValidInput:</Anchor>
+            <NodeRef refid="412"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSignInDelegate/onShouldCheckUsername:andPassword:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLUser *)onShouldCheckUsername:(NSString *)aUsername andPassword:(NSString *)aPassword</Declaration>
+			
+			
+			<Anchor>//api/name/onShouldCheckUsername:andPassword:</Anchor>
+            <NodeRef refid="412"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSignInDelegate/onSignInCanceled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSignInCanceled:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onSignInCanceled:</Anchor>
+            <NodeRef refid="412"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSSignInDelegate/signinDelegate:onSignIn:password:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSigninProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)signinDelegate:(id)sender onSignIn:(NSString *)aName password:(NSString *)aPassword</Declaration>
+			
+			
+			<Anchor>//api/name/signinDelegate:onSignIn:password:</Anchor>
+            <NodeRef refid="412"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

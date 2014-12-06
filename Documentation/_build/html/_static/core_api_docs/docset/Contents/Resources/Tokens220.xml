@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSettlementViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSettlementViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="220"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/document</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)document</Declaration>
+			
+			
+			<Anchor>//api/name/document</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/setDocument:withTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setDocument:(NSString *)aDocument withTitle:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/setDocument:withTitle:</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/createWebView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)createWebView</Declaration>
+			
+			
+			<Anchor>//api/name/createWebView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/webView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>- (UIWebView *)webView</Declaration>
+			
+			
+			<Anchor>//api/name/webView</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/setToolbar:</TokenIdentifier>
+			<Abstract type="html">The toolbar that is displayed at the bottom of the view controller.</Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/toolbar</TokenIdentifier>
+			<Abstract type="html">The toolbar that is displayed at the bottom of the view controller.</Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettlementViewController/toolbar</TokenIdentifier>
+			<Abstract type="html">The toolbar that is displayed at the bottom of the view controller.</Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/setShareButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *shareButton</Declaration>
+			
+			
+			<Anchor>//api/name/shareButton</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/shareButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *shareButton</Declaration>
+			
+			
+			<Anchor>//api/name/shareButton</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettlementViewController/shareButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *shareButton</Declaration>
+			
+			
+			<Anchor>//api/name/shareButton</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/setReportTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *reportTitle</Declaration>
+			
+			
+			<Anchor>//api/name/reportTitle</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/reportTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *reportTitle</Declaration>
+			
+			
+			<Anchor>//api/name/reportTitle</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettlementViewController/reportTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *reportTitle</Declaration>
+			
+			
+			<Anchor>//api/name/reportTitle</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/setPrintString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *printString</Declaration>
+			
+			
+			<Anchor>//api/name/printString</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/printString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *printString</Declaration>
+			
+			
+			<Anchor>//api/name/printString</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettlementViewController/printString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *printString</Declaration>
+			
+			
+			<Anchor>//api/name/printString</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/setCustomPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *customPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/customPrinter</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/customPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *customPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/customPrinter</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettlementViewController/customPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPrinter *customPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/customPrinter</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettlementViewController/doShareReport:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettlementViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doShareReport:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doShareReport:</Anchor>
+            <NodeRef refid="220"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

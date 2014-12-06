@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSReceiptOptionsOverlayView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSReceiptOptionsOverlayView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the overlayed user interface relating to receipt options for a tendered transaction.</Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="195"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReceiptOptionsOverlayView/setReceiptDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLReceiptDelegate&gt; receiptDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/receiptDelegate</Anchor>
+            <NodeRef refid="195"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReceiptOptionsOverlayView/receiptDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLReceiptDelegate&gt; receiptDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/receiptDelegate</Anchor>
+            <NodeRef refid="195"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSReceiptOptionsOverlayView/receiptDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLReceiptDelegate&gt; receiptDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/receiptDelegate</Anchor>
+            <NodeRef refid="195"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReceiptOptionsOverlayView/setChangeDue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setChangeDue:(NSDecimalNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setChangeDue:</Anchor>
+            <NodeRef refid="195"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReceiptOptionsOverlayView/setReprint:withTotal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setReprint:(bool)value withTotal:(NSDecimalNumber *)aTotal</Declaration>
+			
+			
+			<Anchor>//api/name/setReprint:withTotal:</Anchor>
+            <NodeRef refid="195"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReceiptOptionsOverlayView/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setDate:(NSDate *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDate:</Anchor>
+            <NodeRef refid="195"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSReceiptOptionsOverlayView/setCanPrint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSReceiptOptionsOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCanPrint:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCanPrint:</Anchor>
+            <NodeRef refid="195"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

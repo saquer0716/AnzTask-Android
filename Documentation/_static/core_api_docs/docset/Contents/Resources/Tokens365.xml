@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLStockGroupDetailDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLStockGroupDetailDataRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="365"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetailDataRequest/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetailDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStockGroupDetailDataRequest/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetailDataRequest/setTolerance:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetailDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStockGroupDetailDataRequest/tolerance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger tolerance</Declaration>
+			
+			
+			<Anchor>//api/name/tolerance</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetailDataRequest/getAllStockGroupDetailSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getAllStockGroupDetailSince:(NSString *)aDate withBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice withThreshold:(NSInteger)aThreshold count:(bool)aCount</Declaration>
+			
+			
+			<Anchor>//api/name/getAllStockGroupDetailSince:withBasket:atDomain:forSession:onDevice:withThreshold:count:</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetailDataRequest/getStockGroupDetailFinish:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getStockGroupDetailFinish:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/getStockGroupDetailFinish:forRequest:</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetailDataRequest/resetParameters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)resetParameters</Declaration>
+			
+			
+			<Anchor>//api/name/resetParameters</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLStockGroupDetailDataRequest/processStockGroupDetails:forBasket:inResponse:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetailDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)processStockGroupDetails:(NSArray *)aStockGroupDetails forBasket:(BLBasket *)aBasket inResponse:(SMXMLDocument *)aDocument forRequest:(BLBasketDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/processStockGroupDetails:forBasket:inResponse:forRequest:</Anchor>
+            <NodeRef refid="365"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

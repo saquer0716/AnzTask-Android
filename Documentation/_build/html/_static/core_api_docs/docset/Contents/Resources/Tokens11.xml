@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLBasketDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLBasketDataRequest</TokenIdentifier>
+			<Abstract type="html">BLBasketDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving and processing basket data.</Abstract>
+			<DeclaredIn>BLBasketDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasketDataRequest/getBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)getBasket:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/getBasket:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLBasketDataRequest/extractTenders:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (void)extractTenders:(SMXMLDocument *)aDocument forRequest:(BLShoppingAgentSoapServer *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/extractTenders:forRequest:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLBasketDataRequest/extractTotals:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasketDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (void)extractTotals:(SMXMLDocument *)aDocument forRequest:(BLShoppingAgentSoapServer *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/extractTotals:forRequest:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

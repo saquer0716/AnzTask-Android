@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLPosgateViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLPosgateViewDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="425"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onTerminalView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSTextView *)onTerminalView</Declaration>
+			
+			
+			<Anchor>//api/name/onTerminalView</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onCreditCardView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSTenderView *)onCreditCardView</Declaration>
+			
+			
+			<Anchor>//api/name/onCreditCardView</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onProductView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIView *)onProductView</Declaration>
+			
+			
+			<Anchor>//api/name/onProductView</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onStatusView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSTitleTextView *)onStatusView</Declaration>
+			
+			
+			<Anchor>//api/name/onStatusView</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onCreditCardPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)onCreditCardPosition:(CGRect)aRect</Declaration>
+			
+			
+			<Anchor>//api/name/onCreditCardPosition:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onPosgateViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIViewController *)onPosgateViewController</Declaration>
+			
+			
+			<Anchor>//api/name/onPosgateViewController</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onHardwareStopped:forSession:</TokenIdentifier>
+			<Abstract type="html">Initiated when hardware interaction has concluded.</Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onHardwareStopped:(NSObject *)aObject forSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareStopped:forSession:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onTransactionReadyToView:forSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onTransactionReadyToView:(BLBasket *)aBasket forSession:(NSString *)aSession</Declaration>
+			
+			
+			<Anchor>//api/name/onTransactionReadyToView:forSession:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onPinpadLog:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPinpadLog:(BLPinpadLog *)aPinpadLog</Declaration>
+			
+			
+			<Anchor>//api/name/onPinpadLog:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onReceiptPrinted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onReceiptPrinted</Declaration>
+			
+			
+			<Anchor>//api/name/onReceiptPrinted</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onLoggedOn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onLoggedOn:(bool)aLoggedOn</Declaration>
+			
+			
+			<Anchor>//api/name/onLoggedOn:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onSettled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSettled:(NSString *)aReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/onSettled:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onSettlementFailed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSettlementFailed:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onSettlementFailed:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLPosgateViewDelegate/onSessionTimeout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPosgateProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSessionTimeout:(NSString *)aMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onSessionTimeout:</Anchor>
+            <NodeRef refid="425"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

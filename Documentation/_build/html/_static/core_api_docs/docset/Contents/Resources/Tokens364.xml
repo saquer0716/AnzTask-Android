@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLStockGroupDetail.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLStockGroupDetail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+            
+			
+			<NodeRef refid="364"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/setStockGroupDetailUid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockGroupDetailUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockGroupDetailUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/stockGroupDetailUid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockGroupDetailUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockGroupDetailUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStockGroupDetail/stockGroupDetailUid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockGroupDetailUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockGroupDetailUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/setStockGroupUid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockGroupUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockGroupUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/stockGroupUid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockGroupUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockGroupUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStockGroupDetail/stockGroupUid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockGroupUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockGroupUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/setStockUid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/stockUid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStockGroupDetail/stockUid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger stockUid</Declaration>
+			
+			
+			<Anchor>//api/name/stockUid</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/setDeleted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool deleted</Declaration>
+			
+			
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLStockGroupDetail/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool deleted</Declaration>
+			
+			
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLStockGroupDetail/deleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLStockGroupDetail.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool deleted</Declaration>
+			
+			
+			<Anchor>//api/name/deleted</Anchor>
+            <NodeRef refid="364"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

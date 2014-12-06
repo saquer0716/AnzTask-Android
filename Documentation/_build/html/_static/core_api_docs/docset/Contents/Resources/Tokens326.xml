@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPointOfSale.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPointOfSale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+            
+			
+			<NodeRef refid="326"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setOperator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLOperator *operator</Declaration>
+			
+			
+			<Anchor>//api/name/operator</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/operator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLOperator *operator</Declaration>
+			
+			
+			<Anchor>//api/name/operator</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/operator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLOperator *operator</Declaration>
+			
+			
+			<Anchor>//api/name/operator</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasShoppingAgent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasShoppingAgent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasShoppingAgent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasSignin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSignin</Declaration>
+			
+			
+			<Anchor>//api/name/hasSignin</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasSignin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSignin</Declaration>
+			
+			
+			<Anchor>//api/name/hasSignin</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasSignin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSignin</Declaration>
+			
+			
+			<Anchor>//api/name/hasSignin</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasPaymentDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPaymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/hasPaymentDevice</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasPaymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPaymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/hasPaymentDevice</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasPaymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPaymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/hasPaymentDevice</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasImages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasImages</Declaration>
+			
+			
+			<Anchor>//api/name/hasImages</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasImages</Declaration>
+			
+			
+			<Anchor>//api/name/hasImages</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasImages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasImages</Declaration>
+			
+			
+			<Anchor>//api/name/hasImages</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasEmail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEmail</Declaration>
+			
+			
+			<Anchor>//api/name/hasEmail</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEmail</Declaration>
+			
+			
+			<Anchor>//api/name/hasEmail</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEmail</Declaration>
+			
+			
+			<Anchor>//api/name/hasEmail</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/hasPrinter</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/hasPrinter</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/hasPrinter</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasSubscriptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSubscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/hasSubscriptions</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasSubscriptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSubscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/hasSubscriptions</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasSubscriptions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSubscriptions</Declaration>
+			
+			
+			<Anchor>//api/name/hasSubscriptions</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasVerboseProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasVerboseProgress</Declaration>
+			
+			
+			<Anchor>//api/name/hasVerboseProgress</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasVerboseProgress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasVerboseProgress</Declaration>
+			
+			
+			<Anchor>//api/name/hasVerboseProgress</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasVerboseProgress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasVerboseProgress</Declaration>
+			
+			
+			<Anchor>//api/name/hasVerboseProgress</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasRefundsAndReturns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasRefundsAndReturns</Declaration>
+			
+			
+			<Anchor>//api/name/hasRefundsAndReturns</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasRefundsAndReturns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasRefundsAndReturns</Declaration>
+			
+			
+			<Anchor>//api/name/hasRefundsAndReturns</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasRefundsAndReturns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasRefundsAndReturns</Declaration>
+			
+			
+			<Anchor>//api/name/hasRefundsAndReturns</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasReports:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasReports</Declaration>
+			
+			
+			<Anchor>//api/name/hasReports</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasReports</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasReports</Declaration>
+			
+			
+			<Anchor>//api/name/hasReports</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasReports</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasReports</Declaration>
+			
+			
+			<Anchor>//api/name/hasReports</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasSettlement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSettlement</Declaration>
+			
+			
+			<Anchor>//api/name/hasSettlement</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasSettlement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSettlement</Declaration>
+			
+			
+			<Anchor>//api/name/hasSettlement</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasSettlement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasSettlement</Declaration>
+			
+			
+			<Anchor>//api/name/hasSettlement</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasProductCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasProductCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasProductCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasProductCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasProductCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasProductCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasProductCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasProductCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasProductCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasPromotionCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPromotionCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasPromotionCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasPromotionCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPromotionCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasPromotionCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasPromotionCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPromotionCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasPromotionCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasCategoryCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCategoryCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasCategoryCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasCategoryCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCategoryCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasCategoryCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasCategoryCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCategoryCache</Declaration>
+			
+			
+			<Anchor>//api/name/hasCategoryCache</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasCashOut:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCashOut</Declaration>
+			
+			
+			<Anchor>//api/name/hasCashOut</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasCashOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCashOut</Declaration>
+			
+			
+			<Anchor>//api/name/hasCashOut</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasCashOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCashOut</Declaration>
+			
+			
+			<Anchor>//api/name/hasCashOut</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasTransactionDiscount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTransactionDiscount</Declaration>
+			
+			
+			<Anchor>//api/name/hasTransactionDiscount</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasTransactionDiscount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTransactionDiscount</Declaration>
+			
+			
+			<Anchor>//api/name/hasTransactionDiscount</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasTransactionDiscount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTransactionDiscount</Declaration>
+			
+			
+			<Anchor>//api/name/hasTransactionDiscount</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasTransactionContact:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTransactionContact</Declaration>
+			
+			
+			<Anchor>//api/name/hasTransactionContact</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasTransactionContact</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTransactionContact</Declaration>
+			
+			
+			<Anchor>//api/name/hasTransactionContact</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasTransactionContact</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTransactionContact</Declaration>
+			
+			
+			<Anchor>//api/name/hasTransactionContact</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setHasTerminalBinding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTerminalBinding</Declaration>
+			
+			
+			<Anchor>//api/name/hasTerminalBinding</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasTerminalBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTerminalBinding</Declaration>
+			
+			
+			<Anchor>//api/name/hasTerminalBinding</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/hasTerminalBinding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasTerminalBinding</Declaration>
+			
+			
+			<Anchor>//api/name/hasTerminalBinding</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanChangePrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangePrice</Declaration>
+			
+			
+			<Anchor>//api/name/canChangePrice</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canChangePrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangePrice</Declaration>
+			
+			
+			<Anchor>//api/name/canChangePrice</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canChangePrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangePrice</Declaration>
+			
+			
+			<Anchor>//api/name/canChangePrice</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanChangeQuantity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangeQuantity</Declaration>
+			
+			
+			<Anchor>//api/name/canChangeQuantity</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canChangeQuantity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangeQuantity</Declaration>
+			
+			
+			<Anchor>//api/name/canChangeQuantity</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canChangeQuantity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangeQuantity</Declaration>
+			
+			
+			<Anchor>//api/name/canChangeQuantity</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanInputQuantity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canInputQuantity</Declaration>
+			
+			
+			<Anchor>//api/name/canInputQuantity</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canInputQuantity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canInputQuantity</Declaration>
+			
+			
+			<Anchor>//api/name/canInputQuantity</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canInputQuantity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canInputQuantity</Declaration>
+			
+			
+			<Anchor>//api/name/canInputQuantity</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanChangeDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangeDomain</Declaration>
+			
+			
+			<Anchor>//api/name/canChangeDomain</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canChangeDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangeDomain</Declaration>
+			
+			
+			<Anchor>//api/name/canChangeDomain</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canChangeDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canChangeDomain</Declaration>
+			
+			
+			<Anchor>//api/name/canChangeDomain</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanUpgrade:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canUpgrade</Declaration>
+			
+			
+			<Anchor>//api/name/canUpgrade</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canUpgrade</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canUpgrade</Declaration>
+			
+			
+			<Anchor>//api/name/canUpgrade</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canUpgrade</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canUpgrade</Declaration>
+			
+			
+			<Anchor>//api/name/canUpgrade</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanDowngrade:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canDowngrade</Declaration>
+			
+			
+			<Anchor>//api/name/canDowngrade</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canDowngrade</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canDowngrade</Declaration>
+			
+			
+			<Anchor>//api/name/canDowngrade</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canDowngrade</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canDowngrade</Declaration>
+			
+			
+			<Anchor>//api/name/canDowngrade</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanLog:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canLog</Declaration>
+			
+			
+			<Anchor>//api/name/canLog</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canLog</Declaration>
+			
+			
+			<Anchor>//api/name/canLog</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canLog</Declaration>
+			
+			
+			<Anchor>//api/name/canLog</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanSuspend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canSuspend</Declaration>
+			
+			
+			<Anchor>//api/name/canSuspend</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canSuspend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canSuspend</Declaration>
+			
+			
+			<Anchor>//api/name/canSuspend</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canSuspend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canSuspend</Declaration>
+			
+			
+			<Anchor>//api/name/canSuspend</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCanMultiTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canMultiTender</Declaration>
+			
+			
+			<Anchor>//api/name/canMultiTender</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/canMultiTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canMultiTender</Declaration>
+			
+			
+			<Anchor>//api/name/canMultiTender</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/canMultiTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool canMultiTender</Declaration>
+			
+			
+			<Anchor>//api/name/canMultiTender</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setAutomaticPrinting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool automaticPrinting</Declaration>
+			
+			
+			<Anchor>//api/name/automaticPrinting</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/automaticPrinting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool automaticPrinting</Declaration>
+			
+			
+			<Anchor>//api/name/automaticPrinting</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/automaticPrinting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool automaticPrinting</Declaration>
+			
+			
+			<Anchor>//api/name/automaticPrinting</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setAutomaticProductUpdate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool automaticProductUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/automaticProductUpdate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/automaticProductUpdate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool automaticProductUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/automaticProductUpdate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/automaticProductUpdate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool automaticProductUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/automaticProductUpdate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setBankLogonDuringAppLaunch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bankLogonDuringAppLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/bankLogonDuringAppLaunch</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/bankLogonDuringAppLaunch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bankLogonDuringAppLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/bankLogonDuringAppLaunch</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/bankLogonDuringAppLaunch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bankLogonDuringAppLaunch</Declaration>
+			
+			
+			<Anchor>//api/name/bankLogonDuringAppLaunch</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setProducts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *products</Declaration>
+			
+			
+			<Anchor>//api/name/products</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/products</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *products</Declaration>
+			
+			
+			<Anchor>//api/name/products</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/products</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *products</Declaration>
+			
+			
+			<Anchor>//api/name/products</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setPinpadLog:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *pinpadLog</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadLog</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/pinpadLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *pinpadLog</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadLog</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/pinpadLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *pinpadLog</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadLog</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setMerchantConfigured:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool merchantConfigured</Declaration>
+			
+			
+			<Anchor>//api/name/merchantConfigured</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/merchantConfigured</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool merchantConfigured</Declaration>
+			
+			
+			<Anchor>//api/name/merchantConfigured</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/merchantConfigured</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool merchantConfigured</Declaration>
+			
+			
+			<Anchor>//api/name/merchantConfigured</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setPosStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSStatus posStatus</Declaration>
+			
+			
+			<Anchor>//api/name/posStatus</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/posStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSStatus posStatus</Declaration>
+			
+			
+			<Anchor>//api/name/posStatus</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/posStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSStatus posStatus</Declaration>
+			
+			
+			<Anchor>//api/name/posStatus</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setRefunding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool refunding</Declaration>
+			
+			
+			<Anchor>//api/name/refunding</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/refunding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool refunding</Declaration>
+			
+			
+			<Anchor>//api/name/refunding</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/refunding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool refunding</Declaration>
+			
+			
+			<Anchor>//api/name/refunding</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setPrinterDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPrinterDelegate&gt; printerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/printerDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/printerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPrinterDelegate&gt; printerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/printerDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/printerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLPrinterDelegate&gt; printerDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/printerDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setShoppingDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/shoppingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLShoppingDelegate&gt; shoppingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setProductDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/productDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPointOfSale/productDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productDelegate</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/searchInventoryForProduct:withOrigin:atIndex:andOverwrite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)searchInventoryForProduct:(NSString *)aSearchString withOrigin:(BLSearchOrigin)aOrigin atIndex:(NSInteger)aIndex andOverwrite:(bool)aOverwrite</Declaration>
+			
+			
+			<Anchor>//api/name/searchInventoryForProduct:withOrigin:atIndex:andOverwrite:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doLogon:configureMerchant:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (bool)doLogon:(id)sender configureMerchant:(bool)aConfigureMerchant</Declaration>
+			
+			
+			<Anchor>//api/name/doLogon:configureMerchant:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doVoidTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doVoidTransaction:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doVoidTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doUnvoidTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doUnvoidTransaction:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doUnvoidTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doSuspendTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doSuspendTransaction:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doSuspendTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doTenderTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doTenderTransaction:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doTenderTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doResumeTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doResumeTransaction:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doResumeTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doDiscardTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doDiscardTransaction:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doDiscardTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doCreditCardTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doCreditCardTransaction:(NSDecimalNumber *)aAmount</Declaration>
+			
+			
+			<Anchor>//api/name/doCreditCardTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/printReceipt:withBarcode:andLogo:toCompleteTransaction:completionBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)printReceipt:(NSString *)aReceipt withBarcode:(NSString *)aBarcode andLogo:(UIImage *)aImage toCompleteTransaction:(bool)aCompleted completionBlock:(void ( ^ ) ( ))completion</Declaration>
+			
+			
+			<Anchor>//api/name/printReceipt:withBarcode:andLogo:toCompleteTransaction:completionBlock:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/emailReceipt:withLogo:toCompleteTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)emailReceipt:(NSString *)aReceipt withLogo:(UIImage *)aImage toCompleteTransaction:(bool)aCompleted</Declaration>
+			
+			
+			<Anchor>//api/name/emailReceipt:withLogo:toCompleteTransaction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/onTransactionFinalised:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)onTransactionFinalised:(BLBasket *)aBasket</Declaration>
+			
+			
+			<Anchor>//api/name/onTransactionFinalised:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/beep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)beep</Declaration>
+			
+			
+			<Anchor>//api/name/beep</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/errorBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)errorBeep</Declaration>
+			
+			
+			<Anchor>//api/name/errorBeep</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/resetBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)resetBeep</Declaration>
+			
+			
+			<Anchor>//api/name/resetBeep</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setSoapService:atEndPoint:forAction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setSoapService:(NSString *)aService atEndPoint:(NSString *)aEndPoint forAction:(NSString *)aAction</Declaration>
+			
+			
+			<Anchor>//api/name/setSoapService:atEndPoint:forAction:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setDomain:(NSString *)aDomain</Declaration>
+			
+			
+			<Anchor>//api/name/setDomain:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/soapService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)soapService</Declaration>
+			
+			
+			<Anchor>//api/name/soapService</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/endPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/soapAction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)soapAction</Declaration>
+			
+			
+			<Anchor>//api/name/soapAction</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/loyaltyCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (BLBarcode *)loyaltyCard:(NSString *)aBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyCard:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/hasPaymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasPaymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/hasPaymentDevice</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/loggedOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (bool)loggedOn</Declaration>
+			
+			
+			<Anchor>//api/name/loggedOn</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/logOnAttempted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (bool)logOnAttempted</Declaration>
+			
+			
+			<Anchor>//api/name/logOnAttempted</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/productsLoaded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (bool)productsLoaded</Declaration>
+			
+			
+			<Anchor>//api/name/productsLoaded</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setLoggedOn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setLoggedOn:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setLoggedOn:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setLogOnAttempted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setLogOnAttempted:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setLogOnAttempted:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setProductsLoaded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setProductsLoaded:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setProductsLoaded:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setCategories:(NSArray *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCategories:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setSubCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setSubCategories:(NSArray *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSubCategories:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setCategoryProducts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setCategoryProducts:(NSArray *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCategoryProducts:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/categories</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)categories</Declaration>
+			
+			
+			<Anchor>//api/name/categories</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/categoryProducts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)categoryProducts</Declaration>
+			
+			
+			<Anchor>//api/name/categoryProducts</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setSession:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setSession:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSession:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/session</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)session</Declaration>
+			
+			
+			<Anchor>//api/name/session</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/doPriceChanged:fromOriginalPrice:asDiscount:sessionRestricted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)doPriceChanged:(BLProduct *)aProduct fromOriginalPrice:(NSDecimalNumber *)aPrice asDiscount:(bool)aDiscount sessionRestricted:(bool)aSessionRestricted</Declaration>
+			
+			
+			<Anchor>//api/name/doPriceChanged:fromOriginalPrice:asDiscount:sessionRestricted:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/basket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (BLBasket *)basket</Declaration>
+			
+			
+			<Anchor>//api/name/basket</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/printer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (BLPrinter *)printer</Declaration>
+			
+			
+			<Anchor>//api/name/printer</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setPrinter:(BLPrinter *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPrinter:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/setBasket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (void)setBasket:(BLBasket *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBasket:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPointOfSale/same:product:atPrice:ignoringZeroPrice:sessionRestricted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPointOfSale.h</DeclaredIn>
+			
+			<Declaration>- (bool)same:(BLProduct *)aProduct product:(BLProduct *)aThisProduct atPrice:(NSDecimalNumber *)aPrice ignoringZeroPrice:(bool)aIgnoreZeroPrice sessionRestricted:(bool)aSessionRestricted</Declaration>
+			
+			
+			<Anchor>//api/name/same:product:atPrice:ignoringZeroPrice:sessionRestricted:</Anchor>
+            <NodeRef refid="326"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

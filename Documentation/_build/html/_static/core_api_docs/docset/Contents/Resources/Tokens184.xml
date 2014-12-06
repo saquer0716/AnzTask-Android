@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSProductListOrGridView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSProductListOrGridView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductListOrGridView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="184"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductListOrGridView/setReadOnly:withCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductListOrGridView.h</DeclaredIn>
+			
+			<Declaration>- (void)setReadOnly:(bool)aReadOnly withCategories:(bool)aCategories</Declaration>
+			
+			
+			<Anchor>//api/name/setReadOnly:withCategories:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductListOrGridView/setHeaderTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductListOrGridView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHeaderTextColor:(UIColor *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHeaderTextColor:</Anchor>
+            <NodeRef refid="184"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

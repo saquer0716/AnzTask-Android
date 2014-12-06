@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLHardwareDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLHardwareDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for hardware.</Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="399"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onAvailableHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onAvailableHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onAvailableHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSObject *)onHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onInitialiseHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onInitialiseHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onInitialiseHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onPowerOffHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPowerOffHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onPowerOffHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onEnableTriggerForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onEnableTriggerForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onEnableTriggerForHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onDisableTriggerForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onDisableTriggerForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onDisableTriggerForHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onHardwareStatusRequestOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onHardwareStatusRequestOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareStatusRequestOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onHardwareErrorRequestOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onHardwareErrorRequestOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareErrorRequestOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onBatteryStateForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBatteryStateForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onBatteryStateForHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onHardwareStatusOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onHardwareStatusOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareStatusOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onIsHardwareReadyOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onIsHardwareReadyOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onIsHardwareReadyOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onPowerOnHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onPowerOnHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onPowerOnHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onIsTriggerEnabledForHardwareOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onIsTriggerEnabledForHardwareOfType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onIsTriggerEnabledForHardwareOfType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onIsValidBindingForHardware:ofType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onIsValidBindingForHardware:(NSString *)aSerialNumber ofType:(BLHardwareType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/onIsValidBindingForHardware:ofType:</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onHardwareSuccessBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onHardwareSuccessBeep</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareSuccessBeep</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onHardwareFailBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onHardwareFailBeep</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareFailBeep</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLHardwareDelegate/onHardwareResetBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLHardwareProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onHardwareResetBeep</Declaration>
+			
+			
+			<Anchor>//api/name/onHardwareResetBeep</Anchor>
+            <NodeRef refid="399"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OCMRecorder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OCMRecorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMRecorder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMRecorder/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMRecorder.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMRecorder/initWithMockObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMRecorder.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithMockObject:(OCMockObject *)aMockObject</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMockObject:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMRecorder/setMockObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMRecorder.h</DeclaredIn>
+			
+			<Declaration>- (void)setMockObject:(OCMockObject *)aMockObject</Declaration>
+			
+			
+			<Anchor>//api/name/setMockObject:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMRecorder/invocationMatcher</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMRecorder.h</DeclaredIn>
+			
+			<Declaration>- (OCMInvocationMatcher *)invocationMatcher</Declaration>
+			
+			
+			<Anchor>//api/name/invocationMatcher</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMRecorder/classMethod</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)classMethod</Declaration>
+			
+			
+			<Anchor>//api/name/classMethod</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMRecorder/ignoringNonObjectArgs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)ignoringNonObjectArgs</Declaration>
+			
+			
+			<Anchor>//api/name/ignoringNonObjectArgs</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

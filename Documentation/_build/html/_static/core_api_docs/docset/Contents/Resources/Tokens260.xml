@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSTenderView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSTenderView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="260"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setCashButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *cashButton</Declaration>
+			
+			
+			<Anchor>//api/name/cashButton</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/cashButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *cashButton</Declaration>
+			
+			
+			<Anchor>//api/name/cashButton</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/cashButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *cashButton</Declaration>
+			
+			
+			<Anchor>//api/name/cashButton</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setEftButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *eftButton</Declaration>
+			
+			
+			<Anchor>//api/name/eftButton</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/eftButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *eftButton</Declaration>
+			
+			
+			<Anchor>//api/name/eftButton</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/eftButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *eftButton</Declaration>
+			
+			
+			<Anchor>//api/name/eftButton</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setChangeLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *changeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/changeLabel</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/changeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *changeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/changeLabel</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/changeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *changeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/changeLabel</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/tender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/tender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTender *tender</Declaration>
+			
+			
+			<Anchor>//api/name/tender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setTenderDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/tenderDelegate</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/tenderDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/tenderDelegate</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/tenderDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/tenderDelegate</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setHasCashTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCashTender</Declaration>
+			
+			
+			<Anchor>//api/name/hasCashTender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/hasCashTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCashTender</Declaration>
+			
+			
+			<Anchor>//api/name/hasCashTender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/hasCashTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasCashTender</Declaration>
+			
+			
+			<Anchor>//api/name/hasCashTender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setHasEftposTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEftposTender</Declaration>
+			
+			
+			<Anchor>//api/name/hasEftposTender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/hasEftposTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEftposTender</Declaration>
+			
+			
+			<Anchor>//api/name/hasEftposTender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/hasEftposTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEftposTender</Declaration>
+			
+			
+			<Anchor>//api/name/hasEftposTender</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setHasPrinter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/hasPrinter</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/hasPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/hasPrinter</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/hasPrinter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasPrinter</Declaration>
+			
+			
+			<Anchor>//api/name/hasPrinter</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setHasEmail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEmail</Declaration>
+			
+			
+			<Anchor>//api/name/hasEmail</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/hasEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEmail</Declaration>
+			
+			
+			<Anchor>//api/name/hasEmail</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/hasEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasEmail</Declaration>
+			
+			
+			<Anchor>//api/name/hasEmail</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setIsPrinting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool isPrinting</Declaration>
+			
+			
+			<Anchor>//api/name/isPrinting</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/isPrinting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool isPrinting</Declaration>
+			
+			
+			<Anchor>//api/name/isPrinting</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/isPrinting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool isPrinting</Declaration>
+			
+			
+			<Anchor>//api/name/isPrinting</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setAutoPrint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool autoPrint</Declaration>
+			
+			
+			<Anchor>//api/name/autoPrint</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/autoPrint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool autoPrint</Declaration>
+			
+			
+			<Anchor>//api/name/autoPrint</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/autoPrint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool autoPrint</Declaration>
+			
+			
+			<Anchor>//api/name/autoPrint</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setWarnIfNoEmail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool warnIfNoEmail</Declaration>
+			
+			
+			<Anchor>//api/name/warnIfNoEmail</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/warnIfNoEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool warnIfNoEmail</Declaration>
+			
+			
+			<Anchor>//api/name/warnIfNoEmail</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/warnIfNoEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool warnIfNoEmail</Declaration>
+			
+			
+			<Anchor>//api/name/warnIfNoEmail</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setMaximumSizedButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool maximumSizedButtons</Declaration>
+			
+			
+			<Anchor>//api/name/maximumSizedButtons</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/maximumSizedButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool maximumSizedButtons</Declaration>
+			
+			
+			<Anchor>//api/name/maximumSizedButtons</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSTenderView/maximumSizedButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool maximumSizedButtons</Declaration>
+			
+			
+			<Anchor>//api/name/maximumSizedButtons</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/fadeInFromFadeOut:withDuration:withinRect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)fadeInFromFadeOut:(BLIOSView *)viewToFadeIn withDuration:(NSTimeInterval)duration withinRect:(CGRect)aRect</Declaration>
+			
+			
+			<Anchor>//api/name/fadeInFromFadeOut:withDuration:withinRect:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/doCash:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)doCash:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doCash:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/doEft:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)doEft:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doEft:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/doCancel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)doCancel:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doCancel:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/doEmail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)doEmail:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doEmail:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/doPrint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)doPrint:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doPrint:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setReceiptModeAsCreditCard:withHeading:andText:andAnimation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setReceiptModeAsCreditCard:(bool)value withHeading:(NSString *)aHeading andText:(id)aText andAnimation:(bool)aAnimation</Declaration>
+			
+			
+			<Anchor>//api/name/setReceiptModeAsCreditCard:withHeading:andText:andAnimation:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setTenderModeAsCreditCard:withHeading:andText:andAnimation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTenderModeAsCreditCard:(bool)value withHeading:(NSString *)aHeading andText:(id)aText andAnimation:(bool)aAnimation</Declaration>
+			
+			
+			<Anchor>//api/name/setTenderModeAsCreditCard:withHeading:andText:andAnimation:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setTenderModeAsProcessingPaymentWithCaption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTenderModeAsProcessingPaymentWithCaption:(NSString *)aCaption</Declaration>
+			
+			
+			<Anchor>//api/name/setTenderModeAsProcessingPaymentWithCaption:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setPrintAndEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setPrintAndEmail</Declaration>
+			
+			
+			<Anchor>//api/name/setPrintAndEmail</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setCashAndEft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCashAndEft</Declaration>
+			
+			
+			<Anchor>//api/name/setCashAndEft</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTenderView/setButtonPositionsForCreditCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>- (void)setButtonPositionsForCreditCard:(bool)aCreditCard</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonPositionsForCreditCard:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSTenderView/saveLogo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>+ (void)saveLogo:(UIImage *)aLogo</Declaration>
+			
+			
+			<Anchor>//api/name/saveLogo:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSTenderView/loadReceiptLogo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTenderView.h</DeclaredIn>
+			
+			<Declaration>+ (UIImage *)loadReceiptLogo:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/loadReceiptLogo:</Anchor>
+            <NodeRef refid="260"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

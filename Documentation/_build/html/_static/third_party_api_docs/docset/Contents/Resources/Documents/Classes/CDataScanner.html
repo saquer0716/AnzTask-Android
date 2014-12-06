@@ -1,0 +1,756 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CDataScanner Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Third Party dependencies </a></h1>
+				<a id="developerHome" href="../index.html">Various</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CDataScanner Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/bytesRemaining">&nbsp;&nbsp;&nbsp;&nbsp;bytesRemaining</option>
+	
+	<option value="//api/name/data">&nbsp;&nbsp;&nbsp;&nbsp;data</option>
+	
+	<option value="//api/name/isAtEnd">&nbsp;&nbsp;&nbsp;&nbsp;isAtEnd</option>
+	
+	<option value="//api/name/scanLocation">&nbsp;&nbsp;&nbsp;&nbsp;scanLocation</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/currentCharacter">&nbsp;&nbsp;&nbsp;&nbsp;- currentCharacter</option>
+	
+	<option value="//api/name/initWithData:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithData:</option>
+	
+	<option value="//api/name/lineOfScanLocation">&nbsp;&nbsp;&nbsp;&nbsp;- lineOfScanLocation</option>
+	
+	<option value="//api/name/remainingData">&nbsp;&nbsp;&nbsp;&nbsp;- remainingData</option>
+	
+	<option value="//api/name/remainingString">&nbsp;&nbsp;&nbsp;&nbsp;- remainingString</option>
+	
+	<option value="//api/name/scanCPlusPlusStyleComment:">&nbsp;&nbsp;&nbsp;&nbsp;- scanCPlusPlusStyleComment:</option>
+	
+	<option value="//api/name/scanCStyleComment:">&nbsp;&nbsp;&nbsp;&nbsp;- scanCStyleComment:</option>
+	
+	<option value="//api/name/scanCharacter">&nbsp;&nbsp;&nbsp;&nbsp;- scanCharacter</option>
+	
+	<option value="//api/name/scanCharacter:">&nbsp;&nbsp;&nbsp;&nbsp;- scanCharacter:</option>
+	
+	<option value="//api/name/scanCharactersFromSet:intoString:">&nbsp;&nbsp;&nbsp;&nbsp;- scanCharactersFromSet:intoString:</option>
+	
+	<option value="//api/name/scanDataOfLength:intoData:">&nbsp;&nbsp;&nbsp;&nbsp;- scanDataOfLength:intoData:</option>
+	
+	<option value="//api/name/scanDecimalNumber:">&nbsp;&nbsp;&nbsp;&nbsp;- scanDecimalNumber:</option>
+	
+	<option value="//api/name/scanNumber:">&nbsp;&nbsp;&nbsp;&nbsp;- scanNumber:</option>
+	
+	<option value="//api/name/scanString:intoString:">&nbsp;&nbsp;&nbsp;&nbsp;- scanString:intoString:</option>
+	
+	<option value="//api/name/scanUTF8String:intoString:">&nbsp;&nbsp;&nbsp;&nbsp;- scanUTF8String:intoString:</option>
+	
+	<option value="//api/name/scanUpToCharactersFromSet:intoString:">&nbsp;&nbsp;&nbsp;&nbsp;- scanUpToCharactersFromSet:intoString:</option>
+	
+	<option value="//api/name/scanUpToString:intoString:">&nbsp;&nbsp;&nbsp;&nbsp;- scanUpToString:intoString:</option>
+	
+	<option value="//api/name/skipWhitespace">&nbsp;&nbsp;&nbsp;&nbsp;- skipWhitespace</option>
+	
+	<option value="//api/name/userInfoForScanLocation">&nbsp;&nbsp;&nbsp;&nbsp;- userInfoForScanLocation</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_CDataScanner_Extensions Methods">CDataScanner_Extensions Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bytesRemaining">bytesRemaining</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/data">data</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isAtEnd">isAtEnd</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanLocation">scanLocation</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentCharacter">currentCharacter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithData:">initWithData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lineOfScanLocation">lineOfScanLocation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/remainingData">remainingData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/remainingString">remainingString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanCPlusPlusStyleComment:">scanCPlusPlusStyleComment:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanCStyleComment:">scanCStyleComment:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanCharacter">scanCharacter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanCharacter:">scanCharacter:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanCharactersFromSet:intoString:">scanCharactersFromSet:intoString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanDataOfLength:intoData:">scanDataOfLength:intoData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanDecimalNumber:">scanDecimalNumber:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanNumber:">scanNumber:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanString:intoString:">scanString:intoString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanUTF8String:intoString:">scanUTF8String:intoString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanUpToCharactersFromSet:intoString:">scanUpToCharactersFromSet:intoString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanUpToString:intoString:">scanUpToString:intoString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/skipWhitespace">skipWhitespace</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userInfoForScanLocation">userInfoForScanLocation</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CDataScanner Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CDataScanner Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CDataScanner.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/data">&nbsp;&nbsp;data</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanLocation">&nbsp;&nbsp;scanLocation</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bytesRemaining">&nbsp;&nbsp;bytesRemaining</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isAtEnd">&nbsp;&nbsp;isAtEnd</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithData:">&ndash;&nbsp;initWithData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentCharacter">&ndash;&nbsp;currentCharacter</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanCharacter">&ndash;&nbsp;scanCharacter</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanCharacter:">&ndash;&nbsp;scanCharacter:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanUTF8String:intoString:">&ndash;&nbsp;scanUTF8String:intoString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanString:intoString:">&ndash;&nbsp;scanString:intoString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanCharactersFromSet:intoString:">&ndash;&nbsp;scanCharactersFromSet:intoString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanUpToString:intoString:">&ndash;&nbsp;scanUpToString:intoString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanUpToCharactersFromSet:intoString:">&ndash;&nbsp;scanUpToCharactersFromSet:intoString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanNumber:">&ndash;&nbsp;scanNumber:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanDecimalNumber:">&ndash;&nbsp;scanDecimalNumber:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanDataOfLength:intoData:">&ndash;&nbsp;scanDataOfLength:intoData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/skipWhitespace">&ndash;&nbsp;skipWhitespace</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/remainingString">&ndash;&nbsp;remainingString</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/remainingData">&ndash;&nbsp;remainingData</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="CDataScanner_Extensions Methods" name="task_CDataScanner_Extensions Methods"></a>
+						<h3 class="subsubtitle task-title">CDataScanner_Extensions Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanCStyleComment:">&ndash;&nbsp;scanCStyleComment:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanCPlusPlusStyleComment:">&ndash;&nbsp;scanCPlusPlusStyleComment:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lineOfScanLocation">&ndash;&nbsp;lineOfScanLocation</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userInfoForScanLocation">&ndash;&nbsp;userInfoForScanLocation</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/bytesRemaining" title="bytesRemaining"></a>
+	<h3 class="subsubtitle method-title">bytesRemaining</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, assign) NSUInteger bytesRemaining</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/data" title="data"></a>
+	<h3 class="subsubtitle method-title">data</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic, retain) NSData *data</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isAtEnd" title="isAtEnd"></a>
+	<h3 class="subsubtitle method-title">isAtEnd</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, assign) BOOL isAtEnd</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanLocation" title="scanLocation"></a>
+	<h3 class="subsubtitle method-title">scanLocation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic, assign) NSUInteger scanLocation</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/currentCharacter" title="currentCharacter"></a>
+	<h3 class="subsubtitle method-title">currentCharacter</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (unichar)currentCharacter</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithData:" title="initWithData:"></a>
+	<h3 class="subsubtitle method-title">initWithData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithData:(NSData *)<em>inData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lineOfScanLocation" title="lineOfScanLocation"></a>
+	<h3 class="subsubtitle method-title">lineOfScanLocation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSUInteger)lineOfScanLocation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/remainingData" title="remainingData"></a>
+	<h3 class="subsubtitle method-title">remainingData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSData *)remainingData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/remainingString" title="remainingString"></a>
+	<h3 class="subsubtitle method-title">remainingString</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)remainingString</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanCPlusPlusStyleComment:" title="scanCPlusPlusStyleComment:"></a>
+	<h3 class="subsubtitle method-title">scanCPlusPlusStyleComment:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanCPlusPlusStyleComment:(NSString **)<em>outComment</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanCStyleComment:" title="scanCStyleComment:"></a>
+	<h3 class="subsubtitle method-title">scanCStyleComment:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanCStyleComment:(NSString **)<em>outComment</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanCharacter" title="scanCharacter"></a>
+	<h3 class="subsubtitle method-title">scanCharacter</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (unichar)scanCharacter</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanCharacter:" title="scanCharacter:"></a>
+	<h3 class="subsubtitle method-title">scanCharacter:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanCharacter:(unichar)<em>inCharacter</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanCharactersFromSet:intoString:" title="scanCharactersFromSet:intoString:"></a>
+	<h3 class="subsubtitle method-title">scanCharactersFromSet:intoString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanCharactersFromSet:(NSCharacterSet *)<em>inSet</em> intoString:(NSString **)<em>outValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanDataOfLength:intoData:" title="scanDataOfLength:intoData:"></a>
+	<h3 class="subsubtitle method-title">scanDataOfLength:intoData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanDataOfLength:(NSUInteger)<em>inLength</em> intoData:(NSData **)<em>outData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanDecimalNumber:" title="scanDecimalNumber:"></a>
+	<h3 class="subsubtitle method-title">scanDecimalNumber:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanDecimalNumber:(NSDecimalNumber **)<em>outValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanNumber:" title="scanNumber:"></a>
+	<h3 class="subsubtitle method-title">scanNumber:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanNumber:(NSNumber **)<em>outValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanString:intoString:" title="scanString:intoString:"></a>
+	<h3 class="subsubtitle method-title">scanString:intoString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanString:(NSString *)<em>inString</em> intoString:(NSString **)<em>outValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanUTF8String:intoString:" title="scanUTF8String:intoString:"></a>
+	<h3 class="subsubtitle method-title">scanUTF8String:intoString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanUTF8String:(const char *)<em>inString</em> intoString:(NSString **)<em>outValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanUpToCharactersFromSet:intoString:" title="scanUpToCharactersFromSet:intoString:"></a>
+	<h3 class="subsubtitle method-title">scanUpToCharactersFromSet:intoString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanUpToCharactersFromSet:(NSCharacterSet *)<em>set</em> intoString:(NSString **)<em>outValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanUpToString:intoString:" title="scanUpToString:intoString:"></a>
+	<h3 class="subsubtitle method-title">scanUpToString:intoString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)scanUpToString:(NSString *)<em>string</em> intoString:(NSString **)<em>outValue</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/skipWhitespace" title="skipWhitespace"></a>
+	<h3 class="subsubtitle method-title">skipWhitespace</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)skipWhitespace</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userInfoForScanLocation" title="userInfoForScanLocation"></a>
+	<h3 class="subsubtitle method-title">userInfoForScanLocation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDictionary *)userInfoForScanLocation</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Various. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

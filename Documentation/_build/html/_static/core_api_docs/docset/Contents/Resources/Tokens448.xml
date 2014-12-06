@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLWebpageDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLWebpageDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for webviews.</Abstract>
+			<DeclaredIn>BLWebpageProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="448"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLWebpageDelegate/onWebpageWillBeginLoading:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLWebpageProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onWebpageWillBeginLoading:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onWebpageWillBeginLoading:</Anchor>
+            <NodeRef refid="448"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLWebpageDelegate/onWebpageReady:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLWebpageProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onWebpageReady:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onWebpageReady:</Anchor>
+            <NodeRef refid="448"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

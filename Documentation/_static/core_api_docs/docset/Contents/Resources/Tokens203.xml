@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSRegistrationViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSRegistrationViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="203"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setReceiptView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSEditReceiptView *receiptView</Declaration>
+			
+			
+			<Anchor>//api/name/receiptView</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/receiptView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSEditReceiptView *receiptView</Declaration>
+			
+			
+			<Anchor>//api/name/receiptView</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/receiptView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSEditReceiptView *receiptView</Declaration>
+			
+			
+			<Anchor>//api/name/receiptView</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setReceiptLogoView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSEditReceiptLogoView *receiptLogoView</Declaration>
+			
+			
+			<Anchor>//api/name/receiptLogoView</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/receiptLogoView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSEditReceiptLogoView *receiptLogoView</Declaration>
+			
+			
+			<Anchor>//api/name/receiptLogoView</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/receiptLogoView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSEditReceiptLogoView *receiptLogoView</Declaration>
+			
+			
+			<Anchor>//api/name/receiptLogoView</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/retailer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setMoreButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIButton *moreButton</Declaration>
+			
+			
+			<Anchor>//api/name/moreButton</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/moreButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIButton *moreButton</Declaration>
+			
+			
+			<Anchor>//api/name/moreButton</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/moreButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIButton *moreButton</Declaration>
+			
+			
+			<Anchor>//api/name/moreButton</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setLogo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/logo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/logo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *logo</Declaration>
+			
+			
+			<Anchor>//api/name/logo</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setHasShoppingAgent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/hasShoppingAgent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/hasShoppingAgent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/hasShoppingAgent</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setImagePicking:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool imagePicking</Declaration>
+			
+			
+			<Anchor>//api/name/imagePicking</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/imagePicking</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool imagePicking</Declaration>
+			
+			
+			<Anchor>//api/name/imagePicking</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/imagePicking</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool imagePicking</Declaration>
+			
+			
+			<Anchor>//api/name/imagePicking</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setViewDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the controller&apos;s view.</Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the controller&apos;s view.</Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the controller&apos;s view.</Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setInstructionLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/instructionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/instructionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *instructionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/instructionLabel</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setBusinessNameLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessNameLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessNameLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/businessNameLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessNameLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessNameLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/businessNameLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessNameLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessNameLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setBusinessStreetLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessStreetLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessStreetLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/businessStreetLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessStreetLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessStreetLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/businessStreetLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessStreetLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessStreetLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setBusinessSuburbLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessSuburbLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessSuburbLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/businessSuburbLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessSuburbLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessSuburbLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/businessSuburbLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessSuburbLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessSuburbLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setBusinessStateLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessStateLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessStateLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/businessStateLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessStateLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessStateLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/businessStateLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessStateLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessStateLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setBusinessPostcodeLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessPostcodeLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessPostcodeLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/businessPostcodeLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessPostcodeLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessPostcodeLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/businessPostcodeLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessPostcodeLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessPostcodeLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setBusinessCountryLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessCountryLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessCountryLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/businessCountryLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessCountryLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessCountryLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/businessCountryLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessCountryLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessCountryLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setBusinessTelephoneLabelTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessTelephoneLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessTelephoneLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/businessTelephoneLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessTelephoneLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessTelephoneLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/businessTelephoneLabelTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabelTextField *businessTelephoneLabelTextField</Declaration>
+			
+			
+			<Anchor>//api/name/businessTelephoneLabelTextField</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setRegistrationDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/registrationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegistrationViewController/registrationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSRegistrationDelegate&gt; registrationDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/registrationDelegate</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/doMore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doMore:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doMore:</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/hideLogo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)hideLogo:(NSNotification *)aNotification</Declaration>
+			
+			
+			<Anchor>//api/name/hideLogo:</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/showControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)showControls</Declaration>
+			
+			
+			<Anchor>//api/name/showControls</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setLogoButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setLogoButtonColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/setLogoButtonColor:</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegistrationViewController/setLogoButtonTextColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegistrationViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setLogoButtonTextColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/setLogoButtonTextColor:</Anchor>
+            <NodeRef refid="203"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

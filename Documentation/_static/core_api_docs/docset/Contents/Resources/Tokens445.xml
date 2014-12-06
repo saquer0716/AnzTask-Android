@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLTransactionDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLTransactionDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for a payment device.</Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="445"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onPay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPay:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onPay:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onResume:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onResume:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onResume:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onPaidOptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPaidOptions:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onPaidOptions:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onDiscount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onDiscount:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onDiscount:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCard:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onCard:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onCash:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCash:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onCash:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onCashout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onCashout:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onCashout:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onVoucher:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onVoucher:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onVoucher:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLTransactionDelegate/onPayStopped:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLTransactionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onPayStopped:(id)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onPayStopped:</Anchor>
+            <NodeRef refid="445"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

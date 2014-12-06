@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLConnectionDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLConnectionDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for an app&apos;s connectivity via wifi or gsm.</Abstract>
+			<DeclaredIn>BLConnectionProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="396"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLConnectionDelegate/onNeedsConnection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLConnectionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onNeedsConnection</Declaration>
+			
+			
+			<Anchor>//api/name/onNeedsConnection</Anchor>
+            <NodeRef refid="396"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLConnectionDelegate/onConnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLConnectionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnected</Declaration>
+			
+			
+			<Anchor>//api/name/onConnected</Anchor>
+            <NodeRef refid="396"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLConnectionDelegate/onFTPFolder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLConnectionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onFTPFolder</Declaration>
+			
+			
+			<Anchor>//api/name/onFTPFolder</Anchor>
+            <NodeRef refid="396"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLConnectionDelegate/onNeedsUser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLConnectionProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onNeedsUser</Declaration>
+			
+			
+			<Anchor>//api/name/onNeedsUser</Anchor>
+            <NodeRef refid="396"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

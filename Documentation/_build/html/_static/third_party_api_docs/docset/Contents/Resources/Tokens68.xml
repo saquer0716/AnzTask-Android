@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/ZBarReaderDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/ZBarReaderDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ZBarReaderDelegate/readerControllerDidFailToRead:withRetry:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ZBarReaderController.h</DeclaredIn>
+			
+			<Declaration>- (void)readerControllerDidFailToRead:(ZBarReaderController *)reader withRetry:(BOOL)retry</Declaration>
+			
+			
+			<Anchor>//api/name/readerControllerDidFailToRead:withRetry:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

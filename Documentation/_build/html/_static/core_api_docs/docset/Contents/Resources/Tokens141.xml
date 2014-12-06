@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSMiniTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSMiniTableViewCell</TokenIdentifier>
+			<Abstract type="html">The BLIOSMiniTableViewCell class defines the attributes and behavior of a cell that appears in a tableView objects.
+The BLIOSMiniTableViewCell&apos;s main attribute it&apos;s height is shorter than a conventional tableViewCell.</Abstract>
+			<DeclaredIn>BLIOSMiniTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="141"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

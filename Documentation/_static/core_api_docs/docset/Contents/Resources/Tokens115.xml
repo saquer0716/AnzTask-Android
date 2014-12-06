@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSImage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSImage</TokenIdentifier>
+			<Abstract type="html">Inherits from UIImage to provide static methods for manipulating and displaying images.</Abstract>
+			<DeclaredIn>BLIOSImage.h</DeclaredIn>
+            
+			
+			<NodeRef refid="115"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSImage/imageNamed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImage.h</DeclaredIn>
+			
+			<Declaration>+ (UIImage *)imageNamed:(NSString *)aImage</Declaration>
+			
+			
+			<Anchor>//api/name/imageNamed:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSImage/image:byScaling:andCropping:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImage.h</DeclaredIn>
+			
+			<Declaration>+ (UIImage *)image:(UIImage *)aImage byScaling:(CGSize)aTargetSize andCropping:(bool)aCropping</Declaration>
+			
+			
+			<Anchor>//api/name/image:byScaling:andCropping:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSImage/fixOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSImage.h</DeclaredIn>
+			
+			<Declaration>+ (UIImage *)fixOrientation:(UIImage *)aImage</Declaration>
+			
+			
+			<Anchor>//api/name/fixOrientation:</Anchor>
+            <NodeRef refid="115"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

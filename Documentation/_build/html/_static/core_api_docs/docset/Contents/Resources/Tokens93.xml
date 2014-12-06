@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSCustomerViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSCustomerViewController</TokenIdentifier>
+			<Abstract type="html">The view controller for displaying customer loyalty details.</Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="93"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/setLoyaltyCardView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSCreditCardView *loyaltyCardView</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyCardView</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/loyaltyCardView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSCreditCardView *loyaltyCardView</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyCardView</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSCustomerViewController/loyaltyCardView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSCreditCardView *loyaltyCardView</Declaration>
+			
+			
+			<Anchor>//api/name/loyaltyCardView</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/setToolbar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/toolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSCustomerViewController/toolbar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSToolbar *toolbar</Declaration>
+			
+			
+			<Anchor>//api/name/toolbar</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/setBarcodeLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeLabel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/barcodeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeLabel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSCustomerViewController/barcodeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *barcodeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeLabel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/setCustomerlabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *customerlabel</Declaration>
+			
+			
+			<Anchor>//api/name/customerlabel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/customerlabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *customerlabel</Declaration>
+			
+			
+			<Anchor>//api/name/customerlabel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSCustomerViewController/customerlabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *customerlabel</Declaration>
+			
+			
+			<Anchor>//api/name/customerlabel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/setActionForCancel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SEL actionForCancel</Declaration>
+			
+			
+			<Anchor>//api/name/actionForCancel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/actionForCancel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SEL actionForCancel</Declaration>
+			
+			
+			<Anchor>//api/name/actionForCancel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSCustomerViewController/actionForCancel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SEL actionForCancel</Declaration>
+			
+			
+			<Anchor>//api/name/actionForCancel</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/setActionForDone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SEL actionForDone</Declaration>
+			
+			
+			<Anchor>//api/name/actionForDone</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/actionForDone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SEL actionForDone</Declaration>
+			
+			
+			<Anchor>//api/name/actionForDone</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSCustomerViewController/actionForDone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SEL actionForDone</Declaration>
+			
+			
+			<Anchor>//api/name/actionForDone</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/doEditDetails:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doEditDetails:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doEditDetails:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/doCancelEdit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doCancelEdit:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doCancelEdit:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/doDoneEdit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doDoneEdit:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doDoneEdit:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/doCoupons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doCoupons:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doCoupons:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCustomerViewController/positionLabels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCustomerViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)positionLabels</Declaration>
+			
+			
+			<Anchor>//api/name/positionLabels</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

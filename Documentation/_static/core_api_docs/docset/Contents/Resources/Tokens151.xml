@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSOverlayView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSOverlayView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the overlayed view for an app.</Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="151"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/mainView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSView *)mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/nestedView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (BLIOSView *)nestedView</Declaration>
+			
+			
+			<Anchor>//api/name/nestedView</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/paddingLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)paddingLeft</Declaration>
+			
+			
+			<Anchor>//api/name/paddingLeft</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/paddingRight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)paddingRight</Declaration>
+			
+			
+			<Anchor>//api/name/paddingRight</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/paddingTop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)paddingTop</Declaration>
+			
+			
+			<Anchor>//api/name/paddingTop</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/paddingBottom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (CGFloat)paddingBottom</Declaration>
+			
+			
+			<Anchor>//api/name/paddingBottom</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/nestedViewSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)nestedViewSize</Declaration>
+			
+			
+			<Anchor>//api/name/nestedViewSize</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setInvisibleOverlay:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setInvisibleOverlay:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setInvisibleOverlay:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setNestedHidden:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setNestedHidden:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setNestedHidden:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setHasNavigation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasNavigation:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasNavigation:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setHasKeyboardInput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasKeyboardInput:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasKeyboardInput:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setBarTintColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setBarTintColor:(UIColor *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBarTintColor:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/doDone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)doDone:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doDone:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/hasKeyboardInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasKeyboardInput</Declaration>
+			
+			
+			<Anchor>//api/name/hasKeyboardInput</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setDoneTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setDoneTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDoneTitle:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/setNavigationItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (void)setNavigationItems:(NSArray *)aItems</Declaration>
+			
+			
+			<Anchor>//api/name/setNavigationItems:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSOverlayView/navigationItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSOverlayView.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)navigationItems</Declaration>
+			
+			
+			<Anchor>//api/name/navigationItems</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

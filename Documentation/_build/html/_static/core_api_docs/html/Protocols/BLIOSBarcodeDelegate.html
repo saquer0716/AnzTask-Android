@@ -1,0 +1,934 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLIOSBarcodeDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLIOSBarcodeDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/onBarcode:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcode:</option>
+	
+	<option value="//api/name/onBarcode:padding:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcode:padding:</option>
+	
+	<option value="//api/name/onBarcode:postProcess:forObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcode:postProcess:forObject:</option>
+	
+	<option value="//api/name/onBarcode:preProcess:forObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcode:preProcess:forObject:</option>
+	
+	<option value="//api/name/onBarcode:validation:forObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcode:validation:forObject:</option>
+	
+	<option value="//api/name/onBarcodeCancel:WithView:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcodeCancel:WithView:</option>
+	
+	<option value="//api/name/onBarcodeConnected">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcodeConnected</option>
+	
+	<option value="//api/name/onBarcodeDisconnected">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcodeDisconnected</option>
+	
+	<option value="//api/name/onBarcodeScanned:fromOrigin:withView:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcodeScanned:fromOrigin:withView:</option>
+	
+	<option value="//api/name/onBarcodeScannerTitle">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcodeScannerTitle</option>
+	
+	<option value="//api/name/onBarcodeSearchingComplete">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcodeSearchingComplete</option>
+	
+	<option value="//api/name/onBarcodeTriggerPulledForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onBarcodeTriggerPulledForObject:</option>
+	
+	<option value="//api/name/onCategories:retrievedForProduct:onDate:">&nbsp;&nbsp;&nbsp;&nbsp;- onCategories:retrievedForProduct:onDate:</option>
+	
+	<option value="//api/name/onCategoryDownloadComplete:">&nbsp;&nbsp;&nbsp;&nbsp;- onCategoryDownloadComplete:</option>
+	
+	<option value="//api/name/onFavouriteProductData:">&nbsp;&nbsp;&nbsp;&nbsp;- onFavouriteProductData:</option>
+	
+	<option value="//api/name/onGiftCardAmountPlaceHolderText">&nbsp;&nbsp;&nbsp;&nbsp;- onGiftCardAmountPlaceHolderText</option>
+	
+	<option value="//api/name/onGiftCardPresetAmountsForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- onGiftCardPresetAmountsForObject:</option>
+	
+	<option value="//api/name/onInventoryDownloadCanceled:">&nbsp;&nbsp;&nbsp;&nbsp;- onInventoryDownloadCanceled:</option>
+	
+	<option value="//api/name/onInventoryDownloadComplete:">&nbsp;&nbsp;&nbsp;&nbsp;- onInventoryDownloadComplete:</option>
+	
+	<option value="//api/name/onNoBarcode">&nbsp;&nbsp;&nbsp;&nbsp;- onNoBarcode</option>
+	
+	<option value="//api/name/onNoProducts:withOrigin:">&nbsp;&nbsp;&nbsp;&nbsp;- onNoProducts:withOrigin:</option>
+	
+	<option value="//api/name/onProductDataDownloadBegin:withMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- onProductDataDownloadBegin:withMessage:</option>
+	
+	<option value="//api/name/onProductDataDownloadFail:withTitle:andMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- onProductDataDownloadFail:withTitle:andMessage:</option>
+	
+	<option value="//api/name/onProductSearchResults:">&nbsp;&nbsp;&nbsp;&nbsp;- onProductSearchResults:</option>
+	
+	<option value="//api/name/onProductSold:">&nbsp;&nbsp;&nbsp;&nbsp;- onProductSold:</option>
+	
+	<option value="//api/name/onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:">&nbsp;&nbsp;&nbsp;&nbsp;- onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:</option>
+	
+	<option value="//api/name/onPromotionDownloadCanceled:">&nbsp;&nbsp;&nbsp;&nbsp;- onPromotionDownloadCanceled:</option>
+	
+	<option value="//api/name/onPromotionDownloadComplete:">&nbsp;&nbsp;&nbsp;&nbsp;- onPromotionDownloadComplete:</option>
+	
+	<option value="//api/name/onPromotions:retrievedForProduct:onDate:">&nbsp;&nbsp;&nbsp;&nbsp;- onPromotions:retrievedForProduct:onDate:</option>
+	
+	<option value="//api/name/onPromotionsForTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- onPromotionsForTransaction:</option>
+	
+	<option value="//api/name/onStockGroupDetailDownloadComplete:">&nbsp;&nbsp;&nbsp;&nbsp;- onStockGroupDetailDownloadComplete:</option>
+	
+	<option value="//api/name/onStockGroupDetails:retrievedForProduct:onDate:">&nbsp;&nbsp;&nbsp;&nbsp;- onStockGroupDetails:retrievedForProduct:onDate:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcode:">onBarcode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcode:padding:">onBarcode:padding:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcode:postProcess:forObject:">onBarcode:postProcess:forObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcode:preProcess:forObject:">onBarcode:preProcess:forObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcode:validation:forObject:">onBarcode:validation:forObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcodeCancel:WithView:">onBarcodeCancel:WithView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcodeConnected">onBarcodeConnected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcodeDisconnected">onBarcodeDisconnected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcodeScanned:fromOrigin:withView:">onBarcodeScanned:fromOrigin:withView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcodeScannerTitle">onBarcodeScannerTitle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcodeSearchingComplete">onBarcodeSearchingComplete</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onBarcodeTriggerPulledForObject:">onBarcodeTriggerPulledForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onCategories:retrievedForProduct:onDate:">onCategories:retrievedForProduct:onDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onCategoryDownloadComplete:">onCategoryDownloadComplete:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onFavouriteProductData:">onFavouriteProductData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onGiftCardAmountPlaceHolderText">onGiftCardAmountPlaceHolderText</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onGiftCardPresetAmountsForObject:">onGiftCardPresetAmountsForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onInventoryDownloadCanceled:">onInventoryDownloadCanceled:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onInventoryDownloadComplete:">onInventoryDownloadComplete:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onNoBarcode">onNoBarcode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onNoProducts:withOrigin:">onNoProducts:withOrigin:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onProductDataDownloadBegin:withMessage:">onProductDataDownloadBegin:withMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onProductDataDownloadFail:withTitle:andMessage:">onProductDataDownloadFail:withTitle:andMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onProductSearchResults:">onProductSearchResults:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onProductSold:">onProductSold:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:">onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPromotionDownloadCanceled:">onPromotionDownloadCanceled:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPromotionDownloadComplete:">onPromotionDownloadComplete:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPromotions:retrievedForProduct:onDate:">onPromotions:retrievedForProduct:onDate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onPromotionsForTransaction:">onPromotionsForTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onStockGroupDetailDownloadComplete:">onStockGroupDetailDownloadComplete:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onStockGroupDetails:retrievedForProduct:onDate:">onStockGroupDetails:retrievedForProduct:onDate:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLIOSBarcodeDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLIOSBarcodeDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSBarcodeProtocol.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The protocol declaration for barcode scanning.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcodeScannerTitle">&ndash;&nbsp;onBarcodeScannerTitle</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcodeScanned:fromOrigin:withView:">&ndash;&nbsp;onBarcodeScanned:fromOrigin:withView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcode:">&ndash;&nbsp;onBarcode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcodeSearchingComplete">&ndash;&nbsp;onBarcodeSearchingComplete</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:">&ndash;&nbsp;onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPromotions:retrievedForProduct:onDate:">&ndash;&nbsp;onPromotions:retrievedForProduct:onDate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onCategories:retrievedForProduct:onDate:">&ndash;&nbsp;onCategories:retrievedForProduct:onDate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onStockGroupDetails:retrievedForProduct:onDate:">&ndash;&nbsp;onStockGroupDetails:retrievedForProduct:onDate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onFavouriteProductData:">&ndash;&nbsp;onFavouriteProductData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onNoProducts:withOrigin:">&ndash;&nbsp;onNoProducts:withOrigin:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onProductSold:">&ndash;&nbsp;onProductSold:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onNoBarcode">&ndash;&nbsp;onNoBarcode</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcodeCancel:WithView:">&ndash;&nbsp;onBarcodeCancel:WithView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcodeConnected">&ndash;&nbsp;onBarcodeConnected</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcodeDisconnected">&ndash;&nbsp;onBarcodeDisconnected</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcodeTriggerPulledForObject:">&ndash;&nbsp;onBarcodeTriggerPulledForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onProductDataDownloadBegin:withMessage:">&ndash;&nbsp;onProductDataDownloadBegin:withMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onProductDataDownloadFail:withTitle:andMessage:">&ndash;&nbsp;onProductDataDownloadFail:withTitle:andMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onProductSearchResults:">&ndash;&nbsp;onProductSearchResults:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onInventoryDownloadComplete:">&ndash;&nbsp;onInventoryDownloadComplete:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPromotionDownloadComplete:">&ndash;&nbsp;onPromotionDownloadComplete:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onStockGroupDetailDownloadComplete:">&ndash;&nbsp;onStockGroupDetailDownloadComplete:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onCategoryDownloadComplete:">&ndash;&nbsp;onCategoryDownloadComplete:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onInventoryDownloadCanceled:">&ndash;&nbsp;onInventoryDownloadCanceled:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPromotionDownloadCanceled:">&ndash;&nbsp;onPromotionDownloadCanceled:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcode:padding:">&ndash;&nbsp;onBarcode:padding:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcode:preProcess:forObject:">&ndash;&nbsp;onBarcode:preProcess:forObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onPromotionsForTransaction:">&ndash;&nbsp;onPromotionsForTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcode:postProcess:forObject:">&ndash;&nbsp;onBarcode:postProcess:forObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onBarcode:validation:forObject:">&ndash;&nbsp;onBarcode:validation:forObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onGiftCardPresetAmountsForObject:">&ndash;&nbsp;onGiftCardPresetAmountsForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onGiftCardAmountPlaceHolderText">&ndash;&nbsp;onGiftCardAmountPlaceHolderText</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcode:" title="onBarcode:"></a>
+	<h3 class="subsubtitle method-title">onBarcode:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onBarcode:(NSString *)<em>aBarcode</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcode:padding:" title="onBarcode:padding:"></a>
+	<h3 class="subsubtitle method-title">onBarcode:padding:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)onBarcode:(NSString *)<em>aBarcode</em> padding:(NSInteger)<em>aPadding</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcode:postProcess:forObject:" title="onBarcode:postProcess:forObject:"></a>
+	<h3 class="subsubtitle method-title">onBarcode:postProcess:forObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onBarcode:(NSString *)<em>aBarcode</em> postProcess:(bool)<em>aPostProcess</em> forObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcode:preProcess:forObject:" title="onBarcode:preProcess:forObject:"></a>
+	<h3 class="subsubtitle method-title">onBarcode:preProcess:forObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onBarcode:(NSString *)<em>aBarcode</em> preProcess:(bool)<em>aPreprocess</em> forObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcode:validation:forObject:" title="onBarcode:validation:forObject:"></a>
+	<h3 class="subsubtitle method-title">onBarcode:validation:forObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onBarcode:(NSString *)<em>aBarcode</em> validation:(bool)<em>aValidation</em> forObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcodeCancel:WithView:" title="onBarcodeCancel:WithView:"></a>
+	<h3 class="subsubtitle method-title">onBarcodeCancel:WithView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onBarcodeCancel:(bool)<em>aCancel</em> WithView:(UIView *)<em>aView</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcodeConnected" title="onBarcodeConnected"></a>
+	<h3 class="subsubtitle method-title">onBarcodeConnected</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onBarcodeConnected</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcodeDisconnected" title="onBarcodeDisconnected"></a>
+	<h3 class="subsubtitle method-title">onBarcodeDisconnected</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onBarcodeDisconnected</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcodeScanned:fromOrigin:withView:" title="onBarcodeScanned:fromOrigin:withView:"></a>
+	<h3 class="subsubtitle method-title">onBarcodeScanned:fromOrigin:withView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onBarcodeScanned:(NSString *)<em>aBarcode</em> fromOrigin:(BLSearchOrigin)<em>aOrigin</em> withView:(UIView *)<em>aTextView</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcodeScannerTitle" title="onBarcodeScannerTitle"></a>
+	<h3 class="subsubtitle method-title">onBarcodeScannerTitle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onBarcodeScannerTitle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcodeSearchingComplete" title="onBarcodeSearchingComplete"></a>
+	<h3 class="subsubtitle method-title">onBarcodeSearchingComplete</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onBarcodeSearchingComplete</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onBarcodeTriggerPulledForObject:" title="onBarcodeTriggerPulledForObject:"></a>
+	<h3 class="subsubtitle method-title">onBarcodeTriggerPulledForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onBarcodeTriggerPulledForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onCategories:retrievedForProduct:onDate:" title="onCategories:retrievedForProduct:onDate:"></a>
+	<h3 class="subsubtitle method-title">onCategories:retrievedForProduct:onDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onCategories:(NSArray *)<em>aCategories</em> retrievedForProduct:(BLProduct *)<em>aProduct</em> onDate:(NSString *)<em>aDate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onCategoryDownloadComplete:" title="onCategoryDownloadComplete:"></a>
+	<h3 class="subsubtitle method-title">onCategoryDownloadComplete:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onCategoryDownloadComplete:(NSObject *)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onFavouriteProductData:" title="onFavouriteProductData:"></a>
+	<h3 class="subsubtitle method-title">onFavouriteProductData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onFavouriteProductData:(NSArray *)<em>aProducts</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onGiftCardAmountPlaceHolderText" title="onGiftCardAmountPlaceHolderText"></a>
+	<h3 class="subsubtitle method-title">onGiftCardAmountPlaceHolderText</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onGiftCardAmountPlaceHolderText</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onGiftCardPresetAmountsForObject:" title="onGiftCardPresetAmountsForObject:"></a>
+	<h3 class="subsubtitle method-title">onGiftCardPresetAmountsForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)onGiftCardPresetAmountsForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onInventoryDownloadCanceled:" title="onInventoryDownloadCanceled:"></a>
+	<h3 class="subsubtitle method-title">onInventoryDownloadCanceled:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onInventoryDownloadCanceled:(NSObject *)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onInventoryDownloadComplete:" title="onInventoryDownloadComplete:"></a>
+	<h3 class="subsubtitle method-title">onInventoryDownloadComplete:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onInventoryDownloadComplete:(NSObject *)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onNoBarcode" title="onNoBarcode"></a>
+	<h3 class="subsubtitle method-title">onNoBarcode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onNoBarcode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onNoProducts:withOrigin:" title="onNoProducts:withOrigin:"></a>
+	<h3 class="subsubtitle method-title">onNoProducts:withOrigin:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onNoProducts:(NSString *)<em>aCategory</em> withOrigin:(BLSearchOrigin)<em>aOrigin</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onProductDataDownloadBegin:withMessage:" title="onProductDataDownloadBegin:withMessage:"></a>
+	<h3 class="subsubtitle method-title">onProductDataDownloadBegin:withMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onProductDataDownloadBegin:(NSObject *)<em>sender</em> withMessage:(NSString *)<em>aMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onProductDataDownloadFail:withTitle:andMessage:" title="onProductDataDownloadFail:withTitle:andMessage:"></a>
+	<h3 class="subsubtitle method-title">onProductDataDownloadFail:withTitle:andMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onProductDataDownloadFail:(NSObject *)<em>sender</em> withTitle:(NSString *)<em>aTitle</em> andMessage:(NSString *)<em>aMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onProductSearchResults:" title="onProductSearchResults:"></a>
+	<h3 class="subsubtitle method-title">onProductSearchResults:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)onProductSearchResults:(NSArray *)<em>aProducts</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onProductSold:" title="onProductSold:"></a>
+	<h3 class="subsubtitle method-title">onProductSold:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onProductSold:(NSString *)<em>aBarcode</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:" title="onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:"></a>
+	<h3 class="subsubtitle method-title">onProducts:retrievedForBasket:onDate:withNextCount:fromSource:usingSearch:shouldOverwrite:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onProducts:(NSArray *)<em>aProducts</em> retrievedForBasket:(BLBasket *)<em>aBasket</em> onDate:(NSString *)<em>aDate</em> withNextCount:(NSInteger)<em>aNextCount</em> fromSource:(BLSearchOrigin)<em>aOrigin</em> usingSearch:(NSString *)<em>aSearchString</em> shouldOverwrite:(bool)<em>aOverwrite</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPromotionDownloadCanceled:" title="onPromotionDownloadCanceled:"></a>
+	<h3 class="subsubtitle method-title">onPromotionDownloadCanceled:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPromotionDownloadCanceled:(NSObject *)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPromotionDownloadComplete:" title="onPromotionDownloadComplete:"></a>
+	<h3 class="subsubtitle method-title">onPromotionDownloadComplete:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPromotionDownloadComplete:(NSObject *)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPromotions:retrievedForProduct:onDate:" title="onPromotions:retrievedForProduct:onDate:"></a>
+	<h3 class="subsubtitle method-title">onPromotions:retrievedForProduct:onDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onPromotions:(NSArray *)<em>aPromotions</em> retrievedForProduct:(BLProduct *)<em>aProduct</em> onDate:(NSString *)<em>aDate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onPromotionsForTransaction:" title="onPromotionsForTransaction:"></a>
+	<h3 class="subsubtitle method-title">onPromotionsForTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onPromotionsForTransaction:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onStockGroupDetailDownloadComplete:" title="onStockGroupDetailDownloadComplete:"></a>
+	<h3 class="subsubtitle method-title">onStockGroupDetailDownloadComplete:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onStockGroupDetailDownloadComplete:(NSObject *)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onStockGroupDetails:retrievedForProduct:onDate:" title="onStockGroupDetails:retrievedForProduct:onDate:"></a>
+	<h3 class="subsubtitle method-title">onStockGroupDetails:retrievedForProduct:onDate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onStockGroupDetails:(NSArray *)<em>aStockGroupDetails</em> retrievedForProduct:(BLProduct *)<em>aProduct</em> onDate:(NSString *)<em>aDate</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

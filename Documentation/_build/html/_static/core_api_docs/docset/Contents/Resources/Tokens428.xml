@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLProductDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLProductDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="428"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onNewProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onNewProduct:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onNewProduct:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onEditProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onEditProduct:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onEditProduct:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onProduct:toolbar:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onProduct:(BLProduct *)aProduct toolbar:(UIToolbar *)aToolbar forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onProduct:toolbar:forObject:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onSaveProduct:asNew:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSaveProduct:(BLProduct *)aProduct asNew:(bool)aAsNew forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onSaveProduct:asNew:forObject:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onIsProduct:uniqueWithFilename:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (BLProduct *)onIsProduct:(BLProduct *)aProduct uniqueWithFilename:(bool)aFileNameUnique</Declaration>
+			
+			
+			<Anchor>//api/name/onIsProduct:uniqueWithFilename:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onAddProduct:forObject:withQuantity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onAddProduct:(BLProduct *)aProduct forObject:(NSObject *)aObject withQuantity:(NSInteger)aQuantity</Declaration>
+			
+			
+			<Anchor>//api/name/onAddProduct:forObject:withQuantity:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onAddProduct:toTransactionWithAmount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onAddProduct:(BLProduct *)aProduct toTransactionWithAmount:(NSDecimalNumber *)aAmount</Declaration>
+			
+			
+			<Anchor>//api/name/onAddProduct:toTransactionWithAmount:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onRemoveProduct:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onRemoveProduct:(BLProduct *)aProduct forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onRemoveProduct:forObject:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onPlusProduct:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onPlusProduct:(BLProduct *)aProduct forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onPlusProduct:forObject:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onMinusProduct:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onMinusProduct:(BLProduct *)aProduct forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onMinusProduct:forObject:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onChangeProductPrice:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onChangeProductPrice:(BLProduct *)aProduct forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onChangeProductPrice:forObject:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onAddProductAtIndex:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onAddProductAtIndex:(NSInteger)aIndex forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onAddProductAtIndex:forObject:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onIsGiftCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onIsGiftCard:(BLProduct *)aProduct</Declaration>
+			
+			
+			<Anchor>//api/name/onIsGiftCard:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductDelegate/onIsVoucher:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onIsVoucher:(BLProduct *)aProduct</Declaration>
+			
+			
+			<Anchor>//api/name/onIsVoucher:</Anchor>
+            <NodeRef refid="428"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

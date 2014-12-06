@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPlan.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPlan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+            
+			
+			<NodeRef refid="324"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/planType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)planType</Declaration>
+			
+			
+			<Anchor>//api/name/planType</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/pricingUrl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)pricingUrl</Declaration>
+			
+			
+			<Anchor>//api/name/pricingUrl</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/billingPeriod</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)billingPeriod</Declaration>
+			
+			
+			<Anchor>//api/name/billingPeriod</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/basePrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)basePrice</Declaration>
+			
+			
+			<Anchor>//api/name/basePrice</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/totalPrice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)totalPrice</Declaration>
+			
+			
+			<Anchor>//api/name/totalPrice</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/displayOrder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)displayOrder</Declaration>
+			
+			
+			<Anchor>//api/name/displayOrder</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (bool)enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setName:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setName:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setDescription:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDescription:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setPlanType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setPlanType:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPlanType:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setUrl:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setUrl:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setPricingUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setPricingUrl:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPricingUrl:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setBillingPeriod:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setBillingPeriod:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBillingPeriod:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setBasePrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setBasePrice:(NSDecimalNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setBasePrice:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setTotalPrice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setTotalPrice:(NSDecimalNumber *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTotalPrice:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setDisplayOrder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setDisplayOrder:(NSInteger)value</Declaration>
+			
+			
+			<Anchor>//api/name/setDisplayOrder:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPlan/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPlan.h</DeclaredIn>
+			
+			<Declaration>- (void)setEnabled:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setEnabled:</Anchor>
+            <NodeRef refid="324"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

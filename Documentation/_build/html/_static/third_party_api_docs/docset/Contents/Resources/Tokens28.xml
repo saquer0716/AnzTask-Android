@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/OCMStubRecorder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/OCMStubRecorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/andReturn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)andReturn:(id)anObject</Declaration>
+			
+			
+			<Anchor>//api/name/andReturn:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/andReturnValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)andReturnValue:(NSValue *)aValue</Declaration>
+			
+			
+			<Anchor>//api/name/andReturnValue:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/andThrow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)andThrow:(NSException *)anException</Declaration>
+			
+			
+			<Anchor>//api/name/andThrow:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/andPost:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)andPost:(NSNotification *)aNotification</Declaration>
+			
+			
+			<Anchor>//api/name/andPost:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/andCall:onObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)andCall:(SEL)selector onObject:(id)anObject</Declaration>
+			
+			
+			<Anchor>//api/name/andCall:onObject:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/andDo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)andDo:(void ( ^ ) ( NSInvocation *invocation ))block</Declaration>
+			
+			
+			<Anchor>//api/name/andDo:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/andForwardToRealObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>- (id)andForwardToRealObject</Declaration>
+			
+			
+			<Anchor>//api/name/andForwardToRealObject</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/set_andReturn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSValue *) _andReturn</Declaration>
+			
+			
+			<Anchor>//api/name/_andReturn</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/_andReturn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSValue *) _andReturn</Declaration>
+			
+			
+			<Anchor>//api/name/_andReturn</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OCMStubRecorder/_andReturn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSValue *) _andReturn</Declaration>
+			
+			
+			<Anchor>//api/name/_andReturn</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/set_andThrow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSException *) _andThrow</Declaration>
+			
+			
+			<Anchor>//api/name/_andThrow</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/_andThrow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSException *) _andThrow</Declaration>
+			
+			
+			<Anchor>//api/name/_andThrow</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OCMStubRecorder/_andThrow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSException *) _andThrow</Declaration>
+			
+			
+			<Anchor>//api/name/_andThrow</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/set_andPost:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSNotification *) _andPost</Declaration>
+			
+			
+			<Anchor>//api/name/_andPost</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/_andPost</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSNotification *) _andPost</Declaration>
+			
+			
+			<Anchor>//api/name/_andPost</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OCMStubRecorder/_andPost</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( NSNotification *) _andPost</Declaration>
+			
+			
+			<Anchor>//api/name/_andPost</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/set_andCall:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( id , SEL ) _andCall</Declaration>
+			
+			
+			<Anchor>//api/name/_andCall</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/_andCall</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( id , SEL ) _andCall</Declaration>
+			
+			
+			<Anchor>//api/name/_andCall</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OCMStubRecorder/_andCall</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( id , SEL ) _andCall</Declaration>
+			
+			
+			<Anchor>//api/name/_andCall</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/set:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ( void ( ^ ( NSInvocation *)</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ( void ( ^ ( NSInvocation *)</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OCMStubRecorder/)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ( void ( ^ ( NSInvocation *)</Declaration>
+			
+			
+			<Anchor>//api/name/)</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/set_andForwardToRealObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( void ) _andForwardToRealObject</Declaration>
+			
+			
+			<Anchor>//api/name/_andForwardToRealObject</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/OCMStubRecorder/_andForwardToRealObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( void ) _andForwardToRealObject</Declaration>
+			
+			
+			<Anchor>//api/name/_andForwardToRealObject</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/OCMStubRecorder/_andForwardToRealObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>OCMStubRecorder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) OCMStubRecorder *^ ) ( void ) _andForwardToRealObject</Declaration>
+			
+			
+			<Anchor>//api/name/_andForwardToRealObject</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

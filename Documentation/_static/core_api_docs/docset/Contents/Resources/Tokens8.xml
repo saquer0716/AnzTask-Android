@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLAudio.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLAudio</TokenIdentifier>
+			<Abstract type="html">BLAudio encapsulates the sound capabilities within an app.</Abstract>
+			<DeclaredIn>BLAudio.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAudio/beep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAudio.h</DeclaredIn>
+			
+			<Declaration>- (void)beep</Declaration>
+			
+			
+			<Anchor>//api/name/beep</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAudio/errorBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAudio.h</DeclaredIn>
+			
+			<Declaration>- (void)errorBeep</Declaration>
+			
+			
+			<Anchor>//api/name/errorBeep</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAudio/resetBeep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAudio.h</DeclaredIn>
+			
+			<Declaration>- (void)resetBeep</Declaration>
+			
+			
+			<Anchor>//api/name/resetBeep</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAudio/playAudio:ofType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAudio.h</DeclaredIn>
+			
+			<Declaration>- (void)playAudio:(NSString *)aAudio ofType:(NSString *)aType</Declaration>
+			
+			
+			<Anchor>//api/name/playAudio:ofType:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

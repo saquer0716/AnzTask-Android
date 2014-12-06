@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSProductTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSProductTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="189"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewCell/setActualSellUnitPriceLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *actualSellUnitPriceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/actualSellUnitPriceLabel</Anchor>
+            <NodeRef refid="189"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewCell/actualSellUnitPriceLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *actualSellUnitPriceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/actualSellUnitPriceLabel</Anchor>
+            <NodeRef refid="189"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSProductTableViewCell/actualSellUnitPriceLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *actualSellUnitPriceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/actualSellUnitPriceLabel</Anchor>
+            <NodeRef refid="189"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewCell/setRegularSellUnitPriceLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *regularSellUnitPriceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/regularSellUnitPriceLabel</Anchor>
+            <NodeRef refid="189"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewCell/regularSellUnitPriceLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *regularSellUnitPriceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/regularSellUnitPriceLabel</Anchor>
+            <NodeRef refid="189"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSProductTableViewCell/regularSellUnitPriceLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *regularSellUnitPriceLabel</Declaration>
+			
+			
+			<Anchor>//api/name/regularSellUnitPriceLabel</Anchor>
+            <NodeRef refid="189"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductTableViewCell/setData:fromCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(BLProduct *)aProduct fromCache:(bool)aCache</Declaration>
+			
+			
+			<Anchor>//api/name/setData:fromCache:</Anchor>
+            <NodeRef refid="189"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

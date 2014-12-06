@@ -1,0 +1,2442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLBasket.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLBasket</TokenIdentifier>
+			<Abstract type="html">BLBasket encapsulates the data and methods associated with a retail transaction, order and shopping list.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/items</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)setItems:(NSArray *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setItems:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setCustomerEmail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)setCustomerEmail:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCustomerEmail:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/customerEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)customerEmail</Declaration>
+			
+			
+			<Anchor>//api/name/customerEmail</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/name</TokenIdentifier>
+			<Abstract type="html">The name of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/name</TokenIdentifier>
+			<Abstract type="html">The name of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setFilename:</TokenIdentifier>
+			<Abstract type="html">The name to use when saving associated documents (e.g. images, receipts).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/filename</TokenIdentifier>
+			<Abstract type="html">The name to use when saving associated documents (e.g. images, receipts).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/filename</TokenIdentifier>
+			<Abstract type="html">The name to use when saving associated documents (e.g. images, receipts).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setAuthor:</TokenIdentifier>
+			<Abstract type="html">The author/creator of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/author</TokenIdentifier>
+			<Abstract type="html">The author/creator of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/author</TokenIdentifier>
+			<Abstract type="html">The author/creator of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setStore:</TokenIdentifier>
+			<Abstract type="html">The name of the store that the basket is associated with</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *store</Declaration>
+			
+			
+			<Anchor>//api/name/store</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/store</TokenIdentifier>
+			<Abstract type="html">The name of the store that the basket is associated with</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *store</Declaration>
+			
+			
+			<Anchor>//api/name/store</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/store</TokenIdentifier>
+			<Abstract type="html">The name of the store that the basket is associated with</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *store</Declaration>
+			
+			
+			<Anchor>//api/name/store</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setServerURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/serverURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/serverURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setBasketId:</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *basketId</Declaration>
+			
+			
+			<Anchor>//api/name/basketId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/basketId</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *basketId</Declaration>
+			
+			
+			<Anchor>//api/name/basketId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/basketId</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the basket</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *basketId</Declaration>
+			
+			
+			<Anchor>//api/name/basketId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setDeviceId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/deviceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/deviceId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setCustomerBarcode:</TokenIdentifier>
+			<Abstract type="html">The barcode number of the customer associated with the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *customerBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/customerBarcode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/customerBarcode</TokenIdentifier>
+			<Abstract type="html">The barcode number of the customer associated with the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *customerBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/customerBarcode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/customerBarcode</TokenIdentifier>
+			<Abstract type="html">The barcode number of the customer associated with the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *customerBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/customerBarcode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setOperatorId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/operatorId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/operatorId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setStatusString:</TokenIdentifier>
+			<Abstract type="html">The readable string indicating the current status of the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *statusString</Declaration>
+			
+			
+			<Anchor>//api/name/statusString</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/statusString</TokenIdentifier>
+			<Abstract type="html">The readable string indicating the current status of the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *statusString</Declaration>
+			
+			
+			<Anchor>//api/name/statusString</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/statusString</TokenIdentifier>
+			<Abstract type="html">The readable string indicating the current status of the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *statusString</Declaration>
+			
+			
+			<Anchor>//api/name/statusString</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPinpadStatus:</TokenIdentifier>
+			<Abstract type="html">The current/last status received from the pinpad (if applicable).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadStatus</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadStatus</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/pinpadStatus</TokenIdentifier>
+			<Abstract type="html">The current/last status received from the pinpad (if applicable).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadStatus</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadStatus</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/pinpadStatus</TokenIdentifier>
+			<Abstract type="html">The current/last status received from the pinpad (if applicable).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadStatus</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadStatus</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setShoppingAgentStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shoppingAgentStatus</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentStatus</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/shoppingAgentStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shoppingAgentStatus</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentStatus</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/shoppingAgentStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shoppingAgentStatus</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentStatus</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPinpadMessage:</TokenIdentifier>
+			<Abstract type="html">The current/last message received from the pinpad (if applicable).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadMessage</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadMessage</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/pinpadMessage</TokenIdentifier>
+			<Abstract type="html">The current/last message received from the pinpad (if applicable).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadMessage</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadMessage</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/pinpadMessage</TokenIdentifier>
+			<Abstract type="html">The current/last message received from the pinpad (if applicable).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadMessage</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadMessage</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setShoppingAgentMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shoppingAgentMessage</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentMessage</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/shoppingAgentMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shoppingAgentMessage</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentMessage</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/shoppingAgentMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shoppingAgentMessage</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentMessage</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPinpadReceipt:</TokenIdentifier>
+			<Abstract type="html">The receipt generated by the pinpad for the associated transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadReceipt</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/pinpadReceipt</TokenIdentifier>
+			<Abstract type="html">The receipt generated by the pinpad for the associated transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadReceipt</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/pinpadReceipt</TokenIdentifier>
+			<Abstract type="html">The receipt generated by the pinpad for the associated transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *pinpadReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadReceipt</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setReceiptAudit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *receiptAudit</Declaration>
+			
+			
+			<Anchor>//api/name/receiptAudit</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/receiptAudit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *receiptAudit</Declaration>
+			
+			
+			<Anchor>//api/name/receiptAudit</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/receiptAudit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *receiptAudit</Declaration>
+			
+			
+			<Anchor>//api/name/receiptAudit</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setTransactionReceipt:</TokenIdentifier>
+			<Abstract type="html">The receipt generated for the associated transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/transactionReceipt</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/transactionReceipt</TokenIdentifier>
+			<Abstract type="html">The receipt generated for the associated transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/transactionReceipt</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/transactionReceipt</TokenIdentifier>
+			<Abstract type="html">The receipt generated for the associated transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/transactionReceipt</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setTransactionBarcode:</TokenIdentifier>
+			<Abstract type="html">The transaction barcode.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/transactionBarcode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/transactionBarcode</TokenIdentifier>
+			<Abstract type="html">The transaction barcode.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/transactionBarcode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/transactionBarcode</TokenIdentifier>
+			<Abstract type="html">The transaction barcode.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *transactionBarcode</Declaration>
+			
+			
+			<Anchor>//api/name/transactionBarcode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setDateCreated:</TokenIdentifier>
+			<Abstract type="html">The date that the basket was created.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *dateCreated</Declaration>
+			
+			
+			<Anchor>//api/name/dateCreated</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/dateCreated</TokenIdentifier>
+			<Abstract type="html">The date that the basket was created.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *dateCreated</Declaration>
+			
+			
+			<Anchor>//api/name/dateCreated</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/dateCreated</TokenIdentifier>
+			<Abstract type="html">The date that the basket was created.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *dateCreated</Declaration>
+			
+			
+			<Anchor>//api/name/dateCreated</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setDateModified:</TokenIdentifier>
+			<Abstract type="html">The date that the basket was last modified.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *dateModified</Declaration>
+			
+			
+			<Anchor>//api/name/dateModified</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/dateModified</TokenIdentifier>
+			<Abstract type="html">The date that the basket was last modified.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *dateModified</Declaration>
+			
+			
+			<Anchor>//api/name/dateModified</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/dateModified</TokenIdentifier>
+			<Abstract type="html">The date that the basket was last modified.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *dateModified</Declaration>
+			
+			
+			<Anchor>//api/name/dateModified</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setQueueDate:</TokenIdentifier>
+			<Abstract type="html">The date that should appear when the basket is listed in a transaction queue.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *queueDate</Declaration>
+			
+			
+			<Anchor>//api/name/queueDate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/queueDate</TokenIdentifier>
+			<Abstract type="html">The date that should appear when the basket is listed in a transaction queue.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *queueDate</Declaration>
+			
+			
+			<Anchor>//api/name/queueDate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/queueDate</TokenIdentifier>
+			<Abstract type="html">The date that should appear when the basket is listed in a transaction queue.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *queueDate</Declaration>
+			
+			
+			<Anchor>//api/name/queueDate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setLastUsed:</TokenIdentifier>
+			<Abstract type="html">The date that the basket was last used.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *lastUsed</Declaration>
+			
+			
+			<Anchor>//api/name/lastUsed</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/lastUsed</TokenIdentifier>
+			<Abstract type="html">The date that the basket was last used.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *lastUsed</Declaration>
+			
+			
+			<Anchor>//api/name/lastUsed</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/lastUsed</TokenIdentifier>
+			<Abstract type="html">The date that the basket was last used.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *lastUsed</Declaration>
+			
+			
+			<Anchor>//api/name/lastUsed</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setTransactionStartTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionStartTime</Declaration>
+			
+			
+			<Anchor>//api/name/transactionStartTime</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/transactionStartTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionStartTime</Declaration>
+			
+			
+			<Anchor>//api/name/transactionStartTime</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/transactionStartTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionStartTime</Declaration>
+			
+			
+			<Anchor>//api/name/transactionStartTime</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setTransactionEndTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionEndTime</Declaration>
+			
+			
+			<Anchor>//api/name/transactionEndTime</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/transactionEndTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionEndTime</Declaration>
+			
+			
+			<Anchor>//api/name/transactionEndTime</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/transactionEndTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSDate *transactionEndTime</Declaration>
+			
+			
+			<Anchor>//api/name/transactionEndTime</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setChecklist:</TokenIdentifier>
+			<Abstract type="html">The items/products in the shopping list/checklist.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *checklist</Declaration>
+			
+			
+			<Anchor>//api/name/checklist</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/checklist</TokenIdentifier>
+			<Abstract type="html">The items/products in the shopping list/checklist.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *checklist</Declaration>
+			
+			
+			<Anchor>//api/name/checklist</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/checklist</TokenIdentifier>
+			<Abstract type="html">The items/products in the shopping list/checklist.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *checklist</Declaration>
+			
+			
+			<Anchor>//api/name/checklist</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setTotals:</TokenIdentifier>
+			<Abstract type="html">The transaction totals for the basket (of type transaction).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTotals *totals</Declaration>
+			
+			
+			<Anchor>//api/name/totals</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/totals</TokenIdentifier>
+			<Abstract type="html">The transaction totals for the basket (of type transaction).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTotals *totals</Declaration>
+			
+			
+			<Anchor>//api/name/totals</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/totals</TokenIdentifier>
+			<Abstract type="html">The transaction totals for the basket (of type transaction).</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLTotals *totals</Declaration>
+			
+			
+			<Anchor>//api/name/totals</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setRetailer:</TokenIdentifier>
+			<Abstract type="html">The retailer associated with the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/retailer</TokenIdentifier>
+			<Abstract type="html">The retailer associated with the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/retailer</TokenIdentifier>
+			<Abstract type="html">The retailer associated with the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLRetailer *retailer</Declaration>
+			
+			
+			<Anchor>//api/name/retailer</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setTenders:</TokenIdentifier>
+			<Abstract type="html">The list of tenders for the transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tenders</Declaration>
+			
+			
+			<Anchor>//api/name/tenders</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/tenders</TokenIdentifier>
+			<Abstract type="html">The list of tenders for the transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tenders</Declaration>
+			
+			
+			<Anchor>//api/name/tenders</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/tenders</TokenIdentifier>
+			<Abstract type="html">The list of tenders for the transaction.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tenders</Declaration>
+			
+			
+			<Anchor>//api/name/tenders</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setRequestId:</TokenIdentifier>
+			<Abstract type="html">The sequence identifier of the request.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/requestId</TokenIdentifier>
+			<Abstract type="html">The sequence identifier of the request.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/requestId</TokenIdentifier>
+			<Abstract type="html">The sequence identifier of the request.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger requestId</Declaration>
+			
+			
+			<Anchor>//api/name/requestId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setVersion:</TokenIdentifier>
+			<Abstract type="html">The basket&apos;s version number.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/version</TokenIdentifier>
+			<Abstract type="html">The basket&apos;s version number.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/version</TokenIdentifier>
+			<Abstract type="html">The basket&apos;s version number.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger version</Declaration>
+			
+			
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setMode:</TokenIdentifier>
+			<Abstract type="html">Indicates the mode of the app when the basket was last used.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/mode</TokenIdentifier>
+			<Abstract type="html">Indicates the mode of the app when the basket was last used.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/mode</TokenIdentifier>
+			<Abstract type="html">Indicates the mode of the app when the basket was last used.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger mode</Declaration>
+			
+			
+			<Anchor>//api/name/mode</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setStatus:</TokenIdentifier>
+			<Abstract type="html">Indicates the status of the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSStatus status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/status</TokenIdentifier>
+			<Abstract type="html">Indicates the status of the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSStatus status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/status</TokenIdentifier>
+			<Abstract type="html">Indicates the status of the basket.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BLPOSStatus status</Declaration>
+			
+			
+			<Anchor>//api/name/status</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setVoided:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been voided.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool voided</Declaration>
+			
+			
+			<Anchor>//api/name/voided</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/voided</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been voided.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool voided</Declaration>
+			
+			
+			<Anchor>//api/name/voided</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/voided</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been voided.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool voided</Declaration>
+			
+			
+			<Anchor>//api/name/voided</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setRefund:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction is a refundf.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool refund</Declaration>
+			
+			
+			<Anchor>//api/name/refund</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/refund</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction is a refundf.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool refund</Declaration>
+			
+			
+			<Anchor>//api/name/refund</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/refund</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction is a refundf.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool refund</Declaration>
+			
+			
+			<Anchor>//api/name/refund</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setFinal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool final</Declaration>
+			
+			
+			<Anchor>//api/name/final</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/final</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool final</Declaration>
+			
+			
+			<Anchor>//api/name/final</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/final</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool final</Declaration>
+			
+			
+			<Anchor>//api/name/final</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setClosed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool closed</Declaration>
+			
+			
+			<Anchor>//api/name/closed</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/closed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool closed</Declaration>
+			
+			
+			<Anchor>//api/name/closed</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/closed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool closed</Declaration>
+			
+			
+			<Anchor>//api/name/closed</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setSuspended:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been suspended.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool suspended</Declaration>
+			
+			
+			<Anchor>//api/name/suspended</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/suspended</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been suspended.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool suspended</Declaration>
+			
+			
+			<Anchor>//api/name/suspended</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/suspended</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been suspended.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool suspended</Declaration>
+			
+			
+			<Anchor>//api/name/suspended</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPicking:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) is in the process of being picked.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool picking</Declaration>
+			
+			
+			<Anchor>//api/name/picking</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/picking</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) is in the process of being picked.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool picking</Declaration>
+			
+			
+			<Anchor>//api/name/picking</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/picking</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) is in the process of being picked.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool picking</Declaration>
+			
+			
+			<Anchor>//api/name/picking</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPinpadFailure:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type transaction) failed to tender due to a pinpad error.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadFailure</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadFailure</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/pinpadFailure</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type transaction) failed to tender due to a pinpad error.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadFailure</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadFailure</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/pinpadFailure</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type transaction) failed to tender due to a pinpad error.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadFailure</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadFailure</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setShoppingAgentFailure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shoppingAgentFailure</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentFailure</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/shoppingAgentFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shoppingAgentFailure</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentFailure</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/shoppingAgentFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shoppingAgentFailure</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingAgentFailure</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setReadyForDispatch:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) has been fulfilled and is ready to be dispatched.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool readyForDispatch</Declaration>
+			
+			
+			<Anchor>//api/name/readyForDispatch</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/readyForDispatch</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) has been fulfilled and is ready to be dispatched.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool readyForDispatch</Declaration>
+			
+			
+			<Anchor>//api/name/readyForDispatch</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/readyForDispatch</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) has been fulfilled and is ready to be dispatched.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool readyForDispatch</Declaration>
+			
+			
+			<Anchor>//api/name/readyForDispatch</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setOrderAcknowledged:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) has been acknowledged.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool orderAcknowledged</Declaration>
+			
+			
+			<Anchor>//api/name/orderAcknowledged</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/orderAcknowledged</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) has been acknowledged.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool orderAcknowledged</Declaration>
+			
+			
+			<Anchor>//api/name/orderAcknowledged</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/orderAcknowledged</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket (of type order) has been acknowledged.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool orderAcknowledged</Declaration>
+			
+			
+			<Anchor>//api/name/orderAcknowledged</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setProductError:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket triggered a product error.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool productError</Declaration>
+			
+			
+			<Anchor>//api/name/productError</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/productError</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket triggered a product error.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool productError</Declaration>
+			
+			
+			<Anchor>//api/name/productError</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/productError</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket triggered a product error.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool productError</Declaration>
+			
+			
+			<Anchor>//api/name/productError</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setFinalised:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been finalised.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool finalised</Declaration>
+			
+			
+			<Anchor>//api/name/finalised</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/finalised</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been finalised.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool finalised</Declaration>
+			
+			
+			<Anchor>//api/name/finalised</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/finalised</TokenIdentifier>
+			<Abstract type="html">Indicates whether the basket has been finalised.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool finalised</Declaration>
+			
+			
+			<Anchor>//api/name/finalised</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPartiallyTendered:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool partiallyTendered</Declaration>
+			
+			
+			<Anchor>//api/name/partiallyTendered</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/partiallyTendered</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool partiallyTendered</Declaration>
+			
+			
+			<Anchor>//api/name/partiallyTendered</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/partiallyTendered</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool partiallyTendered</Declaration>
+			
+			
+			<Anchor>//api/name/partiallyTendered</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPinpadSignature:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction was authorised using a signature.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadSignature</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadSignature</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/pinpadSignature</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction was authorised using a signature.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadSignature</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadSignature</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/pinpadSignature</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction was authorised using a signature.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadSignature</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadSignature</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPinpadPIN:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction was authorised using a pin.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadPIN</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadPIN</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/pinpadPIN</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction was authorised using a pin.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadPIN</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadPIN</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/pinpadPIN</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction was authorised using a pin.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool pinpadPIN</Declaration>
+			
+			
+			<Anchor>//api/name/pinpadPIN</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setIntegrated:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction is managed by the shopping agent.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool integrated</Declaration>
+			
+			
+			<Anchor>//api/name/integrated</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/integrated</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction is managed by the shopping agent.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool integrated</Declaration>
+			
+			
+			<Anchor>//api/name/integrated</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/integrated</TokenIdentifier>
+			<Abstract type="html">Indicates whether the transaction is managed by the shopping agent.</Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool integrated</Declaration>
+			
+			
+			<Anchor>//api/name/integrated</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setActive:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool active</Declaration>
+			
+			
+			<Anchor>//api/name/active</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/active</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool active</Declaration>
+			
+			
+			<Anchor>//api/name/active</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/active</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool active</Declaration>
+			
+			
+			<Anchor>//api/name/active</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPaymentDue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool paymentDue</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDue</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/paymentDue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool paymentDue</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDue</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/paymentDue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool paymentDue</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDue</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setOperatorTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool operatorTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/operatorTransaction</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/operatorTransaction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool operatorTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/operatorTransaction</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/operatorTransaction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool operatorTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/operatorTransaction</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setCustomerTransaction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool customerTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/customerTransaction</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/customerTransaction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool customerTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/customerTransaction</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/customerTransaction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool customerTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/customerTransaction</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setShoppingList:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shoppingList</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingList</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/shoppingList</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shoppingList</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingList</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/shoppingList</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool shoppingList</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingList</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setBpointInProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bpointInProgress</Declaration>
+			
+			
+			<Anchor>//api/name/bpointInProgress</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/bpointInProgress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bpointInProgress</Declaration>
+			
+			
+			<Anchor>//api/name/bpointInProgress</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/bpointInProgress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool bpointInProgress</Declaration>
+			
+			
+			<Anchor>//api/name/bpointInProgress</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPaymentDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentDevice *paymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevice</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/paymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentDevice *paymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevice</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/paymentDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPaymentDevice *paymentDevice</Declaration>
+			
+			
+			<Anchor>//api/name/paymentDevice</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setTenderDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/tenderDelegate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/tenderDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/tenderDelegate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLBasket/tenderDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/tenderDelegate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setOrderDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)setOrderDate:(NSDate *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setOrderDate:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/orderDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)orderDate</Declaration>
+			
+			
+			<Anchor>//api/name/orderDate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/editable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (bool)editable</Declaration>
+			
+			
+			<Anchor>//api/name/editable</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/canTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (bool)canTender</Declaration>
+			
+			
+			<Anchor>//api/name/canTender</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/resetStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)resetStatus</Declaration>
+			
+			
+			<Anchor>//api/name/resetStatus</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/decodeStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)decodeStatus:(NSString *)aStatus</Declaration>
+			
+			
+			<Anchor>//api/name/decodeStatus:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/paid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (bool)paid</Declaration>
+			
+			
+			<Anchor>//api/name/paid</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/paidFromTenders</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (bool)paidFromTenders</Declaration>
+			
+			
+			<Anchor>//api/name/paidFromTenders</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/partiallyPaid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (bool)partiallyPaid</Declaration>
+			
+			
+			<Anchor>//api/name/partiallyPaid</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/partiallyPaidFromTenders</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (bool)partiallyPaidFromTenders</Declaration>
+			
+			
+			<Anchor>//api/name/partiallyPaidFromTenders</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/empty</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (bool)empty</Declaration>
+			
+			
+			<Anchor>//api/name/empty</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/tenderTypesAsString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)tenderTypesAsString</Declaration>
+			
+			
+			<Anchor>//api/name/tenderTypesAsString</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPaid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)setPaid:(bool)aValue</Declaration>
+			
+			
+			<Anchor>//api/name/setPaid:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/tenderTotal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)tenderTotal</Declaration>
+			
+			
+			<Anchor>//api/name/tenderTotal</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/transactionTotal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)transactionTotal</Declaration>
+			
+			
+			<Anchor>//api/name/transactionTotal</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/transactionAmountFromShoppingAgent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)transactionAmountFromShoppingAgent:(bool)aShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/transactionAmountFromShoppingAgent:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/dueAmountForTenderType:fromShoppingAgent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)dueAmountForTenderType:(NSString *)aType fromShoppingAgent:(bool)aShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/dueAmountForTenderType:fromShoppingAgent:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/dueAmountAfterLastTenderType:fromShoppingAgent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)dueAmountAfterLastTenderType:(NSString *)aType fromShoppingAgent:(bool)aShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/dueAmountAfterLastTenderType:fromShoppingAgent:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/dueAmountFromTenders</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)dueAmountFromTenders</Declaration>
+			
+			
+			<Anchor>//api/name/dueAmountFromTenders</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/changeAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)changeAmount</Declaration>
+			
+			
+			<Anchor>//api/name/changeAmount</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/cashOutAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)cashOutAmount</Declaration>
+			
+			
+			<Anchor>//api/name/cashOutAmount</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/lastPinpadTenderAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)lastPinpadTenderAmount</Declaration>
+			
+			
+			<Anchor>//api/name/lastPinpadTenderAmount</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/taxFromShoppingAgent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSDecimalNumber *)taxFromShoppingAgent:(bool)aShoppingAgent</Declaration>
+			
+			
+			<Anchor>//api/name/taxFromShoppingAgent:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/multiTenderReceipt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)multiTenderReceipt</Declaration>
+			
+			
+			<Anchor>//api/name/multiTenderReceipt</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setMultiTenderReceipt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)setMultiTenderReceipt:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setMultiTenderReceipt:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/pendingTender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (BLTender *)pendingTender</Declaration>
+			
+			
+			<Anchor>//api/name/pendingTender</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLBasket/setPendingTender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>- (void)setPendingTender:(BLTender *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPendingTender:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLBasket/basketFolder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)basketFolder</Declaration>
+			
+			
+			<Anchor>//api/name/basketFolder</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLBasket/estimatedTotalForItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>+ (NSDecimalNumber *)estimatedTotalForItems:(NSArray *)aItems</Declaration>
+			
+			
+			<Anchor>//api/name/estimatedTotalForItems:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLBasket/generateUniqueIdentifierWithIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLBasket.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)generateUniqueIdentifierWithIndex:(NSInteger)aIndex</Declaration>
+			
+			
+			<Anchor>//api/name/generateUniqueIdentifierWithIndex:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

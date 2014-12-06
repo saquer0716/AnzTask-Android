@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSStoreApplicationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSStoreApplicationDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="236"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setPostcodeAnnotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPostcodeAnnotation *postcodeAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotation</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/postcodeAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPostcodeAnnotation *postcodeAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotation</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/postcodeAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLPostcodeAnnotation *postcodeAnnotation</Declaration>
+			
+			
+			<Anchor>//api/name/postcodeAnnotation</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setStoreAnnotations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *storeAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/storeAnnotations</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/storeAnnotations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *storeAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/storeAnnotations</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/storeAnnotations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *storeAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/storeAnnotations</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setDomain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/domain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *domain</Declaration>
+			
+			
+			<Anchor>//api/name/domain</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setSoapService:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *soapService</Declaration>
+			
+			
+			<Anchor>//api/name/soapService</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/soapService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *soapService</Declaration>
+			
+			
+			<Anchor>//api/name/soapService</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/soapService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *soapService</Declaration>
+			
+			
+			<Anchor>//api/name/soapService</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setSoapAction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *soapAction</Declaration>
+			
+			
+			<Anchor>//api/name/soapAction</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/soapAction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *soapAction</Declaration>
+			
+			
+			<Anchor>//api/name/soapAction</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/soapAction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *soapAction</Declaration>
+			
+			
+			<Anchor>//api/name/soapAction</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setEndPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/endPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/endPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setSessionId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionId</Declaration>
+			
+			
+			<Anchor>//api/name/sessionId</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/sessionId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionId</Declaration>
+			
+			
+			<Anchor>//api/name/sessionId</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/sessionId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionId</Declaration>
+			
+			
+			<Anchor>//api/name/sessionId</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setStoresRetrieved:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool storesRetrieved</Declaration>
+			
+			
+			<Anchor>//api/name/storesRetrieved</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/storesRetrieved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool storesRetrieved</Declaration>
+			
+			
+			<Anchor>//api/name/storesRetrieved</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSStoreApplicationDelegate/storesRetrieved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool storesRetrieved</Declaration>
+			
+			
+			<Anchor>//api/name/storesRetrieved</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/doVisitWebsite</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doVisitWebsite</Declaration>
+			
+			
+			<Anchor>//api/name/doVisitWebsite</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/doVisitWebsiteWithTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doVisitWebsiteWithTitle:(NSString *)aTitle</Declaration>
+			
+			
+			<Anchor>//api/name/doVisitWebsiteWithTitle:</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setMapAnnotations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)setMapAnnotations:(BLIOSMapViewController *)aViewController</Declaration>
+			
+			
+			<Anchor>//api/name/setMapAnnotations:</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/onCreateMenuButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onCreateMenuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/onCreateMenuButtons</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/onDomain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onDomain</Declaration>
+			
+			
+			<Anchor>//api/name/onDomain</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/onSoapService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onSoapService</Declaration>
+			
+			
+			<Anchor>//api/name/onSoapService</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/onSoapAction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onSoapAction</Declaration>
+			
+			
+			<Anchor>//api/name/onSoapAction</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/onEndPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)onEndPoint</Declaration>
+			
+			
+			<Anchor>//api/name/onEndPoint</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/doFindNearestLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doFindNearestLocation</Declaration>
+			
+			
+			<Anchor>//api/name/doFindNearestLocation</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/onProminent:buttonCreated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onProminent:(bool)aProminent buttonCreated:(BLIOSButton *)aButton</Declaration>
+			
+			
+			<Anchor>//api/name/onProminent:buttonCreated:</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/setShoppingMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)setShoppingMode:(BLShoppingMode)value</Declaration>
+			
+			
+			<Anchor>//api/name/setShoppingMode:</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSStoreApplicationDelegate/shoppingMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSStoreApplicationDelegate.h</DeclaredIn>
+			
+			<Declaration>- (BLShoppingMode)shoppingMode</Declaration>
+			
+			
+			<Anchor>//api/name/shoppingMode</Anchor>
+            <NodeRef refid="236"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

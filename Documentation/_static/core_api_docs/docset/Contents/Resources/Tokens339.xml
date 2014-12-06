@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLProgress.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLProgress</TokenIdentifier>
+			<Abstract type="html">BLProgress defines the data associated with the progress of a process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+            
+			
+			<NodeRef refid="339"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/setMaximum:</TokenIdentifier>
+			<Abstract type="html">The maximum value (i.e. 100% complete) of the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maximum</Declaration>
+			
+			
+			<Anchor>//api/name/maximum</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/maximum</TokenIdentifier>
+			<Abstract type="html">The maximum value (i.e. 100% complete) of the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maximum</Declaration>
+			
+			
+			<Anchor>//api/name/maximum</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProgress/maximum</TokenIdentifier>
+			<Abstract type="html">The maximum value (i.e. 100% complete) of the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger maximum</Declaration>
+			
+			
+			<Anchor>//api/name/maximum</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/setDivider:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger divider</Declaration>
+			
+			
+			<Anchor>//api/name/divider</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/divider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger divider</Declaration>
+			
+			
+			<Anchor>//api/name/divider</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProgress/divider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger divider</Declaration>
+			
+			
+			<Anchor>//api/name/divider</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/setCurrent:</TokenIdentifier>
+			<Abstract type="html">The current position of the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger current</Declaration>
+			
+			
+			<Anchor>//api/name/current</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/current</TokenIdentifier>
+			<Abstract type="html">The current position of the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger current</Declaration>
+			
+			
+			<Anchor>//api/name/current</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProgress/current</TokenIdentifier>
+			<Abstract type="html">The current position of the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger current</Declaration>
+			
+			
+			<Anchor>//api/name/current</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/setMessage:</TokenIdentifier>
+			<Abstract type="html">The message to display during the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLProgress/message</TokenIdentifier>
+			<Abstract type="html">The message to display during the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLProgress/message</TokenIdentifier>
+			<Abstract type="html">The message to display during the process.</Abstract>
+			<DeclaredIn>BLProgress.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="339"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

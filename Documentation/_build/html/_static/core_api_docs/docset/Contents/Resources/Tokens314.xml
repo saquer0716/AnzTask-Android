@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLOperator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLOperator</TokenIdentifier>
+			<Abstract type="html">BLOperator encapsulates the data and methods associated with an operator registered with the shopping agent.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="314"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setName:</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s name.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/name</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s name.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/name</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s name.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setLevel:</TokenIdentifier>
+			<Abstract type="html">The level associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger level</Declaration>
+			
+			
+			<Anchor>//api/name/level</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/level</TokenIdentifier>
+			<Abstract type="html">The level associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger level</Declaration>
+			
+			
+			<Anchor>//api/name/level</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/level</TokenIdentifier>
+			<Abstract type="html">The level associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger level</Declaration>
+			
+			
+			<Anchor>//api/name/level</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setLevelName:</TokenIdentifier>
+			<Abstract type="html">The name of the level associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *levelName</Declaration>
+			
+			
+			<Anchor>//api/name/levelName</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/levelName</TokenIdentifier>
+			<Abstract type="html">The name of the level associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *levelName</Declaration>
+			
+			
+			<Anchor>//api/name/levelName</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/levelName</TokenIdentifier>
+			<Abstract type="html">The name of the level associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *levelName</Declaration>
+			
+			
+			<Anchor>//api/name/levelName</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setOperatorId:</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s unique identifier.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/operatorId</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s unique identifier.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/operatorId</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s unique identifier.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *operatorId</Declaration>
+			
+			
+			<Anchor>//api/name/operatorId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setPassword:</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s password.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/password</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s password.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/password</TokenIdentifier>
+			<Abstract type="html">The operator&apos;s password.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setDeviceId:</TokenIdentifier>
+			<Abstract type="html">The device id curently associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/deviceId</TokenIdentifier>
+			<Abstract type="html">The device id curently associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/deviceId</TokenIdentifier>
+			<Abstract type="html">The device id curently associated with the operator.</Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *deviceId</Declaration>
+			
+			
+			<Anchor>//api/name/deviceId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setTerminalName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalName</Declaration>
+			
+			
+			<Anchor>//api/name/terminalName</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/terminalName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalName</Declaration>
+			
+			
+			<Anchor>//api/name/terminalName</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/terminalName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *terminalName</Declaration>
+			
+			
+			<Anchor>//api/name/terminalName</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setTillId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *tillId</Declaration>
+			
+			
+			<Anchor>//api/name/tillId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/tillId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *tillId</Declaration>
+			
+			
+			<Anchor>//api/name/tillId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/tillId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *tillId</Declaration>
+			
+			
+			<Anchor>//api/name/tillId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setWorkstationId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *workstationId</Declaration>
+			
+			
+			<Anchor>//api/name/workstationId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/workstationId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *workstationId</Declaration>
+			
+			
+			<Anchor>//api/name/workstationId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/workstationId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *workstationId</Declaration>
+			
+			
+			<Anchor>//api/name/workstationId</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLOperator/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLOperator/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLOperator.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="314"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

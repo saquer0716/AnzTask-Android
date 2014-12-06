@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSShoppingAgentView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSShoppingAgentView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the user interface relating to the shopping agent.</Abstract>
+			<DeclaredIn>BLIOSShoppingAgentView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="229"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLJSonSubscribe.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLJSonSubscribe</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonSubscribe.h</DeclaredIn>
+            
+			
+			<NodeRef refid="299"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonSubscribe/subscribe:toSubscription:forPlan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonSubscribe.h</DeclaredIn>
+			
+			<Declaration>- (void)subscribe:(BLRetailer *)aRetailer toSubscription:(NSDictionary *)aSubscription forPlan:(BLPlanProduct *)aPlanProduct</Declaration>
+			
+			
+			<Anchor>//api/name/subscribe:toSubscription:forPlan:</Anchor>
+            <NodeRef refid="299"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonSubscribe/setPlanProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonSubscribe.h</DeclaredIn>
+			
+			<Declaration>- (void)setPlanProduct:(BLPlanProduct *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setPlanProduct:</Anchor>
+            <NodeRef refid="299"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLJSonSubscribe/planProduct</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLJSonSubscribe.h</DeclaredIn>
+			
+			<Declaration>- (BLPlanProduct *)planProduct</Declaration>
+			
+			
+			<Anchor>//api/name/planProduct</Anchor>
+            <NodeRef refid="299"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

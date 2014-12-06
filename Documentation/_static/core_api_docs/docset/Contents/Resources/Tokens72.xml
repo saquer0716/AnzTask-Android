@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSBusyView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSBusyView</TokenIdentifier>
+			<Abstract type="html">BLIOSBusyView is a transparent view with a shadow that is typically used to display messages during processes when the user is required to wait.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/setActivityIndicatorView:</TokenIdentifier>
+			<Abstract type="html">The visual indicator for a task in progress. The activity indicator appears as a “gear” that is either spinning or stopped.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIActivityIndicatorView *activityIndicatorView</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/activityIndicatorView</TokenIdentifier>
+			<Abstract type="html">The visual indicator for a task in progress. The activity indicator appears as a “gear” that is either spinning or stopped.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIActivityIndicatorView *activityIndicatorView</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBusyView/activityIndicatorView</TokenIdentifier>
+			<Abstract type="html">The visual indicator for a task in progress. The activity indicator appears as a “gear” that is either spinning or stopped.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIActivityIndicatorView *activityIndicatorView</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/setMainView:</TokenIdentifier>
+			<Abstract type="html">The transparent view that covers the whole area of the parent view controller. This view prevents interaction with any other ui controls whilst the process is executing.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/mainView</TokenIdentifier>
+			<Abstract type="html">The transparent view that covers the whole area of the parent view controller. This view prevents interaction with any other ui controls whilst the process is executing.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBusyView/mainView</TokenIdentifier>
+			<Abstract type="html">The transparent view that covers the whole area of the parent view controller. This view prevents interaction with any other ui controls whilst the process is executing.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIView *mainView</Declaration>
+			
+			
+			<Anchor>//api/name/mainView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/setShadowView:</TokenIdentifier>
+			<Abstract type="html">The view that displays the progress label and activity indicator for the process.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowView *shadowView</Declaration>
+			
+			
+			<Anchor>//api/name/shadowView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/shadowView</TokenIdentifier>
+			<Abstract type="html">The view that displays the progress label and activity indicator for the process.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowView *shadowView</Declaration>
+			
+			
+			<Anchor>//api/name/shadowView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBusyView/shadowView</TokenIdentifier>
+			<Abstract type="html">The view that displays the progress label and activity indicator for the process.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSShadowView *shadowView</Declaration>
+			
+			
+			<Anchor>//api/name/shadowView</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/setLabel:</TokenIdentifier>
+			<Abstract type="html">The label that displays the progress text.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/label</TokenIdentifier>
+			<Abstract type="html">The label that displays the progress text.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBusyView/label</TokenIdentifier>
+			<Abstract type="html">The label that displays the progress text.</Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UILabel *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/show:inFrame:withColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>- (void)show:(NSString *)aText inFrame:(CGRect)aFrame withColor:(UIColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/show:inFrame:withColor:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBusyView/hide</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBusyView.h</DeclaredIn>
+			
+			<Declaration>- (void)hide</Declaration>
+			
+			
+			<Anchor>//api/name/hide</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

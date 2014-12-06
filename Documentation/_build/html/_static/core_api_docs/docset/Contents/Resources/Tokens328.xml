@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLPosConfigurationDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLPosConfigurationDataRequest</TokenIdentifier>
+			<Abstract type="html">BLPosConfigurationDataRequest encapsulates the data and methods associated with a soap request and response for retrieving POS configuration data.</Abstract>
+			<DeclaredIn>BLPosConfigurationDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="328"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfigurationDataRequest/setConfigurationName:</TokenIdentifier>
+			<Abstract type="html">The name of the pos configuration.</Abstract>
+			<DeclaredIn>BLPosConfigurationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *configurationName</Declaration>
+			
+			
+			<Anchor>//api/name/configurationName</Anchor>
+            <NodeRef refid="328"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfigurationDataRequest/configurationName</TokenIdentifier>
+			<Abstract type="html">The name of the pos configuration.</Abstract>
+			<DeclaredIn>BLPosConfigurationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *configurationName</Declaration>
+			
+			
+			<Anchor>//api/name/configurationName</Anchor>
+            <NodeRef refid="328"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLPosConfigurationDataRequest/configurationName</TokenIdentifier>
+			<Abstract type="html">The name of the pos configuration.</Abstract>
+			<DeclaredIn>BLPosConfigurationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *configurationName</Declaration>
+			
+			
+			<Anchor>//api/name/configurationName</Anchor>
+            <NodeRef refid="328"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLPosConfigurationDataRequest/posConfiguration:atDomain:withBasket:andQuit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfigurationDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)posConfiguration:(NSString *)aConfiguration atDomain:(NSString *)aDomain withBasket:(BLBasket *)aBasket andQuit:(bool)aQuit</Declaration>
+			
+			
+			<Anchor>//api/name/posConfiguration:atDomain:withBasket:andQuit:</Anchor>
+            <NodeRef refid="328"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLPosConfigurationDataRequest/extractPOSConfiguration:fromDocument:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLPosConfigurationDataRequest.h</DeclaredIn>
+			
+			<Declaration>+ (NSObject *)extractPOSConfiguration:(NSString *)aConfiguration fromDocument:(SMXMLDocument *)aDocument forRequest:(BLShoppingAgentSoapServer *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/extractPOSConfiguration:fromDocument:forRequest:</Anchor>
+            <NodeRef refid="328"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

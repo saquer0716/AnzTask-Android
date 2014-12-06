@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSLabelTextView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSLabelTextView</TokenIdentifier>
+			<Abstract type="html">Presents a text view with a label for a heading.</Abstract>
+			<DeclaredIn>BLIOSLabelTextView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="128"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSLabelTextView/repositionTextView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabelTextView.h</DeclaredIn>
+			
+			<Declaration>- (void)repositionTextView</Declaration>
+			
+			
+			<Anchor>//api/name/repositionTextView</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSLabelTextView/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabelTextView.h</DeclaredIn>
+			
+			<Declaration>- (void)setText:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setText:</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSLabelTextView/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabelTextView.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSLabelTextView/useBiggerFont:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSLabelTextView.h</DeclaredIn>
+			
+			<Declaration>- (void)useBiggerFont:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/useBiggerFont:</Anchor>
+            <NodeRef refid="128"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

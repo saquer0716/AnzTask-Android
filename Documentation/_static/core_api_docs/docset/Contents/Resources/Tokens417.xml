@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLLoginDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLLoginDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for a login process.</Abstract>
+			<DeclaredIn>BLLoginProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="417"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLLoginDelegate/onLogin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLLoginProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onLogin:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onLogin:</Anchor>
+            <NodeRef refid="417"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

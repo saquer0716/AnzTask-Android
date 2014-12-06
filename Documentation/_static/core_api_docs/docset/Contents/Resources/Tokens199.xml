@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSRegisterAccountabilityPDF.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSRegisterAccountabilityPDF</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegisterAccountabilityPDF.h</DeclaredIn>
+            
+			
+			<NodeRef refid="199"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegisterAccountabilityPDF/setAccountabilitySummary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegisterAccountabilityPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *accountabilitySummary</Declaration>
+			
+			
+			<Anchor>//api/name/accountabilitySummary</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegisterAccountabilityPDF/accountabilitySummary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegisterAccountabilityPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *accountabilitySummary</Declaration>
+			
+			
+			<Anchor>//api/name/accountabilitySummary</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegisterAccountabilityPDF/accountabilitySummary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegisterAccountabilityPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *accountabilitySummary</Declaration>
+			
+			
+			<Anchor>//api/name/accountabilitySummary</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegisterAccountabilityPDF/setTotal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegisterAccountabilityPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDecimalNumber *total</Declaration>
+			
+			
+			<Anchor>//api/name/total</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSRegisterAccountabilityPDF/total</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegisterAccountabilityPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDecimalNumber *total</Declaration>
+			
+			
+			<Anchor>//api/name/total</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSRegisterAccountabilityPDF/total</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSRegisterAccountabilityPDF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDecimalNumber *total</Declaration>
+			
+			
+			<Anchor>//api/name/total</Anchor>
+            <NodeRef refid="199"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

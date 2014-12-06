@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSNavigationProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSNavigationProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNavigationProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="407"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSNavigationProtocol/onPushData:forSender:withNavigationController:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSNavigationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (bool)onPushData:(NSObject *)aData forSender:(NSObject *)aSender withNavigationController:(UINavigationController *)aNavigationController</Declaration>
+			
+			
+			<Anchor>//api/name/onPushData:forSender:withNavigationController:</Anchor>
+            <NodeRef refid="407"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

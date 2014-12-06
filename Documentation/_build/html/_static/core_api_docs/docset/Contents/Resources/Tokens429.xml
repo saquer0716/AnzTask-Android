@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLProductToolsDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLProductToolsDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="429"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onFavouriteProducts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onFavouriteProducts:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onFavouriteProducts:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onSearchProductText:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSearchProductText:(NSString *)aText forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onSearchProductText:forObject:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onSearchProducts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSearchProducts:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onSearchProducts:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onScanProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onScanProduct:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onScanProduct:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onBrowseCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onBrowseCategories:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onBrowseCategories:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onValueProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onValueProduct:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onValueProduct:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onSelectionChanged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSelectionChanged:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onSelectionChanged:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onSelected:fromSearchEvent:shouldOverwrite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)onSelected:(id)sender fromSearchEvent:(id)aEvent shouldOverwrite:(bool)aOverwrite</Declaration>
+			
+			
+			<Anchor>//api/name/onSelected:fromSearchEvent:shouldOverwrite:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onSelectedDetail:forObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSelectedDetail:(id)sender forObject:(NSObject *)aObject</Declaration>
+			
+			
+			<Anchor>//api/name/onSelectedDetail:forObject:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onProductsForCategory:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onProductsForCategory:(NSObject *)aCategory</Declaration>
+			
+			
+			<Anchor>//api/name/onProductsForCategory:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onSubcategoryForCategory:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onSubcategoryForCategory:(NSObject *)aCategory</Declaration>
+			
+			
+			<Anchor>//api/name/onSubcategoryForCategory:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onParentCategoryForCategory:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onParentCategoryForCategory:(NSObject *)aCategory</Declaration>
+			
+			
+			<Anchor>//api/name/onParentCategoryForCategory:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onParentCategoryForProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onParentCategoryForProduct:(NSObject *)aCategory</Declaration>
+			
+			
+			<Anchor>//api/name/onParentCategoryForProduct:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onScannerShouldDisable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onScannerShouldDisable:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onScannerShouldDisable:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLProductToolsDelegate/onScannerShouldEnable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLProductToolsProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)onScannerShouldEnable:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onScannerShouldEnable:</Anchor>
+            <NodeRef refid="429"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

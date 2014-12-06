@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLIOSEFTPOSViewDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLIOSEFTPOSViewDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for an eftpos view.</Abstract>
+			<DeclaredIn>BLIOSEFTPOSViewProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="402"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLIOSEFTPOSViewDelegate/onEFTPOSViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEFTPOSViewProtocol.h</DeclaredIn>
+			
+			<Declaration>- (UIViewController *)onEFTPOSViewController</Declaration>
+			
+			
+			<Anchor>//api/name/onEFTPOSViewController</Anchor>
+            <NodeRef refid="402"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

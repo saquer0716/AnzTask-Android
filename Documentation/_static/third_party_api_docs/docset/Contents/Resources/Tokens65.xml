@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PayPalPaymentDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PayPalPaymentDelegate</TokenIdentifier>
+			<Abstract type="html">Exactly one of these delegate methods will get called when the UI completes.
+You MUST dismiss the modal view controller from these delegate methods.</Abstract>
+			<DeclaredIn>PayPalPaymentViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PayPalPaymentDelegate/payPalPaymentDidCancel:</TokenIdentifier>
+			<Abstract type="html">User canceled the payment process.</Abstract>
+			<DeclaredIn>PayPalPaymentViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)payPalPaymentDidCancel:(PayPalPaymentViewController *)paymentViewController</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>paymentViewController</Name>
+					<Abstract type="html">The PayPalPaymentViewController that the user canceled without making a payment.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/payPalPaymentDidCancel:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PayPalPaymentDelegate/payPalPaymentViewController:didCompletePayment:</TokenIdentifier>
+			<Abstract type="html">User successfully completed the payment.
+See https://developer.paypal.com/webapps/developer/docs/integration/mobile/verify-mobile-payment/ for
+information about payment verification.</Abstract>
+			<DeclaredIn>PayPalPaymentViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)payPalPaymentViewController:(PayPalPaymentViewController *)paymentViewController didCompletePayment:(PayPalPayment *)completedPayment</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>paymentViewController</Name>
+					<Abstract type="html">The PayPalPaymentViewController where the user successfullly made a payment.</Abstract>
+				</Parameter><Parameter>
+					<Name>completedPayment</Name>
+					<Abstract type="html">completedPayment.confirmation contains information your server will need to verify the payment.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/payPalPaymentViewController:didCompletePayment:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSListView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSListView</TokenIdentifier>
+			<Abstract type="html">Displays a transparent list of items. The list has a header for displaying the list title and a footer for additional button functionality.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="133"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setHeadingLabel:</TokenIdentifier>
+			<Abstract type="html">The label that displays the list&apos;s heading.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSGestureLabel *headingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/headingLabel</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/headingLabel</TokenIdentifier>
+			<Abstract type="html">The label that displays the list&apos;s heading.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSGestureLabel *headingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/headingLabel</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/headingLabel</TokenIdentifier>
+			<Abstract type="html">The label that displays the list&apos;s heading.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSGestureLabel *headingLabel</Declaration>
+			
+			
+			<Anchor>//api/name/headingLabel</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setTableView:</TokenIdentifier>
+			<Abstract type="html">The tableview that displays the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/tableView</TokenIdentifier>
+			<Abstract type="html">The tableview that displays the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/tableView</TokenIdentifier>
+			<Abstract type="html">The tableview that displays the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSTableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setAddButton:</TokenIdentifier>
+			<Abstract type="html">The button for adding an item to the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *addButton</Declaration>
+			
+			
+			<Anchor>//api/name/addButton</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/addButton</TokenIdentifier>
+			<Abstract type="html">The button for adding an item to the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *addButton</Declaration>
+			
+			
+			<Anchor>//api/name/addButton</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/addButton</TokenIdentifier>
+			<Abstract type="html">The button for adding an item to the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *addButton</Declaration>
+			
+			
+			<Anchor>//api/name/addButton</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setInfoButton:</TokenIdentifier>
+			<Abstract type="html">The button that initiates the action to display additional information or help regarding the list items.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *infoButton</Declaration>
+			
+			
+			<Anchor>//api/name/infoButton</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/infoButton</TokenIdentifier>
+			<Abstract type="html">The button that initiates the action to display additional information or help regarding the list items.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *infoButton</Declaration>
+			
+			
+			<Anchor>//api/name/infoButton</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/infoButton</TokenIdentifier>
+			<Abstract type="html">The button that initiates the action to display additional information or help regarding the list items.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *infoButton</Declaration>
+			
+			
+			<Anchor>//api/name/infoButton</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setItems:</TokenIdentifier>
+			<Abstract type="html">The array of data used to populate the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/items</TokenIdentifier>
+			<Abstract type="html">The array of data used to populate the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/items</TokenIdentifier>
+			<Abstract type="html">The array of data used to populate the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *items</Declaration>
+			
+			
+			<Anchor>//api/name/items</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setHeaderView:</TokenIdentifier>
+			<Abstract type="html">The view that defines the area above the list items. This area responds to dragging the list view around the screen.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSView *headerView</Declaration>
+			
+			
+			<Anchor>//api/name/headerView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/headerView</TokenIdentifier>
+			<Abstract type="html">The view that defines the area above the list items. This area responds to dragging the list view around the screen.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSView *headerView</Declaration>
+			
+			
+			<Anchor>//api/name/headerView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/headerView</TokenIdentifier>
+			<Abstract type="html">The view that defines the area above the list items. This area responds to dragging the list view around the screen.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSView *headerView</Declaration>
+			
+			
+			<Anchor>//api/name/headerView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setFooterView:</TokenIdentifier>
+			<Abstract type="html">The view that defines the area below the list items. This area typically displays information about the list or houses controls that action additional functionality.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSView *footerView</Declaration>
+			
+			
+			<Anchor>//api/name/footerView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/footerView</TokenIdentifier>
+			<Abstract type="html">The view that defines the area below the list items. This area typically displays information about the list or houses controls that action additional functionality.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSView *footerView</Declaration>
+			
+			
+			<Anchor>//api/name/footerView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/footerView</TokenIdentifier>
+			<Abstract type="html">The view that defines the area below the list items. This area typically displays information about the list or houses controls that action additional functionality.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSView *footerView</Declaration>
+			
+			
+			<Anchor>//api/name/footerView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setListEditorView:</TokenIdentifier>
+			<Abstract type="html">The view used for editing an item in the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSListEditorView *listEditorView</Declaration>
+			
+			
+			<Anchor>//api/name/listEditorView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/listEditorView</TokenIdentifier>
+			<Abstract type="html">The view used for editing an item in the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSListEditorView *listEditorView</Declaration>
+			
+			
+			<Anchor>//api/name/listEditorView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/listEditorView</TokenIdentifier>
+			<Abstract type="html">The view used for editing an item in the list.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSListEditorView *listEditorView</Declaration>
+			
+			
+			<Anchor>//api/name/listEditorView</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setViewDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the view.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the view.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/viewDelegate</TokenIdentifier>
+			<Abstract type="html">The delegate that will initiate the events associated with changes to the view.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/viewDelegate</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setHasImages:</TokenIdentifier>
+			<Abstract type="html">Determines whether the listview displays images. If true then images are displayed. otherwise images are not displayed.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasImages</Declaration>
+			
+			
+			<Anchor>//api/name/hasImages</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/hasImages</TokenIdentifier>
+			<Abstract type="html">Determines whether the listview displays images. If true then images are displayed. otherwise images are not displayed.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasImages</Declaration>
+			
+			
+			<Anchor>//api/name/hasImages</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSListView/hasImages</TokenIdentifier>
+			<Abstract type="html">Determines whether the listview displays images. If true then images are displayed. otherwise images are not displayed.</Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool hasImages</Declaration>
+			
+			
+			<Anchor>//api/name/hasImages</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitle:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitle:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/setTitleColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)setTitleColor:(UIColor *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setTitleColor:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/doAdd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)doAdd:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doAdd:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/doEditOrDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)doEditOrDelete:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doEditOrDelete:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/doInfo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)doInfo:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doInfo:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/addItem:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)addItem:(BLCheckListItem *)aItem</Declaration>
+			
+			
+			<Anchor>//api/name/addItem:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/saveList</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)saveList</Declaration>
+			
+			
+			<Anchor>//api/name/saveList</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/positionControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)positionControls</Declaration>
+			
+			
+			<Anchor>//api/name/positionControls</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/show:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)show:(UIViewController *)aViewController</Declaration>
+			
+			
+			<Anchor>//api/name/show:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSListView/hide:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSListView.h</DeclaredIn>
+			
+			<Declaration>- (void)hide:(UIViewController *)aViewController</Declaration>
+			
+			
+			<Anchor>//api/name/hide:</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

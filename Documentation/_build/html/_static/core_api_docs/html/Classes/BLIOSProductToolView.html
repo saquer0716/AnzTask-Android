@@ -1,0 +1,779 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLIOSProductToolView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLIOSProductToolView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/previousSelection">&nbsp;&nbsp;&nbsp;&nbsp;previousSelection</option>
+	
+	<option value="//api/name/productToolsDelegate">&nbsp;&nbsp;&nbsp;&nbsp;productToolsDelegate</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/categoriesSelected">&nbsp;&nbsp;&nbsp;&nbsp;- categoriesSelected</option>
+	
+	<option value="//api/name/currentSelection">&nbsp;&nbsp;&nbsp;&nbsp;- currentSelection</option>
+	
+	<option value="//api/name/defaultHeight">&nbsp;&nbsp;&nbsp;&nbsp;- defaultHeight</option>
+	
+	<option value="//api/name/doSelected:">&nbsp;&nbsp;&nbsp;&nbsp;- doSelected:</option>
+	
+	<option value="//api/name/favouritesSelected">&nbsp;&nbsp;&nbsp;&nbsp;- favouritesSelected</option>
+	
+	<option value="//api/name/hasCategories">&nbsp;&nbsp;&nbsp;&nbsp;- hasCategories</option>
+	
+	<option value="//api/name/itemCount">&nbsp;&nbsp;&nbsp;&nbsp;- itemCount</option>
+	
+	<option value="//api/name/onCategories:">&nbsp;&nbsp;&nbsp;&nbsp;- onCategories:</option>
+	
+	<option value="//api/name/onFavourite:">&nbsp;&nbsp;&nbsp;&nbsp;- onFavourite:</option>
+	
+	<option value="//api/name/onScan:">&nbsp;&nbsp;&nbsp;&nbsp;- onScan:</option>
+	
+	<option value="//api/name/onSearch:">&nbsp;&nbsp;&nbsp;&nbsp;- onSearch:</option>
+	
+	<option value="//api/name/onValue:">&nbsp;&nbsp;&nbsp;&nbsp;- onValue:</option>
+	
+	<option value="//api/name/restorePreviousSelection">&nbsp;&nbsp;&nbsp;&nbsp;- restorePreviousSelection</option>
+	
+	<option value="//api/name/searchSelected">&nbsp;&nbsp;&nbsp;&nbsp;- searchSelected</option>
+	
+	<option value="//api/name/setCategoriesSelected:">&nbsp;&nbsp;&nbsp;&nbsp;- setCategoriesSelected:</option>
+	
+	<option value="//api/name/setHasCategories:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasCategories:</option>
+	
+	<option value="//api/name/setHasFavourites:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasFavourites:</option>
+	
+	<option value="//api/name/setHasScan:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasScan:</option>
+	
+	<option value="//api/name/setOverlaySearch:">&nbsp;&nbsp;&nbsp;&nbsp;- setOverlaySearch:</option>
+	
+	<option value="//api/name/setSearchSelected:">&nbsp;&nbsp;&nbsp;&nbsp;- setSearchSelected:</option>
+	
+	<option value="//api/name/setSearchUppercase:">&nbsp;&nbsp;&nbsp;&nbsp;- setSearchUppercase:</option>
+	
+	<option value="//api/name/sethasAmount:">&nbsp;&nbsp;&nbsp;&nbsp;- sethasAmount:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/previousSelection">previousSelection</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/productToolsDelegate">productToolsDelegate</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/categoriesSelected">categoriesSelected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentSelection">currentSelection</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultHeight">defaultHeight</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doSelected:">doSelected:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/favouritesSelected">favouritesSelected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasCategories">hasCategories</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/itemCount">itemCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onCategories:">onCategories:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onFavourite:">onFavourite:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onScan:">onScan:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onSearch:">onSearch:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onValue:">onValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/restorePreviousSelection">restorePreviousSelection</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchSelected">searchSelected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setCategoriesSelected:">setCategoriesSelected:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasCategories:">setHasCategories:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasFavourites:">setHasFavourites:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasScan:">setHasScan:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setOverlaySearch:">setOverlaySearch:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSearchSelected:">setSearchSelected:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSearchUppercase:">setSearchUppercase:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sethasAmount:">sethasAmount:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLIOSProductToolView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLIOSProductToolView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLIOSView.html">BLIOSView</a> : UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSProductToolView.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Encapsulates the user interface relating to tools available for searching and retrieving product data.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/productToolsDelegate">&nbsp;&nbsp;productToolsDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/previousSelection">&nbsp;&nbsp;previousSelection</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doSelected:">&ndash;&nbsp;doSelected:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onFavourite:">&ndash;&nbsp;onFavourite:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onSearch:">&ndash;&nbsp;onSearch:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onScan:">&ndash;&nbsp;onScan:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onCategories:">&ndash;&nbsp;onCategories:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onValue:">&ndash;&nbsp;onValue:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasScan:">&ndash;&nbsp;setHasScan:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasFavourites:">&ndash;&nbsp;setHasFavourites:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasCategories:">&ndash;&nbsp;setHasCategories:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sethasAmount:">&ndash;&nbsp;sethasAmount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setOverlaySearch:">&ndash;&nbsp;setOverlaySearch:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/favouritesSelected">&ndash;&nbsp;favouritesSelected</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchSelected">&ndash;&nbsp;searchSelected</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/categoriesSelected">&ndash;&nbsp;categoriesSelected</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasCategories">&ndash;&nbsp;hasCategories</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSearchSelected:">&ndash;&nbsp;setSearchSelected:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentSelection">&ndash;&nbsp;currentSelection</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/restorePreviousSelection">&ndash;&nbsp;restorePreviousSelection</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSearchUppercase:">&ndash;&nbsp;setSearchUppercase:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setCategoriesSelected:">&ndash;&nbsp;setCategoriesSelected:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/itemCount">&ndash;&nbsp;itemCount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultHeight">&ndash;&nbsp;defaultHeight</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/previousSelection" title="previousSelection"></a>
+	<h3 class="subsubtitle method-title">previousSelection</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) id previousSelection</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/productToolsDelegate" title="productToolsDelegate"></a>
+	<h3 class="subsubtitle method-title">productToolsDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLProductToolsDelegate&gt; productToolsDelegate</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/categoriesSelected" title="categoriesSelected"></a>
+	<h3 class="subsubtitle method-title">categoriesSelected</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)categoriesSelected</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentSelection" title="currentSelection"></a>
+	<h3 class="subsubtitle method-title">currentSelection</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)currentSelection</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultHeight" title="defaultHeight"></a>
+	<h3 class="subsubtitle method-title">defaultHeight</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)defaultHeight</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doSelected:" title="doSelected:"></a>
+	<h3 class="subsubtitle method-title">doSelected:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doSelected:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/favouritesSelected" title="favouritesSelected"></a>
+	<h3 class="subsubtitle method-title">favouritesSelected</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)favouritesSelected</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasCategories" title="hasCategories"></a>
+	<h3 class="subsubtitle method-title">hasCategories</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)hasCategories</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/itemCount" title="itemCount"></a>
+	<h3 class="subsubtitle method-title">itemCount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSInteger)itemCount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onCategories:" title="onCategories:"></a>
+	<h3 class="subsubtitle method-title">onCategories:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onCategories:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onFavourite:" title="onFavourite:"></a>
+	<h3 class="subsubtitle method-title">onFavourite:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onFavourite:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onScan:" title="onScan:"></a>
+	<h3 class="subsubtitle method-title">onScan:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onScan:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onSearch:" title="onSearch:"></a>
+	<h3 class="subsubtitle method-title">onSearch:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onSearch:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onValue:" title="onValue:"></a>
+	<h3 class="subsubtitle method-title">onValue:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onValue:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/restorePreviousSelection" title="restorePreviousSelection"></a>
+	<h3 class="subsubtitle method-title">restorePreviousSelection</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)restorePreviousSelection</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchSelected" title="searchSelected"></a>
+	<h3 class="subsubtitle method-title">searchSelected</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)searchSelected</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setCategoriesSelected:" title="setCategoriesSelected:"></a>
+	<h3 class="subsubtitle method-title">setCategoriesSelected:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setCategoriesSelected:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasCategories:" title="setHasCategories:"></a>
+	<h3 class="subsubtitle method-title">setHasCategories:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasCategories:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasFavourites:" title="setHasFavourites:"></a>
+	<h3 class="subsubtitle method-title">setHasFavourites:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasFavourites:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasScan:" title="setHasScan:"></a>
+	<h3 class="subsubtitle method-title">setHasScan:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasScan:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setOverlaySearch:" title="setOverlaySearch:"></a>
+	<h3 class="subsubtitle method-title">setOverlaySearch:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setOverlaySearch:(bool)<em>aOverlay</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSearchSelected:" title="setSearchSelected:"></a>
+	<h3 class="subsubtitle method-title">setSearchSelected:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSearchSelected:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSearchUppercase:" title="setSearchUppercase:"></a>
+	<h3 class="subsubtitle method-title">setSearchUppercase:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSearchUppercase:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sethasAmount:" title="sethasAmount:"></a>
+	<h3 class="subsubtitle method-title">sethasAmount:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sethasAmount:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

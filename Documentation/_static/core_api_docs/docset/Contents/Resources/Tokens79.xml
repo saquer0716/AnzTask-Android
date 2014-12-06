@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSCategoryTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSCategoryTableViewCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCategoryTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="79"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCategoryTableViewCell/setCommentLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCategoryTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *commentLabel</Declaration>
+			
+			
+			<Anchor>//api/name/commentLabel</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCategoryTableViewCell/commentLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCategoryTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *commentLabel</Declaration>
+			
+			
+			<Anchor>//api/name/commentLabel</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSCategoryTableViewCell/commentLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCategoryTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *commentLabel</Declaration>
+			
+			
+			<Anchor>//api/name/commentLabel</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCategoryTableViewCell/setData:cached:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCategoryTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(BLCategory *)aCategory cached:(bool)aCache</Declaration>
+			
+			
+			<Anchor>//api/name/setData:cached:</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

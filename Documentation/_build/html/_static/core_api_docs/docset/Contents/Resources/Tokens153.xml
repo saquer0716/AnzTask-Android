@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSPOSBasketTableViewCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSPOSBasketTableViewCell</TokenIdentifier>
+			<Abstract type="html">The BLIOSPOSBasketTableViewCell class defines the attributes and behavior of a tableView cell that displays basket status data.</Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="153"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/setCreationDateTimeLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *creationDateTimeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/creationDateTimeLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/creationDateTimeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *creationDateTimeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/creationDateTimeLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSBasketTableViewCell/creationDateTimeLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *creationDateTimeLabel</Declaration>
+			
+			
+			<Anchor>//api/name/creationDateTimeLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/setInformationLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *informationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/informationLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/informationLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *informationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/informationLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSBasketTableViewCell/informationLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *informationLabel</Declaration>
+			
+			
+			<Anchor>//api/name/informationLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/setCollectionLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *collectionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/collectionLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/collectionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *collectionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/collectionLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSBasketTableViewCell/collectionLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSLabel *collectionLabel</Declaration>
+			
+			
+			<Anchor>//api/name/collectionLabel</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/setRightButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *rightButton</Declaration>
+			
+			
+			<Anchor>//api/name/rightButton</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/rightButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *rightButton</Declaration>
+			
+			
+			<Anchor>//api/name/rightButton</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSPOSBasketTableViewCell/rightButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *rightButton</Declaration>
+			
+			
+			<Anchor>//api/name/rightButton</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSPOSBasketTableViewCell/onButtonTapped:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSPOSBasketTableViewCell.h</DeclaredIn>
+			
+			<Declaration>- (void)onButtonTapped:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onButtonTapped:</Anchor>
+            <NodeRef refid="153"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSProductToolView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSProductToolView</TokenIdentifier>
+			<Abstract type="html">Encapsulates the user interface relating to tools available for searching and retrieving product data.</Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="191"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setProductToolsDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductToolsDelegate&gt; productToolsDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productToolsDelegate</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/productToolsDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductToolsDelegate&gt; productToolsDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productToolsDelegate</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSProductToolView/productToolsDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductToolsDelegate&gt; productToolsDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productToolsDelegate</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setPreviousSelection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) id previousSelection</Declaration>
+			
+			
+			<Anchor>//api/name/previousSelection</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/previousSelection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) id previousSelection</Declaration>
+			
+			
+			<Anchor>//api/name/previousSelection</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSProductToolView/previousSelection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) id previousSelection</Declaration>
+			
+			
+			<Anchor>//api/name/previousSelection</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/doSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)doSelected:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doSelected:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/onFavourite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)onFavourite:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onFavourite:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/onSearch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)onSearch:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onSearch:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/onScan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)onScan:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onScan:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/onCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)onCategories:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onCategories:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/onValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)onValue:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onValue:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setHasScan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasScan:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasScan:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setHasFavourites:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasFavourites:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasFavourites:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setHasCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasCategories:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasCategories:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/sethasAmount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)sethasAmount:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/sethasAmount:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setOverlaySearch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)setOverlaySearch:(bool)aOverlay</Declaration>
+			
+			
+			<Anchor>//api/name/setOverlaySearch:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/favouritesSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (bool)favouritesSelected</Declaration>
+			
+			
+			<Anchor>//api/name/favouritesSelected</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/searchSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (bool)searchSelected</Declaration>
+			
+			
+			<Anchor>//api/name/searchSelected</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/categoriesSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (bool)categoriesSelected</Declaration>
+			
+			
+			<Anchor>//api/name/categoriesSelected</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/hasCategories</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (bool)hasCategories</Declaration>
+			
+			
+			<Anchor>//api/name/hasCategories</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setSearchSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSearchSelected:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSearchSelected:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/currentSelection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (id)currentSelection</Declaration>
+			
+			
+			<Anchor>//api/name/currentSelection</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/restorePreviousSelection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)restorePreviousSelection</Declaration>
+			
+			
+			<Anchor>//api/name/restorePreviousSelection</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setSearchUppercase:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)setSearchUppercase:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setSearchUppercase:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/setCategoriesSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (void)setCategoriesSelected:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setCategoriesSelected:</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/itemCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)itemCount</Declaration>
+			
+			
+			<Anchor>//api/name/itemCount</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSProductToolView/defaultHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSProductToolView.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)defaultHeight</Declaration>
+			
+			
+			<Anchor>//api/name/defaultHeight</Anchor>
+            <NodeRef refid="191"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

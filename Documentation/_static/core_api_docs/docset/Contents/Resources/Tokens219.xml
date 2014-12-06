@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSSettingsViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSSettingsViewController</TokenIdentifier>
+			<Abstract type="html">A view controller for specifying customs settings for an app.</Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="219"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettingsViewController/setModified:</TokenIdentifier>
+			<Abstract type="html">Indicates whether any of the data associated with the view controller has been edited.
+True if any of the data associated with the view controller has been edited. Otherwise false.</Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool modified</Declaration>
+			
+			
+			<Anchor>//api/name/modified</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettingsViewController/modified</TokenIdentifier>
+			<Abstract type="html">Indicates whether any of the data associated with the view controller has been edited.
+True if any of the data associated with the view controller has been edited. Otherwise false.</Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool modified</Declaration>
+			
+			
+			<Anchor>//api/name/modified</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettingsViewController/modified</TokenIdentifier>
+			<Abstract type="html">Indicates whether any of the data associated with the view controller has been edited.
+True if any of the data associated with the view controller has been edited. Otherwise false.</Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool modified</Declaration>
+			
+			
+			<Anchor>//api/name/modified</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettingsViewController/setCloseButton:</TokenIdentifier>
+			<Abstract type="html">Initiates the closing of the view controller when tapped.</Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *closeButton</Declaration>
+			
+			
+			<Anchor>//api/name/closeButton</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettingsViewController/closeButton</TokenIdentifier>
+			<Abstract type="html">Initiates the closing of the view controller when tapped.</Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *closeButton</Declaration>
+			
+			
+			<Anchor>//api/name/closeButton</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettingsViewController/closeButton</TokenIdentifier>
+			<Abstract type="html">Initiates the closing of the view controller when tapped.</Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *closeButton</Declaration>
+			
+			
+			<Anchor>//api/name/closeButton</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettingsViewController/setLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettingsViewController/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSSettingsViewController/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSSettingsViewController/doClose</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSSettingsViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doClose</Declaration>
+			
+			
+			<Anchor>//api/name/doClose</Anchor>
+            <NodeRef refid="219"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

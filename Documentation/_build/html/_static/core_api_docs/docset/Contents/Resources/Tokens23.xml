@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLCollectionTimeSlotDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLCollectionTimeSlotDataRequest</TokenIdentifier>
+			<Abstract type="html">BCollectionData encapsulates the data and methods associated with retrieving and processing collection time slots.</Abstract>
+			<DeclaredIn>BLCollectionTimeSlotDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCollectionTimeSlotDataRequest/collectionTimeSlots:atDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCollectionTimeSlotDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)collectionTimeSlots:(NSInteger)aUid atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/collectionTimeSlots:atDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLCollectionTimeSlotDataRequest/extractTimeSlots:forRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLCollectionTimeSlotDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)extractTimeSlots:(SMXMLDocument *)aDocument forRequest:(BLCollectionTimeSlotDataRequest *)aRequestObject</Declaration>
+			
+			
+			<Anchor>//api/name/extractTimeSlots:forRequest:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

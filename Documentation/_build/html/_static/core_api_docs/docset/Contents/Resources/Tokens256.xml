@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSTableView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSTableView</TokenIdentifier>
+			<Abstract type="html">Inherits from UITableView to provide standardised behaviour within an app when displaying lists.</Abstract>
+			<DeclaredIn>BLIOSTableView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="256"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSTableView/setDefaultProperties</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSTableView.h</DeclaredIn>
+			
+			<Declaration>- (void)setDefaultProperties</Declaration>
+			
+			
+			<Anchor>//api/name/setDefaultProperties</Anchor>
+            <NodeRef refid="256"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

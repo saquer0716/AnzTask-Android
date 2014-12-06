@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLReportDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLReportDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLReportProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="433"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLReportDelegate/onData:forObject:</TokenIdentifier>
+			<Abstract type="html">Initiated when data for a report is requested.</Abstract>
+			<DeclaredIn>BLReportProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)onData:(NSArray *)aData forObject:(NSObject *)aObject</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aObject</Name>
+					<Abstract type="html">The object associated with the request.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The report data.</Abstract></ReturnValue>
+			<Anchor>//api/name/onData:forObject:</Anchor>
+            <NodeRef refid="433"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

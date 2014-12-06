@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/nomadVIPIOSAppDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/nomadVIPIOSAppDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadVIPIOSAppDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="393"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/nomadVIPIOSAppDelegate/doScanAndBag:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadVIPIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doScanAndBag:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doScanAndBag:</Anchor>
+            <NodeRef refid="393"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/nomadVIPIOSAppDelegate/doScanIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadVIPIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doScanIn:(BLSearchOrigin)aOrigin</Declaration>
+			
+			
+			<Anchor>//api/name/doScanIn:</Anchor>
+            <NodeRef refid="393"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/nomadVIPIOSAppDelegate/doPriceCheck:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadVIPIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doPriceCheck:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doPriceCheck:</Anchor>
+            <NodeRef refid="393"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/nomadVIPIOSAppDelegate/startNewTransaction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadVIPIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)startNewTransaction</Declaration>
+			
+			
+			<Anchor>//api/name/startNewTransaction</Anchor>
+            <NodeRef refid="393"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/nomadVIPIOSAppDelegate/startPriceCheck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadVIPIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)startPriceCheck</Declaration>
+			
+			
+			<Anchor>//api/name/startPriceCheck</Anchor>
+            <NodeRef refid="393"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/nomadVIPIOSAppDelegate/doBarcodeScanner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nomadVIPIOSAppDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)doBarcodeScanner:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doBarcodeScanner:</Anchor>
+            <NodeRef refid="393"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSEditProductView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSEditProductView</TokenIdentifier>
+			<Abstract type="html">The view for editing a product.</Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="102"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setProductDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productDelegate</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/productDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productDelegate</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/productDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLProductDelegate&gt; productDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/productDelegate</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setTextFieldDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSTextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/textFieldDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSTextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/textFieldDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) id&lt;BLIOSTextFieldDelegate&gt; textFieldDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldDelegate</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setBarcodeButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *barcodeButton</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeButton</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/barcodeButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *barcodeButton</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeButton</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/barcodeButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *barcodeButton</Declaration>
+			
+			
+			<Anchor>//api/name/barcodeButton</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setRemoveImageButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *removeImageButton</Declaration>
+			
+			
+			<Anchor>//api/name/removeImageButton</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/removeImageButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *removeImageButton</Declaration>
+			
+			
+			<Anchor>//api/name/removeImageButton</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/removeImageButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSButton *removeImageButton</Declaration>
+			
+			
+			<Anchor>//api/name/removeImageButton</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setPointOfSale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSaleScanner *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/pointOfSale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSaleScanner *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/pointOfSale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSPointOfSaleScanner *pointOfSale</Declaration>
+			
+			
+			<Anchor>//api/name/pointOfSale</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setSelectedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *selectedImage</Declaration>
+			
+			
+			<Anchor>//api/name/selectedImage</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/selectedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *selectedImage</Declaration>
+			
+			
+			<Anchor>//api/name/selectedImage</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/selectedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *selectedImage</Declaration>
+			
+			
+			<Anchor>//api/name/selectedImage</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setModified:</TokenIdentifier>
+			<Abstract type="html">Indicates whether any of the data associated with the view controller has been edited.
+True if any of the data associated with the view controller has been edited. Otherwise false.</Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool modified</Declaration>
+			
+			
+			<Anchor>//api/name/modified</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/modified</TokenIdentifier>
+			<Abstract type="html">Indicates whether any of the data associated with the view controller has been edited.
+True if any of the data associated with the view controller has been edited. Otherwise false.</Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool modified</Declaration>
+			
+			
+			<Anchor>//api/name/modified</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/modified</TokenIdentifier>
+			<Abstract type="html">Indicates whether any of the data associated with the view controller has been edited.
+True if any of the data associated with the view controller has been edited. Otherwise false.</Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool modified</Declaration>
+			
+			
+			<Anchor>//api/name/modified</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setImageChanged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool imageChanged</Declaration>
+			
+			
+			<Anchor>//api/name/imageChanged</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/imageChanged</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool imageChanged</Declaration>
+			
+			
+			<Anchor>//api/name/imageChanged</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSEditProductView/imageChanged</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) bool imageChanged</Declaration>
+			
+			
+			<Anchor>//api/name/imageChanged</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/product</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (BLProduct *)product</Declaration>
+			
+			
+			<Anchor>//api/name/product</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setProduct:asNew:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setProduct:(BLProduct *)value asNew:(bool)asNew</Declaration>
+			
+			
+			<Anchor>//api/name/setProduct:asNew:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/updateProductWithInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)updateProductWithInput</Declaration>
+			
+			
+			<Anchor>//api/name/updateProductWithInput</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/clear</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/saveImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)saveImage:(BLProduct *)aProduct</Declaration>
+			
+			
+			<Anchor>//api/name/saveImage:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/navigationController:willShowViewController:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/navigationController:willShowViewController:animated:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/imagePickerController:didFinishPickingMediaWithInfo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info</Declaration>
+			
+			
+			<Anchor>//api/name/imagePickerController:didFinishPickingMediaWithInfo:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/imagePickerControllerDidCancel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker</Declaration>
+			
+			
+			<Anchor>//api/name/imagePickerControllerDidCancel:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/doBarcode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)doBarcode:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/doBarcode:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/onLongPress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (bool)onLongPress:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onLongPress:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/onPhoto:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)onPhoto:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onPhoto:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/doImageInputOfType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)doImageInputOfType:(UIImagePickerControllerSourceType)aType</Declaration>
+			
+			
+			<Anchor>//api/name/doImageInputOfType:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/resignFirstResponder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)resignFirstResponder</Declaration>
+			
+			
+			<Anchor>//api/name/resignFirstResponder</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/isValidInput</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (bool)isValidInput</Declaration>
+			
+			
+			<Anchor>//api/name/isValidInput</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/focusedView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (UIView *)focusedView</Declaration>
+			
+			
+			<Anchor>//api/name/focusedView</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setButtonColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setButtonColor:(UIColor *)value</Declaration>
+			
+			
+			<Anchor>//api/name/setButtonColor:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setBarcode:asFirstResponder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setBarcode:(NSString *)value asFirstResponder:(bool)aResponder</Declaration>
+			
+			
+			<Anchor>//api/name/setBarcode:asFirstResponder:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/editingMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (BLEditingMode)editingMode</Declaration>
+			
+			
+			<Anchor>//api/name/editingMode</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setHasScanButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasScanButton:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasScanButton:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/setHasCamera:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)setHasCamera:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setHasCamera:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSEditProductView/onDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>- (void)onDelete:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/onDelete:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BLIOSEditProductView/minimumSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSEditProductView.h</DeclaredIn>
+			
+			<Declaration>+ (CGSize)minimumSize</Declaration>
+			
+			
+			<Anchor>//api/name/minimumSize</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

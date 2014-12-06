@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLAddInformationDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLAddInformationDataRequest</TokenIdentifier>
+			<Abstract type="html">BLAddInformationDataRequest encapsulates the data and methods associated with soap requests and responses for adding custom information to a retail transaction.</Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAddInformationDataRequest/setInformation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *information</Declaration>
+			
+			
+			<Anchor>//api/name/information</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAddInformationDataRequest/information</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *information</Declaration>
+			
+			
+			<Anchor>//api/name/information</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLAddInformationDataRequest/information</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *information</Declaration>
+			
+			
+			<Anchor>//api/name/information</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAddInformationDataRequest/setType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAddInformationDataRequest/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLAddInformationDataRequest/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLAddInformationDataRequest/addInformation:ofType:toBasket:atDomain:forSession:onDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLAddInformationDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)addInformation:(NSString *)aInformation ofType:(NSString *)aType toBasket:(BLBasket *)aBasket atDomain:(NSString *)aDomain forSession:(NSString *)aSession onDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/addInformation:ofType:toBasket:atDomain:forSession:onDevice:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

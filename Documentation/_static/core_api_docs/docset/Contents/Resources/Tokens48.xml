@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSActionView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSActionView</TokenIdentifier>
+			<Abstract type="html">BLIOSActionView is a transparent view with a shadow that is typically used to display floating controls such as button.</Abstract>
+			<DeclaredIn>BLIOSActionView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSActionView/setMinimumHeight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger minimumHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minimumHeight</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSActionView/minimumHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger minimumHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minimumHeight</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSActionView/minimumHeight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActionView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger minimumHeight</Declaration>
+			
+			
+			<Anchor>//api/name/minimumHeight</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSActionView/alignButtons:withColumns:inFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSActionView.h</DeclaredIn>
+			
+			<Declaration>- (void)alignButtons:(NSArray *)aButtons withColumns:(NSInteger)aColumns inFrame:(CGRect)aFrame</Declaration>
+			
+			
+			<Anchor>//api/name/alignButtons:withColumns:inFrame:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

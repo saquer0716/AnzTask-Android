@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/nationalPharmaciesDataRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/nationalPharmaciesDataRequest</TokenIdentifier>
+			<Abstract type="html">nationalPharmaciesDataRequest encapsulates the data and methods associated with soap requests and responses for retrieving national pharmacies store data.</Abstract>
+			<DeclaredIn>nationalPharmaciesDataRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/nationalPharmaciesDataRequest/doGetStores</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>nationalPharmaciesDataRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)doGetStores</Declaration>
+			
+			
+			<Anchor>//api/name/doGetStores</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

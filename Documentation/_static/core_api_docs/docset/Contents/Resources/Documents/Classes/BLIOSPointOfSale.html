@@ -1,0 +1,2941 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BLIOSPointOfSale Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">NomadPOS Core </a></h1>
+				<a id="developerHome" href="../index.html">Black Label Solutions Pty Limited</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BLIOSPointOfSale Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/barcodeDelegate">&nbsp;&nbsp;&nbsp;&nbsp;barcodeDelegate</option>
+	
+	<option value="//api/name/editProductView">&nbsp;&nbsp;&nbsp;&nbsp;editProductView</option>
+	
+	<option value="//api/name/eftposDelegate">&nbsp;&nbsp;&nbsp;&nbsp;eftposDelegate</option>
+	
+	<option value="//api/name/hardwareDelegate">&nbsp;&nbsp;&nbsp;&nbsp;hardwareDelegate</option>
+	
+	<option value="//api/name/hardwareSelectionDelegate">&nbsp;&nbsp;&nbsp;&nbsp;hardwareSelectionDelegate</option>
+	
+	<option value="//api/name/locale">&nbsp;&nbsp;&nbsp;&nbsp;locale</option>
+	
+	<option value="//api/name/logo">&nbsp;&nbsp;&nbsp;&nbsp;logo</option>
+	
+	<option value="//api/name/pinpadOperation">&nbsp;&nbsp;&nbsp;&nbsp;pinpadOperation</option>
+	
+	<option value="//api/name/posgateViewDelegate">&nbsp;&nbsp;&nbsp;&nbsp;posgateViewDelegate</option>
+	
+	<option value="//api/name/printMode">&nbsp;&nbsp;&nbsp;&nbsp;printMode</option>
+	
+	<option value="//api/name/recoveryDelegate">&nbsp;&nbsp;&nbsp;&nbsp;recoveryDelegate</option>
+	
+	<option value="//api/name/responseDelegate">&nbsp;&nbsp;&nbsp;&nbsp;responseDelegate</option>
+	
+	<option value="//api/name/settlementReceipt">&nbsp;&nbsp;&nbsp;&nbsp;settlementReceipt</option>
+	
+	<option value="//api/name/status">&nbsp;&nbsp;&nbsp;&nbsp;status</option>
+	
+	<option value="//api/name/statusView">&nbsp;&nbsp;&nbsp;&nbsp;statusView</option>
+	
+	<option value="//api/name/tenderDelegate">&nbsp;&nbsp;&nbsp;&nbsp;tenderDelegate</option>
+	
+	<option value="//api/name/tenderView">&nbsp;&nbsp;&nbsp;&nbsp;tenderView</option>
+	
+	<option value="//api/name/useLegacyPaymentUI">&nbsp;&nbsp;&nbsp;&nbsp;useLegacyPaymentUI</option>
+	
+	<option value="//api/name/viewDelegate">&nbsp;&nbsp;&nbsp;&nbsp;viewDelegate</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/clearTerminalText:">&nbsp;&nbsp;&nbsp;&nbsp;+ clearTerminalText:</option>
+	
+	<option value="//api/name/endTerminalText:inTextView:">&nbsp;&nbsp;&nbsp;&nbsp;+ endTerminalText:inTextView:</option>
+	
+	<option value="//api/name/formattedInput:withIdentifier:locale:andLanguage:">&nbsp;&nbsp;&nbsp;&nbsp;+ formattedInput:withIdentifier:locale:andLanguage:</option>
+	
+	<option value="//api/name/isProduct:onPromotion:withAnotherProduct:">&nbsp;&nbsp;&nbsp;&nbsp;+ isProduct:onPromotion:withAnotherProduct:</option>
+	
+	<option value="//api/name/startTerminalText:inTextView:">&nbsp;&nbsp;&nbsp;&nbsp;+ startTerminalText:inTextView:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addLog:">&nbsp;&nbsp;&nbsp;&nbsp;- addLog:</option>
+	
+	<option value="//api/name/addLog:withTitle:andDescription:forMethod:">&nbsp;&nbsp;&nbsp;&nbsp;- addLog:withTitle:andDescription:forMethod:</option>
+	
+	<option value="//api/name/alertView:didDismissWithButtonIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- alertView:didDismissWithButtonIndex:</option>
+	
+	<option value="//api/name/applyPriceChanges:toBasket:">&nbsp;&nbsp;&nbsp;&nbsp;- applyPriceChanges:toBasket:</option>
+	
+	<option value="//api/name/askToDownloadProductDatabase">&nbsp;&nbsp;&nbsp;&nbsp;- askToDownloadProductDatabase</option>
+	
+	<option value="//api/name/askToDownloadPromotionDatabase">&nbsp;&nbsp;&nbsp;&nbsp;- askToDownloadPromotionDatabase</option>
+	
+	<option value="//api/name/caId">&nbsp;&nbsp;&nbsp;&nbsp;- caId</option>
+	
+	<option value="//api/name/catId">&nbsp;&nbsp;&nbsp;&nbsp;- catId</option>
+	
+	<option value="//api/name/countCategoriesSinceLastUpdate">&nbsp;&nbsp;&nbsp;&nbsp;- countCategoriesSinceLastUpdate</option>
+	
+	<option value="//api/name/countProductsSinceLastUpdate">&nbsp;&nbsp;&nbsp;&nbsp;- countProductsSinceLastUpdate</option>
+	
+	<option value="//api/name/countPromotionsSinceLastUpdate">&nbsp;&nbsp;&nbsp;&nbsp;- countPromotionsSinceLastUpdate</option>
+	
+	<option value="//api/name/countStockGroupsSinceLastUpdate">&nbsp;&nbsp;&nbsp;&nbsp;- countStockGroupsSinceLastUpdate</option>
+	
+	<option value="//api/name/createOfflineReceiptForBasket:withLogo:">&nbsp;&nbsp;&nbsp;&nbsp;- createOfflineReceiptForBasket:withLogo:</option>
+	
+	<option value="//api/name/creditCardView">&nbsp;&nbsp;&nbsp;&nbsp;- creditCardView</option>
+	
+	<option value="//api/name/decodeEFTPOSStatus:forCode:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeEFTPOSStatus:forCode:</option>
+	
+	<option value="//api/name/deviceNotChanged">&nbsp;&nbsp;&nbsp;&nbsp;- deviceNotChanged</option>
+	
+	<option value="//api/name/doAddInformation:ofType:forPinpad:inView:withMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- doAddInformation:ofType:forPinpad:inView:withMessage:</option>
+	
+	<option value="//api/name/doAllCategoriesSinceLastUpdateCount:">&nbsp;&nbsp;&nbsp;&nbsp;- doAllCategoriesSinceLastUpdateCount:</option>
+	
+	<option value="//api/name/doAllProductsSinceLastUpdateCount:">&nbsp;&nbsp;&nbsp;&nbsp;- doAllProductsSinceLastUpdateCount:</option>
+	
+	<option value="//api/name/doAllPromotionsSinceLastUpdateCount:">&nbsp;&nbsp;&nbsp;&nbsp;- doAllPromotionsSinceLastUpdateCount:</option>
+	
+	<option value="//api/name/doAllStockGroupDetailsSinceLastUpdateCount:">&nbsp;&nbsp;&nbsp;&nbsp;- doAllStockGroupDetailsSinceLastUpdateCount:</option>
+	
+	<option value="//api/name/doBankLogon:">&nbsp;&nbsp;&nbsp;&nbsp;- doBankLogon:</option>
+	
+	<option value="//api/name/doClearLogs">&nbsp;&nbsp;&nbsp;&nbsp;- doClearLogs</option>
+	
+	<option value="//api/name/doConfigureMerchant:">&nbsp;&nbsp;&nbsp;&nbsp;- doConfigureMerchant:</option>
+	
+	<option value="//api/name/doCreditCardTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doCreditCardTransaction:</option>
+	
+	<option value="//api/name/doDownloadProductSQLiteDatabase:">&nbsp;&nbsp;&nbsp;&nbsp;- doDownloadProductSQLiteDatabase:</option>
+	
+	<option value="//api/name/doEmailLastTender:forTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doEmailLastTender:forTransaction:</option>
+	
+	<option value="//api/name/doFinalTransactionMessageInView:">&nbsp;&nbsp;&nbsp;&nbsp;- doFinalTransactionMessageInView:</option>
+	
+	<option value="//api/name/doGetTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doGetTransaction:</option>
+	
+	<option value="//api/name/doLastReceiptForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- doLastReceiptForObject:</option>
+	
+	<option value="//api/name/doLastTransaction">&nbsp;&nbsp;&nbsp;&nbsp;- doLastTransaction</option>
+	
+	<option value="//api/name/doLoyaltyCardSwipe:">&nbsp;&nbsp;&nbsp;&nbsp;- doLoyaltyCardSwipe:</option>
+	
+	<option value="//api/name/doPosgateRefund">&nbsp;&nbsp;&nbsp;&nbsp;- doPosgateRefund</option>
+	
+	<option value="//api/name/doPosgateTransaction">&nbsp;&nbsp;&nbsp;&nbsp;- doPosgateTransaction</option>
+	
+	<option value="//api/name/doProductUpdate:">&nbsp;&nbsp;&nbsp;&nbsp;- doProductUpdate:</option>
+	
+	<option value="//api/name/doPromotionsForTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doPromotionsForTransaction:</option>
+	
+	<option value="//api/name/doRefundTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doRefundTransaction:</option>
+	
+	<option value="//api/name/doReprint:receipt:andLogo:withBarcode:inView:">&nbsp;&nbsp;&nbsp;&nbsp;- doReprint:receipt:andLogo:withBarcode:inView:</option>
+	
+	<option value="//api/name/doResumeTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doResumeTransaction:</option>
+	
+	<option value="//api/name/doSettle:">&nbsp;&nbsp;&nbsp;&nbsp;- doSettle:</option>
+	
+	<option value="//api/name/doStatus">&nbsp;&nbsp;&nbsp;&nbsp;- doStatus</option>
+	
+	<option value="//api/name/doTransactionComplete:forView:withPinpad:andMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- doTransactionComplete:forView:withPinpad:andMessage:</option>
+	
+	<option value="//api/name/doUnvoidTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doUnvoidTransaction:</option>
+	
+	<option value="//api/name/doUpdateCategorySQLiteTable:">&nbsp;&nbsp;&nbsp;&nbsp;- doUpdateCategorySQLiteTable:</option>
+	
+	<option value="//api/name/doUpdateProductSQLiteTable:">&nbsp;&nbsp;&nbsp;&nbsp;- doUpdateProductSQLiteTable:</option>
+	
+	<option value="//api/name/doUpdatePromotionSQLiteTable:">&nbsp;&nbsp;&nbsp;&nbsp;- doUpdatePromotionSQLiteTable:</option>
+	
+	<option value="//api/name/doUpdateStockGroupDetailSQLiteTable:">&nbsp;&nbsp;&nbsp;&nbsp;- doUpdateStockGroupDetailSQLiteTable:</option>
+	
+	<option value="//api/name/doUpdateTerminalView:">&nbsp;&nbsp;&nbsp;&nbsp;- doUpdateTerminalView:</option>
+	
+	<option value="//api/name/doVoidTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- doVoidTransaction:</option>
+	
+	<option value="//api/name/downloadProductDatabase">&nbsp;&nbsp;&nbsp;&nbsp;- downloadProductDatabase</option>
+	
+	<option value="//api/name/downloadProductDatabaseInNewThread">&nbsp;&nbsp;&nbsp;&nbsp;- downloadProductDatabaseInNewThread</option>
+	
+	<option value="//api/name/emailPosgateLogsForObject:">&nbsp;&nbsp;&nbsp;&nbsp;- emailPosgateLogsForObject:</option>
+	
+	<option value="//api/name/favourites">&nbsp;&nbsp;&nbsp;&nbsp;- favourites</option>
+	
+	<option value="//api/name/hasCashTender">&nbsp;&nbsp;&nbsp;&nbsp;- hasCashTender</option>
+	
+	<option value="//api/name/hasEftposTender">&nbsp;&nbsp;&nbsp;&nbsp;- hasEftposTender</option>
+	
+	<option value="//api/name/hasVoucherTender">&nbsp;&nbsp;&nbsp;&nbsp;- hasVoucherTender</option>
+	
+	<option value="//api/name/initiateRefund:">&nbsp;&nbsp;&nbsp;&nbsp;- initiateRefund:</option>
+	
+	<option value="//api/name/initiateTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- initiateTransaction:</option>
+	
+	<option value="//api/name/loadCategoryCache">&nbsp;&nbsp;&nbsp;&nbsp;- loadCategoryCache</option>
+	
+	<option value="//api/name/loadProductCache:">&nbsp;&nbsp;&nbsp;&nbsp;- loadProductCache:</option>
+	
+	<option value="//api/name/loadProducts">&nbsp;&nbsp;&nbsp;&nbsp;- loadProducts</option>
+	
+	<option value="//api/name/loadPromotionCache">&nbsp;&nbsp;&nbsp;&nbsp;- loadPromotionCache</option>
+	
+	<option value="//api/name/onHardwareOfType:">&nbsp;&nbsp;&nbsp;&nbsp;- onHardwareOfType:</option>
+	
+	<option value="//api/name/onHardwareStatusOfType:">&nbsp;&nbsp;&nbsp;&nbsp;- onHardwareStatusOfType:</option>
+	
+	<option value="//api/name/onIsHardwareReadyOfType:">&nbsp;&nbsp;&nbsp;&nbsp;- onIsHardwareReadyOfType:</option>
+	
+	<option value="//api/name/onNoResponseFromPaymentDeviceWithAlert:">&nbsp;&nbsp;&nbsp;&nbsp;- onNoResponseFromPaymentDeviceWithAlert:</option>
+	
+	<option value="//api/name/onTransactionSuspension:forSession:">&nbsp;&nbsp;&nbsp;&nbsp;- onTransactionSuspension:forSession:</option>
+	
+	<option value="//api/name/paymentDevice">&nbsp;&nbsp;&nbsp;&nbsp;- paymentDevice</option>
+	
+	<option value="//api/name/paymentDevices">&nbsp;&nbsp;&nbsp;&nbsp;- paymentDevices</option>
+	
+	<option value="//api/name/preparePaymentDeviceTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- preparePaymentDeviceTransaction:</option>
+	
+	<option value="//api/name/prepareReceiptForTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- prepareReceiptForTransaction:</option>
+	
+	<option value="//api/name/printers">&nbsp;&nbsp;&nbsp;&nbsp;- printers</option>
+	
+	<option value="//api/name/receipt">&nbsp;&nbsp;&nbsp;&nbsp;- receipt</option>
+	
+	<option value="//api/name/receiptLogo">&nbsp;&nbsp;&nbsp;&nbsp;- receiptLogo</option>
+	
+	<option value="//api/name/resolveTransaction:forPinpad:">&nbsp;&nbsp;&nbsp;&nbsp;- resolveTransaction:forPinpad:</option>
+	
+	<option value="//api/name/saveProducts:">&nbsp;&nbsp;&nbsp;&nbsp;- saveProducts:</option>
+	
+	<option value="//api/name/searchCategoryCacheForParentCategories:">&nbsp;&nbsp;&nbsp;&nbsp;- searchCategoryCacheForParentCategories:</option>
+	
+	<option value="//api/name/searchCategoryCacheForSubcategories:">&nbsp;&nbsp;&nbsp;&nbsp;- searchCategoryCacheForSubcategories:</option>
+	
+	<option value="//api/name/searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:">&nbsp;&nbsp;&nbsp;&nbsp;- searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:</option>
+	
+	<option value="//api/name/searchProductCacheForCategoryId:">&nbsp;&nbsp;&nbsp;&nbsp;- searchProductCacheForCategoryId:</option>
+	
+	<option value="//api/name/searchPromotionCache:">&nbsp;&nbsp;&nbsp;&nbsp;- searchPromotionCache:</option>
+	
+	<option value="//api/name/sellsGiftCards">&nbsp;&nbsp;&nbsp;&nbsp;- sellsGiftCards</option>
+	
+	<option value="//api/name/sellsVouchers">&nbsp;&nbsp;&nbsp;&nbsp;- sellsVouchers</option>
+	
+	<option value="//api/name/sendPaymentDeviceTransaction:OfType:">&nbsp;&nbsp;&nbsp;&nbsp;- sendPaymentDeviceTransaction:OfType:</option>
+	
+	<option value="//api/name/setHasCashTender:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasCashTender:</option>
+	
+	<option value="//api/name/setHasVoucherTender:">&nbsp;&nbsp;&nbsp;&nbsp;- setHasVoucherTender:</option>
+	
+	<option value="//api/name/setMerchantIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- setMerchantIndex:</option>
+	
+	<option value="//api/name/setPaymentDevice:">&nbsp;&nbsp;&nbsp;&nbsp;- setPaymentDevice:</option>
+	
+	<option value="//api/name/setSellsGiftCards:">&nbsp;&nbsp;&nbsp;&nbsp;- setSellsGiftCards:</option>
+	
+	<option value="//api/name/setSellsVouchers:">&nbsp;&nbsp;&nbsp;&nbsp;- setSellsVouchers:</option>
+	
+	<option value="//api/name/showCreditCard:">&nbsp;&nbsp;&nbsp;&nbsp;- showCreditCard:</option>
+	
+	<option value="//api/name/terminalTextView">&nbsp;&nbsp;&nbsp;&nbsp;- terminalTextView</option>
+	
+	<option value="//api/name/topViewController">&nbsp;&nbsp;&nbsp;&nbsp;- topViewController</option>
+	
+	<option value="//api/name/topViewControllerWithRootViewController:">&nbsp;&nbsp;&nbsp;&nbsp;- topViewControllerWithRootViewController:</option>
+	
+	<option value="//api/name/trackTwo">&nbsp;&nbsp;&nbsp;&nbsp;- trackTwo</option>
+	
+	<option value="//api/name/transactionInPaymentDevice:forRefund:">&nbsp;&nbsp;&nbsp;&nbsp;- transactionInPaymentDevice:forRefund:</option>
+	
+	<option value="//api/name/updateFavouriteProducts:FromTransaction:">&nbsp;&nbsp;&nbsp;&nbsp;- updateFavouriteProducts:FromTransaction:</option>
+	
+	<option value="//api/name/updateFavouriteProductsFromDatabase">&nbsp;&nbsp;&nbsp;&nbsp;- updateFavouriteProductsFromDatabase</option>
+	
+	<option value="//api/name/updateTenderTotal:fromShoppingAgent:">&nbsp;&nbsp;&nbsp;&nbsp;- updateTenderTotal:fromShoppingAgent:</option>
+	
+	<option value="//api/name/updateTerminalView:">&nbsp;&nbsp;&nbsp;&nbsp;- updateTerminalView:</option>
+	
+	<option value="//api/name/voidTransaction">&nbsp;&nbsp;&nbsp;&nbsp;- voidTransaction</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/barcodeDelegate">barcodeDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/editProductView">editProductView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/eftposDelegate">eftposDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hardwareDelegate">hardwareDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hardwareSelectionDelegate">hardwareSelectionDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/locale">locale</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logo">logo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pinpadOperation">pinpadOperation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/posgateViewDelegate">posgateViewDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/printMode">printMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recoveryDelegate">recoveryDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/responseDelegate">responseDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/settlementReceipt">settlementReceipt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/status">status</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/statusView">statusView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tenderDelegate">tenderDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tenderView">tenderView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/useLegacyPaymentUI">useLegacyPaymentUI</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewDelegate">viewDelegate</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearTerminalText:">clearTerminalText:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/endTerminalText:inTextView:">endTerminalText:inTextView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/formattedInput:withIdentifier:locale:andLanguage:">formattedInput:withIdentifier:locale:andLanguage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isProduct:onPromotion:withAnotherProduct:">isProduct:onPromotion:withAnotherProduct:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startTerminalText:inTextView:">startTerminalText:inTextView:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addLog:">addLog:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addLog:withTitle:andDescription:forMethod:">addLog:withTitle:andDescription:forMethod:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alertView:didDismissWithButtonIndex:">alertView:didDismissWithButtonIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyPriceChanges:toBasket:">applyPriceChanges:toBasket:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/askToDownloadProductDatabase">askToDownloadProductDatabase</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/askToDownloadPromotionDatabase">askToDownloadPromotionDatabase</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/caId">caId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/catId">catId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/countCategoriesSinceLastUpdate">countCategoriesSinceLastUpdate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/countProductsSinceLastUpdate">countProductsSinceLastUpdate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/countPromotionsSinceLastUpdate">countPromotionsSinceLastUpdate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/countStockGroupsSinceLastUpdate">countStockGroupsSinceLastUpdate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createOfflineReceiptForBasket:withLogo:">createOfflineReceiptForBasket:withLogo:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/creditCardView">creditCardView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeEFTPOSStatus:forCode:">decodeEFTPOSStatus:forCode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deviceNotChanged">deviceNotChanged</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doAddInformation:ofType:forPinpad:inView:withMessage:">doAddInformation:ofType:forPinpad:inView:withMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doAllCategoriesSinceLastUpdateCount:">doAllCategoriesSinceLastUpdateCount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doAllProductsSinceLastUpdateCount:">doAllProductsSinceLastUpdateCount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doAllPromotionsSinceLastUpdateCount:">doAllPromotionsSinceLastUpdateCount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doAllStockGroupDetailsSinceLastUpdateCount:">doAllStockGroupDetailsSinceLastUpdateCount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doBankLogon:">doBankLogon:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doClearLogs">doClearLogs</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doConfigureMerchant:">doConfigureMerchant:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doCreditCardTransaction:">doCreditCardTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doDownloadProductSQLiteDatabase:">doDownloadProductSQLiteDatabase:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doEmailLastTender:forTransaction:">doEmailLastTender:forTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doFinalTransactionMessageInView:">doFinalTransactionMessageInView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doGetTransaction:">doGetTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doLastReceiptForObject:">doLastReceiptForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doLastTransaction">doLastTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doLoyaltyCardSwipe:">doLoyaltyCardSwipe:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doPosgateRefund">doPosgateRefund</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doPosgateTransaction">doPosgateTransaction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doProductUpdate:">doProductUpdate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doPromotionsForTransaction:">doPromotionsForTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doRefundTransaction:">doRefundTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doReprint:receipt:andLogo:withBarcode:inView:">doReprint:receipt:andLogo:withBarcode:inView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doResumeTransaction:">doResumeTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doSettle:">doSettle:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doStatus">doStatus</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doTransactionComplete:forView:withPinpad:andMessage:">doTransactionComplete:forView:withPinpad:andMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doUnvoidTransaction:">doUnvoidTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doUpdateCategorySQLiteTable:">doUpdateCategorySQLiteTable:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doUpdateProductSQLiteTable:">doUpdateProductSQLiteTable:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doUpdatePromotionSQLiteTable:">doUpdatePromotionSQLiteTable:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doUpdateStockGroupDetailSQLiteTable:">doUpdateStockGroupDetailSQLiteTable:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doUpdateTerminalView:">doUpdateTerminalView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doVoidTransaction:">doVoidTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadProductDatabase">downloadProductDatabase</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/downloadProductDatabaseInNewThread">downloadProductDatabaseInNewThread</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/emailPosgateLogsForObject:">emailPosgateLogsForObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/favourites">favourites</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasCashTender">hasCashTender</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasEftposTender">hasEftposTender</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasVoucherTender">hasVoucherTender</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initiateRefund:">initiateRefund:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initiateTransaction:">initiateTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadCategoryCache">loadCategoryCache</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadProductCache:">loadProductCache:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadProducts">loadProducts</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loadPromotionCache">loadPromotionCache</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onHardwareOfType:">onHardwareOfType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onHardwareStatusOfType:">onHardwareStatusOfType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onIsHardwareReadyOfType:">onIsHardwareReadyOfType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onNoResponseFromPaymentDeviceWithAlert:">onNoResponseFromPaymentDeviceWithAlert:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTransactionSuspension:forSession:">onTransactionSuspension:forSession:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentDevice">paymentDevice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paymentDevices">paymentDevices</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/preparePaymentDeviceTransaction:">preparePaymentDeviceTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/prepareReceiptForTransaction:">prepareReceiptForTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/printers">printers</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/receipt">receipt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/receiptLogo">receiptLogo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resolveTransaction:forPinpad:">resolveTransaction:forPinpad:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveProducts:">saveProducts:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchCategoryCacheForParentCategories:">searchCategoryCacheForParentCategories:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchCategoryCacheForSubcategories:">searchCategoryCacheForSubcategories:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:">searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchProductCacheForCategoryId:">searchProductCacheForCategoryId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchPromotionCache:">searchPromotionCache:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellsGiftCards">sellsGiftCards</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sellsVouchers">sellsVouchers</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendPaymentDeviceTransaction:OfType:">sendPaymentDeviceTransaction:OfType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasCashTender:">setHasCashTender:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setHasVoucherTender:">setHasVoucherTender:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setMerchantIndex:">setMerchantIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPaymentDevice:">setPaymentDevice:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSellsGiftCards:">setSellsGiftCards:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setSellsVouchers:">setSellsVouchers:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showCreditCard:">showCreditCard:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/terminalTextView">terminalTextView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/topViewController">topViewController</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/topViewControllerWithRootViewController:">topViewControllerWithRootViewController:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/trackTwo">trackTwo</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transactionInPaymentDevice:forRefund:">transactionInPaymentDevice:forRefund:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateFavouriteProducts:FromTransaction:">updateFavouriteProducts:FromTransaction:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateFavouriteProductsFromDatabase">updateFavouriteProductsFromDatabase</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateTenderTotal:fromShoppingAgent:">updateTenderTotal:fromShoppingAgent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateTerminalView:">updateTerminalView:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/voidTransaction">voidTransaction</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BLIOSPointOfSale Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BLIOSPointOfSale Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/BLPointOfSale.html">BLPointOfSale</a> : <a href="../Classes/BLAppHub.html">BLAppHub</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/BLEFTPOSTerminalDelegate.html">BLEFTPOSTerminalDelegate</a><br /><a href="../Protocols/BLIOSEFTPOSViewDelegate.html">BLIOSEFTPOSViewDelegate</a><br /><a href="../Protocols/BLIOSShoppingDelegate.html">BLIOSShoppingDelegate</a><br /><a href="../Protocols/BLIOSTextFieldDelegate.html">BLIOSTextFieldDelegate</a><br /><a href="../Protocols/BLIOSViewControllerDelegate.html">BLIOSViewControllerDelegate</a><br /><a href="../Protocols/BLIOSViewDelegate.html">BLIOSViewDelegate</a><br /><a href="../Protocols/BLPrintDelegate.html">BLPrintDelegate</a><br /><a href="../Protocols/BLTenderDelegate.html">BLTenderDelegate</a><br />MFMailComposeViewControllerDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BLIOSPointOfSale.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The class that manages the data and methods used for communicating with the ISMP cradle when tendering transactions via credit cards.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/recoveryDelegate">&nbsp;&nbsp;recoveryDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hardwareDelegate">&nbsp;&nbsp;hardwareDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hardwareSelectionDelegate">&nbsp;&nbsp;hardwareSelectionDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/eftposDelegate">&nbsp;&nbsp;eftposDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onHardwareOfType:">&ndash;&nbsp;onHardwareOfType:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onIsHardwareReadyOfType:">&ndash;&nbsp;onIsHardwareReadyOfType:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onHardwareStatusOfType:">&ndash;&nbsp;onHardwareStatusOfType:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/printMode">&nbsp;&nbsp;printMode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/useLegacyPaymentUI">&nbsp;&nbsp;useLegacyPaymentUI</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/posgateViewDelegate">&nbsp;&nbsp;posgateViewDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/barcodeDelegate">&nbsp;&nbsp;barcodeDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/responseDelegate">&nbsp;&nbsp;responseDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tenderDelegate">&nbsp;&nbsp;tenderDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/editProductView">&nbsp;&nbsp;editProductView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tenderView">&nbsp;&nbsp;tenderView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/status">&nbsp;&nbsp;status</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/settlementReceipt">&nbsp;&nbsp;settlementReceipt</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/statusView">&nbsp;&nbsp;statusView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewDelegate">&nbsp;&nbsp;viewDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/logo">&nbsp;&nbsp;logo</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/locale">&nbsp;&nbsp;locale</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pinpadOperation">&nbsp;&nbsp;pinpadOperation</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/countProductsSinceLastUpdate">&ndash;&nbsp;countProductsSinceLastUpdate</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/countPromotionsSinceLastUpdate">&ndash;&nbsp;countPromotionsSinceLastUpdate</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/countStockGroupsSinceLastUpdate">&ndash;&nbsp;countStockGroupsSinceLastUpdate</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/countCategoriesSinceLastUpdate">&ndash;&nbsp;countCategoriesSinceLastUpdate</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doAllProductsSinceLastUpdateCount:">&ndash;&nbsp;doAllProductsSinceLastUpdateCount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doAllPromotionsSinceLastUpdateCount:">&ndash;&nbsp;doAllPromotionsSinceLastUpdateCount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doAllStockGroupDetailsSinceLastUpdateCount:">&ndash;&nbsp;doAllStockGroupDetailsSinceLastUpdateCount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doAllCategoriesSinceLastUpdateCount:">&ndash;&nbsp;doAllCategoriesSinceLastUpdateCount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/askToDownloadProductDatabase">&ndash;&nbsp;askToDownloadProductDatabase</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/askToDownloadPromotionDatabase">&ndash;&nbsp;askToDownloadPromotionDatabase</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doClearLogs">&ndash;&nbsp;doClearLogs</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doConfigureMerchant:">&ndash;&nbsp;doConfigureMerchant:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doCreditCardTransaction:">&ndash;&nbsp;doCreditCardTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doAddInformation:ofType:forPinpad:inView:withMessage:">&ndash;&nbsp;doAddInformation:ofType:forPinpad:inView:withMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doLastTransaction">&ndash;&nbsp;doLastTransaction</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doLastReceiptForObject:">&ndash;&nbsp;doLastReceiptForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doPosgateTransaction">&ndash;&nbsp;doPosgateTransaction</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doPosgateRefund">&ndash;&nbsp;doPosgateRefund</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doStatus">&ndash;&nbsp;doStatus</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doReprint:receipt:andLogo:withBarcode:inView:">&ndash;&nbsp;doReprint:receipt:andLogo:withBarcode:inView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doGetTransaction:">&ndash;&nbsp;doGetTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doResumeTransaction:">&ndash;&nbsp;doResumeTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doUnvoidTransaction:">&ndash;&nbsp;doUnvoidTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doVoidTransaction:">&ndash;&nbsp;doVoidTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doTransactionComplete:forView:withPinpad:andMessage:">&ndash;&nbsp;doTransactionComplete:forView:withPinpad:andMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doUpdateTerminalView:">&ndash;&nbsp;doUpdateTerminalView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/emailPosgateLogsForObject:">&ndash;&nbsp;emailPosgateLogsForObject:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resolveTransaction:forPinpad:">&ndash;&nbsp;resolveTransaction:forPinpad:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showCreditCard:">&ndash;&nbsp;showCreditCard:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateTerminalView:">&ndash;&nbsp;updateTerminalView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/voidTransaction">&ndash;&nbsp;voidTransaction</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initiateTransaction:">&ndash;&nbsp;initiateTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initiateRefund:">&ndash;&nbsp;initiateRefund:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/creditCardView">&ndash;&nbsp;creditCardView</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/terminalTextView">&ndash;&nbsp;terminalTextView</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasCashTender:">&ndash;&nbsp;setHasCashTender:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setHasVoucherTender:">&ndash;&nbsp;setHasVoucherTender:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSellsGiftCards:">&ndash;&nbsp;setSellsGiftCards:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setSellsVouchers:">&ndash;&nbsp;setSellsVouchers:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasCashTender">&ndash;&nbsp;hasCashTender</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasVoucherTender">&ndash;&nbsp;hasVoucherTender</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellsGiftCards">&ndash;&nbsp;sellsGiftCards</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sellsVouchers">&ndash;&nbsp;sellsVouchers</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alertView:didDismissWithButtonIndex:">&ndash;&nbsp;alertView:didDismissWithButtonIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateTenderTotal:fromShoppingAgent:">&ndash;&nbsp;updateTenderTotal:fromShoppingAgent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addLog:withTitle:andDescription:forMethod:">&ndash;&nbsp;addLog:withTitle:andDescription:forMethod:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addLog:">&ndash;&nbsp;addLog:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doDownloadProductSQLiteDatabase:">&ndash;&nbsp;doDownloadProductSQLiteDatabase:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doUpdateProductSQLiteTable:">&ndash;&nbsp;doUpdateProductSQLiteTable:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doUpdatePromotionSQLiteTable:">&ndash;&nbsp;doUpdatePromotionSQLiteTable:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doUpdateCategorySQLiteTable:">&ndash;&nbsp;doUpdateCategorySQLiteTable:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doUpdateStockGroupDetailSQLiteTable:">&ndash;&nbsp;doUpdateStockGroupDetailSQLiteTable:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadProductCache:">&ndash;&nbsp;loadProductCache:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadPromotionCache">&ndash;&nbsp;loadPromotionCache</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadCategoryCache">&ndash;&nbsp;loadCategoryCache</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loadProducts">&ndash;&nbsp;loadProducts</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doProductUpdate:">&ndash;&nbsp;doProductUpdate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deviceNotChanged">&ndash;&nbsp;deviceNotChanged</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doRefundTransaction:">&ndash;&nbsp;doRefundTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transactionInPaymentDevice:forRefund:">&ndash;&nbsp;transactionInPaymentDevice:forRefund:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendPaymentDeviceTransaction:OfType:">&ndash;&nbsp;sendPaymentDeviceTransaction:OfType:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doSettle:">&ndash;&nbsp;doSettle:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doLoyaltyCardSwipe:">&ndash;&nbsp;doLoyaltyCardSwipe:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setMerchantIndex:">&ndash;&nbsp;setMerchantIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/catId">&ndash;&nbsp;catId</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/caId">&ndash;&nbsp;caId</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/trackTwo">&ndash;&nbsp;trackTwo</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/receipt">&ndash;&nbsp;receipt</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:">&ndash;&nbsp;searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchProductCacheForCategoryId:">&ndash;&nbsp;searchProductCacheForCategoryId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchCategoryCacheForSubcategories:">&ndash;&nbsp;searchCategoryCacheForSubcategories:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchCategoryCacheForParentCategories:">&ndash;&nbsp;searchCategoryCacheForParentCategories:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/searchPromotionCache:">&ndash;&nbsp;searchPromotionCache:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/printers">&ndash;&nbsp;printers</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentDevices">&ndash;&nbsp;paymentDevices</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/favourites">&ndash;&nbsp;favourites</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/topViewController">&ndash;&nbsp;topViewController</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/topViewControllerWithRootViewController:">&ndash;&nbsp;topViewControllerWithRootViewController:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doFinalTransactionMessageInView:">&ndash;&nbsp;doFinalTransactionMessageInView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyPriceChanges:toBasket:">&ndash;&nbsp;applyPriceChanges:toBasket:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doPromotionsForTransaction:">&ndash;&nbsp;doPromotionsForTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasEftposTender">&ndash;&nbsp;hasEftposTender</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeEFTPOSStatus:forCode:">&ndash;&nbsp;decodeEFTPOSStatus:forCode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPaymentDevice:">&ndash;&nbsp;setPaymentDevice:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paymentDevice">&ndash;&nbsp;paymentDevice</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onNoResponseFromPaymentDeviceWithAlert:">&ndash;&nbsp;onNoResponseFromPaymentDeviceWithAlert:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createOfflineReceiptForBasket:withLogo:">&ndash;&nbsp;createOfflineReceiptForBasket:withLogo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doEmailLastTender:forTransaction:">&ndash;&nbsp;doEmailLastTender:forTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/prepareReceiptForTransaction:">&ndash;&nbsp;prepareReceiptForTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/receiptLogo">&ndash;&nbsp;receiptLogo</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateFavouriteProducts:FromTransaction:">&ndash;&nbsp;updateFavouriteProducts:FromTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateFavouriteProductsFromDatabase">&ndash;&nbsp;updateFavouriteProductsFromDatabase</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveProducts:">&ndash;&nbsp;saveProducts:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTransactionSuspension:forSession:">&ndash;&nbsp;onTransactionSuspension:forSession:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadProductDatabase">&ndash;&nbsp;downloadProductDatabase</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/downloadProductDatabaseInNewThread">&ndash;&nbsp;downloadProductDatabaseInNewThread</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doBankLogon:">&ndash;&nbsp;doBankLogon:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/preparePaymentDeviceTransaction:">&ndash;&nbsp;preparePaymentDeviceTransaction:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clearTerminalText:">+&nbsp;clearTerminalText:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startTerminalText:inTextView:">+&nbsp;startTerminalText:inTextView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/endTerminalText:inTextView:">+&nbsp;endTerminalText:inTextView:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isProduct:onPromotion:withAnotherProduct:">+&nbsp;isProduct:onPromotion:withAnotherProduct:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/formattedInput:withIdentifier:locale:andLanguage:">+&nbsp;formattedInput:withIdentifier:locale:andLanguage:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/barcodeDelegate" title="barcodeDelegate"></a>
+	<h3 class="subsubtitle method-title">barcodeDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLIOSBarcodeDelegate&gt; barcodeDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/editProductView" title="editProductView"></a>
+	<h3 class="subsubtitle method-title">editProductView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSView *editProductView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/eftposDelegate" title="eftposDelegate"></a>
+	<h3 class="subsubtitle method-title">eftposDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLEFTPOSDelegate&gt; eftposDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hardwareDelegate" title="hardwareDelegate"></a>
+	<h3 class="subsubtitle method-title">hardwareDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLHardwareDelegate&gt; hardwareDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hardwareSelectionDelegate" title="hardwareSelectionDelegate"></a>
+	<h3 class="subsubtitle method-title">hardwareSelectionDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLHardwareSelectionDelegate&gt; hardwareSelectionDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/locale" title="locale"></a>
+	<h3 class="subsubtitle method-title">locale</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The locale for the current user.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSLocale *locale</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BLIOSPointOfSale.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/logo" title="logo"></a>
+	<h3 class="subsubtitle method-title">logo</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIImage *logo</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pinpadOperation" title="pinpadOperation"></a>
+	<h3 class="subsubtitle method-title">pinpadOperation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BLPinpadOperation pinpadOperation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/posgateViewDelegate" title="posgateViewDelegate"></a>
+	<h3 class="subsubtitle method-title">posgateViewDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLPosgateViewDelegate&gt; posgateViewDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/printMode" title="printMode"></a>
+	<h3 class="subsubtitle method-title">printMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BLPrintMode printMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/recoveryDelegate" title="recoveryDelegate"></a>
+	<h3 class="subsubtitle method-title">recoveryDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLRecoveryDelegate&gt; recoveryDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/responseDelegate" title="responseDelegate"></a>
+	<h3 class="subsubtitle method-title">responseDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLPosgateResponseDelegate&gt; responseDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/settlementReceipt" title="settlementReceipt"></a>
+	<h3 class="subsubtitle method-title">settlementReceipt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *settlementReceipt</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/status" title="status"></a>
+	<h3 class="subsubtitle method-title">status</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *status</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/statusView" title="statusView"></a>
+	<h3 class="subsubtitle method-title">statusView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSTextView *statusView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tenderDelegate" title="tenderDelegate"></a>
+	<h3 class="subsubtitle method-title">tenderDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLTenderDelegate&gt; tenderDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tenderView" title="tenderView"></a>
+	<h3 class="subsubtitle method-title">tenderView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) BLIOSTenderView *tenderView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/useLegacyPaymentUI" title="useLegacyPaymentUI"></a>
+	<h3 class="subsubtitle method-title">useLegacyPaymentUI</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) bool useLegacyPaymentUI</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/viewDelegate" title="viewDelegate"></a>
+	<h3 class="subsubtitle method-title">viewDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BLIOSViewDelegate&gt; viewDelegate</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/clearTerminalText:" title="clearTerminalText:"></a>
+	<h3 class="subsubtitle method-title">clearTerminalText:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (void)clearTerminalText:(BLIOSTextView *)<em>aTextView</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/endTerminalText:inTextView:" title="endTerminalText:inTextView:"></a>
+	<h3 class="subsubtitle method-title">endTerminalText:inTextView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (void)endTerminalText:(NSString *)<em>aText</em> inTextView:(BLIOSTextView *)<em>aTextView</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/formattedInput:withIdentifier:locale:andLanguage:" title="formattedInput:withIdentifier:locale:andLanguage:"></a>
+	<h3 class="subsubtitle method-title">formattedInput:withIdentifier:locale:andLanguage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)formattedInput:(NSString *)<em>aText</em> withIdentifier:(NSInteger)<em>aIdentifier</em> locale:(NSLocale *)<em>aLocale</em> andLanguage:(NSString *)<em>aLanguage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isProduct:onPromotion:withAnotherProduct:" title="isProduct:onPromotion:withAnotherProduct:"></a>
+	<h3 class="subsubtitle method-title">isProduct:onPromotion:withAnotherProduct:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (bool)isProduct:(BLProduct *)<em>aProduct</em> onPromotion:(BLStepPromotion *)<em>aPromotion</em> withAnotherProduct:(BLProduct *)<em>aAnotherProduct</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startTerminalText:inTextView:" title="startTerminalText:inTextView:"></a>
+	<h3 class="subsubtitle method-title">startTerminalText:inTextView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (void)startTerminalText:(NSString *)<em>aText</em> inTextView:(BLIOSTextView *)<em>aTextView</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addLog:" title="addLog:"></a>
+	<h3 class="subsubtitle method-title">addLog:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)addLog:(BLPOSMetrics *)<em>aMetric</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addLog:withTitle:andDescription:forMethod:" title="addLog:withTitle:andDescription:forMethod:"></a>
+	<h3 class="subsubtitle method-title">addLog:withTitle:andDescription:forMethod:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)addLog:(BLMetricsType)<em>aType</em> withTitle:(NSString *)<em>aTitle</em> andDescription:(NSString *)<em>aDescription</em> forMethod:(NSString *)<em>aMethod</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/alertView:didDismissWithButtonIndex:" title="alertView:didDismissWithButtonIndex:"></a>
+	<h3 class="subsubtitle method-title">alertView:didDismissWithButtonIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)alertView:(BLIOSAlertView *)<em>alertView</em> didDismissWithButtonIndex:(NSInteger)<em>buttonIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applyPriceChanges:toBasket:" title="applyPriceChanges:toBasket:"></a>
+	<h3 class="subsubtitle method-title">applyPriceChanges:toBasket:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applyPriceChanges:(NSArray *)<em>aItems</em> toBasket:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/askToDownloadProductDatabase" title="askToDownloadProductDatabase"></a>
+	<h3 class="subsubtitle method-title">askToDownloadProductDatabase</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)askToDownloadProductDatabase</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/askToDownloadPromotionDatabase" title="askToDownloadPromotionDatabase"></a>
+	<h3 class="subsubtitle method-title">askToDownloadPromotionDatabase</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)askToDownloadPromotionDatabase</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/caId" title="caId"></a>
+	<h3 class="subsubtitle method-title">caId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)caId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/catId" title="catId"></a>
+	<h3 class="subsubtitle method-title">catId</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)catId</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/countCategoriesSinceLastUpdate" title="countCategoriesSinceLastUpdate"></a>
+	<h3 class="subsubtitle method-title">countCategoriesSinceLastUpdate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)countCategoriesSinceLastUpdate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/countProductsSinceLastUpdate" title="countProductsSinceLastUpdate"></a>
+	<h3 class="subsubtitle method-title">countProductsSinceLastUpdate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)countProductsSinceLastUpdate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/countPromotionsSinceLastUpdate" title="countPromotionsSinceLastUpdate"></a>
+	<h3 class="subsubtitle method-title">countPromotionsSinceLastUpdate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)countPromotionsSinceLastUpdate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/countStockGroupsSinceLastUpdate" title="countStockGroupsSinceLastUpdate"></a>
+	<h3 class="subsubtitle method-title">countStockGroupsSinceLastUpdate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)countStockGroupsSinceLastUpdate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createOfflineReceiptForBasket:withLogo:" title="createOfflineReceiptForBasket:withLogo:"></a>
+	<h3 class="subsubtitle method-title">createOfflineReceiptForBasket:withLogo:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)createOfflineReceiptForBasket:(BLBasket *)<em>aBasket</em> withLogo:(UIImage *)<em>aLogo</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/creditCardView" title="creditCardView"></a>
+	<h3 class="subsubtitle method-title">creditCardView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLIOSTenderView *)creditCardView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeEFTPOSStatus:forCode:" title="decodeEFTPOSStatus:forCode:"></a>
+	<h3 class="subsubtitle method-title">decodeEFTPOSStatus:forCode:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)decodeEFTPOSStatus:(NSString *)<em>aStatusText</em> forCode:(NSString *)<em>aStatusCode</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deviceNotChanged" title="deviceNotChanged"></a>
+	<h3 class="subsubtitle method-title">deviceNotChanged</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)deviceNotChanged</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doAddInformation:ofType:forPinpad:inView:withMessage:" title="doAddInformation:ofType:forPinpad:inView:withMessage:"></a>
+	<h3 class="subsubtitle method-title">doAddInformation:ofType:forPinpad:inView:withMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doAddInformation:(BLBasket *)<em>aBasket</em> ofType:(NSString *)<em>aType</em> forPinpad:(bool)<em>aPinpad</em> inView:(BLIOSTenderView *)<em>aView</em> withMessage:(NSString *)<em>aMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doAllCategoriesSinceLastUpdateCount:" title="doAllCategoriesSinceLastUpdateCount:"></a>
+	<h3 class="subsubtitle method-title">doAllCategoriesSinceLastUpdateCount:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doAllCategoriesSinceLastUpdateCount:(bool)<em>aCount</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doAllProductsSinceLastUpdateCount:" title="doAllProductsSinceLastUpdateCount:"></a>
+	<h3 class="subsubtitle method-title">doAllProductsSinceLastUpdateCount:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doAllProductsSinceLastUpdateCount:(bool)<em>aCount</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doAllPromotionsSinceLastUpdateCount:" title="doAllPromotionsSinceLastUpdateCount:"></a>
+	<h3 class="subsubtitle method-title">doAllPromotionsSinceLastUpdateCount:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doAllPromotionsSinceLastUpdateCount:(bool)<em>aCount</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doAllStockGroupDetailsSinceLastUpdateCount:" title="doAllStockGroupDetailsSinceLastUpdateCount:"></a>
+	<h3 class="subsubtitle method-title">doAllStockGroupDetailsSinceLastUpdateCount:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doAllStockGroupDetailsSinceLastUpdateCount:(bool)<em>aCount</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doBankLogon:" title="doBankLogon:"></a>
+	<h3 class="subsubtitle method-title">doBankLogon:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doBankLogon:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doClearLogs" title="doClearLogs"></a>
+	<h3 class="subsubtitle method-title">doClearLogs</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doClearLogs</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doConfigureMerchant:" title="doConfigureMerchant:"></a>
+	<h3 class="subsubtitle method-title">doConfigureMerchant:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doConfigureMerchant:(BLRetailer *)<em>aRetailer</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doCreditCardTransaction:" title="doCreditCardTransaction:"></a>
+	<h3 class="subsubtitle method-title">doCreditCardTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doCreditCardTransaction:(NSDecimalNumber *)<em>aAmount</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doDownloadProductSQLiteDatabase:" title="doDownloadProductSQLiteDatabase:"></a>
+	<h3 class="subsubtitle method-title">doDownloadProductSQLiteDatabase:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doDownloadProductSQLiteDatabase:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doEmailLastTender:forTransaction:" title="doEmailLastTender:forTransaction:"></a>
+	<h3 class="subsubtitle method-title">doEmailLastTender:forTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doEmailLastTender:(BLTender *)<em>aLastTender</em> forTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doFinalTransactionMessageInView:" title="doFinalTransactionMessageInView:"></a>
+	<h3 class="subsubtitle method-title">doFinalTransactionMessageInView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doFinalTransactionMessageInView:(BLIOSTenderView *)<em>aView</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doGetTransaction:" title="doGetTransaction:"></a>
+	<h3 class="subsubtitle method-title">doGetTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doGetTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doLastReceiptForObject:" title="doLastReceiptForObject:"></a>
+	<h3 class="subsubtitle method-title">doLastReceiptForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doLastReceiptForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doLastTransaction" title="doLastTransaction"></a>
+	<h3 class="subsubtitle method-title">doLastTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doLastTransaction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doLoyaltyCardSwipe:" title="doLoyaltyCardSwipe:"></a>
+	<h3 class="subsubtitle method-title">doLoyaltyCardSwipe:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doLoyaltyCardSwipe:(NSString *)<em>aId</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doPosgateRefund" title="doPosgateRefund"></a>
+	<h3 class="subsubtitle method-title">doPosgateRefund</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doPosgateRefund</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doPosgateTransaction" title="doPosgateTransaction"></a>
+	<h3 class="subsubtitle method-title">doPosgateTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doPosgateTransaction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doProductUpdate:" title="doProductUpdate:"></a>
+	<h3 class="subsubtitle method-title">doProductUpdate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doProductUpdate:(BLArrayUpdate *)<em>aUpdate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doPromotionsForTransaction:" title="doPromotionsForTransaction:"></a>
+	<h3 class="subsubtitle method-title">doPromotionsForTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)doPromotionsForTransaction:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doRefundTransaction:" title="doRefundTransaction:"></a>
+	<h3 class="subsubtitle method-title">doRefundTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doRefundTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doReprint:receipt:andLogo:withBarcode:inView:" title="doReprint:receipt:andLogo:withBarcode:inView:"></a>
+	<h3 class="subsubtitle method-title">doReprint:receipt:andLogo:withBarcode:inView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doReprint:(bool)<em>aReprint</em> receipt:(NSString *)<em>aString</em> andLogo:(UIImage *)<em>aImage</em> withBarcode:(NSString *)<em>aBarcode</em> inView:(BLIOSTenderView *)<em>aView</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doResumeTransaction:" title="doResumeTransaction:"></a>
+	<h3 class="subsubtitle method-title">doResumeTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doResumeTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doSettle:" title="doSettle:"></a>
+	<h3 class="subsubtitle method-title">doSettle:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doSettle:(NSString *)<em>aType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doStatus" title="doStatus"></a>
+	<h3 class="subsubtitle method-title">doStatus</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doStatus</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doTransactionComplete:forView:withPinpad:andMessage:" title="doTransactionComplete:forView:withPinpad:andMessage:"></a>
+	<h3 class="subsubtitle method-title">doTransactionComplete:forView:withPinpad:andMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doTransactionComplete:(BLBasket *)<em>aBasket</em> forView:(BLIOSTenderView *)<em>aView</em> withPinpad:(bool)<em>aPinpad</em> andMessage:(NSString *)<em>aMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doUnvoidTransaction:" title="doUnvoidTransaction:"></a>
+	<h3 class="subsubtitle method-title">doUnvoidTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doUnvoidTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doUpdateCategorySQLiteTable:" title="doUpdateCategorySQLiteTable:"></a>
+	<h3 class="subsubtitle method-title">doUpdateCategorySQLiteTable:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)doUpdateCategorySQLiteTable:(NSArray *)<em>aCategories</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doUpdateProductSQLiteTable:" title="doUpdateProductSQLiteTable:"></a>
+	<h3 class="subsubtitle method-title">doUpdateProductSQLiteTable:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)doUpdateProductSQLiteTable:(NSArray *)<em>aProducts</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doUpdatePromotionSQLiteTable:" title="doUpdatePromotionSQLiteTable:"></a>
+	<h3 class="subsubtitle method-title">doUpdatePromotionSQLiteTable:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)doUpdatePromotionSQLiteTable:(NSArray *)<em>aPromotions</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doUpdateStockGroupDetailSQLiteTable:" title="doUpdateStockGroupDetailSQLiteTable:"></a>
+	<h3 class="subsubtitle method-title">doUpdateStockGroupDetailSQLiteTable:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)doUpdateStockGroupDetailSQLiteTable:(NSArray *)<em>aStockGroupDetails</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doUpdateTerminalView:" title="doUpdateTerminalView:"></a>
+	<h3 class="subsubtitle method-title">doUpdateTerminalView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doUpdateTerminalView:(NSString *)<em>aText</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/doVoidTransaction:" title="doVoidTransaction:"></a>
+	<h3 class="subsubtitle method-title">doVoidTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doVoidTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadProductDatabase" title="downloadProductDatabase"></a>
+	<h3 class="subsubtitle method-title">downloadProductDatabase</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)downloadProductDatabase</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/downloadProductDatabaseInNewThread" title="downloadProductDatabaseInNewThread"></a>
+	<h3 class="subsubtitle method-title">downloadProductDatabaseInNewThread</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)downloadProductDatabaseInNewThread</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/emailPosgateLogsForObject:" title="emailPosgateLogsForObject:"></a>
+	<h3 class="subsubtitle method-title">emailPosgateLogsForObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)emailPosgateLogsForObject:(NSObject *)<em>aObject</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/favourites" title="favourites"></a>
+	<h3 class="subsubtitle method-title">favourites</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)favourites</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasCashTender" title="hasCashTender"></a>
+	<h3 class="subsubtitle method-title">hasCashTender</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)hasCashTender</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasEftposTender" title="hasEftposTender"></a>
+	<h3 class="subsubtitle method-title">hasEftposTender</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)hasEftposTender</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasVoucherTender" title="hasVoucherTender"></a>
+	<h3 class="subsubtitle method-title">hasVoucherTender</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)hasVoucherTender</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initiateRefund:" title="initiateRefund:"></a>
+	<h3 class="subsubtitle method-title">initiateRefund:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)initiateRefund:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initiateTransaction:" title="initiateTransaction:"></a>
+	<h3 class="subsubtitle method-title">initiateTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)initiateTransaction:(BLBasket *)<em>aBasket</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadCategoryCache" title="loadCategoryCache"></a>
+	<h3 class="subsubtitle method-title">loadCategoryCache</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)loadCategoryCache</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadProductCache:" title="loadProductCache:"></a>
+	<h3 class="subsubtitle method-title">loadProductCache:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)loadProductCache:(id)<em>sender</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadProducts" title="loadProducts"></a>
+	<h3 class="subsubtitle method-title">loadProducts</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)loadProducts</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loadPromotionCache" title="loadPromotionCache"></a>
+	<h3 class="subsubtitle method-title">loadPromotionCache</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)loadPromotionCache</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onHardwareOfType:" title="onHardwareOfType:"></a>
+	<h3 class="subsubtitle method-title">onHardwareOfType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSObject *)onHardwareOfType:(BLHardwareType)<em>aType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onHardwareStatusOfType:" title="onHardwareStatusOfType:"></a>
+	<h3 class="subsubtitle method-title">onHardwareStatusOfType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onHardwareStatusOfType:(BLHardwareType)<em>aType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onIsHardwareReadyOfType:" title="onIsHardwareReadyOfType:"></a>
+	<h3 class="subsubtitle method-title">onIsHardwareReadyOfType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)onIsHardwareReadyOfType:(BLHardwareType)<em>aType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onNoResponseFromPaymentDeviceWithAlert:" title="onNoResponseFromPaymentDeviceWithAlert:"></a>
+	<h3 class="subsubtitle method-title">onNoResponseFromPaymentDeviceWithAlert:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)onNoResponseFromPaymentDeviceWithAlert:(bool)<em>aAlert</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTransactionSuspension:forSession:" title="onTransactionSuspension:forSession:"></a>
+	<h3 class="subsubtitle method-title">onTransactionSuspension:forSession:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)onTransactionSuspension:(BLBasket *)<em>aBasket</em> forSession:(NSString *)<em>aSession</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentDevice" title="paymentDevice"></a>
+	<h3 class="subsubtitle method-title">paymentDevice</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLPaymentDevice *)paymentDevice</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paymentDevices" title="paymentDevices"></a>
+	<h3 class="subsubtitle method-title">paymentDevices</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)paymentDevices</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/preparePaymentDeviceTransaction:" title="preparePaymentDeviceTransaction:"></a>
+	<h3 class="subsubtitle method-title">preparePaymentDeviceTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)preparePaymentDeviceTransaction:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/prepareReceiptForTransaction:" title="prepareReceiptForTransaction:"></a>
+	<h3 class="subsubtitle method-title">prepareReceiptForTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)prepareReceiptForTransaction:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/printers" title="printers"></a>
+	<h3 class="subsubtitle method-title">printers</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)printers</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/receipt" title="receipt"></a>
+	<h3 class="subsubtitle method-title">receipt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)receipt</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/receiptLogo" title="receiptLogo"></a>
+	<h3 class="subsubtitle method-title">receiptLogo</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIImage *)receiptLogo</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resolveTransaction:forPinpad:" title="resolveTransaction:forPinpad:"></a>
+	<h3 class="subsubtitle method-title">resolveTransaction:forPinpad:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)resolveTransaction:(BLBasket *)<em>aBasket</em> forPinpad:(bool)<em>aPinpad</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveProducts:" title="saveProducts:"></a>
+	<h3 class="subsubtitle method-title">saveProducts:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)saveProducts:(NSArray *)<em>aProducts</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchCategoryCacheForParentCategories:" title="searchCategoryCacheForParentCategories:"></a>
+	<h3 class="subsubtitle method-title">searchCategoryCacheForParentCategories:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)searchCategoryCacheForParentCategories:(NSInteger)<em>aId</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchCategoryCacheForSubcategories:" title="searchCategoryCacheForSubcategories:"></a>
+	<h3 class="subsubtitle method-title">searchCategoryCacheForSubcategories:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)searchCategoryCacheForSubcategories:(BLCategory *)<em>aCategory</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:" title="searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:"></a>
+	<h3 class="subsubtitle method-title">searchProductCache:withOrigin:andAmount:forBarcode:atIndex:andOverwrite:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)searchProductCache:(NSString *)<em>aSearchString</em> withOrigin:(BLSearchOrigin)<em>aOrigin</em> andAmount:(NSDecimalNumber *)<em>aAmount</em> forBarcode:(NSString *)<em>aBarcode</em> atIndex:(NSInteger)<em>aIndex</em> andOverwrite:(bool)<em>aOverwrite</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchProductCacheForCategoryId:" title="searchProductCacheForCategoryId:"></a>
+	<h3 class="subsubtitle method-title">searchProductCacheForCategoryId:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)searchProductCacheForCategoryId:(NSInteger)<em>aId</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/searchPromotionCache:" title="searchPromotionCache:"></a>
+	<h3 class="subsubtitle method-title">searchPromotionCache:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)searchPromotionCache:(BLProduct *)<em>aProduct</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellsGiftCards" title="sellsGiftCards"></a>
+	<h3 class="subsubtitle method-title">sellsGiftCards</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)sellsGiftCards</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sellsVouchers" title="sellsVouchers"></a>
+	<h3 class="subsubtitle method-title">sellsVouchers</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)sellsVouchers</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendPaymentDeviceTransaction:OfType:" title="sendPaymentDeviceTransaction:OfType:"></a>
+	<h3 class="subsubtitle method-title">sendPaymentDeviceTransaction:OfType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendPaymentDeviceTransaction:(NSString *)<em>aTransactionName</em> OfType:(NSString *)<em>aType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasCashTender:" title="setHasCashTender:"></a>
+	<h3 class="subsubtitle method-title">setHasCashTender:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasCashTender:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setHasVoucherTender:" title="setHasVoucherTender:"></a>
+	<h3 class="subsubtitle method-title">setHasVoucherTender:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setHasVoucherTender:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setMerchantIndex:" title="setMerchantIndex:"></a>
+	<h3 class="subsubtitle method-title">setMerchantIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setMerchantIndex:(NSInteger)<em>aIndex</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPaymentDevice:" title="setPaymentDevice:"></a>
+	<h3 class="subsubtitle method-title">setPaymentDevice:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPaymentDevice:(BLPaymentDevice *)<em>aPaymentDevice</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSellsGiftCards:" title="setSellsGiftCards:"></a>
+	<h3 class="subsubtitle method-title">setSellsGiftCards:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSellsGiftCards:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setSellsVouchers:" title="setSellsVouchers:"></a>
+	<h3 class="subsubtitle method-title">setSellsVouchers:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setSellsVouchers:(bool)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showCreditCard:" title="showCreditCard:"></a>
+	<h3 class="subsubtitle method-title">showCreditCard:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)showCreditCard:(NSDecimalNumber *)<em>aAmount</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/terminalTextView" title="terminalTextView"></a>
+	<h3 class="subsubtitle method-title">terminalTextView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BLIOSTextView *)terminalTextView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/topViewController" title="topViewController"></a>
+	<h3 class="subsubtitle method-title">topViewController</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIViewController *)topViewController</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/topViewControllerWithRootViewController:" title="topViewControllerWithRootViewController:"></a>
+	<h3 class="subsubtitle method-title">topViewControllerWithRootViewController:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIViewController *)topViewControllerWithRootViewController:(UIViewController *)<em>rootViewController</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/trackTwo" title="trackTwo"></a>
+	<h3 class="subsubtitle method-title">trackTwo</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)trackTwo</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transactionInPaymentDevice:forRefund:" title="transactionInPaymentDevice:forRefund:"></a>
+	<h3 class="subsubtitle method-title">transactionInPaymentDevice:forRefund:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (bool)transactionInPaymentDevice:(BLBasket *)<em>aBasket</em> forRefund:(bool)<em>aRefund</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateFavouriteProducts:FromTransaction:" title="updateFavouriteProducts:FromTransaction:"></a>
+	<h3 class="subsubtitle method-title">updateFavouriteProducts:FromTransaction:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateFavouriteProducts:(NSArray *)<em>aProducts</em> FromTransaction:(BLBasket *)<em>aTransaction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateFavouriteProductsFromDatabase" title="updateFavouriteProductsFromDatabase"></a>
+	<h3 class="subsubtitle method-title">updateFavouriteProductsFromDatabase</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateFavouriteProductsFromDatabase</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateTenderTotal:fromShoppingAgent:" title="updateTenderTotal:fromShoppingAgent:"></a>
+	<h3 class="subsubtitle method-title">updateTenderTotal:fromShoppingAgent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateTenderTotal:(BLBasket *)<em>aBasket</em> fromShoppingAgent:(bool)<em>aShoppingAgent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateTerminalView:" title="updateTerminalView:"></a>
+	<h3 class="subsubtitle method-title">updateTerminalView:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateTerminalView:(NSString *)<em>aText</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/voidTransaction" title="voidTransaction"></a>
+	<h3 class="subsubtitle method-title">voidTransaction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)voidTransaction</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+                    
+                    
+
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Black Label Solutions Pty Limited. All rights reserved. (Last updated: 2014-11-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSCategoryListOrGridView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSCategoryListOrGridView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCategoryListOrGridView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="78"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSCategoryListOrGridView/setReadOnly:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSCategoryListOrGridView.h</DeclaredIn>
+			
+			<Declaration>- (void)setReadOnly:(bool)value</Declaration>
+			
+			
+			<Anchor>//api/name/setReadOnly:</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

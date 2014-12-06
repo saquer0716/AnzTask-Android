@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLRegistrationDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLRegistrationDelegate</TokenIdentifier>
+			<Abstract type="html">The protocol declaration for a registration process.</Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="432"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onRegistration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onRegistration:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onRegistration:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onSetupBusiness:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onSetupBusiness:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onSetupBusiness:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:account:exists:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject account:(BLRetailer *)aRetailer exists:(bool)aExists</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:account:exists:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:subscriptions:active:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject subscriptions:(NSArray *)aSubscriptions active:(bool)aActive</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:subscriptions:active:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:products:forSubscription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject products:(NSArray *)aProducts forSubscription:(NSObject *)aSubscription</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:products:forSubscription:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onCustomPlanForRetailer:forProduct:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onCustomPlanForRetailer:(BLRetailer *)aRetailer forProduct:(BLPlanProduct *)aPlanProduct</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onCustomPlanForRetailer:forProduct:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onSubscribe:retailer:toPlan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onSubscribe:(NSDictionary *)aSubscription retailer:(BLRetailer *)aRetailer toPlan:(BLPlanProduct *)aPlanProduct</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onSubscribe:retailer:toPlan:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onPay:forSubscription:ofPlan:forRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onPay:(bool)aPay forSubscription:(NSDictionary *)aSubscription ofPlan:(BLPlanProduct *)aPlanProduct forRetailer:(BLRetailer *)aRetailer</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onPay:forSubscription:ofPlan:forRetailer:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onPaid:subscription:forRetailer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onPaid:(bool)aPaid subscription:(NSDictionary *)aSubscription forRetailer:(BLRetailer *)aRetailer</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onPaid:subscription:forRetailer:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onDevice:bound:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onDevice:(NSString *)aDevice bound:(bool)aBound</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onDevice:bound:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onValidated:subscriptions:forDevice:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onValidated:(bool)aValidated subscriptions:(NSArray *)aSubscriptions forDevice:(NSString *)aDevice</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onValidated:subscriptions:forDevice:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onError:(NSString *)aError</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onError:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLRegistrationDelegate/nomadRegistration:onData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLRegistrationProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)nomadRegistration:(NSObject *)aObject onData:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/nomadRegistration:onData:</Anchor>
+            <NodeRef refid="432"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

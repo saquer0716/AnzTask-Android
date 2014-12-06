@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLIOSBasketTableViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLIOSBasketTableViewController</TokenIdentifier>
+			<Abstract type="html">A view controller for displaying customer baskets for use online or instore.</Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/setExistingBarcodes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *existingBarcodes</Declaration>
+			
+			
+			<Anchor>//api/name/existingBarcodes</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/existingBarcodes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *existingBarcodes</Declaration>
+			
+			
+			<Anchor>//api/name/existingBarcodes</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBasketTableViewController/existingBarcodes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *existingBarcodes</Declaration>
+			
+			
+			<Anchor>//api/name/existingBarcodes</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/setEditButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *editButton</Declaration>
+			
+			
+			<Anchor>//api/name/editButton</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/editButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *editButton</Declaration>
+			
+			
+			<Anchor>//api/name/editButton</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBasketTableViewController/editButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *editButton</Declaration>
+			
+			
+			<Anchor>//api/name/editButton</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/setDeleteButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *deleteButton</Declaration>
+			
+			
+			<Anchor>//api/name/deleteButton</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/deleteButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *deleteButton</Declaration>
+			
+			
+			<Anchor>//api/name/deleteButton</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLIOSBasketTableViewController/deleteButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) BLIOSBarButtonItem *deleteButton</Declaration>
+			
+			
+			<Anchor>//api/name/deleteButton</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/doEditBasket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doEditBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doEditBasket</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/getCategories:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)getCategories:(NSInteger)aIndex</Declaration>
+			
+			
+			<Anchor>//api/name/getCategories:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/doAddBasket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doAddBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doAddBasket</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLIOSBasketTableViewController/doDeleteBasket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLIOSBasketTableViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)doDeleteBasket</Declaration>
+			
+			
+			<Anchor>//api/name/doDeleteBasket</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

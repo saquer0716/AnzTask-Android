@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SMXMLDocument.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SMXMLDocument</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLDocument/setRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) SMXMLElement *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLDocument/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) SMXMLElement *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLDocument/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) SMXMLElement *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLDocument/setError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLDocument/error</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SMXMLDocument/error</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSError *error</Declaration>
+			
+			
+			<Anchor>//api/name/error</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SMXMLDocument/initWithData:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithData:(NSData *)data error:(NSError **)outError</Declaration>
+			
+			
+			<Anchor>//api/name/initWithData:error:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SMXMLDocument/documentWithData:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SMXMLDocument.h</DeclaredIn>
+			
+			<Declaration>+ (SMXMLDocument *)documentWithData:(NSData *)data error:(NSError **)outError</Declaration>
+			
+			
+			<Anchor>//api/name/documentWithData:error:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
