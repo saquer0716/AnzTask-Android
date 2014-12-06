@@ -1,0 +1,13 @@
+=============
+L10n and i18n
+=============
+
+Some of the applications have limited localisation and internationalisation performed. However, in many cases it doesn't use Apple's built in tools.
+
+This is because there was a desire to where possible provide identical solutions for both the Android and iOS codebases and i18n is one area where this was done.
+
+It's also unclear exactly how much of the language strings have been converted into various languages or even if there are people in different locale's other than Australia even using the application.
+
+.. warning:: A review of the currnebt state of the translated strings and which parts of the app are L10n and i18n complete needs to be done.
+
+

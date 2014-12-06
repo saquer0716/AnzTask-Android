@@ -1,0 +1,543 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Event Scan &mdash; Black Label Solutions iOS 1.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Black Label Solutions iOS 1.0 documentation" href="../index.html"/>
+        <link rel="up" title="Projects" href="index.html"/>
+        <link rel="next" title="CORE" href="core.html"/>
+        <link rel="prev" title="Projects" href="index.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> Black Label Solutions iOS</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../intro/package_content.html">What’s in package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/the_team.html">The Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/agile_development_process.html">Agile Development process</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/ios_codebase_overview.html">iOS Codebase Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/api_docs.html">API docs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../features/product_image_loading.html">Product Image Loading</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../coding/index.html">Coding</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../coding/coding_conventions.html">Coding Conventions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../coding/identified_issues.html">Identified Codebase Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../coding/third_party_libraries.html">Third Party Libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../coding/building_running_configuring.html">Building , Running and App Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../coding/deployment.html">Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../coding/l10n_i18n.html">L10n and i18n</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Projects</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#client-projects">Client Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#consumer-projects">Consumer projects</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../testing/index.html">Testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_team.html">Testing Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_plans.html">Testing Plans</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/unit_testing.html">Unit Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_simulator.html">Testing on the simulator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_devices.html">Testing on a payment device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/automated_testing.html">Automated Testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-i-create-a-new-ios-project-for-a-new-client">How do I create a new iOS project for a new client?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#do-i-need-a-payment-device-to-test">Do I need a payment device to test?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-send-builds-to-qa">How do we send builds to QA?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-build-sign-and-send-builds-to-clients">How do we build, sign and send builds to clients?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-build-sign-and-send-the-nomadpos-app-to-the-itunes-store">How do we build, sign and send the NomadPOS app to the iTunes store?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#what-are-some-of-the-largest-issues-right-now">What are some of the largest issues right now</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#what-are-some-of-the-projects-lined-up-to-tackle-these-issues">What are some of the projects lined up to tackle these issues</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-to guides</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../howto/vpn_mach_osx.html">How to connect to MACH using Open VPN on OSX</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Black Label Solutions iOS</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Projects</a> &raquo;</li>
+      
+    <li>Event Scan</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="../_sources/projects/event_scan.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="event-scan">
+<h1>Event Scan<a class="headerlink" href="#event-scan" title="Permalink to this headline">¶</a></h1>
+<p>It&#8217;s job is to scan tickets and is used by Event Cinemas for outdoor cinema ticket scanning where they do not have their usual registers.</p>
+<div class="section" id="project-background">
+<h2>Project background<a class="headerlink" href="#project-background" title="Permalink to this headline">¶</a></h2>
+<p>Event Scan was an app developed by a Digital Agency that was then given to Black Label Solutions to upgrade it to iOS7 and add a few new features.</p>
+<p>It was developed some time ago and the code has some serious issues (e.g. string range plucking instead of XML parsing, custom stream creation format).</p>
+<p>Currently, the goal is to clean the code up as we go, add urgently requested features but eventually transition to Storyboards and just lift only the required business logic code from here so the new app is almost a total re-write.</p>
+</div>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<p>Event Cinemas use 5th generation iPods The Linea-pro barcode scanner. You&#8217;ll need the scanner connected to test, um, scanning, but you can also use the app without the scanner by typing the barcodes in.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The scanner does not work if the device is connected to a computer. This means step debugging is out and debugging with UIAlertView is in. More on debugging a bit later.</p>
+</div>
+</div>
+<div class="section" id="testing-the-app">
+<h2>Testing the app<a class="headerlink" href="#testing-the-app" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You&#8217;ll need to get a selection of barcodes for testing from Event Cinemas. Talk to the product owner who can organise for these to be sent to you.</p>
+</div>
+<div class="section" id="connect-to-the-vpn">
+<h3>1. Connect to the VPN<a class="headerlink" href="#connect-to-the-vpn" title="Permalink to this headline">¶</a></h3>
+<p>In order for the app to talk to the Black Label Solutions backend, you need to connect the phone to the VPN.</p>
+<p>The test device that you&#8217;ll get should already have the VPN connection configured but below is a screenshot of the settings.</p>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/vpn-config.png"><img alt="_static/img/event-cinemas/vpn-config.png" class="align-center" src="_static/img/event-cinemas/vpn-config.png" style="width: 400px;" /></a>
+<p>To connect to the VPN, go to Settings, then tap the <strong>VPN</strong> switch.</p>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/settings.png"><img alt="_static/img/event-cinemas/settings.png" class="align-center" src="_static/img/event-cinemas/settings.png" style="width: 400px;" /></a>
+<p>Authentication details are:</p>
+<blockquote>
+<div><ul class="simple">
+<li>username: EXT_Blacklabel</li>
+<li>Password: bL&#64;ckL&#64;b3L</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="sign-in">
+<h3>2. Sign in<a class="headerlink" href="#sign-in" title="Permalink to this headline">¶</a></h3>
+<p>Enter in the following details:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Server name: 10.254.254.1</li>
+<li>Kiosk ID: 61.88.2.16</li>
+</ul>
+</div></blockquote>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/config.png"><img alt="_static/img/event-cinemas/config.png" class="align-center" src="_static/img/event-cinemas/config.png" style="width: 400px;" /></a>
+<p>Then tap <strong>Test</strong> which will verify your details and confirm that it could connect to the sever by showing you the contents of a response.</p>
+</div>
+<div class="section" id="testing">
+<h3>3. Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h3>
+<p>You&#8217;ll need barcodes to do anything else.</p>
+</div>
+<div class="section" id="debugging">
+<h3>4. Debugging<a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h3>
+<p>There are two preprocessor macro&#8217;s defined for this project to assist in debugging debug and adhoc versions of the app.</p>
+<p><code class="docutils literal"><span class="pre">AHL_UI_DEBUG</span></code>: Set this to 1 in order to see UIAlertView&#8217;s with key content at different parts of the ticket collection process.</p>
+<p><code class="docutils literal"><span class="pre">AHL_DONT_COLLECT_TICKETS</span></code>: Set this to 1 in order for the UI to <strong>pretend</strong> it successfully received a response from the server that all tickets were collected successfully. This is for when you&#8217;re testing flow but you don&#8217;t want to actually process the tickets. Getting test barcodes is difficult for some reason so this comes in handy.</p>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">DO NOT SET THESE FOR THE RELEASE VERSION!</p>
+</div>
+</div>
+</div>
+<div class="section" id="partial-collection">
+<h2>Partial Collection<a class="headerlink" href="#partial-collection" title="Permalink to this headline">¶</a></h2>
+<p>The partial collection functionality allows some but not all tickets to be collected for a booking.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This work is currently un-finished. The data layer is done but needs more rigourous testing around what error cases need to be handed. The UI layer is still to be done. Please see the <code class="docutils literal"><span class="pre">EventScan</span> <span class="pre">Partial</span> <span class="pre">Ticket</span> <span class="pre">flow</span></code> folder in the <code class="docutils literal"><span class="pre">_static/event-scan</span></code> directory for UI layout details.</p>
+</div>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">To enable the partial collection flow, set <code class="docutils literal"><span class="pre">AHL_PARTIAL_COLLECTED_ENABLED</span></code> in the preprocessor macros for the adhoc build.</p>
+</div>
+<div class="section" id="vsswebservices">
+<h3>VSSWebServices<a class="headerlink" href="#vsswebservices" title="Permalink to this headline">¶</a></h3>
+<p>A new processing block was added to <code class="docutils literal"><span class="pre">postSoapAction:</span></code>.  This code is not pretty but it simply tries to follow how the previous soap responses have been processed.</p>
+</div>
+<div class="section" id="ahlcollectbookingviewcontroller">
+<h3>AHLCollectBookingViewController<a class="headerlink" href="#ahlcollectbookingviewcontroller" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal"><span class="pre">BookingDetailViewController</span></code> will (if <code class="docutils literal"><span class="pre">AHL_PARTIAL_COLLECTED_ENABLED</span></code> is defined) push <code class="docutils literal"><span class="pre">AHLCollectBookingViewController</span></code> onto the stack, passing it a reference to the Bookings object which it needs in order to get the booking number.</p>
+<p>Staying consistent with how data flow is handled in other sections of the app, the <code class="docutils literal"><span class="pre">AHLCollectBookingViewController</span></code> calls into <code class="docutils literal"><span class="pre">VSSWebServices</span></code> in order to get the inner XML response that has the ticket info.</p>
+<p>It then passes this XML response string to the new <code class="docutils literal"><span class="pre">AHLPartialBookingDataManager</span></code> who in turn provides an API for getting booking and individual ticket info.</p>
+</div>
+<div class="section" id="third-party-libraries">
+<h3>Third party libraries<a class="headerlink" href="#third-party-libraries" title="Permalink to this headline">¶</a></h3>
+<p>The below third party libraries take care of turning the entity encoded XML packet into normal XML and then converting this XML into an NSDictionary.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Entity decoder - <a class="reference external" href="https://github.com/mwaterfall/MWFeedParser/blob/master/Classes/NSString%2BHTML.h">https://github.com/mwaterfall/MWFeedParser/blob/master/Classes/NSString%2BHTML.h</a></li>
+<li>XML to NSDictionary convert - <a class="reference external" href="https://github.com/nicklockwood/XMLDictionary">https://github.com/nicklockwood/XMLDictionary</a></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="sample-getbookingdataxml-reponse">
+<h3>Sample GetBookingDataXml reponse<a class="headerlink" href="#sample-getbookingdataxml-reponse" title="Permalink to this headline">¶</a></h3>
+<p>It&#8217;s a bit of a monster so here is a sample response with two tickets and two tickets still available (BookingH_dtmDateCollected is empty).</p>
+<div class="code xml highlight-python"><div class="highlight"><pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;Vista_Booking_Data&gt;
+   &lt;tblBooking_Header&gt;
+      &lt;BookingH_intNextBookingNo&gt;44183&lt;/BookingH_intNextBookingNo&gt;
+      &lt;BookingH_strName&gt;BILL&lt;/BookingH_strName&gt;
+      &lt;BookingH_strPhone&gt;12345&lt;/BookingH_strPhone&gt;
+      &lt;BookingH_strPickup&gt;BILL&lt;/BookingH_strPickup&gt;
+      &lt;BookingH_strComments /&gt;
+      &lt;BookingH_curAmountPaid&gt;39.0000&lt;/BookingH_curAmountPaid&gt;
+      &lt;BookingH_intTicketsPrt&gt;0&lt;/BookingH_intTicketsPrt&gt;
+      &lt;BookingH_strStatus&gt;P&lt;/BookingH_strStatus&gt;
+      &lt;TransC_lgnNumber&gt;57841&lt;/TransC_lgnNumber&gt;
+      &lt;BookingH_dtmDateBooked&gt;20141120175721&lt;/BookingH_dtmDateBooked&gt;
+      &lt;BookingH_dtmDateCollected /&gt;
+      &lt;BookingH_strRemoteBooking /&gt;
+      &lt;BookingH_strSource&gt;POSBK&lt;/BookingH_strSource&gt;
+      &lt;BookingH_intVoucherPrt&gt;0&lt;/BookingH_intVoucherPrt&gt;
+      &lt;BookingH_strPickupWorkstn /&gt;
+      &lt;BookingH_intPickupUser&gt;0&lt;/BookingH_intPickupUser&gt;
+      &lt;BookingH_strCardNo /&gt;
+      &lt;BookingH_strCardExpiry /&gt;
+      &lt;BookingH_strCardType /&gt;
+      &lt;BookingH_strKioskIsPrinting&gt;N&lt;/BookingH_strKioskIsPrinting&gt;
+      &lt;BookingH_strKioskPrintFail /&gt;
+      &lt;BookingH_strOtherTablesUpdated /&gt;
+      &lt;BookingH_strCardSwiped&gt;N&lt;/BookingH_strCardSwiped&gt;
+      &lt;timestamp /&gt;
+      &lt;BookingH_dtmLastSessRealShow /&gt;
+      &lt;BookingH_curValueOfBooking&gt;39.0000&lt;/BookingH_curValueOfBooking&gt;
+      &lt;BookingH_strPickupTrack /&gt;
+      &lt;BookingH_strRemotePOSId /&gt;
+      &lt;BookingH_strRemotePOSLocation /&gt;
+      &lt;BookingH_strCustomerTicketRef /&gt;
+      &lt;BookingH_intBookedUser&gt;9998&lt;/BookingH_intBookedUser&gt;
+      &lt;BookingH_strBookedWorkstn&gt;GTSCINAP01&lt;/BookingH_strBookedWorkstn&gt;
+      &lt;BookingH_strAutoPay /&gt;
+      &lt;BookingH_strConfirmedUnpaidBk /&gt;
+      &lt;BookingH_strBookingId&gt;WRMZRGR&lt;/BookingH_strBookingId&gt;
+      &lt;BookingH_intFiscalReceiptWWW&gt;0&lt;/BookingH_intFiscalReceiptWWW&gt;
+      &lt;Cinema_strCode&gt;9999&lt;/Cinema_strCode&gt;
+      &lt;BookingH_strCardHash /&gt;
+      &lt;BookingH_strEmail /&gt;
+      &lt;BookingH_strGroupSalesBookingRef /&gt;
+      &lt;BookingH_strGroupSalesBookingType /&gt;
+      &lt;BookingH_dtmDateStart /&gt;
+   &lt;/tblBooking_Header&gt;
+   &lt;tblBooking_Detail&gt;
+      &lt;Ticket&gt;
+         &lt;BookingD_intNextBookingNo&gt;44183&lt;/BookingD_intNextBookingNo&gt;
+         &lt;BookingD_intSequence&gt;1&lt;/BookingD_intSequence&gt;
+         &lt;Session_lngSessionId&gt;166135&lt;/Session_lngSessionId&gt;
+         &lt;Area_bytNum&gt;1&lt;/Area_bytNum&gt;
+         &lt;PGroup_strCode&gt;0047&lt;/PGroup_strCode&gt;
+         &lt;Price_strCode&gt;0001&lt;/Price_strCode&gt;
+         &lt;BookingD_curAmountPaid&gt;0&lt;/BookingD_curAmountPaid&gt;
+         &lt;BookingD_intTicketsPrt&gt;0&lt;/BookingD_intTicketsPrt&gt;
+         &lt;BookingD_curValue&gt;1950&lt;/BookingD_curValue&gt;
+         &lt;BookingD_curSTax&gt;177&lt;/BookingD_curSTax&gt;
+         &lt;BookingD_intNoOfSeats&gt;1&lt;/BookingD_intNoOfSeats&gt;
+         &lt;BookingD_Redemption&gt;N&lt;/BookingD_Redemption&gt;
+         &lt;BookingD_strStatus&gt;P&lt;/BookingD_strStatus&gt;
+         &lt;ScreenD_strPhyRowId&gt;P&lt;/ScreenD_strPhyRowId&gt;
+         &lt;ScreenD_strSeatId&gt;15&lt;/ScreenD_strSeatId&gt;
+         &lt;ScreenD_bytGridRowId&gt;7&lt;/ScreenD_bytGridRowId&gt;
+         &lt;BookingD_bytGridColId&gt;16&lt;/BookingD_bytGridColId&gt;
+         &lt;BookingD_curRedempValueEach&gt;0&lt;/BookingD_curRedempValueEach&gt;
+         &lt;timestamp /&gt;
+         &lt;AreaCat_strCode&gt;0000000001&lt;/AreaCat_strCode&gt;
+         &lt;BookingD_curSTax2&gt;0&lt;/BookingD_curSTax2&gt;
+         &lt;BookingD_curSTax3&gt;0&lt;/BookingD_curSTax3&gt;
+         &lt;BookingD_curSTax4&gt;0&lt;/BookingD_curSTax4&gt;
+         &lt;BookingD_strParentTType_strCode /&gt;
+         &lt;BookingD_intPackageGroupNo&gt;1&lt;/BookingD_intPackageGroupNo&gt;
+         &lt;BookingD_curDiscount&gt;0&lt;/BookingD_curDiscount&gt;
+         &lt;BookingD_strRptCode /&gt;
+         &lt;BookingD_dtmDateCollected /&gt;
+         &lt;TransT_intSequence&gt;1&lt;/TransT_intSequence&gt;
+         &lt;BookingD_intSwapSequence&gt;0&lt;/BookingD_intSwapSequence&gt;
+         &lt;BookingD_curFullPriceEach&gt;1950&lt;/BookingD_curFullPriceEach&gt;
+         &lt;BookingD_strVoucherBarcode /&gt;
+         &lt;BookingD_strVoucherCommitted /&gt;
+         &lt;BookingD_strMemberId /&gt;
+         &lt;BookingD_intLoyaltyRecogId&gt;0&lt;/BookingD_intLoyaltyRecogId&gt;
+         &lt;BookingD_strLoyaltyStatus /&gt;
+         &lt;BookingD_strPickupWorkstn /&gt;
+         &lt;BookingD_intPickupUser&gt;0&lt;/BookingD_intPickupUser&gt;
+         &lt;BookingD_strVoucherPIN /&gt;
+         &lt;BookingD_curTPAValueEach&gt;0&lt;/BookingD_curTPAValueEach&gt;
+         &lt;TPA_strCode /&gt;
+         &lt;BookingD_intLoyaltyAdvanceBookingRecogId&gt;0&lt;/BookingD_intLoyaltyAdvanceBookingRecogId&gt;
+         &lt;BookingD_strAdditionalPrintData /&gt;
+         &lt;BookingD_strBarcodeMember /&gt;
+         &lt;BookingD_strBookingVoucher /&gt;
+         &lt;Session_dtmRealShow&gt;20141120184500&lt;/Session_dtmRealShow&gt;
+         &lt;Film_strTitle&gt;A MILLION WAYS TO DIE IN THE WEST&lt;/Film_strTitle&gt;
+         &lt;Film_strTitleAlt /&gt;
+         &lt;Price_strDescription&gt;Adult&lt;/Price_strDescription&gt;
+         &lt;Price_strDescriptionAlt /&gt;
+         &lt;Price_strParentDescription /&gt;
+         &lt;Price_strParentDescriptionAlt /&gt;
+         &lt;STax_strCode /&gt;
+         &lt;Price_strRedemption&gt;N&lt;/Price_strRedemption&gt;
+         &lt;Price_strComp&gt;N&lt;/Price_strComp&gt;
+         &lt;TType_strMemberCard&gt;N&lt;/TType_strMemberCard&gt;
+         &lt;Price_strSalesChannels&gt;^~^KIOSK^~^POS^~^POSBK^~^&lt;/Price_strSalesChannels&gt;
+         &lt;HOPK&gt;0001&lt;/HOPK&gt;
+         &lt;Parent_HOPK /&gt;
+         &lt;Screen_strNum&gt;4&lt;/Screen_strNum&gt;
+         &lt;Screen_strName&gt;Cinema 4&lt;/Screen_strName&gt;
+         &lt;CinOperator_strCode&gt;GTSCIN&lt;/CinOperator_strCode&gt;
+         &lt;Session_Finish&gt;20141120205100&lt;/Session_Finish&gt;
+         &lt;TransT_strBarcodeMember /&gt;
+         &lt;TType_strBarcode /&gt;
+         &lt;Film_strTitleAlt2 /&gt;
+         &lt;Film_strTitleAlt3 /&gt;
+         &lt;Price_strDescriptionAlt2 /&gt;
+         &lt;Price_strDescriptionAlt3 /&gt;
+         &lt;Screen_strNameAlt&gt;4&lt;/Screen_strNameAlt&gt;
+         &lt;Screen_strNameAlt2 /&gt;
+         &lt;Screen_strNameAlt3 /&gt;
+      &lt;/Ticket&gt;
+      &lt;Ticket&gt;
+         &lt;BookingD_intNextBookingNo&gt;44183&lt;/BookingD_intNextBookingNo&gt;
+         &lt;BookingD_intSequence&gt;2&lt;/BookingD_intSequence&gt;
+         &lt;Session_lngSessionId&gt;166135&lt;/Session_lngSessionId&gt;
+         &lt;Area_bytNum&gt;1&lt;/Area_bytNum&gt;
+         &lt;PGroup_strCode&gt;0047&lt;/PGroup_strCode&gt;
+         &lt;Price_strCode&gt;0001&lt;/Price_strCode&gt;
+         &lt;BookingD_curAmountPaid&gt;0&lt;/BookingD_curAmountPaid&gt;
+         &lt;BookingD_intTicketsPrt&gt;0&lt;/BookingD_intTicketsPrt&gt;
+         &lt;BookingD_curValue&gt;1950&lt;/BookingD_curValue&gt;
+         &lt;BookingD_curSTax&gt;177&lt;/BookingD_curSTax&gt;
+         &lt;BookingD_intNoOfSeats&gt;1&lt;/BookingD_intNoOfSeats&gt;
+         &lt;BookingD_Redemption&gt;N&lt;/BookingD_Redemption&gt;
+         &lt;BookingD_strStatus&gt;P&lt;/BookingD_strStatus&gt;
+         &lt;ScreenD_strPhyRowId&gt;P&lt;/ScreenD_strPhyRowId&gt;
+         &lt;ScreenD_strSeatId&gt;14&lt;/ScreenD_strSeatId&gt;
+         &lt;ScreenD_bytGridRowId&gt;7&lt;/ScreenD_bytGridRowId&gt;
+         &lt;BookingD_bytGridColId&gt;17&lt;/BookingD_bytGridColId&gt;
+         &lt;BookingD_curRedempValueEach&gt;0&lt;/BookingD_curRedempValueEach&gt;
+         &lt;timestamp /&gt;
+         &lt;AreaCat_strCode&gt;0000000001&lt;/AreaCat_strCode&gt;
+         &lt;BookingD_curSTax2&gt;0&lt;/BookingD_curSTax2&gt;
+         &lt;BookingD_curSTax3&gt;0&lt;/BookingD_curSTax3&gt;
+         &lt;BookingD_curSTax4&gt;0&lt;/BookingD_curSTax4&gt;
+         &lt;BookingD_strParentTType_strCode /&gt;
+         &lt;BookingD_intPackageGroupNo&gt;2&lt;/BookingD_intPackageGroupNo&gt;
+         &lt;BookingD_curDiscount&gt;0&lt;/BookingD_curDiscount&gt;
+         &lt;BookingD_strRptCode /&gt;
+         &lt;BookingD_dtmDateCollected /&gt;
+         &lt;TransT_intSequence&gt;2&lt;/TransT_intSequence&gt;
+         &lt;BookingD_intSwapSequence&gt;0&lt;/BookingD_intSwapSequence&gt;
+         &lt;BookingD_curFullPriceEach&gt;1950&lt;/BookingD_curFullPriceEach&gt;
+         &lt;BookingD_strVoucherBarcode /&gt;
+         &lt;BookingD_strVoucherCommitted /&gt;
+         &lt;BookingD_strMemberId /&gt;
+         &lt;BookingD_intLoyaltyRecogId&gt;0&lt;/BookingD_intLoyaltyRecogId&gt;
+         &lt;BookingD_strLoyaltyStatus /&gt;
+         &lt;BookingD_strPickupWorkstn /&gt;
+         &lt;BookingD_intPickupUser&gt;0&lt;/BookingD_intPickupUser&gt;
+         &lt;BookingD_strVoucherPIN /&gt;
+         &lt;BookingD_curTPAValueEach&gt;0&lt;/BookingD_curTPAValueEach&gt;
+         &lt;TPA_strCode /&gt;
+         &lt;BookingD_intLoyaltyAdvanceBookingRecogId&gt;0&lt;/BookingD_intLoyaltyAdvanceBookingRecogId&gt;
+         &lt;BookingD_strAdditionalPrintData /&gt;
+         &lt;BookingD_strBarcodeMember /&gt;
+         &lt;BookingD_strBookingVoucher /&gt;
+         &lt;Session_dtmRealShow&gt;20141120184500&lt;/Session_dtmRealShow&gt;
+         &lt;Film_strTitle&gt;A MILLION WAYS TO DIE IN THE WEST&lt;/Film_strTitle&gt;
+         &lt;Film_strTitleAlt /&gt;
+         &lt;Price_strDescription&gt;Adult&lt;/Price_strDescription&gt;
+         &lt;Price_strDescriptionAlt /&gt;
+         &lt;Price_strParentDescription /&gt;
+         &lt;Price_strParentDescriptionAlt /&gt;
+         &lt;STax_strCode /&gt;
+         &lt;Price_strRedemption&gt;N&lt;/Price_strRedemption&gt;
+         &lt;Price_strComp&gt;N&lt;/Price_strComp&gt;
+         &lt;TType_strMemberCard&gt;N&lt;/TType_strMemberCard&gt;
+         &lt;Price_strSalesChannels&gt;^~^KIOSK^~^POS^~^POSBK^~^&lt;/Price_strSalesChannels&gt;
+         &lt;HOPK&gt;0001&lt;/HOPK&gt;
+         &lt;Parent_HOPK /&gt;
+         &lt;Screen_strNum&gt;4&lt;/Screen_strNum&gt;
+         &lt;Screen_strName&gt;Cinema 4&lt;/Screen_strName&gt;
+         &lt;CinOperator_strCode&gt;GTSCIN&lt;/CinOperator_strCode&gt;
+         &lt;Session_Finish&gt;20141120205100&lt;/Session_Finish&gt;
+         &lt;TransT_strBarcodeMember /&gt;
+         &lt;TType_strBarcode /&gt;
+         &lt;Film_strTitleAlt2 /&gt;
+         &lt;Film_strTitleAlt3 /&gt;
+         &lt;Price_strDescriptionAlt2 /&gt;
+         &lt;Price_strDescriptionAlt3 /&gt;
+         &lt;Screen_strNameAlt&gt;4&lt;/Screen_strNameAlt&gt;
+         &lt;Screen_strNameAlt2 /&gt;
+         &lt;Screen_strNameAlt3 /&gt;
+      &lt;/Ticket&gt;
+   &lt;/tblBooking_Detail&gt;
+   &lt;tblBooking_Inv /&gt;
+&lt;/Vista_Booking_Data&gt;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<p>Look in the <code class="docutils literal"><span class="pre">_static/event-scan</span></code> directory for documentation resources about the Linea-pro and other stuff.</p>
+</div>
+<div class="section" id="application-flow">
+<h2>Application flow<a class="headerlink" href="#application-flow" title="Permalink to this headline">¶</a></h2>
+<p>Below are images from the iOS 6 build which show ticket collection and recent collection flows.</p>
+<div class="section" id="collect-tickets-flow">
+<h3>Collect tickets flow<a class="headerlink" href="#collect-tickets-flow" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/config.png"><img alt="_static/img/event-cinemas/config.png" class="align-center" src="_static/img/event-cinemas/config.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_02.png"><img alt="_static/img/event-cinemas/flow/tickets_02.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_02.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_03.png"><img alt="_static/img/event-cinemas/flow/tickets_03.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_03.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_04.png"><img alt="_static/img/event-cinemas/flow/tickets_04.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_04.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_05.png"><img alt="_static/img/event-cinemas/flow/tickets_05.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_05.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_06.png"><img alt="_static/img/event-cinemas/flow/tickets_06.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_06.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_07.png"><img alt="_static/img/event-cinemas/flow/tickets_07.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_07.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_08.png"><img alt="_static/img/event-cinemas/flow/tickets_08.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_08.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/tickets_09.png"><img alt="_static/img/event-cinemas/flow/tickets_09.png" class="align-center" src="_static/img/event-cinemas/flow/tickets_09.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="recent-collections-flow">
+<h3>Recent collections flow<a class="headerlink" href="#recent-collections-flow" title="Permalink to this headline">¶</a></h3>
+<p>Upon ticket completion, you&#8217;ll be taken to the home screen where the last tickets collected will be displayed.</p>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/recent_01.png"><img alt="_static/img/event-cinemas/flow/recent_01.png" class="align-center" src="_static/img/event-cinemas/flow/recent_01.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/recent_02.png"><img alt="_static/img/event-cinemas/flow/recent_02.png" class="align-center" src="_static/img/event-cinemas/flow/recent_02.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/recent_03.png"><img alt="_static/img/event-cinemas/flow/recent_03.png" class="align-center" src="_static/img/event-cinemas/flow/recent_03.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="_static/img/event-cinemas/flow/recent_04.png"><img alt="_static/img/event-cinemas/flow/recent_04.png" class="align-center" src="_static/img/event-cinemas/flow/recent_04.png" style="width: 400px;" /></a>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="core.html" class="btn btn-neutral float-right" title="CORE"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Projects"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Black Label Solutions Pty Ltd.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+===============
+Getting Started
+===============
+
+.. rubric:: This section will get you familiar with deliver package and how to install the app.
+
+.. toctree::
+	:maxdepth: 1
+
+	package_content
+	the_team
+	agile_development_process
+	ios_codebase_overview
+	api_docs

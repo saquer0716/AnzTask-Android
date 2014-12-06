@@ -1,0 +1,18 @@
+================
+Task Requirement
+================
+
+Original task requirement document was sent by ANZ HR
+.. include:: /_static/docx/ANZ-Mobile-WebFrontEnd-AppDevPracticalTest1.4
+
+Problem Definition
+=====================
+
+ - Present earthquake occurrences.
+ - Data comes from a RESTful web service: http://www.seismi.org/api/eqs/
+ - Implement this task in any mobile platform with native code or hybrid code.
+ - iOS project shouldn’t turn off ARC.
+ - Some design pattern in code.
+ - Code/module reusability.
+ - Cross platform capability.
+ - Documentation.

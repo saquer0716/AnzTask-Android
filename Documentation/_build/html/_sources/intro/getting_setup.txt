@@ -1,0 +1,145 @@
+=============
+Getting Setup
+=============
+
+Below is a list of things you'll need in order to be setup for iOS development.
+
+0. Required applications
+========================
+
+You'll most likely have all of these which is why its step 0 but just in case you don't, it's here. If you've never heard of these before, I can assure you they are worth the small investment of time to install and use them.
+
+ - OSX Yosemite
+ - Homebrew (essential if you want the latest versions of Git, Python and Ruby)
+ - Git: Install from homebrew to get the latest version
+ - Python: Install from homebrew to get the latest version
+ - Appledoc: For making beautiful Apple like API documentation.
+ - Atlassian Source Tree: The best Git GUI
+ - Evernote: Or any note taking application (for quick notes that can be turned into proper documentation later)
+ - Charles: A debugging proxy for logging network traffic.
+ - QuickCast: Free screen cast tool for OSX (record your screen and voice for sexy and easier to create documentation)
+ - VLC: Remote access tool for controlling the Mac build machine (coming soon).
+
+1. Email access
+===============
+
+Email access (Google Mail) will be setup for you on your first day.
+
+2. Domain access
+================
+
+You'll need a domain account in order to access the shared network drive which has various resources such as training videos and other pieces of documentation.
+
+3. Shared network drive
+=======================
+
+Shared files are good. Access the Windows file server at ``smb://sf-mel1`` and connect to `Shared` server. As a developer, you should have been given write access to the `Development` folder in the root of the shared drive.
+
+4. Access to the code through Assembla
+======================================
+
+You will receive an invitation email in your Black Label Solutions email account, enabling you to setup your account on Assembla. In order to check out the code, you'll need to upload your public key to Assembla by going to Profile > Manage SSH Keys.
+
+Check-out the code by running ``git clone git@git.assembla.com:blss-ph.iOS.git``.
+
+If you're new to Git, mention it to your manager and they'll point you to the best person to get you started. Atlassian Source Safe is by far the the best free Git GUI client and is useful even if you're a Git commandline Ninja.
+
+5. Dependencies for building documentation
+==========================================
+
+We use the Python powered `Sphinx <http://sphinx-doc.org>`_ and the Read the Docs (RTD) `theme <https://github.com/snide/sphinx_rtd_theme>`_ for this documentation, and `Appledoc <https://github.com/tomaz/appledoc>`_ for creating the API documentation.
+
+Installing Sphinx and the RTD theme
+-----------------------------------
+
+As Python is already part of OSX, you just need to install Sphinx and the RTD theme. To do this, simply run:
+
+.. code-block:: bash
+
+   sudo easy_install sphinx sphinx_rtd_theme
+
+Installing Appledoc
+-------------------
+
+.. warning:: Ensure ``/usr/local/bin`` is writable by your user. You can do this by running ``sudo chown $USER:staff /usr/local/bin``.
+
+As this is a little more involved (download from git, compile and install), there is a script created for this. Just run:
+
+.. code-block:: bash
+
+   ./bin/install_appledoc.sh
+
+.. note:: This script will let you know if Appledoc wasn't able to be installed
+
+6. Import the iOS Developer profile into Xcode
+==============================================
+
+This is required for building apps for uploading into Test Flight and for distribution to clients and the iTunes store.
+
+The developer profile is located in git repo at ``deployment/BlackLabelSolutions.developerprofile``. The password is `12345`.
+
+.. note::
+    There is a project kicking off shortly to get a CI environment going on OSX which will then be responsible for creating new builds in which case, you won't have to import the developer profile into Xcode.
+
+7. Developer profile created in the Black Label Solutions iOS developer portal
+==============================================================================
+
+While perhaps not essential immediately, you'll need access to this when it comes time to beta test a new version of iOS and Xcode.
+
+
+8. Jira and Confluence access
+=============================
+
+Ask the sprint product owner to create an Atlassian account if you don't already have one which will allow you to access Confluence and Jira.
+
+9. VPN access to MACH
+=====================
+
+MACH is the IT solutions provider who supplies our hosting infrastructure. You will need VPN access to access the Intranet application the Philippines team has currently developed and if you want to learn how to perform back office operations for test stores.
+
+Ask your manager for the **OpenVPN Config zip file** and the username and password for accessing MACH. Then use :doc:`the following guide </howto/vpn_mach_osx>` to connect to the VPN.
+
+10. Philippines Intranet
+========================
+
+As the Philippines are a remote development team, they have taken a very pro-active approach to knowledge gathering and documentation. So much so that they built their own home grown intranet. When interacting with the Philippines team, it's only a matter of time before you are redirected to their intranet so best to know how to access it ahead of time.
+
+.. important:: You need to be connected to the MACH VPN in order to view the Philippines intranet as it is hosted on one of the MACH servers that is not responding to external network requests.
+
+You can access the intranet as http://192.168.0.59:88.
+
+12. Share your Skype account with your team
+==========================================-
+
+Either use your current Skype account of setup a dedicated Black Label Solutions Skype account. Once you've created this, share it with dev@blss.com.au and testing@blss.com.au.
+
+12. Useful resources
+====================
+
+Make tasks
+----------
+
+Look in the `Makefile` in the root of the project to discover automated tasks able to be performed on the codebase.
+
+Email aliases
+-------------
+
+The `dev@blss.com.au <mailto:dev@blss.com.au>`_ and `testing@blss.com.au <mailto:testing@blss.com.au>`_ are the most useful email aliases.
+
+Documentation files from the Philippines team
+---------------------------------------------
+
+Presuming you've connected to the shared file server (documented earlier in this page), go to `Release Management/Black Labels/Ryan Blunden/Instructions`.
+
+.. note:: This is temporary location for these documents to be accessed as they were recently copied here by Julie as part of this documentation effort and some of these may now be out of date with their originals. Follow up with Julie for the latest versions of any of these documents.
+
+Test devices
+------------
+
+Speak to the test lead for access to a test device.
+
+Sharepoint
+----------
+
+Sure Fire, the other side of the business heavily uses Sharepoint for documentation. There may come a time when you need to access this. It is available at http://sf-sharepoint/sites/office/ and uses your domain account username and password.
+
