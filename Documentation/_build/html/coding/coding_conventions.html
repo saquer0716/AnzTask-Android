@@ -84,17 +84,11 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-i-create-a-new-ios-project-for-a-new-client">How do I create a new iOS project for a new client?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#do-i-need-a-payment-device-to-test">Do I need a payment device to test?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-send-builds-to-qa">How do we send builds to QA?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-build-sign-and-send-builds-to-clients">How do we build, sign and send builds to clients?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-build-sign-and-send-the-nomadpos-app-to-the-itunes-store">How do we build, sign and send the NomadPOS app to the iTunes store?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#what-are-some-of-the-largest-issues-right-now">What are some of the largest issues right now</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#what-are-some-of-the-projects-lined-up-to-tackle-these-issues">What are some of the projects lined up to tackle these issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-i-add-new-api-support-into-anzvolley-module">How do I add new API support into AnzVolley module?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-to guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../howto/vpn_mach_osx.html">How to connect to MACH using Open VPN on OSX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">Third Party Libraries</a></li>
 </ul>
 </li>
 </ul>
@@ -162,6 +156,27 @@
 </div>
 <div class="section" id="project-format">
 <h2>Project Format<a class="headerlink" href="#project-format" title="Permalink to this headline">¶</a></h2>
+<p>Project folder</p>
+<a class="reference internal image-reference" href="../_images/project_structure.png"><img alt="../_images/project_structure.png" class="align-center" src="../_images/project_structure.png" style="width: 215px;" /></a>
+<p>Project folder explanation</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">activity</span></code>
+Group all activities in this folder</li>
+<li><code class="docutils literal"><span class="pre">fragment</span></code>
+Group all fragment in this folder</li>
+<li><code class="docutils literal"><span class="pre">adapter</span></code>
+Group all list view adapter in this folder</li>
+<li><code class="docutils literal"><span class="pre">model</span></code>
+Put model class and content provider class in this folder</li>
+<li><code class="docutils literal"><span class="pre">net</span></code>
+All networking code should be put in this folder</li>
+<li><code class="docutils literal"><span class="pre">ui</span></code>
+Group all custom view or widget in this folder</li>
+<li><code class="docutils literal"><span class="pre">util</span></code>
+Group utility class like formatter, comparator, etc. in this folder</li>
+</ul>
+</div></blockquote>
 </div>
 </div>
 

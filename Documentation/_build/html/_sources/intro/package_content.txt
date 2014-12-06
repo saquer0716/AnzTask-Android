@@ -34,12 +34,12 @@ The source code of ANZ task Android project. The project is running in Android S
 Dependency
 ==========
 
-Some dependency libraries required by ANZ Task Android project, including GSON and Google Volley.
+Some dependency libraries required by ANZ Task Android project, including GSON and Google Volley. Google Volley comes with source code while GSON comes with binary build.
 
 Binary
 ======
 
-The release signed APK file of ANZ Task Android project and library of AnzVolley module. AnzVolley module library could be distributed in other projects. Simply just plug and play.
+The release signed APK file of ANZ Task Android project and library of AnzVolley module. AnzVolley module library could be distributed in other projects. Simply just plug and play. The released APK key store file used to sign the released APK is also located here.
 
 Access to the code through GitHub
 =================================

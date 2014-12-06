@@ -84,17 +84,11 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-i-create-a-new-ios-project-for-a-new-client">How do I create a new iOS project for a new client?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#do-i-need-a-payment-device-to-test">Do I need a payment device to test?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-send-builds-to-qa">How do we send builds to QA?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-build-sign-and-send-builds-to-clients">How do we build, sign and send builds to clients?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-we-build-sign-and-send-the-nomadpos-app-to-the-itunes-store">How do we build, sign and send the NomadPOS app to the iTunes store?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#what-are-some-of-the-largest-issues-right-now">What are some of the largest issues right now</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#what-are-some-of-the-projects-lined-up-to-tackle-these-issues">What are some of the projects lined up to tackle these issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-i-add-new-api-support-into-anzvolley-module">How do I add new API support into AnzVolley module?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-to guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../howto/vpn_mach_osx.html">How to connect to MACH using Open VPN on OSX</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">Third Party Libraries</a></li>
 </ul>
 </li>
 </ul>
@@ -135,27 +129,20 @@
             
   <div class="section" id="build-and-deployment">
 <h1>Build and Deployment<a class="headerlink" href="#build-and-deployment" title="Permalink to this headline">¶</a></h1>
-<p class="rubric">How we deploy apps for our clients and to the iTunes store.</p>
 <div class="section" id="build-and-release">
 <h2>Build and Release<a class="headerlink" href="#build-and-release" title="Permalink to this headline">¶</a></h2>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <ul class="last simple">
 <li>AnzTask Android project is developed in Android Studio V0.8.8. It should be building and running without any error in the same version of Android Studio.</li>
-<li>Since more than 80% devices are running on Jelly Beans and above, AnzTask Android project is build in minimum version of 16 and targets version is 19, i.e. Kitkat. Please make sure you have the right Android SDK version installed. For more information about Android versions statistics, refer to:</li>
-</ul>
-</div>
-<dl class="docutils">
-<dt><a class="reference external" href="https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net">https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net</a></dt>
-<dd><ul class="first last simple">
+<li>Since more than 80% devices are running on Jelly Beans and above, AnzTask Android project is build in minimum version of 16 and targets version is 19, i.e. Kitkat. Please make sure you have the right Android SDK version installed. For more information about Android versions statistics, refer to: <a class="reference external" href="https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net">https://developer.android.com/about/dashboards/index.html?utm_source=ausdroid.net</a></li>
 <li>AnzTask also only targets normal screen devices with at least ldpi resolution because this group of devices takes more than 70% of all Android devices.</li>
 <li>The build tool should be at least 20.0.0</li>
 </ul>
-</dd>
-</dl>
+</div>
 <p>The released APK file in Binary folder can be released directly to customer because it’s signed with released key and obscured with proguard.</p>
-<p>The released key is saved in Binary folder with the release APK file. its credential is like follows:
-Key store password: anzanz
+<p>The released key is saved in Binary folder with the release APK file. its credential is like follows:</p>
+<p>Key store password: anzanz
 key alias: ANZ
 key password: anzanz</p>
 </div>

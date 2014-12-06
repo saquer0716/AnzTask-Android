@@ -25,28 +25,25 @@ Android Naming Conventions
 Project Format
 ==============
 
+Project folder
+
 .. image:: /_static/img/screenshot/project_structure.png
     :width: 215px
     :align: center
 
- - activity
-   
+Project folder explanation
+
+ - ``activity``
    Group all activities in this folder
-
- - fragment
+ - ``fragment``
    Group all fragment in this folder
-
- - adapter
+ - ``adapter``
    Group all list view adapter in this folder
-
- - model
+ - ``model``
    Put model class and content provider class in this folder
-
- - net
+ - ``net``
    All networking code should be put in this folder
-
- - ui
+ - ``ui``
    Group all custom view or widget in this folder
-
- - util
-   Group utility class like formater, comparator, etc. in this folder
+ - ``util``
+   Group utility class like formatter, comparator, etc. in this folder

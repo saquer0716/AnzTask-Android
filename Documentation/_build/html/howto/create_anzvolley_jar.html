@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Testing &mdash; ANZ Task Android 1.0 documentation</title>
+  <title>How to build AnzVolley Jar &mdash; ANZ Task Android 1.0 documentation</title>
   
 
   
@@ -29,8 +29,8 @@
 
   
     <link rel="top" title="ANZ Task Android 1.0 documentation" href="../index.html"/>
-        <link rel="next" title="Testing Team" href="testing_team.html"/>
-        <link rel="prev" title="API docs" href="../coding/api_docs.html"/> 
+        <link rel="up" title="How-to guides" href="index.html"/>
+        <link rel="prev" title="How-to guides" href="index.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -73,21 +73,21 @@
 <li class="toctree-l2"><a class="reference internal" href="../coding/api_docs.html">API docs</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Testing</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="testing_team.html">Testing Team</a></li>
-<li class="toctree-l2"><a class="reference internal" href="testing_plans.html">Testing Plans</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Testing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="testing_simulator.html">Testing on the simulator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="testing_devices.html">Testing on a payment device</a></li>
-<li class="toctree-l2"><a class="reference internal" href="automated_testing.html">Automated Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../testing/index.html">Testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_team.html">Testing Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_plans.html">Testing Plans</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/unit_testing.html">Unit Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_simulator.html">Testing on the simulator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/testing_devices.html">Testing on a payment device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/automated_testing.html">Automated Testing</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-i-add-new-api-support-into-anzvolley-module">How do I add new API support into AnzVolley module?</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-to guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">Third Party Libraries</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">How-to guides</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">How to build AnzVolley Jar</a></li>
 </ul>
 </li>
 </ul>
@@ -113,10 +113,12 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>Testing</li>
+          <li><a href="index.html">How-to guides</a> &raquo;</li>
+      
+    <li>How to build AnzVolley Jar</li>
       <li class="wy-breadcrumbs-aside">
         
-          <a href="../_sources/testing/index.txt" rel="nofollow"> View page source</a>
+          <a href="../_sources/howto/create_anzvolley_jar.txt" rel="nofollow"> View page source</a>
         
       </li>
   </ul>
@@ -124,18 +126,22 @@
 </div>
           <div role="main">
             
-  <div class="section" id="testing">
-<h1>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h1>
-<p class="rubric">The who, what, where and how of testing.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="testing_team.html">Testing Team</a></li>
-<li class="toctree-l1"><a class="reference internal" href="testing_plans.html">Testing Plans</a></li>
-<li class="toctree-l1"><a class="reference internal" href="unit_testing.html">Unit Testing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="testing_simulator.html">Testing on the simulator</a></li>
-<li class="toctree-l1"><a class="reference internal" href="testing_devices.html">Testing on a payment device</a></li>
-<li class="toctree-l1"><a class="reference internal" href="automated_testing.html">Automated Testing</a></li>
+  <div class="section" id="how-to-build-anzvolley-jar">
+<h1>How to build AnzVolley Jar<a class="headerlink" href="#how-to-build-anzvolley-jar" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="anzvolley-jar">
+<h2>AnzVolley Jar<a class="headerlink" href="#anzvolley-jar" title="Permalink to this headline">¶</a></h2>
+<p>To export AnzVolley in Jar file format, do as following steps:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Open build.gradle file in AnzVolley module in Android Studio.</li>
+<li>make sure build script looks like following image.</li>
+<li>Press Option+F12 to open terminal in Android Studio.</li>
+<li>Make sure you are in root folder of AnzTask project.</li>
+<li>Run ./gradlew makeJar</li>
+<li>After build finishes, you will find libAnzVolley.jar file in /AnzVolley/build/outputs</li>
 </ul>
+</div></blockquote>
+<a class="reference internal image-reference" href="../_images/code.png"><img alt="../_images/code.png" class="align-center" src="../_images/code.png" style="width: 400px;" /></a>
 </div>
 </div>
 
@@ -145,10 +151,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="testing_team.html" class="btn btn-neutral float-right" title="Testing Team"/>Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="../coding/api_docs.html" class="btn btn-neutral" title="API docs"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="How-to guides"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

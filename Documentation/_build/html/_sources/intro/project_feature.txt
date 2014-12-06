@@ -27,6 +27,7 @@ App Restriction
 
  - Get earthquake occurrence API returns a large amount of data and there is no way to load it in segments and there might be a potential memory and long loading time issue if too much data is returned without any restriction. Should fix by starting with this API by adding range parameters.
  - Only supporting sort by magnitude and depth. Should also support sort by date and location. However, this can’t not be done since the returned JSON data returns date in plaint string which is not quite appropriate for implementation. Changing date property into mili seconds would be much more flexible for end user development to add supports for sorting and grouping by year, month, week and day.
+ - The app is only tested on Samsung S4 and it might have UI issue on devices with small screen.
 
 App Screenshots
 ===============
