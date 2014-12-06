@@ -36,7 +36,7 @@ Google Volley is highly recommended here because of it’s powerful capability a
 Module Structure
 ================
 
-In terms of code resistibility, isolated function should be put into modules for local library distribution or remote distribution through Maven. Networking part should be considered to be maintained a separated project or module.
+In terms of code resistibility, isolated function should be put into modules for local library distribution or remote distribution through Maven. Networking part should be considered to be maintained in a separated project or module.
 
 Design Pattern
 ==============
@@ -49,3 +49,8 @@ Cross Platform
 It’s definitely easier to just use one HTML5 file with Javascript and CSS to do the job. Javascript bridge should be used to do WebView and native communication. Since this task in done in native Android and native iOS, there would be no cross platform support.
 
 .. note:: With native c code we can still share code cross platform. The networking module can be developed in pure c code based on open source `curl` library. However this requires more work especially in cross platform building tool, so it’s off the table at the moment.
+
+Content Provider
+================
+
+Although not required, providing local database through content provider would be good practice for such scenario. Local DB would improve user experience and saves mobile data usage.

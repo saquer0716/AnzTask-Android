@@ -31,7 +31,7 @@
     <link rel="top" title="ANZ Task Android 1.0 documentation" href="../index.html"/>
         <link rel="up" title="Getting Started" href="index.html"/>
         <link rel="next" title="Coding" href="../coding/index.html"/>
-        <link rel="prev" title="Problem Analize" href="problem_analize.html"/> 
+        <link rel="prev" title="Problem Analysis" href="problem_analize.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -62,7 +62,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Getting Started</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="package_content.html">What’s in package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="task_requirement.html">Task Requirement</a></li>
-<li class="toctree-l2"><a class="reference internal" href="problem_analize.html">Problem Analize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="problem_analize.html">Problem Analysis</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="">App Feature</a></li>
 </ul>
 </li>
@@ -75,11 +75,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../testing/index.html">Testing</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_team.html">Testing Team</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_plans.html">Testing Plans</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../testing/unit_testing.html">Unit Testing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_simulator.html">Testing on the simulator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_devices.html">Testing on a payment device</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../testing/automated_testing.html">Automated Testing</a></li>
 </ul>
 </li>
@@ -88,7 +84,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-to guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">Third Party Libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">How to build AnzVolley Jar</a></li>
 </ul>
 </li>
 </ul>
@@ -159,6 +155,7 @@
 <li>Get earthquake occurrence API returns a large amount of data and there is no way to load it in segments and there might be a potential memory and long loading time issue if too much data is returned without any restriction. Should fix by starting with this API by adding range parameters.</li>
 <li>Only supporting sort by magnitude and depth. Should also support sort by date and location. However, this can’t not be done since the returned JSON data returns date in plaint string which is not quite appropriate for implementation. Changing date property into mili seconds would be much more flexible for end user development to add supports for sorting and grouping by year, month, week and day.</li>
 <li>The app is only tested on Samsung S4 and it might have UI issue on devices with small screen.</li>
+<li>Due to limited time, content provider is not implemented for local earthquake data storage.</li>
 </ul>
 </div></blockquote>
 </div>
@@ -190,7 +187,7 @@
         <a href="../coding/index.html" class="btn btn-neutral float-right" title="Coding"/>Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="problem_analize.html" class="btn btn-neutral" title="Problem Analize"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="problem_analize.html" class="btn btn-neutral" title="Problem Analysis"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Problem Analize &mdash; ANZ Task Android 1.0 documentation</title>
+  <title>Problem Analysis &mdash; ANZ Task Android 1.0 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Getting Started</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="package_content.html">What’s in package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="task_requirement.html">Task Requirement</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Problem Analize</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Problem Analysis</a></li>
 <li class="toctree-l2"><a class="reference internal" href="project_feature.html">App Feature</a></li>
 </ul>
 </li>
@@ -75,11 +75,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../testing/index.html">Testing</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_team.html">Testing Team</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_plans.html">Testing Plans</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../testing/unit_testing.html">Unit Testing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_simulator.html">Testing on the simulator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../testing/testing_devices.html">Testing on a payment device</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../testing/automated_testing.html">Automated Testing</a></li>
 </ul>
 </li>
@@ -88,7 +84,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-to guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">Third Party Libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">How to build AnzVolley Jar</a></li>
 </ul>
 </li>
 </ul>
@@ -116,7 +112,7 @@
       
           <li><a href="index.html">Getting Started</a> &raquo;</li>
       
-    <li>Problem Analize</li>
+    <li>Problem Analysis</li>
       <li class="wy-breadcrumbs-aside">
         
           <a href="../_sources/intro/problem_analize.txt" rel="nofollow"> View page source</a>
@@ -127,14 +123,14 @@
 </div>
           <div role="main">
             
-  <div class="section" id="problem-analize">
-<h1>Problem Analize<a class="headerlink" href="#problem-analize" title="Permalink to this headline">¶</a></h1>
-<p>Below is a list of thought about this task.</p>
+  <div class="section" id="problem-analysis">
+<h1>Problem Analysis<a class="headerlink" href="#problem-analysis" title="Permalink to this headline">¶</a></h1>
+<p>Below is a list of thoughts about this task.</p>
 <div class="section" id="ui-and-navigation">
 <h2>UI and Navigation<a class="headerlink" href="#ui-and-navigation" title="Permalink to this headline">¶</a></h2>
 <p>To present earthquake occurrence, one activity with a full screen ListView should be enough to do the work. By investigating the JSON response of RESTful API, each earthquake data comes with quite a lot of information(properties) which would make UI very squeezed if all of them are displayed. Therefore, some simple user interaction could be introduced to get access to more information.</p>
 <p>{&#8220;count&#8221;:&#8221;21740&#8221;,&#8221;earthquakes&#8221;:[{&#8220;src&#8221;:&#8221;us&#8221;,&#8221;eqid&#8221;:&#8221;c000is61&#8221;,&#8221;timedate&#8221;:&#8221;2013-07-29 22:22:48&#8221;,&#8221;lat&#8221;:&#8221;7.6413&#8221;,&#8221;lon&#8221;:&#8221;93.6871&#8221;,&#8221;magnitude&#8221;:&#8221;4.6&#8221;,&#8221;depth&#8221;:&#8221;40.90&#8221;,&#8221;region&#8221;:&#8221;Nicobar Islands, India region&#8221;},{&#8220;src&#8221;:&#8221;us&#8221;,&#8221;eqid&#8221;:&#8221;c000is4s&#8221;,&#8221;timedate&#8221;:&#8221;2013-07-29 21:52:12&#8221;,&#8221;lat&#8221;:&#8221;-57.7816&#8221;,&#8221;lon&#8221;:&#8221;-25.3260&#8221;,&#8221;magnitude&#8221;:&#8221;5.2&#8221;,&#8221;depth&#8221;:&#8221;53.50&#8221;,&#8221;region&#8221;:&#8221;South Sandwich Islands region&#8221;},{&#8220;src&#8221;:&#8221;us&#8221;,&#8221;eqid&#8221;:&#8221;c000is3k&#8221;,&#8221;timedate&#8221;:&#8221;2013-07-29 21:33:34&#8221;,&#8221;lat&#8221;:&#8221;36.6696&#8221;,&#8221;lon&#8221;:&#8221;71.0615&#8221;,&#8221;magnitude&#8221;:&#8221;4.7&#8221;,&#8221;depth&#8221;:&#8221;234.10&#8221;,&#8221;region&#8221;:&#8221;Hindu Kush region, Afghanistan&#8221;},{&#8220;src&#8221;:&#8221;us&#8221;,&#8221;eqid&#8221;:&#8221;c000irvf&#8221;,&#8221;timedate&#8221;:&#8221;2013-07-29 18:27:41&#8221;,&#8221;lat&#8221;:&#8221;-37.2993&#8221;,&#8221;lon&#8221;:&#8221;177.2515&#8221;,&#8221;magnitude&#8221;:&#8221;4.9&#8221;,&#8221;depth&#8221;:&#8221;160.50&#8221;,&#8221;region&#8221;:&#8221;off the east coast of the North Island of New Zealand&#8221;},{&#8220;src&#8221;:&#8221;us&#8221;,&#8221;eqid&#8221;:&#8221;c000irpf&#8221;,&#8221;timedate&#8221;:&#8221;2013-07-29 14:53:32&#8221;,&#8221;lat&#8221;:&#8221;24.5038&#8221;,&#8221;lon&#8221;:&#8221;62.5255&#8221;,&#8221;magnitude&#8221;:&#8221;4.5&#8221;,&#8221;depth&#8221;:&#8221;24.30&#8221;,&#8221;region&#8221;:&#8221;off the coast of Pakistan”}}</p>
-<p>Even though there is no requirement for Google Map, however, given that earthquake location can be obtained fro RESTful API response, it’s good idea to start Google Map when any ListView cell is clicked. Navigation to system Google Map is preferred because it’s easier to implement and also meet our needs.</p>
+<p>Even though there is no requirement for Google Map, however, given that earthquake location can be obtained from RESTful API response, it’s good idea to start Google Map when any ListView cell is clicked. Navigation to system Google Map is preferred because it’s easier to implement and also meet our needs.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Earthquake occurrence could return with huge amount of data, so memory usage and fragmentation loading might need to be considered in the real implementation.</p>
@@ -167,7 +163,7 @@
 </div>
 <div class="section" id="module-structure">
 <h2>Module Structure<a class="headerlink" href="#module-structure" title="Permalink to this headline">¶</a></h2>
-<p>In terms of code resistibility, isolated function should be put into modules for local library distribution or remote distribution through Maven. Networking part should be considered to be maintained a separated project or module.</p>
+<p>In terms of code resistibility, isolated function should be put into modules for local library distribution or remote distribution through Maven. Networking part should be considered to be maintained in a separated project or module.</p>
 </div>
 <div class="section" id="design-pattern">
 <h2>Design Pattern<a class="headerlink" href="#design-pattern" title="Permalink to this headline">¶</a></h2>
@@ -180,6 +176,10 @@
 <p class="first admonition-title">Note</p>
 <p class="last">With native c code we can still share code cross platform. The networking module can be developed in pure c code based on open source <cite>curl</cite> library. However this requires more work especially in cross platform building tool, so it’s off the table at the moment.</p>
 </div>
+</div>
+<div class="section" id="content-provider">
+<h2>Content Provider<a class="headerlink" href="#content-provider" title="Permalink to this headline">¶</a></h2>
+<p>Although not required, providing local database through content provider would be good practice for such scenario. Local DB would improve user experience and saves mobile data usage.</p>
 </div>
 </div>
 
