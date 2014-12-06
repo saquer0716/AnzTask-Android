@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AnzTask</string>
+    <string name="title_activity_main">Earthquake</string>
+
+    <string name="magnitude">Mag.</string>
+    <string name="depth">Depth</string>
+
+    <string-array name="earthquake_data_sort_list">
+        <item>mag. ascending</item>
+        <item>mag. descending</item>
+        <item>depth ascending</item>
+        <item>depth descending</item>
+    </string-array>
+</resources>

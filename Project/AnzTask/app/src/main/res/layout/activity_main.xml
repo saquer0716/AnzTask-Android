@@ -1,0 +1,24 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_refresh_widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.anz.mobile.task.activity.MainActivity">
+
+    <ListView
+        android:id="@+id/list_earthquake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@color/selector_cell_bg"
+        android:fadingEdge="none"
+        android:divider="@color/list_divider_color"
+        android:dividerHeight="@dimen/list_divider_height"
+        android:fastScrollEnabled="true"
+        android:clipToPadding="false"
+        android:layout_gravity="start"
+        android:choiceMode="none"
+    />
+</android.support.v4.widget.SwipeRefreshLayout>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/list_view_horizontal_padding"
+    android:paddingRight="@dimen/list_view_horizontal_padding"
+    android:paddingTop="@dimen/list_view_vertical_padding"
+    android:paddingBottom="@dimen/list_view_vertical_padding"
+    android:gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+        <com.anz.mobile.task.ui.CircleFlipButton
+            android:id="@+id/earthquake_flip_button"
+            android:layout_width="@dimen/circle_flip_button_radius"
+            android:layout_height="@dimen/circle_flip_button_radius"
+            android:layout_marginTop="@dimen/list_view_inner_margin"
+            android:layout_marginLeft="@dimen/list_view_inner_margin"
+            android:layout_marginRight="@dimen/list_view_inner_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_view_flip_button_margin"
+            android:textColor="@color/list_secondary_text"
+            android:textSize="@dimen/list_secondary_text_font"
+            android:id="@+id/earthquake_magnitude" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_view_inner_margin"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/list_primary_text"
+            android:textSize="@dimen/list_primary_text_font"
+            android:id="@+id/earthquake_region" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_view_inner_margin"
+            android:textColor="@color/list_secondary_text"
+            android:textSize="@dimen/list_secondary_text_font"
+            android:id="@+id/earthquake_date" />
+    </LinearLayout>
+</LinearLayout>

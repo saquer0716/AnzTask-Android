@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <!-- default value for main menu, including background color,
+    font color, etc.
+    -->
+    <color name="action_bar_bg">#007CBC</color>
+
+    <color name="list_primary_text">#505050</color>
+    <color name="list_secondary_text">#777777</color>
+
+    <color name="list_cell_bg_normal">#FFFFFF</color>
+    <color name="list_cell_bg_click">#F1F1F1</color>
+    <color name="tab_bg">#F8F8F8</color>
+
+    <color name="list_divider_color">#B9B9B9</color>
+    <color name="magnitude_color">#F36261</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>
