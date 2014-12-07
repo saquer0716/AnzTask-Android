@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Unit Testing &mdash; ANZ Task Android 1.0 documentation</title>
+  <title>Unit Test &mdash; ANZ Task Android 1.0 documentation</title>
   
 
   
@@ -30,7 +30,7 @@
   
     <link rel="top" title="ANZ Task Android 1.0 documentation" href="../index.html"/>
         <link rel="up" title="Testing" href="index.html"/>
-        <link rel="next" title="Unit Testing" href="functional_testing.html"/>
+        <link rel="next" title="Functional Test" href="functional_testing.html"/>
         <link rel="prev" title="Testing" href="index.html"/> 
 
   
@@ -75,8 +75,8 @@
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Testing</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="">Unit Testing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="functional_testing.html">Unit Testing</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Unit Test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="functional_testing.html">Functional Test</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a><ul>
@@ -113,7 +113,7 @@
       
           <li><a href="index.html">Testing</a> &raquo;</li>
       
-    <li>Unit Testing</li>
+    <li>Unit Test</li>
       <li class="wy-breadcrumbs-aside">
         
           <a href="../_sources/testing/unit_testing.txt" rel="nofollow"> View page source</a>
@@ -124,11 +124,11 @@
 </div>
           <div role="main">
             
-  <div class="section" id="unit-testing">
-<h1>Unit Testing<a class="headerlink" href="#unit-testing" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="unit-test">
+<h1>Unit Test<a class="headerlink" href="#unit-test" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="android-studio-unit-test">
 <h2>Android Studio Unit Test<a class="headerlink" href="#android-studio-unit-test" title="Permalink to this headline">¶</a></h2>
-<p>Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, <code class="xref doc docutils literal"><span class="pre">How</span> <span class="pre">to</span> <span class="pre">set</span> <span class="pre">up</span> <span class="pre">unit</span> <span class="pre">test</span></code> will help you to get start.</p>
+<p>Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, <code class="docutils literal"><span class="pre">How-to</span> <span class="pre">guides</span></code> section will help you to get start.</p>
 </div>
 <div class="section" id="anzvolley-test-case">
 <h2>AnzVolley Test Case<a class="headerlink" href="#anzvolley-test-case" title="Permalink to this headline">¶</a></h2>
@@ -137,7 +137,7 @@
 <p class="first admonition-title">Warning</p>
 <p class="last">internet permission must be added into AnzVolley module’s AndroidManifest file since the test involves networking. Otherwise the test case will definitely fail.</p>
 </div>
-<p>AnzVolley test cases include:</p>
+<p>AnzVolley module test cases include:</p>
 <blockquote>
 <div><ul class="simple">
 <li>testEarthquakeData (test the RESTful request of earthquake data)</li>
@@ -154,7 +154,23 @@
 </div>
 </div>
 <div class="section" id="anz-task-test-case">
-<h2>Anz Task Test Case<a class="headerlink" href="#anz-task-test-case" title="Permalink to this headline">¶</a></h2>
+<h2>ANZ Task Test Case<a class="headerlink" href="#anz-task-test-case" title="Permalink to this headline">¶</a></h2>
+<p>ANZ Task app source code includes all Android pure stuff like UI, navigation and some java logic. To test ANZ Task app module, the best choice would be functional testing even though we still can test some logic unit like utility code.</p>
+<p>Anz Task app module test cases include:</p>
+<blockquote>
+<div><ul class="simple">
+<li>testComparatorMagnitudeAscending (test comparator of magnitude property in ascending order)</li>
+<li>testComparatorMagnitudeDescending (test comparator of magnitude property in descending order)</li>
+<li>testComparatorDepthAscending (test comparator of depth property in ascending order)</li>
+<li>testComparatorDepthDescending (test comparator of depth property in descending order)</li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>Test case name might be different from above. refer to project/app/src/androidTest/unit for the test source code.</li>
+</ul>
+</div>
 </div>
 <div class="section" id="test-report">
 <h2>Test Report<a class="headerlink" href="#test-report" title="Permalink to this headline">¶</a></h2>
@@ -173,7 +189,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="functional_testing.html" class="btn btn-neutral float-right" title="Unit Testing"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="functional_testing.html" class="btn btn-neutral float-right" title="Functional Test"/>Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="index.html" class="btn btn-neutral" title="Testing"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -28,15 +28,19 @@ AnzVolley module test cases include:
 ANZ Task Test Case
 ==================
 
-ANZ Task app source code includes all Anroid pure stuff like UI, navigation and some java logic. To test ANZ Task app module, the best choice would be functional testing even though we still can test some logic unit like utility code.
+ANZ Task app source code includes all Android pure stuff like UI, navigation and some java logic. To test ANZ Task app module, the best choice would be functional testing even though we still can test some logic unit like utility code.
 
 Anz Task app module test cases include:
 
-  - testComparatorMagnitudeAscending (test comparator of magnitude property in ascending order)
-  - testComparatorMagnitudeDescending (test comparator of magnitude property in descending order)
+ - testComparatorMagnitudeAscending (test comparator of magnitude property in ascending order)
+ - testComparatorMagnitudeDescending (test comparator of magnitude property in descending order)
 
-  - testComparatorDepthAscending (test comparator of depth property in ascending order)
-  - testComparatorDepthDescending (test comparator of depth property in descending order)
+ - testComparatorDepthAscending (test comparator of depth property in ascending order)
+ - testComparatorDepthDescending (test comparator of depth property in descending order)
+
+.. note:: 
+
+ - Test case name might be different from above. refer to project/app/src/androidTest/unit for the test source code.
 
 Test Report
 ===========

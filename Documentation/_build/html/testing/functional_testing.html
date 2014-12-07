@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Unit Testing &mdash; ANZ Task Android 1.0 documentation</title>
+  <title>Functional Test &mdash; ANZ Task Android 1.0 documentation</title>
   
 
   
@@ -31,7 +31,7 @@
     <link rel="top" title="ANZ Task Android 1.0 documentation" href="../index.html"/>
         <link rel="up" title="Testing" href="index.html"/>
         <link rel="next" title="FAQ" href="../faq/index.html"/>
-        <link rel="prev" title="Unit Testing" href="unit_testing.html"/> 
+        <link rel="prev" title="Unit Test" href="unit_testing.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -75,8 +75,8 @@
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Testing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Testing</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Unit Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Test</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Functional Test</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a><ul>
@@ -113,7 +113,7 @@
       
           <li><a href="index.html">Testing</a> &raquo;</li>
       
-    <li>Unit Testing</li>
+    <li>Functional Test</li>
       <li class="wy-breadcrumbs-aside">
         
           <a href="../_sources/testing/functional_testing.txt" rel="nofollow"> View page source</a>
@@ -124,54 +124,37 @@
 </div>
           <div role="main">
             
-  <div class="section" id="unit-testing">
-<h1>Unit Testing<a class="headerlink" href="#unit-testing" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="android-studio-unit-test">
-<h2>Android Studio Unit Test<a class="headerlink" href="#android-studio-unit-test" title="Permalink to this headline">¶</a></h2>
-<p>Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, <code class="docutils literal"><span class="pre">How-to</span> <span class="pre">guides</span></code> section will help you to get start.</p>
+  <div class="section" id="functional-test">
+<h1>Functional Test<a class="headerlink" href="#functional-test" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="android-studio-functional-test">
+<h2>Android Studio Functional Test<a class="headerlink" href="#android-studio-functional-test" title="Permalink to this headline">¶</a></h2>
+<p>Android Studio provides with very convenient way for functional test. If you don’t know how to set up functional test in Android Studio, <code class="docutils literal"><span class="pre">How-to</span> <span class="pre">guides</span></code> section will help you to get start.</p>
 </div>
-<div class="section" id="anzvolley-test-case">
-<h2>AnzVolley Test Case<a class="headerlink" href="#anzvolley-test-case" title="Permalink to this headline">¶</a></h2>
-<p>The main functionality of AnzVolley is making RESTful request and parsing response JSON object, so unit test should include testing all different RESTful requests.Since AnzVoley makes asynchronous request, a limited time out loop should be used for testing. Further more, any unit functionality should have separated test case as well.</p>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">internet permission must be added into AnzVolley module’s AndroidManifest file since the test involves networking. Otherwise the test case will definitely fail.</p>
-</div>
-<p>AnzVolley module test cases include:</p>
+<div class="section" id="test-case">
+<h2>Test Case<a class="headerlink" href="#test-case" title="Permalink to this headline">¶</a></h2>
+<p>Test app based on app features would be good for TDD. From ANZ Task app’s features, a few test cases are set up:</p>
 <blockquote>
 <div><ul class="simple">
-<li>testEarthquakeData (test the RESTful request of earthquake data)</li>
-<li>testBuildingNamePairsWithoutProperty (test the name pairs building logic)</li>
-<li>testBuildingNamePairsWithProperty (test the name pairs building logic)</li>
+<li>testMainActivityLaunch (test that the app can be successfully launched)</li>
+<li>testEarchquakeListView (test earthquake data is populated into list view)</li>
+<li>testEarchquakeListViewCell (test list view’s cell displays correct data property)</li>
+<li>testFlipButton (test that flip button can be flipped)</li>
+<li>testNavigationListSort (test the list view can be sorted by clicking navigation list)</li>
+<li>testNavigationGoogleMap (test google map can be launched by clicking list view item)</li>
 </ul>
 </div></blockquote>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <ul class="last simple">
-<li>Test case name might be different from above. refer to project/AnzVolley/src/androidTest for the test source code.</li>
-<li>To test private method of AnzVolley, reflection can be used. If test team has access to the source code, just change private method to public method.</li>
+<li>Test case name might be different from above. refer to project/app/src/androidTest/functional for the test source code.</li>
 </ul>
 </div>
-</div>
-<div class="section" id="anz-task-test-case">
-<h2>ANZ Task Test Case<a class="headerlink" href="#anz-task-test-case" title="Permalink to this headline">¶</a></h2>
-<p>ANZ Task app source code includes all Anroid pure stuff like UI, navigation and some java logic. To test ANZ Task app module, the best choice would be functional testing even though we still can test some logic unit like utility code.</p>
-<p>Anz Task app module test cases include:</p>
-<blockquote>
-<div><ul class="simple">
-<li>testComparatorMagnitudeAscending (test comparator of magnitude property in ascending order)</li>
-<li>testComparatorMagnitudeDescending (test comparator of magnitude property in descending order)</li>
-<li>testComparatorDepthAscending (test comparator of depth property in ascending order)</li>
-<li>testComparatorDepthDescending (test comparator of depth property in descending order)</li>
-</ul>
-</div></blockquote>
 </div>
 <div class="section" id="test-report">
 <h2>Test Report<a class="headerlink" href="#test-report" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li><a class="reference external" href="../_static/test_report/TR-AnzVolleyUnitTest.html">AnzVolley Test Report</a></li>
-<li><a class="reference external" href="../_static/test_report/TR-AnzTaskUnitTest.html">Anz Task Test Report</a></li>
+<li><a class="reference external" href="../_static/test_report/functional/index.html">Funcional Test Report</a></li>
 </ul>
 </div></blockquote>
 </div>
@@ -186,7 +169,7 @@
         <a href="../faq/index.html" class="btn btn-neutral float-right" title="FAQ"/>Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="unit_testing.html" class="btn btn-neutral" title="Unit Testing"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="unit_testing.html" class="btn btn-neutral" title="Unit Test"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -5,41 +5,25 @@ Functional Test
 Android Studio Functional Test
 ==============================
 
-Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, ``How-to guides`` section will help you to get start.
+Android Studio provides with very convenient way for functional test. If you don’t know how to set up functional test in Android Studio, ``How-to guides`` section will help you to get start.
 
-AnzVolley Test Case
-===================
+Test Case
+==================
 
-The main functionality of AnzVolley is making RESTful request and parsing response JSON object, so unit test should include testing all different RESTful requests.Since AnzVoley makes asynchronous request, a limited time out loop should be used for testing. Further more, any unit functionality should have separated test case as well.
+Test app based on app features would be good for TDD. From ANZ Task app’s features, a few test cases are set up: 
 
-.. warning:: internet permission must be added into AnzVolley module’s AndroidManifest file since the test involves networking. Otherwise the test case will definitely fail.
-
-AnzVolley module test cases include:
-
- - testEarthquakeData (test the RESTful request of earthquake data)
- - testBuildingNamePairsWithoutProperty (test the name pairs building logic)
- - testBuildingNamePairsWithProperty (test the name pairs building logic)
+ - testMainActivityLaunch (test that the app can be successfully launched)
+ - testEarchquakeListView (test earthquake data is populated into list view)
+ - testEarchquakeListViewCell (test list view’s cell displays correct data property)
+ - testFlipButton (test that flip button can be flipped)
+ - testNavigationListSort (test the list view can be sorted by clicking navigation list)
+ - testNavigationGoogleMap (test google map can be launched by clicking list view item)
 
 .. note:: 
 
- - Test case name might be different from above. refer to project/AnzVolley/src/androidTest for the test source code.
- - To test private method of AnzVolley, reflection can be used. If test team has access to the source code, just change private method to public method.  
-
-ANZ Task Test Case
-==================
-
-ANZ Task app source code includes all Anroid pure stuff like UI, navigation and some java logic. To test ANZ Task app module, the best choice would be functional testing even though we still can test some logic unit like utility code.
-
-Anz Task app module test cases include:
-
-  - testComparatorMagnitudeAscending (test comparator of magnitude property in ascending order)
-  - testComparatorMagnitudeDescending (test comparator of magnitude property in descending order)
-
-  - testComparatorDepthAscending (test comparator of depth property in ascending order)
-  - testComparatorDepthDescending (test comparator of depth property in descending order)
+ - Test case name might be different from above. refer to project/app/src/androidTest/functional for the test source code.
 
 Test Report
 ===========
 
- - `AnzVolley Test Report <../_static/test_report/TR-AnzVolleyUnitTest.html>`_
- - `Anz Task Test Report <../_static/test_report/TR-AnzTaskUnitTest.html>`_
+ - `Funcional Test Report <../_static/test_report/functional/index.html>`_

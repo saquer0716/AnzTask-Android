@@ -1,11 +1,11 @@
-============
-Unit Testing
-============
+=========
+Unit Test
+=========
 
 Android Studio Unit Test
 ========================
 
-Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, :doc:`How to set up unit test <howto/unit_test_set_up>` will help you to get start.
+Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, ``How-to guides`` section will help you to get start.
 
 AnzVolley Test Case
 ===================
@@ -14,7 +14,7 @@ The main functionality of AnzVolley is making RESTful request and parsing respon
 
 .. warning:: internet permission must be added into AnzVolley module’s AndroidManifest file since the test involves networking. Otherwise the test case will definitely fail.
 
-AnzVolley test cases include:
+AnzVolley module test cases include:
 
  - testEarthquakeData (test the RESTful request of earthquake data)
  - testBuildingNamePairsWithoutProperty (test the name pairs building logic)
@@ -25,8 +25,22 @@ AnzVolley test cases include:
  - Test case name might be different from above. refer to project/AnzVolley/src/androidTest for the test source code.
  - To test private method of AnzVolley, reflection can be used. If test team has access to the source code, just change private method to public method.  
 
-Anz Task Test Case
+ANZ Task Test Case
 ==================
+
+ANZ Task app source code includes all Android pure stuff like UI, navigation and some java logic. To test ANZ Task app module, the best choice would be functional testing even though we still can test some logic unit like utility code.
+
+Anz Task app module test cases include:
+
+ - testComparatorMagnitudeAscending (test comparator of magnitude property in ascending order)
+ - testComparatorMagnitudeDescending (test comparator of magnitude property in descending order)
+
+ - testComparatorDepthAscending (test comparator of depth property in ascending order)
+ - testComparatorDepthDescending (test comparator of depth property in descending order)
+
+.. note:: 
+
+ - Test case name might be different from above. refer to project/app/src/androidTest/unit for the test source code.
 
 Test Report
 ===========
