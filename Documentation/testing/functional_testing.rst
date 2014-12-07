@@ -5,12 +5,12 @@ Functional Test
 Android Studio Functional Test
 ==============================
 
-Android Studio provides with very convenient way for functional test. If you don’t know how to set up functional test in Android Studio, ``How-to guides`` section will help you to get start.
+Android Studio provides with very convenient way for functional test. If you don’t know how to set up functional test in Android Studio, please refer to Android functional test webpage.
 
 Test Case
 ==================
 
-Test app based on app features would be good for TDD. From ANZ Task app’s features, a few test cases are set up: 
+Test app based on app features would be good for TDD. From ANZ Task app’s features, a few test cases are beset up: 
 
  - testMainActivityLaunch (test that the app can be successfully launched)
  - testEarchquakeListView (test earthquake data is populated into list view)

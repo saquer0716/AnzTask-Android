@@ -134,7 +134,7 @@
 <li>Swipe refresh to get updated earthquake occurrence data in background thread</li>
 <li>Shows region, date, magnitude and depth in ListView cell</li>
 <li>Support ascending and descending sort by magnitude and depth</li>
-<li>User click to switch to show between magnitude and depth.</li>
+<li>User click to switch to show between magnitude and depth</li>
 <li>Navigation to Google Map app to show coordinate of earthquake</li>
 <li>Great RESTful API scalability</li>
 </ul>
@@ -144,8 +144,8 @@
 <blockquote>
 <div><ul class="simple">
 <li>New RESTful API could be added and tested in less than 5 minutes</li>
-<li>New sorting logic could be just copy and paste with existing code</li>
-<li>The flip button widget can be used in any projects.</li>
+<li>New sorting method can be added by simply copying and pasting existing code with little change</li>
+<li>The flip button widget can be used in any project</li>
 </ul>
 </div></blockquote>
 </div>
@@ -153,8 +153,8 @@
 <h2>App Restriction<a class="headerlink" href="#app-restriction" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li>Get earthquake occurrence API returns a large amount of data and there is no way to load it in segments and there might be a potential memory and long loading time issue if too much data is returned without any restriction. Should fix by starting with this API by adding range parameters.</li>
-<li>Only supporting sort by magnitude and depth. Should also support sort by date and location. However, this can’t not be done since the returned JSON data returns date in plaint string which is not quite appropriate for implementation. Changing date property into mili seconds would be much more flexible for end user development to add supports for sorting and grouping by year, month, week and day.</li>
+<li>Get earthquake occurrence API returns a large amount of data and there is no way to load it in segments and there might be a potential memory and long loading time issue if too much data is returned without any restriction. Should fix by modifying this API by adding range parameters.</li>
+<li>Only supporting sorting by magnitude and depth. Should also support sorting by date and location. However, this can’t not be done flexibly since the returned JSON data returns date in plaint string which is not quite appropriate for implementation. Changing date property into mili seconds would be much more flexible for end user development to add supports for sorting and grouping by year, month, week and day.</li>
 <li>The app is only tested on Samsung S4 and it might have UI issue on devices with small screen.</li>
 <li>Due to limited time, content provider is not implemented for local earthquake data storage.</li>
 </ul>

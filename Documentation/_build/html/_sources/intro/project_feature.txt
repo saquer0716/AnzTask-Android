@@ -10,7 +10,7 @@ App feature include:
  - Swipe refresh to get updated earthquake occurrence data in background thread
  - Shows region, date, magnitude and depth in ListView cell
  - Support ascending and descending sort by magnitude and depth
- - User click to switch to show between magnitude and depth.
+ - User click to switch to show between magnitude and depth
  - Navigation to Google Map app to show coordinate of earthquake
  - Great RESTful API scalability 
  
@@ -19,14 +19,14 @@ App Scalability
 ===============
 
  - New RESTful API could be added and tested in less than 5 minutes
- - New sorting logic could be just copy and paste with existing code
- - The flip button widget can be used in any projects.
+ - New sorting method can be added by simply copying and pasting existing code with little change
+ - The flip button widget can be used in any project
 
 App Restriction
 ===============
 
- - Get earthquake occurrence API returns a large amount of data and there is no way to load it in segments and there might be a potential memory and long loading time issue if too much data is returned without any restriction. Should fix by starting with this API by adding range parameters.
- - Only supporting sort by magnitude and depth. Should also support sort by date and location. However, this can’t not be done since the returned JSON data returns date in plaint string which is not quite appropriate for implementation. Changing date property into mili seconds would be much more flexible for end user development to add supports for sorting and grouping by year, month, week and day.
+ - Get earthquake occurrence API returns a large amount of data and there is no way to load it in segments and there might be a potential memory and long loading time issue if too much data is returned without any restriction. Should fix by modifying this API by adding range parameters.
+ - Only supporting sorting by magnitude and depth. Should also support sorting by date and location. However, this can’t not be done flexibly since the returned JSON data returns date in plaint string which is not quite appropriate for implementation. Changing date property into mili seconds would be much more flexible for end user development to add supports for sorting and grouping by year, month, week and day.
  - The app is only tested on Samsung S4 and it might have UI issue on devices with small screen.
  - Due to limited time, content provider is not implemented for local earthquake data storage. 
 

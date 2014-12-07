@@ -37,16 +37,18 @@ Google Volley almost comes with all above features. However, to make full use of
 
 AnzVolley is a wrapper class on top of Google Volley and uses GSON to enhance the capability of RESTful web service. 
 
-Use AnzVolley is quite simple, just create a predesign request and add it to request queue. So there are two players here to do the job: Request and AnzVolley. 
+Use AnzVolley is quite simple, just create a predesign request instance and add it to request queue. So there are two players here to do the job: Request and AnzVolley. 
 
-AnzVolley itself is a singleton class because we want to access this resource from anywhere in the project and all request share the same request queue, there is no need to have multiple instance of AnzVolley class.
+AnzVolley itself is a singleton class because we want to access this resource from anywhere in the project and all requests share the same request queue, there is no need to have multiple instance of AnzVolley class.
 
-Request is generated through `AnzVolleyRestfulRequestFactory` class’s factory method. Because every RESTful API request (RequestEarthquake, RequestWeather, etc.) inherits from the same `RequestObject` class, it’s just so easy to use one single factory method to generate all different kinds of products (requests). 
+Request is generated through ``AnzVolleyRestfulRequestFactory`` class’s factory method. Because every RESTful API request (RequestEarthquake, RequestWeather, etc.) inherits from the same `RequestObject` class, it’s just so easy to use one single factory method to generate all different kinds of products (requests). 
 
-After request instance is produced, adding it to request queue would start http request right away. However, we still have a problem: how to mapping the response to the right request? The answer is generic class.
+After request instance is produced, adding it to request queue would start HTTP request right away. However, we still have a problem: how to mapping the response to the right request? The answer is generic class.
 
 Without generic class, we have to define new factory method for new RESTful API request because the response class is different. With generic class, we can specify the type of response as `T` and cast the response JSON string like this:
-T parsedGSON = mGson.fromJson(jsonString, mType);
+
+``T parsedGSON = mGson.fromJson(jsonString, mType)`` 
+
 and then return the parsedGSON through interface call back which accept T type as argument as well.
 
 With generic class and factory design pattern, scalability couldn’t be much better. If we need to add another RESTful API to current AnzVolley module, just do following steps:

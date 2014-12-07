@@ -126,16 +126,16 @@
             
   <div class="section" id="coding-conventions">
 <h1>Coding Conventions<a class="headerlink" href="#coding-conventions" title="Permalink to this headline">¶</a></h1>
-<p class="rubric">Android follows most JAVA coding conventions</p>
+<p class="rubric">Android follows most of JAVA coding conventions</p>
 <div class="section" id="traditional-naming-conventions">
 <h2>Traditional Naming Conventions<a class="headerlink" href="#traditional-naming-conventions" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li>Member variables always starts with <cite>m</cite></li>
+<li>Member variables always start with <cite>m</cite></li>
 <li>Use camel style for class and interface name</li>
 <li>Local variable start with lower case and each following word start with upper case</li>
 <li>Method start with lower case and each of following word start with upper case</li>
-<li>Don’t use abbreviations</li>
+<li>Don’t use abbreviations as it might confuse developer from different country</li>
 <li>Constant must be upper case for all letters</li>
 </ul>
 </div></blockquote>
@@ -147,7 +147,7 @@
 <li>It’s OK to add company name into class name, like <cite>AnzLog</cite></li>
 <li>Layout file should be related to class file name. For example, We have an Activity with  name <cite>EarthquakeActivity</cite>, then its layout file should be named <cite>activity_earthquake</cite></li>
 <li>View cell layout should start with <cite>view_cell</cite> followed by list view’s name, so when we have more than one view cell layout files, it’s easier to locate in project explorer.</li>
-<li>Resources files or variables should tell where they are used o what they do. For example, a selector xml file should always start with <cite>selector</cite> then followed by widget like button.</li>
+<li>Resources files or variables should tell where they are used o what they do. For example, a selector xml file should always start with <cite>selector</cite> then followed by widget like button, i.e. selector_button.xml</li>
 </ul>
 </div></blockquote>
 </div>
@@ -169,9 +169,10 @@ Put model class and content provider class in this folder</li>
 <li><code class="docutils literal"><span class="pre">net</span></code>
 All networking code should be put in this folder</li>
 <li><code class="docutils literal"><span class="pre">ui</span></code>
-Group all custom view or widget in this folder</li>
+Group all custom view or widgets in this folder</li>
 <li><code class="docutils literal"><span class="pre">util</span></code>
 Group utility class like formatter, comparator, etc. in this folder</li>
+<li>Third party source code should be put in separated package</li>
 </ul>
 </div></blockquote>
 </div>

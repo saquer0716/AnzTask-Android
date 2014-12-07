@@ -15,13 +15,15 @@ The released APK file in Binary folder can be released directly to customer beca
 
 The released key is saved in Binary folder with the release APK file. its credential is like follows:
 
-Key store password: anzanz
-key alias: ANZ
-key password: anzanz
+Key store password: ``anzanz``
+
+key alias: ``ANZ``
+
+key password: ``anzanz``
 
 Deployment
 ==========
 
 APK file can be deployed to Android devices through SD card installation and USB silent installation.
 
-To install APK file from USB, make sure the device is in debug mode and Android SDK is installed in host machine. Then type `adb install -r app-release.apk` in command line to install the app. You might need to navigate to the Android SDK’s platform-tools folder to get access to adb command (or set up envirionment variable for adb command path).
+To install APK file from USB, make sure the device is in debug mode and Android SDK is installed in host machine. Then type ``adb install -r app-release.apk`` in command line to install the app. You might need to navigate to the Android SDK’s platform-tools folder to get access to adb command (or set up envirionment variable for adb command path).
