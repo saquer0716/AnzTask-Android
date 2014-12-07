@@ -8,5 +8,5 @@ Testing
 	:maxdepth: 1
 
 	unit_testing
-	automated_testing
+	functional_testing
 	

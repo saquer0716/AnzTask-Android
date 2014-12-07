@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Testing on the simulator &mdash; ANZ Task Android 1.0 documentation</title>
+  <title>How to Set Up Unit Test in Android Studio &mdash; ANZ Task Android 1.0 documentation</title>
   
 
   
@@ -29,9 +29,8 @@
 
   
     <link rel="top" title="ANZ Task Android 1.0 documentation" href="../index.html"/>
-        <link rel="up" title="Testing" href="index.html"/>
-        <link rel="next" title="Testing on a payment device" href="testing_devices.html"/>
-        <link rel="prev" title="Unit Testing" href="unit_testing.html"/> 
+        <link rel="up" title="How-to guides" href="index.html"/>
+        <link rel="prev" title="How to build AnzVolley Jar" href="create_anzvolley_jar.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -62,8 +61,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Getting Started</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../intro/package_content.html">What’s in package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../intro/task_requirement.html">Task Requirement</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../intro/problem_analize.html">Problem Analize</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../intro/project_feature.html">App Feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/problem_analize.html">Problem Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro/project_feature.html">App Features</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../coding/index.html">Coding</a><ul>
@@ -74,21 +73,18 @@
 <li class="toctree-l2"><a class="reference internal" href="../coding/api_docs.html">API docs</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Testing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="testing_team.html">Testing Team</a></li>
-<li class="toctree-l2"><a class="reference internal" href="testing_plans.html">Testing Plans</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Testing</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Testing on the simulator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="testing_devices.html">Testing on a payment device</a></li>
-<li class="toctree-l2"><a class="reference internal" href="automated_testing.html">Automated Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../testing/index.html">Testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../testing/unit_testing.html">Unit Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../testing/functional_testing.html">Unit Testing</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../faq/index.html">FAQ</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../faq/index.html#how-do-i-add-new-api-support-into-anzvolley-module">How do I add new API support into AnzVolley module?</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../howto/index.html">How-to guides</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../howto/create_anzvolley_jar.html">Third Party Libraries</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">How-to guides</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="create_anzvolley_jar.html">How to build AnzVolley Jar</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">How to Set Up Unit Test in Android Studio</a></li>
 </ul>
 </li>
 </ul>
@@ -114,12 +110,12 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-          <li><a href="index.html">Testing</a> &raquo;</li>
+          <li><a href="index.html">How-to guides</a> &raquo;</li>
       
-    <li>Testing on the simulator</li>
+    <li>How to Set Up Unit Test in Android Studio</li>
       <li class="wy-breadcrumbs-aside">
         
-          <a href="../_sources/testing/testing_simulator.txt" rel="nofollow"> View page source</a>
+          <a href="../_sources/howto/unit_test_set_up.txt" rel="nofollow"> View page source</a>
         
       </li>
   </ul>
@@ -127,14 +123,20 @@
 </div>
           <div role="main">
             
-  <div class="section" id="testing-on-the-simulator">
-<h1>Testing on the simulator<a class="headerlink" href="#testing-on-the-simulator" title="Permalink to this headline">¶</a></h1>
-<p>The simulator is still useful in testing many of the features of the app that don&#8217;t interact with the hardware payment device (e.g. product database and image management).</p>
-<div class="section" id="known-limitations-simulator-based-testing">
-<h2>Known limitations simulator based testing<a class="headerlink" href="#known-limitations-simulator-based-testing" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="how-to-set-up-unit-test-in-android-studio">
+<h1>How to Set Up Unit Test in Android Studio<a class="headerlink" href="#how-to-set-up-unit-test-in-android-studio" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="unit-test">
+<h2>Unit Test<a class="headerlink" href="#unit-test" title="Permalink to this headline">¶</a></h2>
+<p>To set up unit test in Android Studio, do as following steps:</p>
 <blockquote>
 <div><ul class="simple">
-<li>Can only tender cash payments</li>
+<li>Select <code class="docutils literal"><span class="pre">Run/Debug</span> <span class="pre">Configurations</span> <span class="pre">dropdown</span> <span class="pre">list</span></code>.</li>
+<li>Click <code class="docutils literal"><span class="pre">Edit</span> <span class="pre">Configurations</span></code>.</li>
+<li>In Run/Debug configurations window, click <cite>+</cite> button in top left and select <code class="docutils literal"><span class="pre">Android</span> <span class="pre">Test</span></code></li>
+<li>On the right panel, specify new configuration <code class="docutils literal"><span class="pre">name</span></code> and select module that needs to be tested in <code class="docutils literal"><span class="pre">module</span> <span class="pre">dropdown</span> <span class="pre">list</span></code>.</li>
+<li>Check <code class="docutils literal"><span class="pre">USB</span> <span class="pre">device</span></code> in target device and click OK.</li>
+<li>A new configuration appears in Run/Debug Configurations dropdown list. Select the new unit test configuration and click <code class="docutils literal"><span class="pre">Run</span></code>, Android Studio will start unit test.</li>
+<li>The work left is going to ApplicationTest file in androidTest folder and adding test cases.</li>
 </ul>
 </div></blockquote>
 </div>
@@ -146,10 +148,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="testing_devices.html" class="btn btn-neutral float-right" title="Testing on a payment device"/>Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="unit_testing.html" class="btn btn-neutral" title="Unit Testing"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="create_anzvolley_jar.html" class="btn btn-neutral" title="How to build AnzVolley Jar"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

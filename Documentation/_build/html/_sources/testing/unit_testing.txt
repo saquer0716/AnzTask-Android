@@ -1,3 +1,35 @@
 ============
 Unit Testing
 ============
+
+Android Studio Unit Test
+========================
+
+Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, :doc:`How to set up unit test <howto/unit_test_set_up>` will help you to get start.
+
+AnzVolley Test Case
+===================
+
+The main functionality of AnzVolley is making RESTful request and parsing response JSON object, so unit test should include testing all different RESTful requests.Since AnzVoley makes asynchronous request, a limited time out loop should be used for testing. Further more, any unit functionality should have separated test case as well.
+
+.. warning:: internet permission must be added into AnzVolley module’s AndroidManifest file since the test involves networking. Otherwise the test case will definitely fail.
+
+AnzVolley test cases include:
+
+ - testEarthquakeData (test the RESTful request of earthquake data)
+ - testBuildingNamePairsWithoutProperty (test the name pairs building logic)
+ - testBuildingNamePairsWithProperty (test the name pairs building logic)
+
+.. note:: 
+
+ - Test case name might be different from above. refer to project/AnzVolley/src/androidTest for the test source code.
+ - To test private method of AnzVolley, reflection can be used. If test team has access to the source code, just change private method to public method.  
+
+Anz Task Test Case
+==================
+
+Test Report
+===========
+
+ - `AnzVolley Test Report <../_static/test_report/TR-AnzVolleyUnitTest.html>`_
+ - `Anz Task Test Report <../_static/test_report/TR-AnzTaskUnitTest.html>`_

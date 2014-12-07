@@ -1,9 +1,9 @@
-=========
-Unit Test
-=========
+===============
+Functional Test
+===============
 
-Android Studio Unit Test
-========================
+Android Studio Functional Test
+==============================
 
 Android Studio provides with very convenient way for unit test. If you don’t know how to set up unit test in Android Studio, ``How-to guides`` section will help you to get start.
 

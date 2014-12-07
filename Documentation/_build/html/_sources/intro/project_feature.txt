@@ -1,6 +1,6 @@
-===========
-App Feature
-===========
+============
+App Features
+============
 
 The earthquake occurrence app is quite simple and the UI part is done in two hours while the networking module took another two hours to get finished.
 
