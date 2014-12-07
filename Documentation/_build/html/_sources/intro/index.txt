@@ -2,7 +2,7 @@
 Getting Started
 ===============
 
-.. rubric:: This section will get you familiar with deliver package and how to install the app.
+.. rubric:: This section will get you familiar with deliver package content.
 
 .. toctree::
 	:maxdepth: 1
