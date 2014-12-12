@@ -4,19 +4,19 @@ App Features
 
 The earthquake occurrence app is quite simple and the UI part is done in two hours while the networking module took another two hours to get finished.
 
-App feature include:
+App features include:
 
  - Clean and simple UI, use Google’s latest Roboto font for text rendering
  - Swipe refresh to get updated earthquake occurrence data in background thread
- - Shows region, date, magnitude and depth in ListView cell
+ - Show region, date, magnitude and depth in ListView cell
  - Support ascending and descending sort by magnitude and depth
  - User click to switch to show between magnitude and depth
  - Navigation to Google Map app to show coordinate of earthquake
  - Great RESTful API scalability 
  
 
-App Scalability
-===============
+App Functionality Scalability
+=============================
 
  - New RESTful API could be added and tested in less than 5 minutes
  - New sorting method can be added by simply copying and pasting existing code with little change

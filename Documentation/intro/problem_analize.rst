@@ -7,7 +7,7 @@ Below is a list of thoughts about this task.
 UI and Navigation
 =================
 
-To present earthquake occurrence, one activity with a full screen ListView should be enough to do the work. By investigating the JSON response of RESTful API, each earthquake data comes with quite a lot of information(properties) which would make UI very squeezed if all of them are displayed. Therefore, some simple user interactions could be introduced to get access to more information.
+To present earthquake occurrence, one activity with a full screen ListView should be enough to do the job. By investigating the JSON response of RESTful API, each earthquake data comes with quite a lot of information(properties) which would make UI very squeezed if all of them are displayed. Therefore, some simple user interactions could be introduced to display more information.
 
 {"count":"21740","earthquakes":[{"src":"us","eqid":"c000is61","timedate":"2013-07-29 22:22:48","lat":"7.6413","lon":"93.6871","magnitude":"4.6","depth":"40.90","region":"Nicobar Islands, India region"},{"src":"us","eqid":"c000is4s","timedate":"2013-07-29 21:52:12","lat":"-57.7816","lon":"-25.3260","magnitude":"5.2","depth":"53.50","region":"South Sandwich Islands region"},{"src":"us","eqid":"c000is3k","timedate":"2013-07-29 21:33:34","lat":"36.6696","lon":"71.0615","magnitude":"4.7","depth":"234.10","region":"Hindu Kush region, Afghanistan"},{"src":"us","eqid":"c000irvf","timedate":"2013-07-29 18:27:41","lat":"-37.2993","lon":"177.2515","magnitude":"4.9","depth":"160.50","region":"off the east coast of the North Island of New Zealand"},{"src":"us","eqid":"c000irpf","timedate":"2013-07-29 14:53:32","lat":"24.5038","lon":"62.5255","magnitude":"4.5","depth":"24.30","region":"off the coast of Pakistan”}}
 
@@ -33,7 +33,7 @@ Google Volley is highly recommended here because of it’s powerful capability a
  - Also support image lazy loading
  - Http cache
 
-.. important:: Even though we only have just on RESTful API here, we still need to thing about how to make our work easier if in the future the API is updated or more API need to be supported. Use generic class and polymorphism should do the trick.
+.. important:: Even though we only have just one RESTful API here, we still need to thing about how to make our work easier if in the future the API is updated or more API need to be supported. Use generic class and polymorphism should do the trick.
 
 Module Structure
 ================

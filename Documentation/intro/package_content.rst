@@ -14,7 +14,7 @@ In case you haven’t installed following tools/platform, please take some time 
  - Homebrew (essential if you want the latest versions of Git, Python and Ruby)
  - Git: Install from homebrew to get the latest version
  - Python: Install from homebrew to get the latest version
- - Oxygen: For making API documentation
+ - Dxygen: For making API documentation
  - Atlassian Source Tree: The best Git GUI
  - Sphinx: Power full documentation generator
 
@@ -27,7 +27,7 @@ You should always start from the ``Documentation`` folder first as it covers pre
 Project
 =======
 
-The source code of ANZ task Android project. The project is running in Android Studio. You should always start new project on Android Studio and migrate old projects into Android Studio because AS + Gradle is way better than Eclipse + ADT. There are many reasons you should choose Android Studio over Eclipse.
+The source code of ANZ task Android project. The project runs in Android Studio. You should always start new project on Android Studio and start migrating old projects into Android Studio because AS + Gradle is way better than Eclipse + ADT. There are many reasons you should choose Android Studio over Eclipse.
 
  - Much faster and takes less hardware resources.
  - Advance code editer and refactoring
@@ -36,7 +36,7 @@ The source code of ANZ task Android project. The project is running in Android S
  - Powerful build system (another big sale point!)
  - Almost never hang or crash.
  - Already integrated with GIT, SVN, CVS
- - The version is 0.9.9 now
+ - The version is 1.0.0 just released
 
 Dependency
 ==========
@@ -46,7 +46,7 @@ Some dependency libraries required by ANZ Task Android project, including GSON a
 Binary
 ======
 
-The release signed APK file of ANZ Task Android project and library of AnzVolley module. AnzVolley module library could be distributed in other projects. Simply just plug and play. The released APK key store file used to sign the released APK is also located here.
+The signed release APK file of ANZ Task Android project and library of AnzVolley module. AnzVolley module library could be distributed in other projects by simply just plug and play. The released APK key store file used to sign the released APK is also located here.
 
 Access to the code through GitHub
 =================================
